@@ -1,0 +1,93 @@
+.faq-accordion {
+  border-radius: 10px;
+  margin-top: 30px;
+  padding: 20px;
+}
+.faq-card {
+  border: none;
+  margin-bottom: 25px;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background 0.6s ease-in-out;
+}
+.faq-header {
+  font-size: 18px;
+  font-weight: 400;
+  background: #249f81;
+  color: white;
+  cursor: pointer;
+  transition: all 0.7s ease;
+  padding: 10px 5px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  box-shadow: 0 6px 12px rgba(36, 35, 35, 0.15);
+}
+.faq-body {
+  padding: 27px;
+  font-size: 16px;
+  line-height: 1.6;
+  border-radius: 5px 5px 8px 8px;
+  margin-bottom: 20px;
+  color: #333;
+  border: 1px solid green;
+  min-height: 85px;
+}
+.faq-body p {
+  margin-bottom: 0;
+}
+.accordion-button, .accordion-button:not(.collapsed) {
+  background-color: transparent!important;
+  color: #000!important;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+@media (max-width: 576px) {
+  .faq-header {
+    font-size: 16px;
+    padding: 10px 15px;
+  }
+
+  .faq-body {
+    font-size: 14px;
+    padding: 12px 15px;
+  }
+}
+@media (max-width: 768px) {
+  .faq-header {
+    font-size: 17px;
+    padding: 10px 15px;
+  }
+
+  .faq-body {
+    font-size: 15px;
+    padding: 14px 20px;
+  }
+}
+.accordion-button:not(.collapsed) {
+  box-shadow: none !important;
+  transition: box-shadow 0.3s ease-in-out;
+}
+.faq-section{
+  min-height: 75vh;
+}
+.accordion-button, .accordion-button:not(.collapsed) {
+  background-color: transparent !important;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+.faq-body{
+  background: #fff;
+}
+.accordion-item {
+  border: none !important;
+  transition: background-color 0.3s ease-in-out;
+  background-color: unset;
+}
+.custom-bg{
+  background-color: #ffffff;
+}
