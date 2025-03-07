@@ -289,7 +289,7 @@ const React_Native = () => {
                     </div>
                 </section>
 
-                 <section className="our-work-section col-12 pl-0 pr-0" id="portfolio">
+                 <section className="section-box col-12 pl-0 pr-0" id="portfolio">
                         <div className="container">
                             <div className="section-title">
                                 <h2 className="font_36 font_weight_semi_bold text-capitalize mb-0 color_242424 pt-3">Our Work in React Native</h2>
