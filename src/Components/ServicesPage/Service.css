@@ -1040,7 +1040,26 @@ background-color:  #C3CAEB;
     background-color: #ffffff;
 }
 .blockChainBanner {
- background: url('../../Images/bgcrImg.jpg');
+background: url('../../Images/bgcrImg.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+position: relative;
+}
+
+.blockChainMainBanner{
+background: url('../../Images/bgcrImg.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+position: relative;
+}
+.blockChainDevMainBanner{
+background: url('../../Images/blockchainBanner.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+position: relative;
+}
+.reactNativeMainBanner{
+background: url('../../Images/ReactNativeBanner.webp');
 background-size: cover;
 background-repeat: no-repeat;
 position: relative;

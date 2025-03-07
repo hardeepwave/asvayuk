@@ -104,7 +104,7 @@ function MobileAppDevelopment() {
                                 </div>
                                 <div className="col-lg-6 col-md-6 col-12">
                                     <div className="peformance_card1_right-sec">
-                                        <img src={mobileBanner} />
+                                        <img src={mobileBanner} alt='Mobile app development chandigarh'/>
                                     </div>
                                 </div>
                             </div>
@@ -172,7 +172,7 @@ function MobileAppDevelopment() {
                             <div className="row pt-5 text-center">
                                 <div className="saas_content col-lg-4 col-md-4 col-sm-12 col-12">
                                     <div className="saas-tools-img d-flex justify-content-center">
-                                        <img src={html} />
+                                        <img src={html} alt='Mobile app development service chandigarh'/>
                                     </div>
                                     <div className="saas-tools-img-name d-flex justify-content-center">
                                         <h5>Flutter</h5>
@@ -181,7 +181,7 @@ function MobileAppDevelopment() {
 
                                 <div className="saas_content col-lg-4 col-md-4 col-sm-12 col-12">
                                     <div className="saas-tools-img d-flex justify-content-center">
-                                        <img src={react} />
+                                        <img src={react} alt='Software Development Company in Chandigarh'/>
                                     </div>
                                     <div className="saas-tools-img-name d-flex justify-content-center">
                                         <h5>React Native</h5>
@@ -190,7 +190,7 @@ function MobileAppDevelopment() {
 
                                 <div className="saas_content col-lg-4 col-md-4 col-sm-12 col-12">
                                     <div className="saas-tools-img d-flex justify-content-center">
-                                        <img src={objective} />
+                                        <img src={objective} alt="Chandigarh's Most Trusted Mobile App Development Company"/>
                                     </div>
                                     <div className="saas-tools-img-name d-flex justify-content-center">
                                         <h5>Android</h5>
@@ -200,7 +200,7 @@ function MobileAppDevelopment() {
                             <div className="row pt-5 text-center justify-content-center">
                                 <div className="saas_content col-lg-4 col-md-4 col-sm-12 col-12">
                                     <div className="saas-tools-img d-flex justify-content-center">
-                                        <img src={kotlin} />
+                                        <img src={kotlin} alt="Chandigarh's Leading Mobile App Development Company"/>
                                     </div>
                                     <div className="saas-tools-img-name d-flex justify-content-center">
                                         <h5>Java</h5>
@@ -209,7 +209,7 @@ function MobileAppDevelopment() {
 
                                 <div className="saas_content col-lg-4 col-md-4 col-sm-12 col-12">
                                     <div className="saas-tools-img d-flex justify-content-center">
-                                        <img src={swift} />
+                                        <img src={swift} alt='mobile app development companies in Chandigarh'/>
                                     </div>
                                     <div className="saas-tools-img-name d-flex justify-content-center">
                                         <h5>Swift</h5>
@@ -236,35 +236,35 @@ function MobileAppDevelopment() {
                                 <Row className="curly-img curley-img mt-5">
                                     <Col xs={6} lg={2}>
                                         <div className="work-images">
-                                            <img src={container} alt="Requirement Analysis" />
+                                            <img src={container} alt="reliable app development company in Chandigarh" />
                                             <h6 className="mt-4">Requirement Analysis</h6>
                                             <p className="text-light">We take time to understand<br/>your specific requirements, business objectives, and target audience. This helps us design the perfect app strategy.</p>
                                         </div>
                                     </Col>
                                     <Col xs={6} lg={2}>
                                         <div className="work-images">
-                                            <img src={planning} alt="Design & Prototyping<" />
+                                            <img src={planning} alt="mobile app development companies in Chandigarh" />
                                             <h6 className="mt-4">Design & Prototyping</h6>
                                             <p className="text-light">Our designers craft intuitive and engaging designs. We create wireframes and prototypes to give you an idea of how the final app will function.</p>
                                         </div>
                                     </Col>
                                     <Col xs={6} lg={2}>
                                         <div className="work-images">
-                                            <img src={pen} alt="UI/UX Compatibility" />
+                                            <img src={pen} alt="Chandigarh's Leading Mobile App Development Company" />
                                             <h6 className="mt-4">Development</h6>
                                             <p className="text-light">Using cutting-edge technologies, our development team brings your app to life, ensuring it is optimized for speed, security, and scalability.</p>
                                         </div>
                                     </Col>
                                     <Col xs={6} lg={2}>
                                         <div className="work-images">
-                                            <img src={development} alt="Quality Assurance & Testing" />
+                                            <img src={development} alt="Chandigarh's Most Trusted Mobile App Development Company" />
                                             <h6 className="mt-4">Quality Assurance & Testing</h6>
                                             <p className="text-light">Our rigorous testing procedures help ensure that your app is bug-free and functions as expected on all devices and platforms.</p>
                                         </div>
                                     </Col>
                                     <Col xs={6} lg={2}>
                                         <div className="work-images">
-                                            <img src={test} alt="Launch & Post-Launch Support" />
+                                            <img src={test} alt="app development industry in Chandigarh" />
                                             <h6 className="mt-4">Launch & Post-Launch Support</h6>
                                             <p className="text-light">Our team of mobile testing experts performs testing and debugging to ensure a reliable and optimal functioning app.</p>
                                         </div>

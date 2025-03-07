@@ -104,7 +104,7 @@ const router = createBrowserRouter([
       { path: "/ecommerce-website-designing-company-chandigarh", element: <Ecommerce /> },
       { path: "/blockchain-web-development-chandigarh", element: <BlockChain /> },
       { path: "/best-magento-developers-in-chandigarh", element: <Magento_Dev /> },
-      { path: "/react-native-development", element: <React_Native /> },
+      { path: "/react-native-developers-chandigarh", element: <React_Native /> },
       { path: "/saas-development", element: <Saas_Dev /> },
       { path: "/shopify-website-design-company-in-chandigarh", element: <Shopify_Dev /> },
       { path: "/software-development", element: <Software_Dev /> },

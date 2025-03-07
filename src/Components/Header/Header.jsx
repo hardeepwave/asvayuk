@@ -194,7 +194,7 @@ export default function Header() {
                                       E-commerce Development
                                     </Link>
                                     <Link
-                                      to="/react-native-development"
+                                      to="/react-native-developers-chandigarh"
                                       onClick={handleMegaMenuLinkClick}
                                     >
                                       React Native Development
@@ -614,7 +614,7 @@ export default function Header() {
                                 </li>
                                 <li className="py-2 border-bottom">
                                   <Link
-                                    to="/react-native-development"
+                                    to="/react-native-developers-chandigarh"
                                     onClick={toggleMenu}
                                   >
                                     React Native Development

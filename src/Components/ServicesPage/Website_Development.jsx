@@ -706,7 +706,7 @@ const Website_Development = () => {
                   <Row className="curly-img curley-img mt-5">
                     <Col xs={6} lg={2}>
                       <div className="work-images">
-                        <img src={container} alt="Product Design" />
+                        <img src={container} alt="Website development company in chandigarh" />
                         <h6 className="mt-3">Product Design</h6>
                         <p className="text-light ">
                           We specialize in crafting innovative and user-centric
@@ -717,7 +717,7 @@ const Website_Development = () => {
                     </Col>
                     <Col xs={6} lg={2}>
                       <div className="work-images">
-                        <img src={planning} alt="Mobile App Consulting" />
+                        <img src={planning} alt="Website Designing in Chandigarh" />
                         <h6 className="mt-3">Website Consulting</h6>
                         <p className="text-light">
                           Tailored guidance and strategic insights to shape your
@@ -727,7 +727,7 @@ const Website_Development = () => {
                     </Col>
                     <Col xs={6} lg={2}>
                       <div className="work-images">
-                        <img src={pen} alt="UI/UX Compatibility" />
+                        <img src={pen} alt="Website development services in chandigarh" />
                         <h6 className="mt-3">UI/UX Compatibility</h6>
                         <p className="text-light">
                           Seamlessly integrate compelling design with intuitive
@@ -737,7 +737,7 @@ const Website_Development = () => {
                     </Col>
                     <Col xs={6} lg={2}>
                       <div className="work-images">
-                        <img src={development} alt="Development" />
+                        <img src={development} alt="best web development in chandigarh" />
                         <h6 className="mt-3">Development</h6>
                         <p className="text-light">
                           Leveraging cutting-edge technologies to build robust,
@@ -747,7 +747,7 @@ const Website_Development = () => {
                     </Col>
                     <Col xs={6} lg={2}>
                       <div className="work-images">
-                        <img src={test} alt="QA & Testing" />
+                        <img src={test} alt="website development provider chandigarh" />
                         <h6 className="mt-3">QA & Testing</h6>
                         <p className="text-light">
                           Our team of mobile testing experts conducts rigorous

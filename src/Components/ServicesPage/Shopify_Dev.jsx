@@ -18,7 +18,6 @@ import planning from '../../Images/planning.webp'
 import pen from '../../Images/pen.webp'
 import development from '../../Images/development.webp'
 import test from '../../Images/test.webp'
-import launch from '../../Images/launch.webp'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Autoplay, Navigation } from 'swiper/modules'
 import { FaArrowRightLong } from 'react-icons/fa6'
@@ -38,9 +37,9 @@ const Shopify_Dev = () => {
     return (
         <>
             <Meta_Component
-                title="Top Shopify Development Services | ASVAYuk Technologies"
-                description="Launch and grow your online store with ASVAYuk Shopify development services. We create stunning, user-friendly eCommerce websites that drive sales."
-                canonical="https://asvayuktech.com/shopify-development"
+                title="Shopify Website Design Company in Chandigarh"
+                description="As a leading Shopify Website Design Company Chandigarh, Asvayuk Technologies offers expert Shopify development services for your online store."
+                canonical="https://asvayuktech.com/shopify-website-design-company-in-chandigarh"
             />
             <main>
                 <section className="banner-en py-4">
@@ -53,7 +52,7 @@ const Shopify_Dev = () => {
                                         <Breadcrumb.Item linkAs={Link} linkProps={{ to: "#" }}>Technology</Breadcrumb.Item>
                                         <Breadcrumb.Item active>Shopify Development</Breadcrumb.Item>
                                     </Breadcrumb>
-                                    <h1>Boosting Your Company with Customized Shopify Solutions</h1>
+                                    <h1>Shopify Website Design Company in Chandigarhs</h1>
                                     <p className="py-3">We take pride in being a leading provider of Shopify Development Services, offering customized solutions to meet unique business requirements.</p>
 
                                     <BannerButton btnTitle='Free Consultation' url='/contact-us' />

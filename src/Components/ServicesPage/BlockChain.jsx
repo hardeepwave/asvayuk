@@ -18,6 +18,7 @@ import work2 from '../../Images/crypotoImg2.png'
 import work3 from '../../Images/crypotoImg3.png'
 import blockchainSmallBanner from '../../Images/blockchainSmallBanner.jpg'
 import BlockChainBan4 from '../../Images/BlockChainBan4.png'
+import React_Native_1 from '../../Images/React-Native-1.webp'
 
 const BlockChain = () => {
 
@@ -52,7 +53,7 @@ const BlockChain = () => {
                 canonical="https://asvayuktech.com/blockchain-web-development-chandigarh"
             />
             <main>
-                 <section className='bannerMlm blockChainBanner'  style={{background:'url(src/Images/blockchainBanner.jpg)', backgroundPosition: 'center'}}>
+                 <section className='bannerMlm blockChainDevMainBanner'>
                         <Container>
                             <Row className='align-items-center'>
                                 <Col xm={7} sm={12} lg={7} md={6}>
@@ -71,13 +72,13 @@ const BlockChain = () => {
                                         </div>
                                         <div className="review_section mb-5">
                                             <div className="review_img">
-                                                <img src={reviewGoogle} alt="google" />
+                                                <img src={reviewGoogle} alt="blockchain development company in chandigarh" />
                                             </div>
                                             <div className="review_img mx-2">
-                                                <img src={GoodFirms} alt="good firms" />
+                                                <img src={GoodFirms} alt="blockchain app development services chandigarh" />
                                             </div>
                                             <div className="review_img">
-                                                <img src={Glassdoor} alt="glassdoor" />
+                                                <img src={Glassdoor} alt="chandigarh blockchain development agency" />
                                             </div>
                                         </div>
                                         <div className="lst_text_banner">
@@ -148,7 +149,7 @@ const BlockChain = () => {
                                     </div>
                                     <div className="col-lg-6 col-md-65 col-sm-12">
                                         <div>
-                                            <img src={blockchainSmallBanner} alt="Crypto Exchange Solutions" className="img-fluid" />
+                                            <img src={blockchainSmallBanner} alt="blockchain web development chandigarh" className="img-fluid" />
                                         </div>
                                     </div>
                                 </div>
@@ -211,7 +212,7 @@ const BlockChain = () => {
                     <div className="container">
                         <div className="row d-flex align-items-center flex-wrap">
                             <div className='col-lg-6'>
-                                <img src={BlockChainBan4} alt="" className='img-fluid blockChain_Img' />
+                                <img src={BlockChainBan4} alt="blockchain development company in chandigarh" className='img-fluid'/>
                             </div>
                             <div className="col-lg-6">
                                 <div className="section-title">

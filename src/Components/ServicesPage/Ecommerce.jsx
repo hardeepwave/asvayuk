@@ -31,7 +31,6 @@ import planning from '../../Images/planning.webp'
 import pen from '../../Images/pen.webp'
 import development from '../../Images/development.webp'
 import test from '../../Images/test.webp'
-import launch from '../../Images/launch.webp'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Autoplay, Navigation } from 'swiper/modules'
 import { FaArrowRightLong } from 'react-icons/fa6'
@@ -39,7 +38,6 @@ import Meta_Component from '../Meta_Component/Meta_Component'
 import FAQAccordion from "../../accordian/FAQAccordion.jsx";
 import KeyPointSection from './KeyPointSection';
 import Group105518 from '../../Images/mad.webp'
-import EcommerceStore1 from '../../Images/EcommerceStore1.jpg'
 
 const faqData = [
     {
@@ -133,7 +131,7 @@ const ECommerce = () => {
                         <Row className='d-flex justify-content-between pt-5  text-center'>
                             <Col lg={2} md={4} sm={6} className="col-6 d-flex flex-column justify-content-center align-items-center">
                                 <div className="blockchain-col-img d-flex text-center">
-                                    <img src={Group_652} className="img-fluid" />
+                                    <img src={Group_652} className="img-fluid" alt='Ecommerce Website Development Company in Chandigarh'/>
                                 </div>
                                 <div className="blockchain-col-text mt-3">
                                     <p className="text-center">Easy To Use
@@ -143,7 +141,7 @@ const ECommerce = () => {
                             </Col>
                             <Col lg={2} md={4} sm={6} className="col-6 d-flex flex-column justify-content-center align-items-center">
                                 <div className="blockchain-col-img d-flex text-center">
-                                    <img src={Group_859} className="img-fluid" />
+                                    <img src={Group_859} className="img-fluid" alt='Professional Ecommerce Website Builders in Chandigarh'/>
                                 </div>
                                 <div className="blockchain-col-text mt-3">
                                     <p className="text-center">Fully Customized
@@ -153,7 +151,7 @@ const ECommerce = () => {
                             </Col>
                             <Col lg={2} md={4} sm={6} className="col-6 d-flex flex-column justify-content-center align-items-center">
                                 <div className="blockchain-col-img d-flex text-center">
-                                    <img src={Group_105519} className="img-fluid" />
+                                    <img src={Group_105519} className="img-fluid" alt='website designing services in Chandigarh'/>
                                 </div>
                                 <div className="blockchain-col-text mt-3">
                                     <p className="text-center">Feature Rich</p>
@@ -161,7 +159,7 @@ const ECommerce = () => {
                             </Col>
                             <Col lg={2} md={4} sm={6} className="col-6 d-flex flex-column justify-content-center align-items-center">
                                 <div className="blockchain-col-img d-flex text-center">
-                                    <img src={Group_649} className="img-fluid" />
+                                    <img src={Group_649} className="img-fluid" alt='e commerce website provider chandigarh'/>
                                 </div>
                                 <div className="blockchain-col-text mt-3">
                                     <p className="text-center">Highly Secured</p>
@@ -169,7 +167,7 @@ const ECommerce = () => {
                             </Col>
                             <Col lg={2} md={4} sm={6} className="col-6 d-flex flex-column justify-content-center align-items-center">
                                 <div className="blockchain-col-img d-flex text-center">
-                                    <img src={Group_650} className="img-fluid" />
+                                    <img src={Group_650} className="img-fluid" alt='e-commerce development business in Chandigarh'/>
                                 </div>
                                 <div className="blockchain-col-text mt-3">
                                     <p className="text-center">Extremely Affordable</p>
@@ -523,35 +521,35 @@ const ECommerce = () => {
                                     <Row className="curly-img curley-img mt-5">
                                         <Col xs={6} lg={2}>
                                             <div className="work-images">
-                                                <img src={container} alt="Product Design | Magento Ecommerce Development in Chandigarh" />
+                                                <img src={container} alt="Magento Ecommerce Development in Chandigarh" />
                                                 <h6 className="mt-3">Consultation & Planning</h6>
                                                 <p className="text-light">Understanding your business goals and requirements.</p>
                                             </div>
                                         </Col>
                                         <Col xs={6} lg={2}>
                                             <div className="work-images">
-                                                <img src={planning} alt="Mobile App Consulting | Ecommerce Website Makers in Chandigarh" />
+                                                <img src={planning} alt="Ecommerce Website Makers in Chandigarh" />
                                                 <h6 className="mt-3">Design & Development</h6>
                                                 <p className="text-light">Creating an engaging and functional eCommerce website.</p>
                                             </div>
                                         </Col>
                                         <Col xs={6} lg={2}>
                                             <div className="work-images">
-                                                <img src={pen} alt="UI/UX Compatibility | Ecommerce Website Development Company in Chandigarh" />
+                                                <img src={pen} alt="Ecommerce Website Development Company in Chandigarh" />
                                                 <h6 className="mt-3">Integration & Testing</h6>
                                                 <p className="text-light">Implementing payment gateways, security features, and testing the website.</p>
                                             </div>
                                         </Col>
                                         <Col xs={6} lg={2}>
                                             <div className="work-images">
-                                                <img src={development} alt="Development | Professional Ecommerce Website Builders in Chandigarh" />
+                                                <img src={development} alt="Professional Ecommerce Website Builders in Chandigarh" />
                                                 <h6 className="mt-3">Launch & Marketing</h6>
                                                 <p className="text-light">Making your site live with SEO and digital marketing strategies</p>
                                             </div>
                                         </Col>
                                         <Col xs={6} lg={2}>
                                             <div className="work-images">
-                                                <img src={test} alt="QA & Testing | e-commerce development business in Chandigarh" />
+                                                <img src={test} alt="e-commerce development business in Chandigarh" />
                                                 <h6 className="mt-3">Support & Maintenance</h6>
                                                 <p className="text-light">Regular updates and performance monitoring.</p>
                                             </div>

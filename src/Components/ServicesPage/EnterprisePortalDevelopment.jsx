@@ -88,7 +88,7 @@ function EnterprisePortalDevelopment() {
                             </div>
                             <div className="col-lg-6">
                                 <div className="bannerImg">
-                                    <img src={EnterprisesBanner} alt="web-portal-development-Chandigarh" width="100%" height="100%" />
+                                    <img src={EnterprisesBanner} alt="web portal development Chandigarh" width="100%" height="100%" />
                                 </div>
                             </div>
                         </Row>
@@ -241,7 +241,7 @@ function EnterprisePortalDevelopment() {
                                                              </div>
                                                              <div className="col-4">
                                                                  <div className="solution_img">
-                                                                     <img src={Solutions5} alt="WEB-PORTAL-DEVELOPMENT-COMPANY-IN-CHANDIGARH" className="img-fluid" />
+                                                                     <img src={Solutions5} alt="WEB PORTAL DEVELOPMENT COMPANY IN CHANDIGARH" className="img-fluid" />
                                                                  </div>
                                                              </div>
                                                          </div>
@@ -260,7 +260,7 @@ function EnterprisePortalDevelopment() {
                                                              </div>
                                                              <div className="col-4">
                                                                  <div className="solution_img">
-                                                                     <img src={Solutions6} alt="Web-portal-development-services-in-chandigarh" className="img-fluid" />
+                                                                     <img src={Solutions6} alt="Web portal development services in chandigarh" className="img-fluid" />
                                                                  </div>
                                                              </div>
                                                          </div>
@@ -447,7 +447,7 @@ function EnterprisePortalDevelopment() {
                                                     </div>
                                                 </div>
                                                 <div className="b2b-right">
-                                                    <img src={B2b} alt="website-portal-services" className="img-fluid" />
+                                                    <img src={B2b} alt="website portal services" className="img-fluid" />
                                                 </div>
                                             </div>
                                         </div>
@@ -514,7 +514,7 @@ function EnterprisePortalDevelopment() {
                                                     </div>
                                                 </div>
                                                 <div className="b2b-right">
-                                                    <img src={eCommerce} alt="Best-web-portal-agency-in-chandigarh" className="img-fluid" />
+                                                    <img src={eCommerce} alt="Best web portal agency in chandigarh" className="img-fluid" />
                                                 </div>
                                             </div>
                                         </div>
@@ -579,7 +579,7 @@ function EnterprisePortalDevelopment() {
                                                     </div>
                                                 </div>
                                                 <div className="b2b-right">
-                                                    <img src={CustomerPortals} alt="Web-developers-for-website-portal-development-in-chandigarh" className="img-fluid" />
+                                                    <img src={CustomerPortals} alt="Web developers for website portal development in chandigarh" className="img-fluid" />
                                                 </div>
                                             </div>
                                         </div>
@@ -654,7 +654,7 @@ function EnterprisePortalDevelopment() {
                                                     </div>
                                                 </div>
                                                 <div className="b2b-right">
-                                                    <img src={Emp} alt="web-designing-company-in-chandigarh" className="img-fluid" />
+                                                    <img src={Emp} alt="web designing company in chandigarh" className="img-fluid" />
                                                 </div>
                                             </div>
                                         </div>
@@ -716,7 +716,7 @@ function EnterprisePortalDevelopment() {
                                                     </div>
                                                 </div>
                                                 <div className="b2b-right">
-                                                    <img src={SupplierVendor} alt="website-development-provider-chandigarh" className="img-fluid" />
+                                                    <img src={SupplierVendor} alt="website development provider chandigarh" className="img-fluid" />
                                                 </div>
                                             </div>
                                         </div>
@@ -782,7 +782,7 @@ function EnterprisePortalDevelopment() {
                                                     </div>
                                                 </div>
                                                 <div className="b2b-right">
-                                                    <img src={IntranetPortals} alt="Classified-Website-Development-in-Chandigarh" className="img-fluid" />
+                                                    <img src={IntranetPortals} alt="Classified Website Development in Chandigarh" className="img-fluid" />
                                                 </div>
                                             </div>
                                         </div>
@@ -848,7 +848,7 @@ function EnterprisePortalDevelopment() {
                                                     </div>
                                                 </div>
                                                 <div className="b2b-right">
-                                                    <img src={Extranet} alt="responsive-web-development-chandigarh" className="img-fluid" />
+                                                    <img src={Extranet} alt="Responsive web development chandigarh" className="img-fluid" />
                                                 </div>
                                             </div>
                                         </div>
@@ -911,7 +911,7 @@ function EnterprisePortalDevelopment() {
                                                     </div>
                                                 </div>
                                                 <div className="b2b-right">
-                                                    <img src={Banking} alt="website-development-in-panchkula-and-mohali" className="img-fluid" />
+                                                    <img src={Banking} alt="website development in panchkula and mohali" className="img-fluid" />
                                                 </div>
                                             </div>
                                         </div>
@@ -937,35 +937,35 @@ function EnterprisePortalDevelopment() {
                                 <Row className="curly-img curley-img mt-5">
                                     <Col xs={6} lg={2}>
                                         <div className="work-images">
-                                            <img src={container} alt="Web-portal-development-services-in-chandigarh" />
+                                            <img src={container} alt="website developement in mohali" />
                                             <h6 className="mt-4">Requirement Analysis</h6>
                                             <p className="text-light">We take time to understand<br/>your specific requirements, business objectives, and target audience. This helps us design the perfect app strategy.</p>
                                         </div>
                                     </Col>
                                     <Col xs={6} lg={2}>
                                         <div className="work-images">
-                                            <img src={planning} alt="Best-web-portal-agency-in-chandigarh<" />
+                                            <img src={planning} alt="WEB PORTAL DEVELOPMENT COMPANY IN CHANDIGARH<" />
                                             <h6 className="mt-4">Design & Development</h6>
                                             <p className="text-light">Our designers craft intuitive and engaging designs. We create wireframes and prototypes to give you an idea of how the final app will function.</p>
                                         </div>
                                     </Col>
                                     <Col xs={6} lg={2}>
                                         <div className="work-images">
-                                            <img src={pen} alt="Web-developers-for-website-portal-development-in-chandigarh" />
+                                            <img src={pen} alt="Web portal development services in chandigarh" />
                                             <h6 className="mt-4">Testing & Deployment</h6>
                                             <p className="text-light">Using cutting-edge technologies, our development team brings your app to life, ensuring it is optimized for speed, security, and scalability.</p>
                                         </div>
                                     </Col>
                                     <Col xs={6} lg={2}>
                                         <div className="work-images">
-                                            <img src={development} alt="website-development-in-panchkula-and-mohali" />
+                                            <img src={development} alt="Web developers for website portal development in chandigarh" />
                                             <h6 className="mt-4">Quality Assurance & Testing</h6>
                                             <p className="text-light">Our rigorous testing procedures help ensure that your app is bug-free and functions as expected on all devices and platforms.</p>
                                         </div>
                                     </Col>
                                     <Col xs={6} lg={2}>
                                         <div className="work-images">
-                                            <img src={test} alt="website-developement-in-mohali" />
+                                            <img src={test} alt="Responsive web development chandigarh" />
                                             <h6 className="mt-4">Maintenance & Support</h6>
                                             <p className="text-light">Our team of mobile testing experts performs testing and debugging to ensure a reliable and optimal functioning app.</p>
                                         </div>

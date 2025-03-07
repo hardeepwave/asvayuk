@@ -123,10 +123,12 @@ const Woocomerce = () => {
                                     <img
                                         src={Group_558}
                                         className="position-absolute woocomerce-imgs-left"
+                                        alt='best WooCommerce Developers in Chandigarh'
                                     />
                                     <img
                                         src={Group_168}
                                         className="position-absolute woocomerce-imgs-right"
+                                        alt='WooCommerce Developer near Chandigarh'
                                     />
                                 </div>
                             </div>
@@ -162,19 +164,19 @@ const Woocomerce = () => {
                                     <div className="col-lg-4 pb-4">
                                         <ServicesCard ServiceCardImg={c11} cardHeading='Custom WooCommerce Website Development' cardParaGraph={<>Our <b>WooCommerce website experts in Chandigarh </b>create fully customized online stores that reflect your brand identity and meet your business requirements.</>} />
                                     </div>
-                                    <div className="col-lg-4 pb-4">
+                                    <div className="col-lg-4 pb-4 d-flex">
                                         <ServicesCard ServiceCardImg={c12} cardHeading='WooCommerce Theme Design and Development' cardParaGraph={<>We design and develop visually appealing and user-friendly WooCommerce themes that enhance the shopping experience and improve customer engagement.</>}/>
                                     </div>
-                                    <div className="col-lg-4 pb-4">
+                                    <div className="col-lg-4 pb-4 d-flex">
                                         <ServicesCard ServiceCardImg={c13} cardHeading='WooCommerce Plugin Development and Integration' cardParaGraph={<>Extend the functionality of your online store with custom plugin development and seamless third-party integrations.</>}/>
                                     </div>
                                     <div className="col-lg-4 pb-4">
                                         <ServicesCard ServiceCardImg={c14} cardHeading='WooCommerce Migration Services' cardParaGraph={<>If you are looking to migrate your existing store to WooCommerce, our WooCommerce website makers in Chandigarh ensure a smooth and hassle-free transition with minimal downtime.</>} />
                                     </div>
-                                    <div className="col-lg-4 pb-4">
+                                    <div className="col-lg-4 pb-4 d-flex">
                                         <ServicesCard ServiceCardImg={c15} cardHeading='WooCommerce SEO and Performance Optimization' cardParaGraph={<>Our WooCommerce website creators in Chandigarh implement best SEO practices to improve search engine rankings and enhance website speed for better user experience.</>} />
                                     </div>
-                                    <div className="col-lg-4 pb-4">
+                                    <div className="col-lg-4 pb-4 d-flex">
                                         <ServicesCard ServiceCardImg={c16} cardHeading='WooCommerce Maintenance and Support' cardParaGraph={<>We provide ongoing support and maintenance to keep your WooCommerce store secure, up-to-date, and running smoothly.</>} />
                                     </div>
                                 </div>
@@ -185,7 +187,7 @@ const Woocomerce = () => {
                 </section>
 
 
-                <KeyPointSection keyHeading={<>Why Choose <span style={{ color: "#249f81" }}>WooCommerce</span> for Your Online Store ?</>}
+                <KeyPointSection keyHeading={<>Why Choose WooCommerce for Your Online Store ?</>}
                     keyPara={<>WooCommerce is one of the most powerful and flexible e-commerce platforms available today. It is built on WordPress,
                         offering a user-friendly interface, extensive customization options, and a vast array of plugins to enhance functionality.
                         Whether you are a startup or an established business, WooCommerce provides a cost-effective solution for selling products online.
@@ -205,7 +207,7 @@ const Woocomerce = () => {
                         <Row className='d-flex justify-content-between pt-5  text-center'>
                             <Col lg={2} md={4} sm={6} className="col-6 d-flex flex-column justify-content-center align-items-center">
                                 <div className="blockchain-col-img d-flex text-center">
-                                    <img src={Group_652} className="img-fluid" />
+                                    <img src={Group_652} className="img-fluid" alt='WooCommerce Development in Chandigarh city' />
                                 </div>
                                 <div className="blockchain-col-text mt-3">
                                     <p className="text-center">Flexibility and Customization</p>
@@ -213,7 +215,7 @@ const Woocomerce = () => {
                             </Col>
                             <Col lg={2} md={4} sm={6} className="col-6 d-flex flex-column justify-content-center align-items-center">
                                 <div className="blockchain-col-img d-flex text-center">
-                                    <img src={Group_859} className="img-fluid" />
+                                    <img src={Group_859} className="img-fluid" alt='Woocommerce Website Development Company in Chandigarh'/>
                                 </div>
                                 <div className="blockchain-col-text mt-3">
                                     <p className="text-center">Wide Range of Extensions</p>
@@ -221,7 +223,7 @@ const Woocomerce = () => {
                             </Col>
                             <Col lg={2} md={4} sm={6} className="col-6 d-flex flex-column justify-content-center align-items-center">
                                 <div className="blockchain-col-img d-flex text-center">
-                                    <img src={Group_105519} className="img-fluid" />
+                                    <img src={Group_105519} className="img-fluid" alt='e-commerce industry in Chandigarh'/>
                                 </div>
                                 <div className="blockchain-col-text mt-3">
                                     <p className="text-center">Mobile Responsiveness</p>
@@ -229,7 +231,7 @@ const Woocomerce = () => {
                             </Col>
                             <Col lg={2} md={4} sm={6} className="col-6 d-flex flex-column justify-content-center align-items-center">
                                 <div className="blockchain-col-img d-flex text-center">
-                                    <img src={Group_649} className="img-fluid" />
+                                    <img src={Group_649} className="img-fluid" alt='woo commerce development agency in chandigarh'/>
                                 </div>
                                 <div className="blockchain-col-text mt-3">
                                     <p className="text-center">Robust Inventory Management</p>
@@ -237,7 +239,7 @@ const Woocomerce = () => {
                             </Col>
                             <Col lg={2} md={4} sm={6} className="col-6 d-flex flex-column justify-content-center align-items-center">
                                 <div className="blockchain-col-img d-flex text-center">
-                                    <img src={Group_650} className="img-fluid" />
+                                    <img src={Group_650} className="img-fluid" alt='woo commerce website provider in chandigarh'/>
                                 </div>
                                 <div className="blockchain-col-text mt-3">
                                     <p className="text-center">Secure Payment Processing</p>
@@ -248,9 +250,9 @@ const Woocomerce = () => {
                     </Container>
                 </section>
 
-                <Experience expTitle={<>Why Choose <span style={{ color: "#249f81" }}> Asvayuk Technologies Private Ltd.</span> for WooCommerce Development?</>}
+                <Experience expTitle={<>Why Choose Asvayuk Technologies Private Ltd for WooCommerce Development?</>}
                 ExpPara={<>At Asvayuk Technologies Private Ltd., we specialize in WooCommerce Development Services in Chandigarh, ensuring seamless integration, mobile responsiveness, and high-performance solutions tailored to your business needs.</>}
-                point1='Experienced WooCommerce Developers' 
+                point1='Experienced Developers' 
                 pointPara1='Our team has the best developers in Chandigarh with years of expertise in building successful e-commerce stores.'
                 point2='Tailored Solutions' 
                 pointPara2=' We offer customized WooCommerce solutions to meet your unique business requirements.' 
@@ -275,14 +277,14 @@ const Woocomerce = () => {
                                     <Row className="curly-img curley-img mt-5">
                                         <Col xs={6} lg={2}>
                                             <div className="work-images">
-                                                <img src={container} alt="Product Design" />
+                                                <img src={container} alt="woo commerce website makers chandigarh" />
                                                 <h6 className="mt-3">Product Design</h6>
                                                 <p className="text-light ">We specialize in crafting innovative and user-centric design strategies to deliver a captivating app experience</p>
                                             </div>
                                         </Col>
                                         <Col xs={6} lg={2}>
                                             <div className="work-images">
-                                                <img src={planning} alt="Mobile App Consulting" />
+                                                <img src={planning} alt="woo commerce website experts in chandigarh" />
                                                 <h6 className="mt-3">Mobile App Consulting</h6>
                                                 <p className="text-light">Tailored guidance and strategic insights to shape your app concept into a successful product.
                                                 </p>
@@ -290,21 +292,21 @@ const Woocomerce = () => {
                                         </Col>
                                         <Col xs={6} lg={2}>
                                             <div className="work-images">
-                                                <img src={pen} alt="UI/UX Compatibility" />
+                                                <img src={pen} alt="woo commerce website creator in chandigarh" />
                                                 <h6 className="mt-3">UI/UX Compatibility</h6>
                                                 <p className="text-light">Seamlessly integrate compelling design with intuitive user experiences for enhanced engagement.</p>
                                             </div>
                                         </Col>
                                         <Col xs={6} lg={2}>
                                             <div className="work-images">
-                                                <img src={development} alt="Development" />
+                                                <img src={development} alt="trusted WooCommerce development partner in Chandigarh" />
                                                 <h6 className="mt-3">Development</h6>
                                                 <p className="text-light">Leveraging cutting-edge technologies to build robust, scalable, and high-performance mobile applications.</p>
                                             </div>
                                         </Col>
                                         <Col xs={6} lg={2}>
                                             <div className="work-images">
-                                                <img src={test} alt="QA & Testing" />
+                                                <img src={test} alt="Woocommerce Website Development Company in Chandigarh" />
                                                 <h6 className="mt-3">QA & Testing</h6>
                                                 <p className="text-light">Our team of mobile testing experts conducts rigorous testing and debugging to ensure a reliable and optimal-functioning app.</p>
                                             </div>
@@ -315,6 +317,60 @@ const Woocomerce = () => {
                             </div>
                         </Row>
                     </Container>
+                </section>
+
+                <section className="Industries">
+                    <div className="container">
+                        <div>
+                            <h1 className="fw-semibold">Industries We Serve</h1>
+                            <p>Staying attuned to diverse industries, we serve a wide range of sectors, providing customized
+                                solutions that set new benchmarks and drive innovation..</p>
+                        </div>
+                        <div className="row pt-3">
+                            <div className="col-lg-3 col-md-6 col-sm-6 col-6 px-2">
+                                <div className="industries_info border border-2 border-dark rounded-3 text-center">
+                                    <h3 className="mb-0">eCommerce</h3>
+                                </div>
+                            </div>
+                            <div className="col-lg-3 col-md-6 col-sm-6 col-6 px-2">
+                                <div className="industries_info border border-2 border-dark rounded-3 text-center">
+                                    <h3 className="mb-0">Blockchain</h3>
+                                </div>
+                            </div>
+                            <div className="col-lg-3 col-md-6 col-sm-6 col-6 px-2">
+                                <div className="industries_info border border-2 border-dark rounded-3 text-center">
+                                    <h3 className="mb-0">Healthtech </h3>
+                                </div>
+                            </div>
+                            <div className="col-lg-3 col-md-6 col-sm-6 col-6 px-2">
+                                <div className="industries_info border border-2 border-dark rounded-3 text-center">
+                                    <h3 className="mb-0">AI Bots</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="row pt-0 pt-lg-3 pt-md-3">
+                            <div className="col-lg-3 col-md-6 col-sm-6 col-6 px-2">
+                                <div className="industries_info border border-2 border-dark rounded-3 text-center">
+                                    <h3 className="mb-0">Traveltech</h3>
+                                </div>
+                            </div>
+                            <div className="col-lg-3 col-md-6 col-sm-6 col-6 px-2">
+                                <div className="industries_info border border-2 border-dark rounded-3 text-center">
+                                    <h3 className="mb-0">Realtech</h3>
+                                </div>
+                            </div>
+                            <div className="col-lg-3 col-md-6 col-sm-6 col-6 px-2">
+                                <div className="industries_info border border-2 border-dark rounded-3 text-center">
+                                    <h3 className="mb-0">tecFintechh</h3>
+                                </div>
+                            </div>
+                            <div className="col-lg-3 col-md-6 col-sm-6 col-6 px-2">
+                                <div className="industries_info border border-2 border-dark rounded-3 text-center">
+                                    <h3 className="mb-0">Edtech</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </section>
 
                 <section className="caseStuides ">
@@ -542,66 +598,12 @@ const Woocomerce = () => {
                     </section>
                 </section>
 
-                <section className="Industries">
-                    <div className="container">
-                        <div>
-                            <h1 className="fw-semibold">Industries We Serve</h1>
-                            <p>Staying attuned to diverse industries, we serve a wide range of sectors, providing customized
-                                solutions that set new benchmarks and drive innovation..</p>
-                        </div>
-                        <div className="row pt-3">
-                            <div className="col-lg-3 col-md-6 col-sm-6 col-6 px-2">
-                                <div className="industries_info border border-2 border-dark rounded-3 text-center">
-                                    <h3 className="mb-0">eCommerce</h3>
-                                </div>
-                            </div>
-                            <div className="col-lg-3 col-md-6 col-sm-6 col-6 px-2">
-                                <div className="industries_info border border-2 border-dark rounded-3 text-center">
-                                    <h3 className="mb-0">Blockchain</h3>
-                                </div>
-                            </div>
-                            <div className="col-lg-3 col-md-6 col-sm-6 col-6 px-2">
-                                <div className="industries_info border border-2 border-dark rounded-3 text-center">
-                                    <h3 className="mb-0">Healthtech </h3>
-                                </div>
-                            </div>
-                            <div className="col-lg-3 col-md-6 col-sm-6 col-6 px-2">
-                                <div className="industries_info border border-2 border-dark rounded-3 text-center">
-                                    <h3 className="mb-0">AI Bots</h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="row pt-0 pt-lg-3 pt-md-3">
-                            <div className="col-lg-3 col-md-6 col-sm-6 col-6 px-2">
-                                <div className="industries_info border border-2 border-dark rounded-3 text-center">
-                                    <h3 className="mb-0">Traveltech</h3>
-                                </div>
-                            </div>
-                            <div className="col-lg-3 col-md-6 col-sm-6 col-6 px-2">
-                                <div className="industries_info border border-2 border-dark rounded-3 text-center">
-                                    <h3 className="mb-0">Realtech</h3>
-                                </div>
-                            </div>
-                            <div className="col-lg-3 col-md-6 col-sm-6 col-6 px-2">
-                                <div className="industries_info border border-2 border-dark rounded-3 text-center">
-                                    <h3 className="mb-0">tecFintechh</h3>
-                                </div>
-                            </div>
-                            <div className="col-lg-3 col-md-6 col-sm-6 col-6 px-2">
-                                <div className="industries_info border border-2 border-dark rounded-3 text-center">
-                                    <h3 className="mb-0">Edtech</h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
                 <Conclusion 
-                    title={<>Get Started with<span style={{ color: "#249f81" }}> WooCommerce Development</span> Today!</>}
+                    title={<>Get Started with WooCommerce Development Today!</>}
                     description={<>
                     If you are looking for a reliable WooCommerce website provider in Chandigarh, Asvayuk Technologies Private Ltd. is here to help.
-                     Our expert team ensures that your <br/>e-commerce store is designed for success. Contact us today to discuss your 
-                     <u><Link to="https://maps.app.goo.gl/9F1yq767vCJtZM2q7"> WooCommerce Development Services in Chandigarh</Link></u>.</>}
+                     Our expert team<br/>ensures that your e-commerce store is designed for success. Contact us today to discuss your 
+                     <u><Link to="https://maps.app.goo.gl/9F1yq767vCJtZM2q7"> WooCommerce Development Services in Chandigarh</Link></u> .</>}
                  />
                  
                 <FAQAccordion title="FAQs on WooCommerce Development" faqs={faqData} />

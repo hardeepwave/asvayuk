@@ -6,12 +6,12 @@ const FAQAccordion = ({ title, faqs }) => {
   const [activeKey, setActiveKey] = useState(null);
 
   return (
-    <section className="py-5 accordian-sec mt-3">
+    <section className="py-4 accordian-sec mt-3">
       <div className="container">
         <div className="row">
           {title && <h1 className="text-center">{title}</h1>}
-          <div className="pt-1">
-            <Accordion activeKey={activeKey} onSelect={(key) => setActiveKey(key === activeKey ? null : key)} className="faq-accordion px-0">
+          <div>
+            <Accordion activeKey={activeKey} onSelect={(key) => setActiveKey(key === activeKey ? null : key)} className="faq-accordion px-0 pt-0">
               {faqs.map((faq, index) => (
                 <Accordion.Item eventKey={index.toString()} key={index} className="faq-item">
                   <Accordion.Header className="faq-header">{faq.question}</Accordion.Header>

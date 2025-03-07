@@ -262,7 +262,7 @@ const Magento_Dev = () => {
                                             <Col lg={6}>
                                                 <div className="swiper_left_sec p-5">
                                                     <div className="swiper_left_sec_logo">
-                                                        <img src={moonLight} />
+                                                        <img src={moonLight} alt='Magento Development Services Chandigarh'/>
                                                     </div>
                                                     <div className="swiper_left_sec_heading">
                                                         <p className='fw-semibold pt-4'>Revolutionizing Beauty: Cozmada's Journey to Digital Transformation</p>
@@ -305,7 +305,7 @@ const Magento_Dev = () => {
                                             <Col lg={6}>
                                                 <div className="swiper_left_sec p-5">
                                                     <div className="swiper_left_sec_logo_49">
-                                                        <img src={CoffeeLogo} />
+                                                        <img src={CoffeeLogo} alt='Affordable Magento Development Chandigarh'/>
                                                     </div>
                                                     <div className="swiper_left_sec_heading">
                                                         <p className='fw-semibold pt-4'>Revolutionizing Beauty: Cozmada's Journey to Digital Transformation</p>
@@ -398,7 +398,7 @@ const Magento_Dev = () => {
                                             <Col lg={6}>
                                                 <div className="swiper_left_sec p-5 pt-4">
                                                     <div className="swiper_left_sec_logo_49">
-                                                        <img src={kriLogo} />
+                                                        <img src={kriLogo} alt='Custom Magento Development Chandigarh'/>
                                                     </div>
                                                     <div className="swiper_left_sec_heading">
                                                         <p className='fw-semibold pt-4'>Revolutionizing Beauty: Cozmada's Journey to Digital Transformation</p>
@@ -441,7 +441,7 @@ const Magento_Dev = () => {
                                             <Col lg={6}>
                                                 <div className="swiper_left_sec p-5 pt-4">
                                                     <div className="swiper_left_sec_logo">
-                                                        <img src={kreLogo} />
+                                                        <img src={kreLogo} alt='Magento Store Development Chandigarh'/>
                                                     </div>
                                                     <div className="swiper_left_sec_heading">
                                                         <p className='fw-semibold pt-4'>Revolutionizing Beauty: Cozmada's Journey to Digital Transformation</p>
