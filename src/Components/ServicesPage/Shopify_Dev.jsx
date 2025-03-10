@@ -39,7 +39,7 @@ const Shopify_Dev = () => {
             <Meta_Component
                 title="Shopify Website Design Company in Chandigarh"
                 description="As a leading Shopify Website Design Company Chandigarh, Asvayuk Technologies offers expert Shopify development services for your online store."
-                canonical="https://asvayuktech.com/shopify-website-design-company-in-chandigarh"
+                canonical="https://asvayuktech.com/shopify-development"
             />
             <main>
                 <section className="banner-en py-4">
@@ -52,7 +52,7 @@ const Shopify_Dev = () => {
                                         <Breadcrumb.Item linkAs={Link} linkProps={{ to: "#" }}>Technology</Breadcrumb.Item>
                                         <Breadcrumb.Item active>Shopify Development</Breadcrumb.Item>
                                     </Breadcrumb>
-                                    <h1>Shopify Website Design Company in Chandigarhs</h1>
+                                    <h1>Shopify Website Design Company in Chandigarh</h1>
                                     <p className="py-3">We take pride in being a leading provider of Shopify Development Services, offering customized solutions to meet unique business requirements.</p>
 
                                     <BannerButton btnTitle='Free Consultation' url='/contact-us' />

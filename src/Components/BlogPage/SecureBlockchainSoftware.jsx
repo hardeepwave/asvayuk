@@ -13,7 +13,7 @@ function SecureBlockchainSoftware() {
             <Meta_Component
                 title="Secure Blockchain Software Development: Revolutionizing Digital Security | Asvayuk Technologies"
                 description="Asvayuk Technologies offers innovative and secure blockchain software development services to help businesses transform digital operations with unmatched security."
-                canonical="https://www.asvayuktech.com/secure-blockchain-software-development" />
+                canonical="https://www.asvayuktech.com/blog/secure-blockchain-software-development" />
             <main>
                 <section className="blog_cads">
                     <Container>

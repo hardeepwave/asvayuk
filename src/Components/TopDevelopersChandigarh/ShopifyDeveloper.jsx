@@ -1,5 +1,5 @@
-import { Container, Row, Col, Accordion, ListGroup, ListGroupItem } from 'react-bootstrap';
-import { FaSearch, FaBullseye, FaMugHot, FaRocket, FaWhatsapp, FaEnvelopeOpenText, FaSkype, FaShopify, FaQuestionCircle, FaShieldAlt } from "react-icons/fa";
+import { Container, Row, Col } from 'react-bootstrap';
+import { FaSearch, FaBullseye, FaMugHot, FaRocket, FaShopify, FaQuestionCircle, FaShieldAlt } from "react-icons/fa";
 import shopifyImg from '../../Images/shopifyImg1.webp'
 import reviewGoogle from '../../Images/review_google.webp'
 import GoodFirms from '../../Images/GoodFirms.webp'
@@ -9,22 +9,51 @@ import wshopify from '../../Images/shopifyImgbg.png'
 import work1 from '../../Images/shopifyworkImg1.png'
 import work2 from '../../Images/shopifyworkImg2.png'
 import work3 from '../../Images/work3.png'
+import banShopSml from '../../Images/banSY.png'
 import './TopDeveloper.css'
-import { BsFiletypePsd } from 'react-icons/bs';
 import { MdIntegrationInstructions, MdMiscellaneousServices } from 'react-icons/md';
 import { FaComputer } from 'react-icons/fa6';
-import { GrSupport } from 'react-icons/gr';
+import { GrOptimize } from "react-icons/gr";
 import { IoIosStopwatch } from 'react-icons/io';
+import { FaStore } from "react-icons/fa6";
 import Meta_Component from '../Meta_Component/Meta_Component';
 import PortfolioItem from '../PortfolioItem/PortfolioItem';
+import FAQAccordion from '../../accordian/FAQAccordion'
+
+const faqData = [
+    {
+      question: "Why should I choose Asvayuk Technologies for Shopify web development services in Chandigarh?",
+      answer: "At Asvayuk Technologies, we combine creative design with technical expertise to build high-quality Shopify stores. Our team ensures a seamless user experience, mobile responsiveness, SEO-optimized solutions, and the latest Shopify technology integration."
+    },
+    {
+      question: "How much does Shopify website development cost in Chandigarh?",
+      answer: "The cost varies based on design complexity, features & integrations, and project scope. We offer affordable and customized Shopify development solutions, ensuring you get the best value for your investment."
+    },
+    {
+      question: "How long does it take to develop a Shopify website?",
+      answer: "The development time depends on the complexity and features required. A basic Shopify store can take 2-4 weeks, while a more complex store with custom features may take longer. We work closely with our clients to deliver the project on time without compromising on quality."
+    },
+    {
+      question: "Do you offer Shopify website maintenance services?",
+      answer: "Yes, Asvayuk Technologies provides comprehensive Shopify website maintenance services in Chandigarh. We offer ongoing support, updates, and troubleshooting to ensure your Shopify store remains up-to-date and performs optimally."
+    },
+    {
+      question: "Can you integrate third-party apps into my Shopify store?",
+      answer: "Yes, our Shopify development experts in Chandigarh are skilled at integrating third-party apps and tools into your Shopify store. Whether you need payment gateways, inventory management, or marketing tools, we can integrate apps to enhance your store’s functionality."
+    },
+    {
+      question: "Do you offer Shopify website development services in Mohali?",
+      answer: "Yes, we offer Shopify website development services in Mohali as well. As a leading Shopify web development company in Chandigarh, we extend our services to businesses in Mohali and surrounding areas, providing top-quality Shopify website design and development solutions."
+    }
+  ];
 
 
 const ShopifyDeveloper = () => {
     return (
         <>
             <Meta_Component
-                title="Best Shopify Developer in Chandigarh | Asvayuk Technologies"
-                description="Looking for a skilled Shopify developer in Chandigarh? Asvayuk Technologies offers expert Shopify development services to create, customize, and optimize your e-commerce store."
+                title="Shopify Website Design Company in Chandigarh"
+                description="As a leading Shopify Website Design Company Chandigarh, Asvayuk Technologies offers expert Shopify development services for your online store."
                 canonical="https://asvayuktech.com/best-shopify-developer-chandigarh"
             />
             <main>
@@ -34,11 +63,16 @@ const ShopifyDeveloper = () => {
                             <Col xm={7} sm={12} lg={7} md={6}>
                                 <div className="bannerAreaTop">
                                     <div className="logoArea pb-4">
-                                        {/* <img src={shopifyImg} className="img-fluid w-25" alt="logo_header" /> */}
                                     </div>
                                     <div className='bannerAreaTop_content'>
-                                        <h1 className="h1 mb-5 text-white">The Best <span style={{ color: '#ffbf0b' }}>Shopify Experts Agency</span> in Chandigarh! </h1>
-                                        <p className='text-white'>Hire Shopify Developers to build a mobile and desktop-friendly eCommerce store that enhances your customer reach and drives high-end revenue. Talk with Shopify experts at Asvayuk Technologies now!
+                                        <h1 className="h1 mb-5 text-white"><span style={{ color: '#ffbf0b' }}>Shopify</span> Website Design Company in <span style={{ color: '#ffbf0b' }}>Chandigarh!</span> </h1>
+                                        <p className='text-white'>
+                                                    At Asvayuk Technologies Private Ltd., we are a leading Shopify website design company in Chandigarh,
+                                                    specializing in crafting visually appealing, user-friendly, and high-performance Shopify websites.
+                                                    As a top Shopify development company in Chandigarh,
+                                                    we help businesses build their online presence with expert Shopify web development services.
+                                                    Our team of skilled Shopify web developers in Chandigarh is dedicated to delivering outstanding results,
+                                                    ensuring that your e-commerce store is not only attractive but also fully functional, fast, and scalable.
                                         </p>
                                     </div>
                                     <div className="review_section mb-5">
@@ -141,8 +175,8 @@ const ShopifyDeveloper = () => {
                         <div className="row align-items-center">
                             <div className="col-lg-6 col-md-6 col-sm-12 ">
                                 <div className="mt-5">
-                                    <h2>Get Access to Result-driven Shopify Experts!</h2>
-                                    <p className="my-3">When you plan to hire Shopify developers from one of the top Shopify development companies in India, you get to work with some brilliant minds on your Shopify development. We are the pioneer in providing end-to-end Shopify development solutions. From startups to enterprises, we have helped entrepreneurs and business owners with bespoke Shopify web and app development within the best practice. </p>
+                                    <h2>Shopify Website Development in Chandigarh</h2>
+                                    <p className="my-3">When it comes to Shopify website development in Chandigarh, Asvayuk Technologies stands out as a trusted provider. We offer comprehensive Shopify development services in Chandigarh, from initial design to ongoing store maintenance. Whether you need a custom Shopify store, theme modifications, or app integrations, our Shopify development agency in Chandigarh has the expertise to deliver it all. We understand that every business is unique, and that’s why we provide tailored Shopify development solutions that align with your business goals.</p>
                                 </div>
                                 <div className="my-5">
                                     <a className="blue_btn " href="#">Hire Shopify Developers!
@@ -220,25 +254,19 @@ const ShopifyDeveloper = () => {
                             </div>
                             <div className="col-lg-6">
                                 <div className="section-title">
-                                    <h2 className="font_36 font_weight_semi_bold text-capitalize mb-0 mt-xl-3 text-white text-start">Why hire Shopify developers from Asvayuk Technologies? </h2>
+                                    <h2 className="font_36 font_weight_semi_bold text-capitalize mb-0 mt-xl-3 text-white text-start">Why Choose Asvayuk Technologies for Shopify Web Development in Chandigarh? </h2>
                                 </div>
                                 <div className="about-item text-white">
-                                    <p className="font_16 text-white">Dedication, consistency, and quick-to-adopt changes to the latest technology are three primary aspects that separate us from other Shopify development companies. We have been the most reliable Shopify partner since 2013.</p>
-                                    <p className='text-white'>We feature versatile, skilled, and high-quality Shopify specialists specializing in all Shopify core components and tools.
-                                        You can hire Shopify developers from us on an hourly, part-time, and full-time basis within your budget and requirement. From store design and setup to Theme development and SEO, they bring the most cutting-edge solutions that drive high-end results.
+                                    <p className='text-white'>Our Shopify website design services in Chandigarh are crafted to enhance the shopping experience, boost conversions, and help your online store grow. With a strong focus on mobile responsiveness, SEO optimization, and user experience, we ensure that your store stands out in the competitive e-commerce landscape.
                                     </p>
+                                    <p className="font_16 text-white">As a leading Shopify website design company in Chandigarh, Asvayuk Technologies offers the perfect blend of creativity and technical expertise to build exceptional Shopify stores. Here’s why businesses prefer our Shopify development services in Chandigarh.</p>
                                     <div className="list_view_text">
                                         <ul>
-                                            <li>Customized Shopify Solutions</li>
-                                            <li>Faster Time to Market
-                                            </li>
-                                            <li>Flexible Hiring &amp; Pricing Model
-                                            </li>
-                                            <li>Time-zone Flexibility
-                                            </li>
-                                            <li>Non-Disclosure Agreement (NDA)
-                                            </li>
-
+                                            <li>Expert Shopify Developers</li>
+                                            <li>Tailored Solutions</li>
+                                            <li>SEO-Optimized Stores</li>
+                                            <li>Mobile-Friendly Design</li>
+                                            <li>Affordable and Reliable</li>
                                         </ul>
                                     </div>
 
@@ -251,33 +279,33 @@ const ShopifyDeveloper = () => {
                 <section className="section-box col-12 pl-0 pr-0" id="services">
                     <div className="container">
                         <div className="section-title">
-                            <h2 className="font_36 font_weight_semi_bold text-capitalize mb-0 color_242424">Hire Shopify Expert for Tailor-made Service!</h2>
+                            <h2 className="font_36 font_weight_semi_bold text-capitalize mb-0 color_242424">Our Shopify Website Development Services in Chandigarh</h2>
                         </div>
                         <div className="row">
-                            <div className="col-lg-4 col-md-6">
-                                <div className="service-box position-relative">
+                            <div className="col-lg-4 col-md-6 my-0">
+                                <div className="service-box position-relative h-75 d-flex flex-column pb-2">
                                     <div className='service-icon'>
-                                        <BsFiletypePsd />
+                                        <FaStore />
                                     </div>
-                                    <h3 className="color_343a40">Shopify Store Setup
+                                    <h3 className="color_343a40">Shopify Store Design & Development
                                     </h3>
                                     <p className="">Irrespective of the size and category, our Shopify specialists build a highly responsive, user and SEO-friendly store. Hire dedicated Shopify developers now!
                                     </p>
                                 </div>
                             </div>
                             <div className="col-lg-4 col-md-6">
-                                <div className="service-box position-relative">.
+                                <div className="service-box position-relative h-75 d-flex flex-column pb-2">.
                                     <div className='service-icon'>
                                         <MdMiscellaneousServices />
                                     </div>
-                                    <h3 className="color_343a40">Shopify Theme Development
+                                    <h3 className="color_343a40">Shopify Theme Customization
                                     </h3>
                                     <p className="">Hire Shopify developers to develop responsive, interactive, and user-friendly themes explicit to your retail industry and business needs.
                                     </p>
                                 </div>
                             </div>
                             <div className="col-lg-4 col-md-6">
-                                <div className="service-box position-relative">
+                                <div className="service-box position-relative h-75 d-flex flex-column pb-2">
                                     <div className='service-icon'>
                                         <FaShopify />
                                     </div>
@@ -288,32 +316,32 @@ const ShopifyDeveloper = () => {
                                 </div>
                             </div>
                             <div className="col-lg-4 col-md-6">
-                                <div className="service-box position-relative">
+                                <div className="service-box position-relative h-75 d-flex flex-column pb-2">
                                     <div className='service-icon'>
                                         <MdIntegrationInstructions />
                                     </div>
-                                    <h3 className="color_343a40">Shopify Integration </h3>
+                                    <h3 className="color_343a40">Shopify Store Setup</h3>
                                     <p className="">Hire Shopify Expert to seamlessly integrate multiple payment gateways, CMS, or other third-party APIs relevant to your business model and requirements.
                                     </p>
                                 </div>
                             </div>
                             <div className="col-lg-4 col-md-6">
-                                <div className="service-box position-relative">
+                                <div className="service-box position-relative h-75 d-flex flex-column pb-2">
                                     <div className='service-icon'>
                                         <FaComputer />
                                     </div>
-                                    <h3 className="color_343a40">Shopify Migration
+                                    <h3 className="color_343a40">Shopify Store Maintenance
                                     </h3>
                                     <p className="">Anytime you believe the need for your store migration to Shopify, count on us. Our Shopify experts will see that your Shopify migration will be smooth and seamless.
                                     </p>
                                 </div>
                             </div>
                             <div className="col-lg-4 col-md-6">
-                                <div className="service-box position-relative">
+                                <div className="service-box position-relative h-75 d-flex flex-column pb-2">
                                     <div className='service-icon'>
-                                        <GrSupport />
+                                        <GrOptimize />
                                     </div>
-                                    <h3 className="color_343a40">Maintenance &amp; Support
+                                    <h3 className="color_343a40">Shopify SEO Services
                                     </h3>
                                     <p className="">Do not worry about Shopify-related queries. We have the most skilled and experienced Shopify development team to guide you throughout your project development.
                                     </p>
@@ -352,9 +380,31 @@ const ShopifyDeveloper = () => {
                     </div>
                 </section>
 
-                <section className="section-box col-12 pl-0 pr-0 bg_f8f8ff" id="our_work">
+                <section className="section-box333 col-12 pl-0 pr-0" id="image-with-text">
+                    <div className="container">
+                        <div className="row d-flex align-items-center flex-wrap">
+                            <div className='col-lg-6'>
+                                <img alt="shopify_img" className="img-fluid" src={banShopSml} />
+                            </div>
+                            <div className="col-lg-6">
+                                <div className="section-title">
+                                    <h2 className="font_36 font_weight_semi_bold text-capitalize mb-0 mt-xl-3 text-white text-start">
+                                    "Leading Shopify Website Design & Development Company in Chandigarh – Asvayuk Technologies"</h2>
+                                </div>
+                                <div className="about-item text-white">
+                                    <p className='text-white'>
+                                    As one of the top Shopify website design companies in Chandigarh, Asvayuk Technologies Private Ltd. offers unparalleled expertise in Shopify development. Whether you’re looking to build a new e-commerce store, revamp your existing one, or need expert assistance in Shopify development, we are here to help. Our team of Shopify web developers in Chandigarh is committed to delivering high-quality, user-friendly, and SEO-optimized Shopify stores that help your business thrive in the competitive online marketplace.
+                                    </p>
+                                    <p className="font_16 text-white">Contact us today to get started with your Shopify development project and elevate your online store with professional Shopify web development services in Chandigarh!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section className="section-box col-12 pl-0 pr-0 bg_f8f8ff mt-3" id="our_work">
                     <Container>
-                        <div className="section-title">
+                        <div className="section-title mt-2">
                             <h2 className="font_36 font_weight_semi_bold text-capitalize mb-0 color_242424">
                                 How Do We Work?
                             </h2>
@@ -429,68 +479,7 @@ const ShopifyDeveloper = () => {
                         </Row>
                     </Container>
                 </section>
-
-                <section className="smart_accordian-section mt-5">
-                    <Container>
-                        <div className="sec_title text-center">
-                            <h2>Frequently Asked Questions (FAQs)</h2>
-                        </div>
-                        <div className="accourdian my-3 py-5">
-                            <Accordion>
-                                <Accordion.Item eventKey="0" className="accordian-item item">
-                                    <Accordion.Header className="bg-transparent">
-                                        Why should I opt for Shopify and not any other platform in the first place?
-                                    </Accordion.Header>
-                                    <Accordion.Body className='bg-dark'>
-                                        <p className='text-white'>
-                                            Shopify is currently leading the eCommerce development chart with 4.4 million users across more than 175 countries worldwide. It offers everything from Themes to API, Multiple Payment gateways, 24*7 Customer Support, a Huge Shopify developers team, Advanced tools, and many more. Choosing Shopify will only lead you to glory in the global digital marketplace.
-                                        </p>
-                                    </Accordion.Body>
-                                </Accordion.Item>
-                                <Accordion.Item eventKey="1" className="accordian-item item2">
-                                    <Accordion.Header className="bg-transparent">
-                                        How can a Shopify developer help my business grow?
-                                    </Accordion.Header>
-                                    <Accordion.Body className='bg-dark'>
-                                        <p className='text-white'>
-                                            Shopify is a vast segment. One of the leading eCommerce development platforms globally at the moment. Hiring a Shopify developer gives you an inside-out idea about the platform and its benefits. Also, an expert Shopify developer will suggest the most advanced and result-oriented solution with proper planning. Hire Shopify developers now!
-                                        </p>
-                                    </Accordion.Body>
-                                </Accordion.Item>
-                                <Accordion.Item eventKey="2" className="accordian-item item3">
-                                    <Accordion.Header className="bg-transparent">
-                                        What is the cost of Shopify website development, including marketing?
-                                    </Accordion.Header>
-                                    <Accordion.Body className='bg-dark'>
-                                        <p className='text-white'>
-                                            One can't determine the exact before running a proper project analysis. So we advise you to share the project details with our Shopify team and briefly discuss your requirements at your convenience. Our Shopify expert team will quote you the best possible price.
-                                        </p>
-                                    </Accordion.Body>
-                                </Accordion.Item>
-                                <Accordion.Item eventKey="3" className="accordian-item item4">
-                                    <Accordion.Header className="bg-transparent">
-                                        Are your Shopify experts proficient in building SEO-optimized Shopify websites and stores?
-                                    </Accordion.Header>
-                                    <Accordion.Body className='bg-dark'>
-                                        <p className='text-white'>
-                                            Yes, we have the most skillful Shopify specialists with extensive knowledge of Google SERP's latest trends and algorithms. They plan your Shopify development accordingly, ensuring the unified execution of your Shopify website and stores.
-                                        </p>
-                                    </Accordion.Body>
-                                </Accordion.Item>
-                                <Accordion.Item eventKey="4" className="accordian-item item4">
-                                    <Accordion.Header className="bg-transparent">
-                                        Does your Shopify specialists provide me with post-deployment support?
-                                    </Accordion.Header>
-                                    <Accordion.Body className='bg-dark'>
-                                        <p className='text-white'>
-                                            Yes, they do. From the start of your Shopify development to Testing, final submission on the App store and browser, and post-execution, our Shopify experts will guide you on each level to help you better understand the platform.
-                                        </p>
-                                    </Accordion.Body>
-                                </Accordion.Item>
-                            </Accordion>
-                        </div>
-                    </Container>
-                </section>
+                <FAQAccordion title="Frequently Asked Questions (FAQs) About Shopify Development" faqs={faqData} />
             </main>
         </>
     );

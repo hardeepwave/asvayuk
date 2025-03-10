@@ -166,7 +166,7 @@ export default function Header() {
                                       Magento Development
                                     </Link>
                                     <Link
-                                      to="/shopify-website-design-company-in-chandigarh"
+                                      to="/shopify-development"
                                       onClick={handleMegaMenuLinkClick}
                                     >
                                       Shopify Development
@@ -582,7 +582,7 @@ export default function Header() {
                                 </li>
                                 <li className="py-2 border-bottom">
                                   <Link
-                                    to="/shopify-website-design-company-in-chandigarh"
+                                    to="/shopify-development"
                                     onClick={toggleMenu}
                                   >
                                     Shopify Development

@@ -1,5 +1,5 @@
-import { Container, Row, Col, Accordion } from 'react-bootstrap';
-import { FaSearch, FaBullseye, FaMugHot, FaRocket, FaWhatsapp, FaEnvelopeOpenText, FaSkype, FaShopify, FaShieldAlt, FaQuestionCircle } from "react-icons/fa";
+import { Container, Row, Col } from 'react-bootstrap';
+import { FaSearch, FaBullseye, FaMugHot, FaRocket, FaShopify, FaShieldAlt, FaQuestionCircle } from "react-icons/fa";
 import shopifyImg from '../../Images/shopifyImg1.webp'
 import reviewGoogle from '../../Images/review_google.webp'
 import GoodFirms from '../../Images/GoodFirms.webp'
@@ -17,6 +17,37 @@ import { GrSupport } from 'react-icons/gr';
 import { IoIosStopwatch } from 'react-icons/io';
 import Meta_Component from '../Meta_Component/Meta_Component';
 import PortfolioItem from '../PortfolioItem/PortfolioItem';
+import FAQAccordion from '../../accordian/FAQAccordion'
+
+
+const faqData = [
+    {
+      question: "Why should I choose Crypto Exchange Software for my business?",
+      answer:
+        "Crypto exchange software is designed to streamline the management of cryptocurrency transactions, user wallets, and market data. It automates the process of buying, selling, and trading cryptocurrencies, improving efficiency and security. By investing in custom crypto exchange software, you can scale your platform globally and offer a seamless trading experience to your users.",
+    },
+    {
+      question: "How can a professional crypto exchange software developer help my business grow?",
+      answer:
+        "A skilled crypto exchange software developer will help you create a tailored platform that meets your specific business requirements. From designing user-friendly interfaces to integrating advanced features like payment gateways, market data, and reports, an expert can ensure your exchange system is optimized for success, allowing you to focus on expanding your user base.",
+    },
+    {
+      question: "What is the cost of crypto exchange software development and its features?",
+      answer:
+        "The cost of crypto exchange software development depends on various factors such as the features you require, the complexity of the system, and customization needs. To get an accurate quote, we recommend discussing your requirements with our team. We offer cost-effective solutions tailored to your business goals.",
+    },
+    {
+      question: "Can your crypto exchange software be integrated with other tools and platforms?",
+      answer:
+        "Yes, our crypto exchange software is highly customizable and can be integrated with other tools and platforms such as wallet systems, CRM software, and payment gateways. Integration helps streamline your operations, improve data sharing, and provide a seamless experience for your users.",
+    },
+    {
+      question: "Do you provide post-launch support for crypto exchange software?",
+      answer:
+        "Yes, we offer comprehensive post-launch support to ensure your crypto exchange platform runs smoothly. From troubleshooting issues to implementing updates, our team is available to provide ongoing assistance and ensure the success of your exchange.",
+    },
+  ];
+  
 
 
 const CryptoExchangeDeveloper = () => {
@@ -377,68 +408,7 @@ const CryptoExchangeDeveloper = () => {
                         </Row>
                     </Container>
                 </section>
-
-                <section className="smart_accordian-section mt-5">
-                    <Container>
-                        <div className="sec_title text-center">
-                            <h2>Frequently Asked Questions (FAQs) About Crypto Exchange Software Development</h2>
-                        </div>
-                        <div className="accourdian my-3 py-5">
-                            <Accordion>
-                                <Accordion.Item eventKey="0" className="accordian-item item">
-                                    <Accordion.Header className="bg-transparent">
-                                        Why should I choose Crypto Exchange Software for my business?
-                                    </Accordion.Header>
-                                    <Accordion.Body className='bg-dark'>
-                                        <p className='text-white'>
-                                            Crypto exchange software is designed to streamline the management of cryptocurrency transactions, user wallets, and market data. It automates the process of buying, selling, and trading cryptocurrencies, improving efficiency and security. By investing in custom crypto exchange software, you can scale your platform globally and offer a seamless trading experience to your users.
-                                        </p>
-                                    </Accordion.Body>
-                                </Accordion.Item>
-                                <Accordion.Item eventKey="1" className="accordian-item item2">
-                                    <Accordion.Header className="bg-transparent">
-                                        How can a professional crypto exchange software developer help my business grow?
-                                    </Accordion.Header>
-                                    <Accordion.Body className='bg-dark'>
-                                        <p className='text-white'>
-                                            A skilled crypto exchange software developer will help you create a tailored platform that meets your specific business requirements. From designing user-friendly interfaces to integrating advanced features like payment gateways, market data, and reports, an expert can ensure your exchange system is optimized for success, allowing you to focus on expanding your user base.
-                                        </p>
-                                    </Accordion.Body>
-                                </Accordion.Item>
-                                <Accordion.Item eventKey="2" className="accordian-item item3">
-                                    <Accordion.Header className="bg-transparent">
-                                        What is the cost of crypto exchange software development and its features?
-                                    </Accordion.Header>
-                                    <Accordion.Body className='bg-dark'>
-                                        <p className='text-white'>
-                                            The cost of crypto exchange software development depends on various factors such as the features you require, the complexity of the system, and customization needs. To get an accurate quote, we recommend discussing your requirements with our team. We offer cost-effective solutions tailored to your business goals.
-                                        </p>
-                                    </Accordion.Body>
-                                </Accordion.Item>
-                                <Accordion.Item eventKey="3" className="accordian-item item4">
-                                    <Accordion.Header className="bg-transparent">
-                                        Can your crypto exchange software be integrated with other tools and platforms?
-                                    </Accordion.Header>
-                                    <Accordion.Body className='bg-dark'>
-                                        <p className='text-white'>
-                                            Yes, our crypto exchange software is highly customizable and can be integrated with other tools and platforms such as wallet systems, CRM software, and payment gateways. Integration helps streamline your operations, improve data sharing, and provide a seamless experience for your users.
-                                        </p>
-                                    </Accordion.Body>
-                                </Accordion.Item>
-                                <Accordion.Item eventKey="4" className="accordian-item item4">
-                                    <Accordion.Header className="bg-transparent">
-                                        Do you provide post-launch support for crypto exchange software?
-                                    </Accordion.Header>
-                                    <Accordion.Body className='bg-dark'>
-                                        <p className='text-white'>
-                                            Yes, we offer comprehensive post-launch support to ensure your crypto exchange platform runs smoothly. From troubleshooting issues to implementing updates, our team is available to provide ongoing assistance and ensure the success of your exchange.
-                                        </p>
-                                    </Accordion.Body>
-                                </Accordion.Item>
-                            </Accordion>
-                        </div>
-                    </Container>
-                </section>
+               <FAQAccordion title="Frequently Asked Questions (FAQs) About Crypto Exchange Software Development" faqs={faqData}/>
             </main>
 
         </>

@@ -1,5 +1,5 @@
-import { Container, Row, Col, Accordion } from 'react-bootstrap';
-import { FaSearch, FaBullseye, FaMugHot, FaRocket, FaWhatsapp, FaEnvelopeOpenText, FaSkype, FaShopify, FaShieldAlt, FaQuestionCircle } from "react-icons/fa";
+import { Container, Row, Col } from 'react-bootstrap';
+import { FaSearch, FaBullseye, FaMugHot, FaRocket, FaShopify, FaShieldAlt, FaQuestionCircle } from "react-icons/fa";
 import shopifyImg from '../../Images/shopifyImg1.webp'
 import reviewGoogle from '../../Images/review_google.webp'
 import GoodFirms from '../../Images/GoodFirms.webp'
@@ -17,7 +17,36 @@ import { GrSupport } from 'react-icons/gr';
 import { IoIosStopwatch } from 'react-icons/io';
 import Meta_Component from '../Meta_Component/Meta_Component';
 import PortfolioItem from '../PortfolioItem/PortfolioItem';
+import FAQAccordion from '../../accordian/FAQAccordion'
 
+const faqData = [
+    {
+      question: "Why should I choose MLM Software for my business?",
+      answer:
+        "MLM software is designed to streamline the management of network marketing businesses. It offers automated solutions for managing members, commissions, payouts, and downlines, ensuring a smooth and efficient operation. By investing in custom MLM software, you can scale your business globally, improve transparency, and reduce administrative work.",
+    },
+    {
+      question: "How can a professional MLM software developer help my business grow?",
+      answer:
+        "A skilled MLM software developer will help you create a tailored MLM system that meets your specific business requirements. From designing user-friendly interfaces to integrating advanced features like payment gateways, lead management, and reports, an expert can ensure your MLM system is optimized for success, allowing you to focus on growing your network.",
+    },
+    {
+      question: "What is the cost of MLM software development and its features?",
+      answer:
+        "The cost of MLM software development depends on various factors such as the features you require, the complexity of the system, and customization needs. To get an accurate quote, we recommend discussing your requirements with our team. We offer cost-effective solutions tailored to your business goals.",
+    },
+    {
+      question: "Can your MLM software be integrated with other tools and platforms?",
+      answer:
+        "Yes, our MLM software is highly customizable and can be integrated with other tools and platforms such as CRM systems, email marketing software, and payment gateways. Integration helps streamline your operations, improve data sharing, and provide a seamless experience for your users.",
+    },
+    {
+      question: "Do you provide post-launch support for MLM software?",
+      answer:
+        "Yes, we offer comprehensive post-launch support to ensure your MLM software runs smoothly. From troubleshooting issues to implementing updates, our team is available to provide ongoing assistance and ensure the success of your MLM platform.",
+    },
+  ];
+  
 
 const MlmDeveloper = () => {
     return (
@@ -37,7 +66,6 @@ const MlmDeveloper = () => {
                             <Col xm={7} sm={12} lg={7} md={6}>
                                 <div className="bannerAreaTop">
                                     <div className="logoArea pb-4">
-                                        {/* <img src={shopifyImg} className="img-fluid w-25" alt="MLM_Logo" /> */}
                                     </div>
                                     <div className='bannerAreaTop_content'>
                                         <h1 className="h1 mb-5 text-white">The Best <span className='fw-bold' style={{ color: '#ffbf0b' }}>MLM</span> Software Developers in Chandigarh!</h1>
@@ -378,70 +406,7 @@ const MlmDeveloper = () => {
                         </Row>
                     </Container>
                 </section>
-
-
-                <section className="smart_accordian-section mt-5">
-                    <Container>
-                        <div className="sec_title text-center">
-                            <h2>Frequently Asked Questions (FAQs) About MLM Software Development</h2>
-                        </div>
-                        <div className="accourdian my-3 py-5">
-                            <Accordion>
-                                <Accordion.Item eventKey="0" className="accordian-item item">
-                                    <Accordion.Header className="bg-transparent">
-                                        Why should I choose MLM Software for my business?
-                                    </Accordion.Header>
-                                    <Accordion.Body className='bg-dark'>
-                                        <p className='text-white'>
-                                            MLM software is designed to streamline the management of network marketing businesses. It offers automated solutions for managing members, commissions, payouts, and downlines, ensuring a smooth and efficient operation. By investing in custom MLM software, you can scale your business globally, improve transparency, and reduce administrative work.
-                                        </p>
-                                    </Accordion.Body>
-                                </Accordion.Item>
-                                <Accordion.Item eventKey="1" className="accordian-item item2">
-                                    <Accordion.Header className="bg-transparent">
-                                        How can a professional MLM software developer help my business grow?
-                                    </Accordion.Header>
-                                    <Accordion.Body className='bg-dark'>
-                                        <p className='text-white'>
-                                            A skilled MLM software developer will help you create a tailored MLM system that meets your specific business requirements. From designing user-friendly interfaces to integrating advanced features like payment gateways, lead management, and reports, an expert can ensure your MLM system is optimized for success, allowing you to focus on growing your network.
-                                        </p>
-                                    </Accordion.Body>
-                                </Accordion.Item>
-                                <Accordion.Item eventKey="2" className="accordian-item item3">
-                                    <Accordion.Header className="bg-transparent">
-                                        What is the cost of MLM software development and its features?
-                                    </Accordion.Header>
-                                    <Accordion.Body className='bg-dark'>
-                                        <p className='text-white'>
-                                            The cost of MLM software development depends on various factors such as the features you require, the complexity of the system, and customization needs. To get an accurate quote, we recommend discussing your requirements with our team. We offer cost-effective solutions tailored to your business goals.
-                                        </p>
-                                    </Accordion.Body>
-                                </Accordion.Item>
-                                <Accordion.Item eventKey="3" className="accordian-item item4">
-                                    <Accordion.Header className="bg-transparent">
-                                        Can your MLM software be integrated with other tools and platforms?
-                                    </Accordion.Header>
-                                    <Accordion.Body className='bg-dark'>
-                                        <p className='text-white'>
-                                            Yes, our MLM software is highly customizable and can be integrated with other tools and platforms such as CRM systems, email marketing software, and payment gateways. Integration helps streamline your operations, improve data sharing, and provide a seamless experience for your users.
-                                        </p>
-                                    </Accordion.Body>
-                                </Accordion.Item>
-                                <Accordion.Item eventKey="4" className="accordian-item item4">
-                                    <Accordion.Header className="bg-transparent">
-                                        Do you provide post-launch support for MLM software?
-                                    </Accordion.Header>
-                                    <Accordion.Body className='bg-dark'>
-                                        <p className='text-white'>
-                                            Yes, we offer comprehensive post-launch support to ensure your MLM software runs smoothly. From troubleshooting issues to implementing updates, our team is available to provide ongoing assistance and ensure the success of your MLM platform.
-                                        </p>
-                                    </Accordion.Body>
-                                </Accordion.Item>
-                            </Accordion>
-                        </div>
-                    </Container>
-                </section>
-
+                <FAQAccordion title="Frequently Asked Questions (FAQs) About MLM Software Development" faqs={faqData} />
             </main>
         </>
     );

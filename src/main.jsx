@@ -75,7 +75,6 @@ import MLMSoftwareNew from "./Components/BlogPage/MLMSoftwareNew.jsx";
 import HybridMLMSoftware from "./Components/BlogPage/HybridMLMSoftware.jsx";
 import MLMPlanGenerator from "./Components/BlogPage/MLMPlanGenerator.jsx";
 import Web3Development from "./Components/BlogPage/Web3Development.jsx";
-import MultiLevelMarketing from "./Components/BlogPage/MultiLevelMarketing.jsx";
 import NetworkMarketing from "./Components/BlogPage/NetworkMarketing.jsx";
 import CryptocurrencyApp from "./Components/BlogPage/CryptocurrencyApp.jsx";
 import UIUXDesign from "./Components/BlogPage/UIUXDesign.jsx";
@@ -106,7 +105,7 @@ const router = createBrowserRouter([
       { path: "/best-magento-developers-in-chandigarh", element: <Magento_Dev /> },
       { path: "/react-native-developers-chandigarh", element: <React_Native /> },
       { path: "/saas-development", element: <Saas_Dev /> },
-      { path: "/shopify-website-design-company-in-chandigarh", element: <Shopify_Dev /> },
+      { path: "/shopify-development", element: <Shopify_Dev /> },
       { path: "/software-development", element: <Software_Dev /> },
       { path: "/laravel-development", element: <Laravel_Dev /> },
       { path: "/ar-vr-development", element: <Ar_Vr_Dev /> },
@@ -229,10 +228,6 @@ const router = createBrowserRouter([
       {
         path: "/blog/web3-development-future-internet",
         element: <Web3Development />,
-      },
-      {
-        path: "/blog/multi-level-marketing-app-development",
-        element: <MultiLevelMarketing />,
       },
       {
         path: "/blog/network-marketing-software",

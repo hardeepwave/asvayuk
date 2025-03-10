@@ -1,5 +1,5 @@
-import { Container, Row, Col, Accordion } from 'react-bootstrap';
-import { FaSearch, FaBullseye, FaMugHot, FaRocket, FaWhatsapp, FaEnvelopeOpenText, FaSkype, FaShopify, FaShieldAlt, FaQuestionCircle } from "react-icons/fa";
+import { Container, Row, Col } from 'react-bootstrap';
+import { FaSearch, FaBullseye, FaMugHot, FaRocket, FaShopify, FaShieldAlt, FaQuestionCircle } from "react-icons/fa";
 import shopifyImg from '../../Images/shopifyImg1.webp'
 import reviewGoogle from '../../Images/review_google.webp'
 import GoodFirms from '../../Images/GoodFirms.webp'
@@ -17,6 +17,37 @@ import { GrSupport } from 'react-icons/gr';
 import { IoIosStopwatch } from 'react-icons/io';
 import Meta_Component from '../Meta_Component/Meta_Component';
 import PortfolioItem from '../PortfolioItem/PortfolioItem';
+import FAQAccordion from '../../accordian/FAQAccordion'
+
+
+const faqData = [
+    {
+      question: "Why should I choose Smart Contracts for my business in Chandigarh?",
+      answer:
+        "Smart contracts allow for secure, automated, and transparent transactions. With no intermediaries, these self-executing contracts ensure greater efficiency, reduced costs, and increased trust, especially in industries like finance, real estate, and supply chain management in Chandigarh.",
+    },
+    {
+      question: "How can a professional smart contract developer help my business in Chandigarh?",
+      answer:
+        "A skilled smart contract developer can help you integrate blockchain solutions into your business processes, optimizing contracts, automating workflows, and ensuring security and scalability for your applications in Chandigarh.",
+    },
+    {
+      question: "What is the cost of smart contract development in Chandigarh?",
+      answer:
+        "The cost of smart contract development depends on the complexity, features, and blockchain network required. Reach out to us for a customized quote based on your specific requirements in Chandigarh.",
+    },
+    {
+      question: "Can my smart contract be integrated with existing systems in Chandigarh?",
+      answer:
+        "Yes, we offer smart contract solutions that can be seamlessly integrated with existing business systems, APIs, and legacy platforms in Chandigarh to enhance functionality and streamline operations.",
+    },
+    {
+      question: "Do you provide post-launch support for smart contracts in Chandigarh?",
+      answer:
+        "Absolutely! We provide comprehensive post-launch support, including maintenance, security updates, and troubleshooting, ensuring your smart contracts remain secure and efficient in the long term.",
+    },
+  ];
+  
 
 const SmartContract = () => {
     return (
@@ -35,7 +66,6 @@ const SmartContract = () => {
                             <Col xm={7} sm={12} lg={7} md={6}>
                                 <div className="bannerAreaTop">
                                     <div className="logoArea pb-4">
-                                        {/* <img src={shopifyImg} className="img-fluid w-25" alt="Blockchain_Logo" /> */}
                                     </div>
                                     <div className='bannerAreaTop_content'>
                                         <h1 className="h1 mb-5 text-white">Hire the Best <span className='fw-bold' style={{ color: '#ffbf0b' }}>Smart Contract Developers</span> in Chandigarh!</h1>
@@ -381,69 +411,7 @@ const SmartContract = () => {
                         </Row>
                     </Container>
                 </section>
-
-
-                <section className="smart_accordian-section mt-5">
-                    <Container>
-                        <div className="sec_title text-center">
-                            <h2>Frequently Asked Questions (FAQs) About Smart Contract Development in Chandigarh</h2>
-                        </div>
-                        <div className="accourdian my-3 py-5">
-                            <Accordion>
-                                <Accordion.Item eventKey="0" className="accordian-item item">
-                                    <Accordion.Header className="bg-transparent">
-                                        Why should I choose Smart Contracts for my business in Chandigarh?
-                                    </Accordion.Header>
-                                    <Accordion.Body className="bg-dark">
-                                        <p className="text-white">
-                                            Smart contracts allow for secure, automated, and transparent transactions. With no intermediaries, these self-executing contracts ensure greater efficiency, reduced costs, and increased trust, especially in industries like finance, real estate, and supply chain management in Chandigarh.
-                                        </p>
-                                    </Accordion.Body>
-                                </Accordion.Item>
-                                <Accordion.Item eventKey="1" className="accordian-item item2">
-                                    <Accordion.Header className="bg-transparent">
-                                        How can a professional smart contract developer help my business in Chandigarh?
-                                    </Accordion.Header>
-                                    <Accordion.Body className="bg-dark">
-                                        <p className="text-white">
-                                            A skilled smart contract developer can help you integrate blockchain solutions into your business processes, optimizing contracts, automating workflows, and ensuring security and scalability for your applications in Chandigarh.
-                                        </p>
-                                    </Accordion.Body>
-                                </Accordion.Item>
-                                <Accordion.Item eventKey="2" className="accordian-item item3">
-                                    <Accordion.Header className="bg-transparent">
-                                        What is the cost of smart contract development in Chandigarh?
-                                    </Accordion.Header>
-                                    <Accordion.Body className="bg-dark">
-                                        <p className="text-white">
-                                            The cost of smart contract development depends on the complexity, features, and blockchain network required. Reach out to us for a customized quote based on your specific requirements in Chandigarh.
-                                        </p>
-                                    </Accordion.Body>
-                                </Accordion.Item>
-                                <Accordion.Item eventKey="3" className="accordian-item item4">
-                                    <Accordion.Header className="bg-transparent">
-                                        Can my smart contract be integrated with existing systems in Chandigarh?
-                                    </Accordion.Header>
-                                    <Accordion.Body className="bg-dark">
-                                        <p className="text-white">
-                                            Yes, we offer smart contract solutions that can be seamlessly integrated with existing business systems, APIs, and legacy platforms in Chandigarh to enhance functionality and streamline operations.
-                                        </p>
-                                    </Accordion.Body>
-                                </Accordion.Item>
-                                <Accordion.Item eventKey="4" className="accordian-item item4">
-                                    <Accordion.Header className="bg-transparent">
-                                        Do you provide post-launch support for smart contracts in Chandigarh?
-                                    </Accordion.Header>
-                                    <Accordion.Body className="bg-dark">
-                                        <p className="text-white">
-                                            Absolutely! We provide comprehensive post-launch support, including maintenance, security updates, and troubleshooting, ensuring your smart contracts remain secure and efficient in the long term.
-                                        </p>
-                                    </Accordion.Body>
-                                </Accordion.Item>
-                            </Accordion>
-                        </div>
-                    </Container>
-                </section>
+                 <FAQAccordion title="Frequently Asked Questions (FAQs) About MLM Software Development" faqs={faqData} />
             </main>
         </>
     )

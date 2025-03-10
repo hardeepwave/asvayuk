@@ -1,6 +1,5 @@
-import { Container, Row, Col, Accordion } from 'react-bootstrap';
-import { FaSearch, FaBullseye, FaMugHot, FaRocket, FaWhatsapp, FaEnvelopeOpenText, FaSkype, FaShopify, FaShieldAlt, FaQuestionCircle } from "react-icons/fa";
-import shopifyImg from '../../Images/shopifyImg1.webp'
+import { Container, Row, Col } from 'react-bootstrap';
+import { FaSearch, FaBullseye, FaMugHot, FaRocket, FaShopify, FaShieldAlt, FaQuestionCircle } from "react-icons/fa";
 import reviewGoogle from '../../Images/review_google.webp'
 import GoodFirms from '../../Images/GoodFirms.webp'
 import Glassdoor from '../../Images/Glassdoor.webp'
@@ -17,6 +16,37 @@ import { GrSupport } from 'react-icons/gr';
 import { IoIosStopwatch } from 'react-icons/io';
 import Meta_Component from '../Meta_Component/Meta_Component';
 import PortfolioItem from '../PortfolioItem/PortfolioItem';
+import FAQAccordion from '../../accordian/FAQAccordion';
+
+
+const faqData = [
+    {
+      question: "Why should I choose Blockchain Software for my business?",
+      answer:
+        "Blockchain technology can enhance your business’s security, transparency, and efficiency by decentralizing data management. It provides a secure and tamper-proof system for transactions, ideal for industries like finance, healthcare, and logistics.",
+    },
+    {
+      question: "How can a professional blockchain developer help my business grow?",
+      answer:
+        "A professional blockchain developer can guide you through integrating blockchain technology into your business model, optimizing the process, and enhancing user experience. Whether creating smart contracts, custom tokens, or secure transaction systems, an expert will ensure scalability and security.",
+    },
+    {
+      question: "What is the cost of blockchain software development and its features?",
+      answer:
+        "The cost of blockchain software development varies based on features like smart contract integration, consensus mechanism, security protocols, and scalability. Contact us for a personalized quote tailored to your needs.",
+    },
+    {
+      question: "Can your blockchain software be integrated with other tools and platforms?",
+      answer:
+        "Yes, our blockchain solutions can integrate with other tools and platforms such as payment systems, third-party APIs, and legacy applications to provide a seamless experience and enhanced functionality.",
+    },
+    {
+      question: "Do you provide post-launch support for blockchain software?",
+      answer:
+        "Yes, we offer full post-launch support to ensure the ongoing performance, security, and updates for your blockchain system. Our team ensures everything runs smoothly even after the launch.",
+    },
+  ];
+  
 
 const BlockchainDeveloper = () => {
     return (
@@ -35,7 +65,6 @@ const BlockchainDeveloper = () => {
                             <Col xm={7} sm={12} lg={7} md={6}>
                                 <div className="bannerAreaTop">
                                     <div className="logoArea pb-4">
-                                        {/* <img src={shopifyImg} className="img-fluid w-25" alt="Blockchain_Logo" /> */}
                                     </div>
                                     <div className='bannerAreaTop_content'>
                                         <h1 className="h1 mb-5 text-white">The Best <span className='fw-bold' style={{ color: '#ffbf0b' }}>Blockchain Developers</span> in Chandigarh!</h1>
@@ -380,71 +409,8 @@ const BlockchainDeveloper = () => {
                         </Row>
                     </Container>
                 </section>
-
-
-                <section className="smart_accordian-section mt-5">
-                    <Container>
-                        <div className="sec_title text-center">
-                            <h2>Frequently Asked Questions (FAQs) About Blockchain Development</h2>
-                        </div>
-                        <div className="accourdian my-3 py-5">
-                            <Accordion>
-                                <Accordion.Item eventKey="0" className="accordian-item item">
-                                    <Accordion.Header className="bg-transparent">
-                                        Why should I choose Blockchain Software for my business?
-                                    </Accordion.Header>
-                                    <Accordion.Body className='bg-dark'>
-                                        <p className='text-white'>
-                                            Blockchain technology can enhance your business’s security, transparency, and efficiency by decentralizing data management. It provides a secure and tamper-proof system for transactions, ideal for industries like finance, healthcare, and logistics.
-                                        </p>
-                                    </Accordion.Body>
-                                </Accordion.Item>
-                                <Accordion.Item eventKey="1" className="accordian-item item2">
-                                    <Accordion.Header className="bg-transparent">
-                                        How can a professional blockchain developer help my business grow?
-                                    </Accordion.Header>
-                                    <Accordion.Body className='bg-dark'>
-                                        <p className='text-white'>
-                                            A professional blockchain developer can guide you through integrating blockchain technology into your business model, optimizing the process, and enhancing user experience. Whether creating smart contracts, custom tokens, or secure transaction systems, an expert will ensure scalability and security.
-                                        </p>
-                                    </Accordion.Body>
-                                </Accordion.Item>
-                                <Accordion.Item eventKey="2" className="accordian-item item3">
-                                    <Accordion.Header className="bg-transparent">
-                                        What is the cost of blockchain software development and its features?
-                                    </Accordion.Header>
-                                    <Accordion.Body className='bg-dark'>
-                                        <p className='text-white'>
-                                            The cost of blockchain software development varies based on features like smart contract integration, consensus mechanism, security protocols, and scalability. Contact us for a personalized quote tailored to your needs.
-                                        </p>
-                                    </Accordion.Body>
-                                </Accordion.Item>
-                                <Accordion.Item eventKey="3" className="accordian-item item4">
-                                    <Accordion.Header className="bg-transparent">
-                                        Can your blockchain software be integrated with other tools and platforms?
-                                    </Accordion.Header>
-                                    <Accordion.Body className='bg-dark'>
-                                        <p className='text-white'>
-                                            Yes, our blockchain solutions can integrate with other tools and platforms such as payment systems, third-party APIs, and legacy applications to provide a seamless experience and enhanced functionality.
-                                        </p>
-                                    </Accordion.Body>
-                                </Accordion.Item>
-                                <Accordion.Item eventKey="4" className="accordian-item item4">
-                                    <Accordion.Header className="bg-transparent">
-                                        Do you provide post-launch support for blockchain software?
-                                    </Accordion.Header>
-                                    <Accordion.Body className='bg-dark'>
-                                        <p className='text-white'>
-                                            Yes, we offer full post-launch support to ensure the ongoing performance, security, and updates for your blockchain system. Our team ensures everything runs smoothly even after the launch.
-                                        </p>
-                                    </Accordion.Body>
-                                </Accordion.Item>
-                            </Accordion>
-                        </div>
-                    </Container>
-                </section>
+             <FAQAccordion title="Frequently Asked Questions (FAQs) About Blockchain Development" faqs={faqData} />
             </main>
-
         </>
     )
 }

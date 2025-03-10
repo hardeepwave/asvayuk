@@ -261,21 +261,6 @@ function Blog() {
                                             />
                                         </Link>
                                     </Col>
-
-                                    <Col lg={6} md={6} sm={12} xs={12} className="pb-4">
-                                        <Link to="/blog/multi-level-marketing-app-development">
-                                            <CardBlog
-                                                singleBlogImg={MLMAppImage}
-                                                time="12 Dec 2024"
-                                                blogTitle="Multi-level marketing app development: A comprehensive guide By Asvayuk Technologies"
-                                                blogPara="Develop powerful MLM apps to optimize marketing processes and increase sales."
-                                                CommentNum="0"
-                                                viwer="180"
-                                                urlSingleBlog="/blog/multi-level-marketing-app-development"
-                                            />
-                                        </Link>
-                                    </Col>
-
                                     <Col lg={6} md={6} sm={12} xs={12} className="pb-4">
                                         <Link to="/blog/network-marketing-software">
                                             <CardBlog
