@@ -57,7 +57,7 @@ const ShopifyDeveloper = () => {
                 canonical="https://asvayuktech.com/best-shopify-developer-chandigarh"
             />
             <main>
-                <section className='bannerMlm shopifyImageBg'>
+                <section className='bannerMlm shopifyImageBg' aria-label='Shopify development services in Chandigarh'>
                     <Container>
                         <Row className='align-items-center'>
                             <Col xm={7} sm={12} lg={7} md={6}>
@@ -77,13 +77,13 @@ const ShopifyDeveloper = () => {
                                     </div>
                                     <div className="review_section mb-5">
                                         <div className="review_img">
-                                            <img src={reviewGoogle} alt="google" />
+                                            <img src={reviewGoogle} alt="Shopify Website Development Chandigarh" />
                                         </div>
                                         <div className="review_img mx-2">
-                                            <img src={GoodFirms} alt="good firms" />
+                                            <img src={GoodFirms} alt="Shopify Web Development in Chandigarh" />
                                         </div>
                                         <div className="review_img">
-                                            <img src={Glassdoor} alt="glassdoor" />
+                                            <img src={Glassdoor} alt="Shopify Development Company Chandigarh" />
                                         </div>
                                     </div>
                                     <div className="lst_text_banner">
@@ -132,7 +132,7 @@ const ShopifyDeveloper = () => {
                     </Container>
                 </section>
 
-                <section>
+                <section aria-label='Shopify development agency in chandigarh'>
                     <div className="container-fluid" style={{ position: 'relative', backgroundColor: '#2acda814' }}>
                         <div className="">
                             <div className="animation_section">
@@ -147,7 +147,7 @@ const ShopifyDeveloper = () => {
                     </div>
                 </section>
 
-                <section>
+                <section aria-label='Shopify website provider chandigarh'>
                     <div className="project-count-sec top_style" style={{ paddingBottom: '120px', paddingTop: '50px' }}>
                         <div className="container">
                             <div className="row">
@@ -170,7 +170,7 @@ const ShopifyDeveloper = () => {
                     </div>
                 </section>
 
-                <section className="section-box " id="feature">
+                <section className="section-box " id="feature" aria-label='Shopify development store near chandigarh'>
                     <div className="container">
                         <div className="row align-items-center">
                             <div className="col-lg-6 col-md-6 col-sm-12 ">
@@ -179,7 +179,7 @@ const ShopifyDeveloper = () => {
                                     <p className="my-3">When it comes to Shopify website development in Chandigarh, Asvayuk Technologies stands out as a trusted provider. We offer comprehensive Shopify development services in Chandigarh, from initial design to ongoing store maintenance. Whether you need a custom Shopify store, theme modifications, or app integrations, our Shopify development agency in Chandigarh has the expertise to deliver it all. We understand that every business is unique, and that’s why we provide tailored Shopify development solutions that align with your business goals.</p>
                                 </div>
                                 <div className="my-5">
-                                    <a className="blue_btn " href="#">Hire Shopify Developers!
+                                    <a className="blue_btn" href="#">Hire Shopify Developers!
 
                                         <i className="bi bi-chevron-right"></i>
                                     </a>
@@ -187,7 +187,7 @@ const ShopifyDeveloper = () => {
                             </div>
                             <div className="col-lg-6 col-md-6 col-sm-12">
                                 <div>
-                                    <img src={shopifystoreapp} alt="Shopify" className="img-fluid" />
+                                    <img src={shopifystoreapp} alt="Shopify website design company in Chandigarh" className="img-fluid" />
                                 </div>
                             </div>
                         </div>
@@ -195,7 +195,7 @@ const ShopifyDeveloper = () => {
                     </div>
                 </section>
 
-                <section className="section-box " id="feature">
+                <section className="section-box " id="feature" aria-label='Shopify web developers in Chandigarh'>
                     <div className="container">
                         <div className="section-title">
                             <h2 className="font_36 font_weight_semi_bold text-capitalize mb-0 color_242424">What Features Do We Offer?</h2>
@@ -246,11 +246,11 @@ const ShopifyDeveloper = () => {
                     </div>
                 </section>
 
-                <section className="section-box col-12 pl-0 pr-0" id="image-with-text">
+                <section className="section-box col-12 pl-0 pr-0" id="image-with-text" aria-label='Shopify website development Mohali'>
                     <div className="container">
                         <div className="row d-flex align-items-center flex-wrap">
                             <div className='col-lg-6'>
-                                <img alt="shopify_img" className="img-fluid" src={wshopify} />
+                                <img alt="Shopify website development Mohali" className="img-fluid" src={wshopify} />
                             </div>
                             <div className="col-lg-6">
                                 <div className="section-title">
@@ -276,7 +276,7 @@ const ShopifyDeveloper = () => {
                     </div>
                 </section>
 
-                <section className="section-box col-12 pl-0 pr-0" id="services">
+                <section className="section-box col-12 pl-0 pr-0" id="services" aria-label='Shopify web development experts Chandigarh'>
                     <div className="container">
                         <div className="section-title">
                             <h2 className="font_36 font_weight_semi_bold text-capitalize mb-0 color_242424">Our Shopify Website Development Services in Chandigarh</h2>
@@ -351,7 +351,7 @@ const ShopifyDeveloper = () => {
                     </div>
                 </section>
 
-                <section className="section-box col-12 pl-0 pr-0" id="portfolio">
+                <section className="section-box col-12 pl-0 pr-0" id="portfolio" aria-label='Shopify development services in Chandigarh'>
                     <div className="container">
                         <div className="section-title">
                             <h2 className="font_36 font_weight_semi_bold text-capitalize mb-0 color_242424">Our Work</h2>
@@ -380,11 +380,11 @@ const ShopifyDeveloper = () => {
                     </div>
                 </section>
 
-                <section className="section-box333 col-12 pl-0 pr-0" id="image-with-text">
+                <section className="section-box333 col-12 pl-0 pr-0" id="image-with-text" aria-label='Shopify development agency in chandigarh'>
                     <div className="container">
                         <div className="row d-flex align-items-center flex-wrap">
                             <div className='col-lg-6'>
-                                <img alt="shopify_img" className="img-fluid" src={banShopSml} />
+                                <img alt="Top Shopify Development Companies in Chandigarh" className="img-fluid" src={banShopSml} />
                             </div>
                             <div className="col-lg-6">
                                 <div className="section-title">
@@ -402,7 +402,7 @@ const ShopifyDeveloper = () => {
                     </div>
                 </section>
 
-                <section className="section-box col-12 pl-0 pr-0 bg_f8f8ff mt-3" id="our_work">
+                <section className="section-box col-12 pl-0 pr-0 bg_f8f8ff mt-3" id="our_work" aria-label='Shopify development store near chandigarh'>
                     <Container>
                         <div className="section-title mt-2">
                             <h2 className="font_36 font_weight_semi_bold text-capitalize mb-0 color_242424">

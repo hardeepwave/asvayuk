@@ -1,5 +1,4 @@
 import React from 'react'
-import { useState, useEffect, useRef } from "react";
 import { Breadcrumb, Col, Container, Row } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import BannerButton from '../BannerBtn/BannerButton'
@@ -69,26 +68,6 @@ const faqData = [
   
 
 const ECommerce = () => {
-
-    const [activeKey, setActiveKey] = useState(null); 
-        const accordionRef = useRef(null);
-      
-        useEffect(() => {
-          const handleClickOutside = (event) => {
-            if (
-              accordionRef.current &&
-              !accordionRef.current.contains(event.target)
-            ) {
-              setActiveKey(null);
-            }
-          };
-      
-          document.addEventListener("mousedown", handleClickOutside);
-      
-          return () => {
-            document.removeEventListener("mousedown", handleClickOutside);
-          };
-        }, []);
 
     return (
         <>

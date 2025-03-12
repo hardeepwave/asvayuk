@@ -1,5 +1,6 @@
 import BannerButton from '../BannerBtn/BannerButton'
 import './Service.css'
+import "swiper/css";
 import { Breadcrumb, Col, Container, Row } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import banners_14 from '../../Images/banners-14.webp'
@@ -20,26 +21,53 @@ import kriLogo from '../../Images/kri_logo.webp';
 import kreLogo from '../../Images/kre.webp';
 import caseStu5 from '../../Images/caseStu5.webp';
 import caseStu6 from '../../Images/caseStu6.webp';
-
 import Experience from '../HomePage/Experience'
 import KeyPointSection from '../ServicesPage/KeyPointSection'
-
-import "swiper/css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { FaArrowRightLong } from 'react-icons/fa6'
 import { Autoplay, Navigation } from 'swiper/modules'
 import Meta_Component from '../Meta_Component/Meta_Component'
+import FAQAccordion from '../../accordian/FAQAccordion';
+
+const faqData = [
+    {
+      question: "Why Choose Asvayuk Technologies Private Ltd. for Digital Marketing Services in Chandigarh?",
+      answer: "We are among the Top 10 Digital Marketing Companies in Chandigarh, offering data-driven strategies with proven results. Our customized approach ensures your business gets the best ROI."
+    },
+    {
+      question: "How Does SEO Help My Business?",
+      answer: "SEO enhances your website’s ranking on search engines, making it easier for customers to find you. Our Best SEO company in Chandigarh ensures higher traffic and increased sales."
+    },
+    {
+      question: "What is the Cost of Digital Marketing Services in Chandigarh?",
+      answer: "The cost depends on your business goals and the services you choose. Contact us for a free consultation and customized pricing."
+    },
+    {
+      question: "How Long Does It Take to See Results?",
+      answer: "SEO results take time (typically 3-6 months), while PPC and social media ads offer instant visibility."
+    },
+    {
+      question: "Can You Handle Social Media Marketing for My Business?",
+      answer: "Yes, our social media marketing in Chandigarh services include strategy planning, content creation, and ad management for platforms like Facebook, Instagram, and LinkedIn."
+    },
+    {
+      question: "What Industries Do You Serve?",
+      answer: "We cater to e-commerce, healthcare, real estate, education, hospitality, and more."
+    }
+  ];
+  
+
 const Performance = () => {
     return (
         <>
             <Meta_Component
-                title="Performance Marketing Services for Growth: Asvayuk Technologies"
-                description="Elevate your brand with Asvayuk Technologies' performance marketing services. Drive results and maximize ROI with our data-driven strategies."
-                canonical="https://asvayuktech.com/performance-marketing"
+                title="Digital marketing services in Chandigarh"
+                description="Get result-driven Digital Marketing Services in Chandigarh with SEO, PPC, and SMM. Boost your online presence with Asvayuk Technologies!"
+                canonical="https://asvayuktech.com/digital-marketing-services-in-chandigarh"
             />
 
             <main>
-                <section className="performance_card1">
+                <section className="performance_card1" aria-label='Social media marketing in Chandigarh'>
                     <Container>
                         <Row>
                             <Col lg={6} md={6} className='col-12 pt-2'>
@@ -49,54 +77,55 @@ const Performance = () => {
                                     <Breadcrumb.Item active>Performance Marketing</Breadcrumb.Item>
                                 </Breadcrumb>
                                 <div className="peformance_section_top-heading perTitle mt-3">
-                                    <h2>
-                                        Enhance Your Company's Development Through Advanced Performance
-                                        Marketing.
+                                    <h2 className='py-3'>
+                                         Digital Marketing Services<br/> in Chandigarh
                                     </h2>
-                                    <p>
-                                        Amplify your brand’s digital strategy, generate more leads, and
-                                        supercharge your sales with Asvayuk Technologies's cutting-edge
-                                        performance marketing solutions and expert guidance.
+                                    <p className='mt-0'>
+                                        Asvayuk Technologies Private Ltd. offers top-notch digital marketing services in Chandigarh, helping businesses thrive in the digital world.
+                                        Whether you are a startup or an established company, our customized strategies will boost your online visibility, increase leads,
+                                        and enhance your brand reputation.
                                     </p>
-                                    <BannerButton btnTitle='Free Consultation' url='/contact-us' />
+                                    <div className='pt-2'>
+                                    <BannerButton btnTitle='Free Consultation' url='/contact-us'/>
+                                    </div>
+                                    
                                 </div>
                             </Col>
                             <Col lg={6} md={6} className='col-12'>
                                 <div className="peformance_card1_right-sec">
-                                    <img src={banners_14} />
+                                    <img src={banners_14} alt='Digital marketing services in Chandigarh'/>
                                 </div>
                             </Col>
                         </Row>
                     </Container>
                 </section>
 
-                <section className="performance_card2">
+                <section className="performance_card2" aria-label='Digital marketing experts in Chandigarh'>
                     <div className="container">
                         <div className="col-12">
                             <div className="peformance_card2_heading text-center">
-                                <h2>Our Performance Marketing Services</h2>
-                                <p className="mt-3">Asvayuk Technologies offers state-of-the-art performance marketing solutions and professional advice that will help you boost your brand's digital strategy, increase lead generation, and increase sales.</p>
+                                <h2>Our Digital Marketing Services in Chandigarh</h2>
+                                <p className="mt-3">We offer a comprehensive range of services to cater to your online marketing needs :</p>
                             </div>
                             <div className="performance_card2_inner-sec mt-5">
                                 <div className="row">
-                                    <div className="col-lg-4 pb-4">
-                                        <ServicesCard ServiceCardImg={c11} cardHeading='Lead Generation' cardParaGraph='Strategic approaches to attract, engage, and convert leads into loyal customers, driving business growth.' />
+                                    <div className="col-lg-4 pb-4 d-flex">
+                                        <ServicesCard ServiceCardImg={c11} cardHeading='SEO Services Chandigarh (Search Engine Optimization)' cardParaGraph='Want to rank higher on Google? Our Best SEO company in Chandigarh ensures your website appears on the first page of search results. We optimize your website structure, improve page speed, and implement high-quality backlinks to enhance visibility.' />
+                                    </div>
+                                    <div className="col-lg-4 pb-4 d-flex">
+                                        <ServicesCard ServiceCardImg={c12} cardHeading='PPC Service Chandigarh (Pay-Per-Click Advertising)' cardParaGraph='Our PPC service in Chandigarh helps you attract high-intent customers through targeted ads on Google and social media. We manage campaigns effectively, ensuring a high return on investment (ROI).' />
                                     </div>
                                     <div className="col-lg-4 pb-4">
-                                        <ServicesCard ServiceCardImg={c12} cardHeading='Conversion Rate Optimization' cardParaGraph='Fine-tuning your digital presence to increase conversions, transforming visitors into paying customers.' />
+                                        <ServicesCard ServiceCardImg={c13} cardHeading='SMM Service Chandigarh (Social Media Marketing)' cardParaGraph='Leverage the power of social media with our social media marketing in Chandigarh. We create engaging posts, run ad campaigns, and increase your brand’s followers on platforms like Facebook, Instagram, and LinkedIn.' />
                                     </div>
-                                    <div className="col-lg-4 pb-4">
-                                        <ServicesCard ServiceCardImg={c13} cardHeading='Pay-Per-Click (PPC) Advertising' cardParaGraph='Utilizing targeted advertising campaigns to drive qualified traffic and maximize ROI through precise audience targeting.' />
+                                    <div className="col-lg-4 pb-4 d-flex">
+                                        <ServicesCard ServiceCardImg={c14} cardHeading='Content Marketing & Blogging' cardParaGraph='Quality content is a separate role in digital marketing. Our team crafts informative blogs, articles, and website content that establish your authority in your industry.' />
                                     </div>
-                                    <div className="col-lg-4 pb-4">
-                                        <ServicesCard ServiceCardImg={c14} cardHeading='Social Media Advertising' cardParaGraph='Harnessing the power of social platforms to amplify your brands reach engage with your audience and boost conversions.' />
+                                    <div className="col-lg-4 pb-4 d-flex">
+                                        <ServicesCard ServiceCardImg={c16} cardHeading='Online Reputation Management' cardParaGraph='Your brand’s online reputation matters. We monitor and manage customer reviews, ensuring a positive brand image.' />
                                     </div>
-                                    <div className="col-lg-4 pb-4">
-                                        <ServicesCard ServiceCardImg={c15} cardHeading='Email Marketing' cardParaGraph='Creating personalized and engaging email campaigns that resonate with your audience, nurturing leads, and fostering customer loyalty.' />
-                                    </div>
-                                    <div className="col-lg-4 pb-4">
-                                        <ServicesCard ServiceCardImg={c16} cardHeading='Influencer Marketing
-' cardParaGraph='Strategic collaborations with influential personalities to promote your brand, expand your reach, and build credibility.' />
+                                    <div className="col-lg-4 pb-4 d-flex">
+                                        <ServicesCard ServiceCardImg={c15} cardHeading='Email Marketing & Automation' cardParaGraph='Reach out to potential clients through personalized email campaigns. We create compelling emails that drive engagement and conversions' />
                                     </div>
                                 </div>
                             </div>
@@ -105,10 +134,26 @@ const Performance = () => {
                     </div>
                 </section>
 
-                <Experience expTitle='Why Choose Us?' ExpPara='As a leading mobile app development company, Asvayuk Technologies specializes in creating fully-featured mobile apps that bring your digital vision to life. Our dedication to innovation guarantees that your mobile app isnt just a functional tool but a technological masterpiece delivering exceptional user experiences and inspiring customers.' point1='Leading App Pioneers' pointPara1='Drawing on our years of experience, we specialize in transforming ideas into exceptional, user-centric mobile applications.' point2='Craft Engaging Experiences' pointPara2='Our mobile apps are meticulously designed to be visually stunning and deliver a seamless, intuitive user experience.' point3='Global Trust, Local Impact' pointPara3='Combining local insights with global expertise, we ensure seamless technological excellence.' point4='Your App, Our Expertise' pointPara4='Together, we collaborate to create a digital masterpiece that aligns with your goals and exceeds your expectations.' />
-                <KeyPointSection keyHeading="Ignite Your Success with Asvayuk Technologies" keyPara="Experience unparalleled results through our targeted strategies. Gain a competitive edge through precision-targeted strategies that speak directly to your audience." keyPoint1="Tailored Strategies" keyPoint2="Result-driven Approach" keyPoint3="Future Ready Solutions" keyPoint4="Holistic Digital Impact" url="/contact-us" btnTitle="Request Consultation" Group105518={C17} />
+                <Experience 
+                expTitle='Why Choose Our Digital Marketing Services in Chandigarh?' 
+                ExpPara='At Asvayuk Technologies Private Ltd., we understand that every business has unique goals. Our team of digital marketing experts in Chandigarh creates data-driven strategies that ensure measurable results. With years of experience, we have helped businesses across different industries achieve success through SEO, PPC, social media marketing, and content marketing.' 
+                point1='Leading App Pioneers' pointPara1='Drawing on our years of experience, we specialize in transforming ideas into exceptional, user-centric mobile applications.' 
+                point2='Craft Engaging Experiences' pointPara2='Our mobile apps are meticulously designed to be visually stunning and deliver a seamless, intuitive user experience.' 
+                point3='Global Trust, Local Impact' pointPara3='Combining local insights with global expertise, we ensure seamless technological excellence.' 
+                point4='Your App, Our Expertise' pointPara4='Together, we collaborate to create a digital masterpiece that aligns with your goals and exceeds your expectations.' />
 
-                <section className="caseStuides ">
+{/* keyPara="Experience unparalleled results through our targeted strategies. Gain a competitive edge through precision-targeted strategies that speak directly to your audience."  */}
+                <KeyPointSection
+                 keyHeading="Benefits of Our Digital Marketing Services in Chandigarh" 
+                 keyPara="If you are looking for the best digital marketing company in Chandigarh, Asvayuk Technologies Private Ltd. is your one-stop solution. Our expert team ensures your business achieves maximum online visibility and growth." 
+                 keyPoint1="Customized strategies tailored to your business." 
+                 keyPoint2="Increased brand awareness and website traffic." 
+                 keyPoint3="Higher engagement and conversions." 
+                 keyPoint4="100% Guaranteed Digital Marketing Services in Chandigarh for effective results." 
+                 keyPoint5="Expert consultation with a Digital Marketing Consultant in Chandigarh.." 
+                 url="/contact-us" btnTitle="Request Consultation" Group105518={C17} />
+
+                <section className="caseStuides " aria-label='100% guaranteed digital marketing services in Chandigarh.'>
                     <Container>
                         <div className="caseStuides_content pb-4">
                             <Row className='align-items-start'>
@@ -148,7 +193,7 @@ const Performance = () => {
                                         <div className="col-lg-6 col-md-6 col-12 col-sm-12">
                                             <div className="fullcase_details">
                                                 <div className="fullCaseStudy_slider_logo">
-                                                    <img src={CoffeeLogo} alt="" className='slider_bg3_logo' />
+                                                    <img src={CoffeeLogo} alt="best digital marketing company in chandigarh" className='slider_bg3_logo' />
                                                 </div>
                                                 <div className="fullCaseStudy_textContent py-4">
                                                     <h2 className="fw-semibold lh-base">IT TAKES A CREATIVE MIND TO BE IN THE
@@ -174,7 +219,7 @@ const Performance = () => {
                                         </div>
                                         <div className="col-lg-6 col-md-6 col-12 col-sm-12 d-flex justify-content-center justify-content-lg-end justifyconent align-items-center">
                                             <div className="fullCaseStudy_img">
-                                                <img src={caseStu4} alt="" className="w-100" />
+                                                <img src={caseStu4} alt="Top 10 Digital Marketing Companies in Chandigarh" className="w-100" />
                                             </div>
                                         </div>
                                     </div>
@@ -184,7 +229,7 @@ const Performance = () => {
                                         <div className="col-lg-6 col-md-6 col-12 col-sm-12">
                                             <div className="fullcase_details">
                                                 <div className="fullCaseStudy_slider_logo">
-                                                    <img src={moonLight} alt="" />
+                                                    <img src={moonLight} alt="online marketing company in Chandigarh" />
                                                 </div>
                                                 <div className="fullCaseStudy_textContent py-4">
                                                     <h2 className="fw-semibold lh-base">IT TAKES A CREATIVE MIND TO BE IN THE
@@ -210,7 +255,7 @@ const Performance = () => {
                                         </div>
                                         <div className="col-lg-6 col-md-6 col-12 col-sm-12 d-flex justify-content-center justify-content-lg-end justifyconent align-items-center">
                                             <div className="fullCaseStudy_img">
-                                                <img src={caseStu2} alt="" className="w-100" />
+                                                <img src={caseStu2} alt="SEO services Chandigarh" className="w-100" />
                                             </div>
                                         </div>
                                     </div>
@@ -251,7 +296,7 @@ const Performance = () => {
                                         </div>
                                         <div className="col-lg-6 col-md-6 col-12 col-sm-12 d-flex justify-content-center justify-content-lg-end justifyconent align-items-center">
                                             <div className="fullCaseStudy_img">
-                                                <img src={caseStu3} alt="" className="w-100" />
+                                                <img src={caseStu3} alt="PPC service Chandigarh" className="w-100" />
                                             </div>
                                         </div>
                                     </div>
@@ -261,7 +306,7 @@ const Performance = () => {
                                         <div className="col-lg-6 col-md-6 col-12 col-sm-12">
                                             <div className="fullcase_details">
                                                 <div className="fullCaseStudy_slider_logo">
-                                                    <img src={kriLogo} alt="" className='slider_bg3_logo' />
+                                                    <img src={kriLogo} alt="SMM service Chandigarh" className='slider_bg3_logo' />
                                                 </div>
                                                 <div className="fullCaseStudy_textContent py-4">
                                                     <h2 className="fw-semibold lh-base">IT TAKES A CREATIVE MIND TO BE IN THE
@@ -287,7 +332,7 @@ const Performance = () => {
                                         </div>
                                         <div className="col-lg-6 col-md-6 col-12 col-sm-12 d-flex justify-content-center justify-content-lg-end justifyconent align-items-center">
                                             <div className="fullCaseStudy_img">
-                                                <img src={caseStu5} alt="" className="w-100" />
+                                                <img src={caseStu5} alt="Digital Marketing Agency in Chandigarh" className="w-100" />
                                             </div>
                                         </div>
                                     </div>
@@ -297,7 +342,7 @@ const Performance = () => {
                                         <div className="col-lg-6 col-md-6 col-12 col-sm-12">
                                             <div className="fullcase_details">
                                                 <div className="fullCaseStudy_slider_logo">
-                                                    <img src={kreLogo} alt="" className='slider_bg3_logo' />
+                                                    <img src={kreLogo} alt="Digital marketing consultant in Chandigarh" className='slider_bg3_logo' />
                                                 </div>
                                                 <div className="fullCaseStudy_textContent py-4">
                                                     <h2 className="fw-semibold lh-base">IT TAKES A CREATIVE MIND TO BE IN THE
@@ -323,7 +368,7 @@ const Performance = () => {
                                         </div>
                                         <div className="col-lg-6 col-md-6 col-12 col-sm-12 d-flex justify-content-center justify-content-lg-end justifyconent align-items-center">
                                             <div className="fullCaseStudy_img">
-                                                <img src={caseStu6} alt="" className="w-100" />
+                                                <img src={caseStu6} alt="Best SEO company in Chandigarh" className="w-100" />
                                             </div>
                                         </div>
                                     </div>
@@ -333,6 +378,7 @@ const Performance = () => {
                     </section>
 
                 </section>
+                <FAQAccordion title='FAQs on Digital Marketing' faqs={faqData}/>
             </main>
 
         </>

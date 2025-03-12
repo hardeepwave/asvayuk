@@ -138,7 +138,7 @@ export default function Header() {
                                       Saas Development
                                     </Link>
                                     <Link
-                                      to="/laravel-development"
+                                      to="/laravel-development-company-in-chandigarh"
                                       onClick={handleMegaMenuLinkClick}
                                     >
                                       Laravel Development
@@ -216,7 +216,7 @@ export default function Header() {
                                 <Col lg={4}>
                                   <div className="tab-menus tab_menu_top d-flex flex-column gap-4">
                                     <Link
-                                      to="/performance-marketing"
+                                      to="/digital-marketing-services-in-chandigarh"
                                       onClick={handleMegaMenuLinkClick}
                                     >
                                       Performance Marketing
@@ -550,7 +550,7 @@ export default function Header() {
                                 </li>
                                 <li className="py-2 border-bottom">
                                   <Link
-                                    to="/laravel-development"
+                                    to="/laravel-development-company-in-chandigarh"
                                     onClick={toggleMenu}
                                   >
                                     Laravel Development
@@ -639,7 +639,7 @@ export default function Header() {
                               <ul className="list-unstyled d-flex flex-column">
                                 <li className="py-2 border-bottom">
                                   <Link
-                                    to="/performance-marketing"
+                                    to="/digital-marketing-services-in-chandigarh"
                                     onClick={toggleMenu}
                                   >
                                     Performance Marketing

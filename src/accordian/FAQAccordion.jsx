@@ -6,7 +6,7 @@ const FAQAccordion = ({ title, faqs }) => {
     <section className="smart_accordian-section mt-5">
       <Container>
         <div className="sec_title text-center">
-          <h2 className="font_36 font_weight_semi_bold text-capitalize mb-0 color_242424">{title}</h2>
+          <h2 className="fw-semibold text-capitalize mb-0 fs-1">{title}</h2>
         </div>
         <div className="accourdian my-3 py-5">
           <Accordion>
