@@ -73,7 +73,7 @@ const Laravel_Dev = () => {
         canonical="https://asvayuktech.com/laravel-development-company-in-chandigarh"
       />
       <main>
-        <section className="banner-en">
+        <section className="banner-en py-3">
           <Container>
             <Row className="align-items-center">
               <div className="col-lg-6">
@@ -89,7 +89,7 @@ const Laravel_Dev = () => {
                       Laravel Development
                     </Breadcrumb.Item>
                   </Breadcrumb>
-                  <h1>Laravel Development Company in Chandigarh</h1>
+                  <h1 className="pt-2">Laravel Development Company in Chandigarh</h1>
                   <p className="py-3">
                     Asvayuk Technologies Private Ltd. is a top-rated Laravel
                     Development Company in Chandigarh, specializing in building
