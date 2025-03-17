@@ -29,8 +29,8 @@ const CRM_ERP = () => {
     return (
         <>
             <Meta_Component
-                title="CRM and ERP Solutions in Chandigarh, Panchkula, and Zirakpur | Asvayuk Technologies"
-                description="Asvayuk Technologies offers customized CRM and ERP solutions in Chandigarh, Panchkula, and Zirakpur to streamline business operations, enhance customer relationships, and boost productivity with cutting-edge technology."
+                title="CRM and ERP Solutions in Chandigarh, Panchkula, and Zirakpur"
+                description="Asvayuk Technologies offers customized CRM and ERP solutions in Chandigarh, Panchkula, and Zirakpur to enhance business operations and productivity"
                 canonical="https://asvayuktech.com/crm-erp"
             />
 

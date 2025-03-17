@@ -74,7 +74,7 @@ const Website_Development = () => {
     <>
       <Meta_Component
         title="Website Development Company in Chandigarh and Mohali |gbgvbbvxb"
-        description="Asvayuk Technologies, a top Website Development Company in Chandigarh and Mohali, offers custom web development, e-commerce solutions, and responsive designs."
+        description="Asvayuk Technologies, a top Website Development Company in Chandigarh & Mohali, offers custom web development, e-commerce solutions, & responsive designs."
         canonical="https://asvayuktech.com/website-development-company-in-chandigarh-and-mohali"
       />
 

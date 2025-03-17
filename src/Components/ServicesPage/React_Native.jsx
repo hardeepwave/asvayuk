@@ -49,7 +49,7 @@ const React_Native = () => {
     return (
         <>
             <Meta_Component
-                title="React Native Developers Chandigarh "
+                title="React Native Developers Chandigarh | Asvayuk Technologies"
                 description="Hire expert React Native Developers Chandigarh at Asvayuk Technologies for scalable, high-performance mobile app development."
                 canonical="https://asvayuktech.com/react-native-developers-chandigarh"
             />

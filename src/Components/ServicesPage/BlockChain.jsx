@@ -48,7 +48,7 @@ const BlockChain = () => {
     return (
         <>
             <Meta_Component
-                title="Blockchain Web Development Chandigarh"
+                title="Blockchain Web Development Chandigarh | Asvayuk Technologies"
                 description="As a trusted Blockchain Web Development Chandigarh company, we offer innovative solutions to build secure and scalable blockchain applications."
                 canonical="https://asvayuktech.com/blockchain-web-development-chandigarh"
             />

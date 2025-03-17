@@ -33,7 +33,7 @@ const About = () => {
     <>
       <Meta_Component
         title="About Asvayuk Technologies: Our Story & Expertise in Web Development"
-        description="Learn about Asvayuk Technologies, a leader in web development and digital marketing since 2013. Discover our mission, expertise, and the dedicated team behind our innovative solutions. Explore our journey and services.  "
+        description="Discover Asvayuk Technologies, a leader in web development & digital marketing in Chandigarh since 2013. Learn about our mission, expertise, & team"
         canonical="https://asvayuktech.com/about-us"
       />
 

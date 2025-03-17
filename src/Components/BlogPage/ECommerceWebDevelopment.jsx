@@ -13,7 +13,7 @@ function ECommerceWebDevelopment() {
                 <Meta_Component
                     title="E-commerce Web Development in Chandigarh | Asvayuk Technologies"
                     description="Asvayuk Technologies offers professional, reliable, and scalable e-commerce web development solutions in Chandigarh. Partner with us to grow your online business!"
-                    canonical="https://www.asvayuktech.com/ecommerce-web-development-chandigarh" />
+                    canonical="https://www.asvayuktech.com/ecommerce-website-designing-company-chandigarh" />
                     <main>
                 <section className="blog_cads">
                     <Container>

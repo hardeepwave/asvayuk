@@ -30,7 +30,7 @@ const AI_chatBot = () => {
         <>
             <Meta_Component
                 title="AI ChatBot Chandigarh and Panchkula | Asvayuk Technologies"
-                description="Asvayuk Technologies offers AI ChatBot development services in Chandigarh and Panchkula, providing businesses with AI-powered solutions for enhanced customer engagement and support."
+                description="Asvayuk Technologies offers AI ChatBot development in Chandigarh and Panchkula, providing businesses with AI solutions for better customer engagement."
                 canonical="https://asvayuktech.com/ai-chatbot-chandigarh-panchkula"
             />
             <main>

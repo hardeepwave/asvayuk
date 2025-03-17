@@ -178,22 +178,22 @@ const Saas_Dev = () => {
                             </div>
                             <div className="performance_card2_inner-sec mt-5">
                                 <div className="row">
-                                    <div className="col-lg-4 pb-4">
+                                    <div className="col-lg-4 p-4">
                                         <ServicesCard ServiceCardImg={c11} cardHeading='Custom SaaS Development' cardParaGraph='Tailored solutions for startups and enterprises.' />
                                     </div>
-                                    <div className="col-lg-4 pb-4">
+                                    <div className="col-lg-4 p-4">
                                         <ServicesCard ServiceCardImg={c12} cardHeading='SaaS Mobile & Website Development' cardParaGraph='Cross-platform applications with responsive UI/UX.' />
                                     </div>
-                                    <div className="col-lg-4 pb-4">
+                                    <div className="col-lg-4 p-4">
                                         <ServicesCard ServiceCardImg={c13} cardHeading='Multi-Tenant Architecture' cardParaGraph='Scalable solutions for businesses of all sizes.' />
                                     </div>
-                                    <div className="col-lg-4 pb-4">
+                                    <div className="col-lg-4 p-4">
                                         <ServicesCard ServiceCardImg={c14} cardHeading='API Integration & Development' cardParaGraph='Seamless connectivity with third-party services' />
                                     </div>
-                                    <div className="col-lg-4 pb-4">
+                                    <div className="col-lg-4 p-4">
                                         <ServicesCard ServiceCardImg={c15} cardHeading='AI & Machine Learning Integration' cardParaGraph='Data-driven insights for better decision-making.' />
                                     </div>
-                                    <div className="col-lg-4 pb-4">
+                                    <div className="col-lg-4 p-4">
                                         <ServicesCard ServiceCardImg={c16} cardHeading='MLM Software Development' cardParaGraph='Reliable solutions for multi-level marketing businesses.' />
                                     </div>
                                 </div>

@@ -66,8 +66,8 @@ const Magento_Dev = () => {
     return (
         <>
             <Meta_Component
-                title="Best Magento Developers in Chandigarh "
-                description="Looking for the Best Magento Developers in Chandigarh? Asvayuk Technologies offers expert Magento development services to build scalable secure eCommerce store."
+                title="Best Magento Developers in Chandigarh | Asvayuk Technologies"
+                description="Looking for the best Magento developers in Chandigarh? Asvayuk Technologies offers expert Magento development to build scalable, secure eCommerce stores."
                 canonical="https://asvayuktech.com/best-magento-developers-in-chandigarh"
             />
             <main>

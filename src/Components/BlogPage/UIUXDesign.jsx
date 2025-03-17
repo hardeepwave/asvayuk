@@ -13,7 +13,7 @@ function UIUXDesign() {
             <Meta_Component
                 title="UI/UX Design Services in Chandigarh | Asvayuk Technologies"
                 description="Asvayuk Technologies offers professional UI/UX design services in Chandigarh, crafting user-centered and visually captivating designs to enhance digital experiences."
-                canonical="https://www.asvayuktech.com/ui-ux-design-services-chandigarh" />
+                canonical="https://www.asvayuktech.com/blog/ui-ux-design-services-chandigarh" />
             <main>
                 <section className="blog_cads">
                     <Container>

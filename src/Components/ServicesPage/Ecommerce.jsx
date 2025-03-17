@@ -73,7 +73,7 @@ const ECommerce = () => {
         <>
             <Meta_Component
                 title="eCommerce Website Designing Company Chandigarh"
-                description="As a top eCommerce Website Designing Company Chandigarh, we offer solutions to create sales-driven, user-friendly eCommerce websites tailored to your business."
+                description="As a leading eCommerce Website Design Company in Chandigarh, we create sales-driven, user-friendly websites tailored to your business needs."
                 canonical="https://asvayuktech.com/ecommerce-website-designing-company-chandigarh"
             />
             <main>

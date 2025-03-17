@@ -28,9 +28,9 @@ const HospitalManagement = () => {
     return (
         <>
             <Meta_Component
-                title="Hospital Management Software Solutions by Asvayuk Technologies in Panchkula & Chandigarh"
-                description="Asvayuk Technologies offers comprehensive hospital management software solutions in Panchkula & Chandigarh, enabling healthcare facilities to streamline operations and enhance patient care experiences."
-                canonical="https://asvayuktech.com/hospital-management-solutions-panchkula-chandigarh"
+                title="Hospital Management Software in Panchkula & Chandigarh"
+                description="Asvayuk Technologies offers hospital management software solutions in Panchkula & Chandigarh, enhancing operations and patient care."
+                canonical="https://asvayuktech.com/hospital-management-panchkula-chandigarh"
             />
             <main>
                 <section className="banner-en">

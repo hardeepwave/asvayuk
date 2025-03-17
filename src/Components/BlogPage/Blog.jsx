@@ -16,7 +16,6 @@ import { Link } from 'react-router-dom';
 import Meta_Component from "../Meta_Component/Meta_Component";
 import crm from "../../Images/seo_banner.webp";
 import BlockChain from "../ServicesPage/BlockChain";
-
 import MetaverseImage from '../../Images/MetaverseDev.png';
 import SoftwareDevImage from '../../Images/softwareDeve.png';
 import SmartContractImage from '../../Images/TopSmartContactDevelopment.png';
@@ -43,7 +42,7 @@ function Blog() {
         <>
             <Meta_Component
                 title=" Blogs | Insights on Web Development & Digital Marketing"
-                description=" Explore the Asvayuk Technologies  blog for expert insights on web development, digital marketing, and tech trends. Stay updated with our latest articles, tips, and industry news."
+                description="Explore the Asvayuk Technologies blog for expert insights on web development, digital marketing, tech trends, and industry news"
                 canonical="https://asvayuktech.com/blog"
             />
 

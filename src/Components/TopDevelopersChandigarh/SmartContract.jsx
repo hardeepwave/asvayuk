@@ -54,7 +54,7 @@ const SmartContract = () => {
         <>
             <Meta_Component
                 title="Best Smart Contract Developer in Chandigarh | Asvayuk Technologies"
-                description="Connect with the leading smart contract developers in Chandigarh at Asvayuk Technologies to build secure, scalable, and automated blockchain-based contracts."
+                description="Connect with leading smart contract developers in Chandigarh at Asvayuk Technologies to build secure, scalable blockchain-based contracts"
                 canonical="https://asvayuktech.com/best-smart-contract-developer-chandigarh"
             />
 

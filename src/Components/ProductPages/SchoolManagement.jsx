@@ -29,8 +29,8 @@ const SchoolManagement = () => {
     return (
         <>
             <Meta_Component
-                title="School Management Solutions by Asvayuk Technologies Panchkula Chandigarh"
-                description="Asvayuk Technologies offers customized and scalable school management solutions in Panchkula and Chandigarh, enabling schools to streamline operations and enhance educational experiences."
+                title="School Management in Panchkula and Chandigarh"
+                description="Asvayuk Technologies offers customized, scalable school management solutions in Panchkula and Chandigarh, streamlining operations and enhancing educational experiences."
                 canonical="https://asvayuktech.com/school-management-panchkula-chandigarh"
             />
             <main>

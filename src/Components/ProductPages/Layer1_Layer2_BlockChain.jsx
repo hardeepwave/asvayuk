@@ -29,8 +29,8 @@ const Layer1_Layer2_BlockChain = () => {
     return (
         <>
             <Meta_Component
-                title="Layer 1 & Layer 2 Blockchain Development by Asvayuk Technologies in Panchkula and Chandigarh"
-                description="Asvayuk Technologies offers innovative Layer 1 & Layer 2 blockchain solutions in Panchkula and Chandigarh, providing secure, scalable, and customized blockchain development services for businesses across industries."
+                title="Expert Layer 1 & Layer 2 Blockchain Development in Panchkula and Chandigarh"
+                description="Asvayuk Technologies offers innovative Layer 1 & Layer 2 blockchain solutions in Panchkula & Chandigarh, providing secure, scalable, customized blockchain services."
                 canonical="https://asvayuktech.com/layer1-layer2-blockchain-panchkula-chandigarh"
             />
 <main>

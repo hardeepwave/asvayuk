@@ -294,7 +294,7 @@ export default function Header() {
                                       Game (24 Game)
                                     </Link>
                                     <Link
-                                      to="/crypto-exchnage-chandigarh-panchkula"
+                                      to="/crypto-exchange-chandigarh-panchkula"
                                       onClick={handleMegaMenuLinkClick}
                                     >
                                       Crypto Exchange
@@ -710,7 +710,7 @@ export default function Header() {
                                 </li>
                                 <li className="py-2 border-bottom">
                                   <Link
-                                    to="/crypto-exchnage-chandigarh-panchkula"
+                                    to="/crypto-exchange-chandigarh-panchkula"
                                     onClick={toggleMenu}
                                   >
                                     Crypto Exchange

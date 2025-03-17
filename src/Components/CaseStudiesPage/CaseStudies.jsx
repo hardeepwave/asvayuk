@@ -29,7 +29,7 @@ function CaseStudies() {
         <>
             <Meta_Component
                 title="Asvayuk Technologies Case Studies | Success Stories & Client Results"
-                description="Discover Asvayuk Technologies case studies showcasing successful web development and digital marketing projects. See how our solutions have driven results for clients across various industries."
+                description="Discover Asvayuk Technologies case studies on successful web development and digital marketing projects driving results for clients."
                 canonical="https://asvayuktech.com/case-studies"
             />
             <main>

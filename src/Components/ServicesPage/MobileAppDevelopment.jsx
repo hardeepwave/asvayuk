@@ -73,7 +73,7 @@ function MobileAppDevelopment() {
     return (
         <>
          <Meta_Component
-        title="Mobile App Development Chandigarh"
+        title="Mobile App Development Chandigarh | Asvayuk Technologies"
         description="Mobile App Development Chandigarh by Asvayuk Technologies – delivering custom Android & iOS apps with expert solutions for businesses."
         canonical="https://asvayuktech.com/mobile-app-development-chandigarh"
        />

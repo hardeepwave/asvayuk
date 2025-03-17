@@ -29,8 +29,8 @@ const MultivendorEcommerce = () => {
     return (
         <>
             <Meta_Component
-                title="Multi-Vendor E-commerce Development in Panchkula & Chandigarh | Asvayuk Technologies"
-                description="Asvayuk Technologies offers multi-vendor e-commerce solutions in Panchkula and Chandigarh, enabling businesses to manage multiple vendors, streamline operations, and grow online sales."
+                title="Multi-Vendor E-commerce Development in Panchkula & Chandigarh"
+                description="Asvayuk Technologies offers multi-vendor e-commerce solutions in Panchkula & Chandigarh, helping businesses manage vendors and grow sales."
                 canonical="https://asvayuktech.com/multi-vendor-ecommerce-panchkula-chandigarh"
             />
             <main>

@@ -54,7 +54,7 @@ const BlockchainDeveloper = () => {
 
             <Meta_Component
                 title="Best Blockchain Developer in Chandigarh | Asvayuk Technologies"
-                description="Hire the best blockchain developers in Chandigarh at Asvayuk Technologies for innovative and secure decentralized applications and smart contract solutions."
+                description="Hire the best blockchain developers in Chandigarh at Asvayuk Technologies for secure decentralized apps and smart contract solutions."
                 canonical="https://asvayuktech.com/best-blockchain-developer-chandigarh"
             />
 

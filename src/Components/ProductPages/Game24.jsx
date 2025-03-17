@@ -29,8 +29,8 @@ const Game24 = () => {
     return (
         <>
             <Meta_Component
-                title="24 Games with Asvayuk Technologies Panchkula Chandigarh | Game Development"
-                description="Asvayuk Technologies offers innovative and customized game development services in Panchkula and Chandigarh. We specialize in creating engaging 24 games to enhance user experience and business growth."
+                title="24 Games with Asvayuk Technologies Panchkula Chandigarh"
+                description="Asvayuk Technologies offers innovative and customized game development services in Panchkula and Chandigarh, specializing in engaging 24 games for growth."
                 canonical="https://asvayuktech.com/24-games-panchkula-chandigarh"
             />
             <main>

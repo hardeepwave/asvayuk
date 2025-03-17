@@ -32,8 +32,8 @@ const TradingBot = () => {
         <>
             <Meta_Component
                 title="Trading Bot Solutions | Asvayuk Technologies"
-                description="Discover Asvayuk Technologies' cutting-edge trading bot solutions in Chandigarh and Panchkula, designed for automated, efficient, and intelligent cryptocurrency trading."
-                canonical="https://asvayuktech.com/trading-bot-solutions"
+                description="Discover Asvayuk Technologies' trading bot solutions in Chandigarh & Panchkula for automated, efficient, and intelligent cryptocurrency trading."
+                canonical="https://asvayuktech.com/trading-bot-chandigarh-panchkula"
             />
             <main>
                 <section className="banner-en">

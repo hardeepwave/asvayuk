@@ -30,7 +30,7 @@ const TradingBot = () => {
         <>
             <Meta_Component
                 title="Job Portal Solutions | Asvayuk Technologies"
-                description="Explore job portal solutions with Asvayuk Technologies in Chandigarh and Panchkula, offering innovative platforms for employers and job seekers to connect efficiently."
+                description="Explore job portal solutions by Asvayuk Technologies in Chandigarh & Panchkula, connecting employers and job seekers efficiently."
                 canonical="https://asvayuktech.com/job-portal-solutions"
             />
 

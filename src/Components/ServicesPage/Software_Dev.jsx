@@ -45,6 +45,7 @@ import Meta_Component from '../Meta_Component/Meta_Component'
 import FAQAccordion from "../../accordian/FAQAccordion"
 
 
+
 const faqData = [
     {
       question: "Why choose Asvayuk Technologies as your Software Development Company in Chandigarh?",
@@ -105,7 +106,6 @@ const Software_Dev = () => {
                     </Container>
                 </section>
 
-
                 <section className="bg-section mt-5">
                             <Container>
                                 <div className="main-bg p-3">
@@ -156,7 +156,6 @@ const Software_Dev = () => {
                         </div>
                     </div>
                 </section>
-
                 
                 <section className="software-sec">
                     <Container>

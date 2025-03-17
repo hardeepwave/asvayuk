@@ -29,9 +29,9 @@ const CryptoExchange = () => {
     return (
         <>
             <Meta_Component
-                title="Crypto Exchange Services in Chandigarh & Panchkula | Asvayuk Technologies"
-                description="Asvayuk Technologies offers secure and scalable crypto exchange services in Chandigarh and Panchkula. Enhance your digital asset management with advanced blockchain solutions."
-                canonical="https://asvayuktech.com/crypto-exchange-services-chandigarh-panchkula"
+                title="Crypto Exchange Services in Chandigarh & Panchkula"
+                description="Asvayuk Technologies offers secure, scalable crypto exchange services in Chandigarh & Panchkula to enhance digital asset management with blockchain solutions."
+                canonical="https://asvayuktech.com/crypto-exchange-chandigarh-panchkula"
             />
             <main>
                 <section className="banner-en">

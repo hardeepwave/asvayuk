@@ -128,7 +128,7 @@ const router = createBrowserRouter([
         element: <Uber_ola_clone />,
       },
       {
-        path: "/crypto-exchnage-chandigarh-panchkula",
+        path: "/crypto-exchange-chandigarh-panchkula",
         element: <CryptoExchange />,
       },
       {

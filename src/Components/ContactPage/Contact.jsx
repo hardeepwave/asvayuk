@@ -14,7 +14,7 @@ function Contact() {
 
             <Meta_Component
                 title="Contact Asvayuk Technologies - Get in Touch with Our Experts"
-                description="Reach out to Asvayuk Technologies for top-tier web development and digital marketing services. Our team is ready to assist you with your inquiries and project needs. Contact us today!."
+                description="Contact Asvayuk Technologies for top-tier web development and digital marketing services. We're ready to assist with your inquiries and projects"
                 canonical="https://asvayuktech.com/contact-us" />
 
             <main>

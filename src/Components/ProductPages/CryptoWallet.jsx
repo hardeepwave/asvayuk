@@ -29,7 +29,7 @@ const CryptoWallet = () => {
     <>
       <Meta_Component
         title="Crypto Wallet in Chandigarh | Asvayuk Technologies"
-        description="Explore Asvayuk Technologies' crypto wallet solutions in Chandigarh and Panchkula, designed to provide secure, decentralized, and scalable options for managing digital assets."
+        description="Explore Asvayuk Technologies' crypto wallet solutions in Chandigarh & Panchkula for secure, decentralized, and scalable digital asset management."
         canonical="https://asvayuktech.com/crypto-wallet-solutions-chandigarh-panchkula"
       />
       <main>

@@ -29,8 +29,8 @@ const Zomato_Urbanup_Clone = () => {
     return (
         <>
             <Meta_Component
-                title="Zomato/UrbanUp Clone App Development by Asvayuk Technologies Panchkula Chandigarh"
-                description="Asvayuk Technologies offers cutting-edge Zomato/UrbanUp clone app development services in Panchkula & Chandigarh, providing scalable, customizable on-demand food delivery solutions for businesses."
+                title="Zomato/UrbanUp Clone App Development Services in Panchkula & Chandigarh"
+                description="Asvayuk Technologies offers Zomato/UrbanUp clone app development in Panchkula & Chandigarh, providing scalable, customizable on-demand food delivery solutions."
                 canonical="https://asvayuktech.com/zomato-urbanup-clone-panchkula-chandigarh"
             />
 

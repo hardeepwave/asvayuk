@@ -30,7 +30,7 @@ const DAP_DAO = () => {
         <>
             <Meta_Component
                 title="DAP and DAO Solutions in Chandigarh Panchkula | Asvayuk Technologies"
-                description="Asvayuk Technologies offers DAP and DAO solutions in Chandigarh Panchkula, helping businesses with decentralized blockchain applications and autonomous organizations for enhanced security, transparency, and operational autonomy."
+                description="Asvayuk Technologies offers DAP & DAO solutions in Chandigarh, Panchkula, helping businesses with secure, transparent, and autonomous blockchain applications."
                 canonical="https://asvayuktech.com/dap-dao-chandigarh-panchkula"
             />
             <main>

@@ -16,7 +16,7 @@ import { BiSupport } from 'react-icons/bi'
 
 function Footer() {
     const location = useLocation();
-    const footerShow = ['/blog', '/single-blog']
+    const footerShow = ['/blog']
 
     const [show, setShow] = useState(false);
 
