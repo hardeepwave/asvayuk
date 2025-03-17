@@ -106,7 +106,7 @@ const router = createBrowserRouter([
       { path: "/react-native-developers-chandigarh", element: <React_Native /> },
       { path: "/saas-app-development-company-in-chandigarh", element: <Saas_Dev /> },
       { path: "/shopify-development", element: <Shopify_Dev /> },
-      { path: "/software-development", element: <Software_Dev /> },
+      { path: "/software-development-company-in-chandigarh", element: <Software_Dev /> },
       { path: "/laravel-development-company-in-chandigarh", element: <Laravel_Dev /> },
       { path: "/ar-vr-development", element: <Ar_Vr_Dev /> },
       { path: "/social-media-marketing", element: <Social_Media_Marketing /> },

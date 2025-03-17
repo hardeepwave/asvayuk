@@ -75,7 +75,7 @@ const Software_Dev = () => {
             <Meta_Component
                 title="Software Development Company in Chandigarh"
                 description="Asvayuk Technologies Private Ltd. is a top Software Development Company in Chandigarh, offering custom, enterprise, and offshore software solutions."
-                canonical="https://asvayuktech.com/software-development"
+                canonical="https://asvayuktech.com/software-development-company-in-chandigarh"
             />
 
             <main>
@@ -227,46 +227,46 @@ const Software_Dev = () => {
                 </section>
 
                 <section className="laravel-projects-section py-5">
-                          <div className="container">
-                            <div className="text-center Experienceg_title">
-                              <h2>Leading Software Development Company in Chandigarh</h2>
+                    <div className="container">
+                    <div className="text-center Experienceg_title">
+                        <h2>Leading Software Development Company in Chandigarh</h2>
+                    </div>
+        
+                    <div className="row mt-5">
+                        <div className="col-md-12">
+                        <div className="project-card">
+                            <div className="project-text">
+                            <h3 className="project-title">
+                            Custom Software for E-commerce
+                            </h3>
+                            <p className="project-description">
+                            One of our clients, an e-commerce startup, approached us for a scalable solution to manage their growing customer base. Our Custom Software Development in Chandigarh team built an AI-powered recommendation engine that boosted sales by 35%.
+                            </p>
                             </div>
-                
-                            <div className="row mt-5">
-                              <div className="col-md-12">
-                                <div className="project-card">
-                                  <div className="project-text">
-                                    <h3 className="project-title">
-                                    Custom Software for E-commerce
-                                    </h3>
-                                    <p className="project-description">
-                                    One of our clients, an e-commerce startup, approached us for a scalable solution to manage their growing customer base. Our Custom Software Development in Chandigarh team built an AI-powered recommendation engine that boosted sales by 35%.
-                                    </p>
-                                  </div>
-                                  <div className="project-image">
-                                    <img src={work2} alt="Offshore Software Development Chandigarh" />
-                                  </div>
-                                </div>
-                              </div>
-                
-                              <div className="col-md-12 mt-5">
-                                <div className="project-card">
-                                  <div className="project-text">
-                                    <h3 className="project-title">
-                                    Enterprise Software for Healthcare
-                                    </h3>
-                                    <p className="project-description">
-                                    A leading hospital required an advanced patient management system. Our Enterprise Software Solutions in Chandigarh team developed a secure, cloud-based platform that streamlined operations and improved patient care.
-                                    </p>
-                                  </div>
-                                  <div className="project-image">
-                                    <img src={work3} alt="Software Outsourcing Company Chandigarh" />
-                                  </div>
-                                </div>
-                              </div>
+                            <div className="project-image">
+                            <img src={work2} alt="Offshore Software Development Chandigarh" />
                             </div>
-                          </div>
-                        </section>
+                        </div>
+                        </div>
+        
+                        <div className="col-md-12 mt-5">
+                        <div className="project-card">
+                            <div className="project-text">
+                            <h3 className="project-title">
+                            Enterprise Software for Healthcare
+                            </h3>
+                            <p className="project-description">
+                            A leading hospital required an advanced patient management system. Our Enterprise Software Solutions in Chandigarh team developed a secure, cloud-based platform that streamlined operations and improved patient care.
+                            </p>
+                            </div>
+                            <div className="project-image">
+                            <img src={work3} alt="Software Outsourcing Company Chandigarh" />
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                </section>
 
 
                 <Experience 

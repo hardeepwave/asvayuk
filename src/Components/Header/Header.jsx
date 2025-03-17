@@ -200,7 +200,7 @@ export default function Header() {
                                       React Native Development
                                     </Link>
                                     <Link
-                                      to="/software-development"
+                                      to="/software-development-company-in-chandigarh"
                                       onClick={handleMegaMenuLinkClick}
                                     >
                                       Software Development
@@ -622,7 +622,7 @@ export default function Header() {
                                 </li>
                                 <li className="py-2 border-bottom">
                                   <Link
-                                    to="/software-development"
+                                    to="/software-development-company-in-chandigarh"
                                     onClick={toggleMenu}
                                   >
                                     Software Development
