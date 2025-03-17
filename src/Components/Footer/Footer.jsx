@@ -285,7 +285,7 @@ function Footer() {
                                                 <Link to='/ecommerce-website-designing-company-chandigarh'>eCommerce Development</Link>
                                             </li>
                                             <li>
-                                                <Link to="/search-engine-optimization">Search Engine Optimization</Link>
+                                                <Link to="/best-seo-services-in-chandigarh">Search Engine Optimization</Link>
                                             </li>
                                             <li>
                                                 <Link to="/web-portal-development-chandigarh">Enterpise Portal Development</Link>

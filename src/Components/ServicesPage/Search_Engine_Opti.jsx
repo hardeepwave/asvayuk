@@ -1,454 +1,522 @@
-import BannerButton from '../BannerBtn/BannerButton'
-import './Service.css'
-import { Breadcrumb, Col, Container, Row } from 'react-bootstrap'
-import { Link } from 'react-router-dom'
-import c18 from '../../Images/c18.webp'
-import ServicesCard from '../ServicesPage/ServicesCard'
-import c11 from '../../Images/c11.webp';
-import c12 from '../../Images/c12.webp';
-import c13 from '../../Images/c13.webp';
-import c14 from '../../Images/c14.webp';
-import c15 from '../../Images/c15.webp';
-import c16 from '../../Images/c16.webp';
-import CoffeeLogo from '../../Images/49thcoffee_logo.webp'
-import caseStu4 from '../../Images/caseStu4.webp'
-import moonLight from '../../Images/moonlight_logo.webp';
-import caseStu2 from '../../Images/caseStu2.webp';
-import caseStu3 from '../../Images/caseStu3.webp';
-import kriLogo from '../../Images/kri_logo.webp';
-import kreLogo from '../../Images/kre.webp';
-import caseStu5 from '../../Images/caseStu5.webp';
-import caseStu6 from '../../Images/caseStu6.webp';
-import Experience from '../HomePage/Experience'
-import container from '../../Images/container.webp'
-import planning from '../../Images/planning.webp'
-import pen from '../../Images/pen.webp'
-import development from '../../Images/development.webp'
-import test from '../../Images/test.webp'
-import launch from '../../Images/launch.webp'
-import Google_logo from '../../Images/Google-logo.webp'
-import ahrefs from '../../Images/ahrefs.webp'
-import c20 from '../../Images/c20.webp'
-import adobe from '../../Images/adobe (1).webp'
-import Semrush from '../../Images/Semrush.webp'
-import Moz_logo from '../../Images/Moz_logo.webp'
-import Bing_1 from '../../Images/Bing-1.webp'
+import BannerButton from "../BannerBtn/BannerButton";
+import "./Service.css";
+import { Breadcrumb, Col, Container, Row, Card } from "react-bootstrap";
+import { Link } from "react-router-dom";
+import c18 from "../../Images/c18.webp";
+import c11 from "../../Images/c11.webp";
+import c12 from "../../Images/c12.webp";
+import c13 from "../../Images/c13.webp";
+import c14 from "../../Images/c14.webp";
+import container from "../../Images/container.webp";
+import planning from "../../Images/planning.webp";
+import pen from "../../Images/pen.webp";
+import development from "../../Images/development.webp";
+import test from "../../Images/test.webp";
+import launch from "../../Images/launch.webp";
+import Google_logo from "../../Images/Google-logo.webp";
+import ahrefs from "../../Images/ahrefs.webp";
+import c20 from "../../Images/c20.webp";
+import adobe from "../../Images/adobe (1).webp";
+import Semrush from "../../Images/Semrush.webp";
+import Moz_logo from "../../Images/Moz_logo.webp";
+import Bing_1 from "../../Images/Bing-1.webp";
 import "swiper/css";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { FaArrowRightLong } from 'react-icons/fa6'
-import { Autoplay, Navigation } from 'swiper/modules'
-import Meta_Component from '../Meta_Component/Meta_Component'
+import Meta_Component from "../Meta_Component/Meta_Component";
+import FAQAccordion from "../../accordian/FAQAccordion";
+import Magento_service_card from "../ServicesPage/Magento_service_card";
+import service1 from "../../Images/services1.webp";
+import service2 from "../../Images/services2.webp";
+import service3 from "../../Images/services3.webp";
+import service4 from "../../Images/services4.webp";
+import service5 from "../../Images/services5.webp";
+import service6 from "../../Images/services6.webp";
+
+const faqData = [
+  {
+    question: "Why choose Asvayuk Technologies Private Ltd. for SEO services?",
+    answer:
+      "We are among the top SEO companies in Chandigarh, offering result-driven and ethical SEO strategies tailored to your business.",
+  },
+  {
+    question: "How soon can I expect to see SEO results?",
+    answer:
+      "SEO is a long-term strategy. While some improvements can be seen within 3 months, significant results typically take 6-12 months.",
+  },
+  {
+    question: "Do you offer local SEO services in Chandigarh?",
+    answer:
+      "Yes, our local SEO services help businesses rank higher in Chandigarh and surrounding areas.",
+  },
+  {
+    question:
+      "What makes your SEO company different from others in Chandigarh?",
+    answer:
+      "We focus on ethical SEO practices, data-driven strategies, and continuous optimization to ensure long-term results.",
+  },
+  {
+    question: "Can SEO help my small business grow?",
+    answer:
+      "Absolutely! Our SEO services in Chandigarh are designed to boost visibility, attract local customers, and drive sales.",
+  },
+];
+
 const Search_Engine_Opti = () => {
-    return (
-        <>
-            <Meta_Component
-                title="Affordable Search Engine Optimization: SEO Services"
-                description="Unlock your website's potential with expert SEO (Search Engine Optimization) services from Asvayuk Technologies. Increase traffic, improve visibility, and maximize revenue."
-                canonical="https://asvayuktech.com/search-engine-optimization"
-            />
+  return (
+    <>
+      <Meta_Component
+        title="Best SEO Services in Chandigarh | Asvayuk Technologies "
+        description="Boost your online presence with the Best SEO Services in Chandigarh. Get higher rankings, more traffic, and better conversions with expert SEO solutions."
+        canonical="https://asvayuktech.com/best-seo-services-in-chandigarh"
+      />
 
-            <main>
+      <main>
+        <section className="performance_card1">
+          <Container>
+            <Row>
+              <Col lg={6} md={6} className="col-12">
+                <Breadcrumb>
+                  <Breadcrumb.Item linkAs={Link} linkProps={{ to: "/" }}>
+                    Home
+                  </Breadcrumb.Item>
+                  <Breadcrumb.Item linkAs={Link} linkProps={{ to: "#" }}>
+                    Technology
+                  </Breadcrumb.Item>
+                  <Breadcrumb.Item active>SEO</Breadcrumb.Item>
+                </Breadcrumb>
+                <div className="peformance_section_top-heading mt-3">
+                  <h2>Best SEO Services in Chandigarh</h2>
+                  <p>
+                    Having trouble improving your website’s Google ranking?
+                    Asvayuk Technologies Private Ltd. offers the best SEO
+                    Services in Chandigarh, ensuring your business reaches its
+                    target audience effectively. With our expert search engine
+                    optimization services, we enhance your online visibility,
+                    drive organic traffic, and improve conversion rates. Whether
+                    you're a startup or an established enterprise, our
+                    customized SEO solutions are designed to fit your specific
+                    needs.
+                  </p>
+                  <BannerButton
+                    btnTitle="Free Consultation"
+                    url="/contact-us"
+                  />
+                </div>
+              </Col>
+              <Col lg={6} md={6} className="col-12">
+                <div className="peformance_card1_right-sec">
+                  <img src={c18} alt="best SEO Services in Chandigarh"/>
+                </div>
+              </Col>
+            </Row>
+          </Container>
+        </section>
 
-                <section className="performance_card1">
-                    <Container>
-                        <Row>
-                            <Col lg={6} md={6} className='col-12'>
-                                <Breadcrumb>
-                                    <Breadcrumb.Item linkAs={Link} linkProps={{ to: "/" }}>Home</Breadcrumb.Item>
-                                    <Breadcrumb.Item linkAs={Link} linkProps={{ to: "#" }}>Technology</Breadcrumb.Item>
-                                    <Breadcrumb.Item active>SEO</Breadcrumb.Item>
-                                </Breadcrumb>
-                                <div className="peformance_section_top-heading perTitle mt-3">
-                                    <h2>
-                                        Use our SEO expertise to unlock your company's potential.
-                                    </h2>
-                                    <p>
-                                        Are you ready to take your company's online presence to the next level? To achieve SEO perfection, Asvayuk Technologies is your reliable partner.
-                                    </p>
-                                    <BannerButton btnTitle='Free Consultation' url='/contact-us' />
-                                </div>
-                            </Col>
-                            <Col lg={6} md={6} className='col-12'>
-                                <div className="peformance_card1_right-sec">
-                                    <img src={c18} />
-                                </div>
-                            </Col>
-                        </Row>
-                    </Container>
-                </section>
+        <section className="magento_service_card">
+          <Container>
+            <div className="card_heading text-center">
+              <h2>
+                Elevate Your Online Presence with the Best SEO Services in
+                Chandigarh
+              </h2>
+              <p>
+                We provide a wide range of search engine optimization services
+                in Chandigarh, including
+              </p>
+            </div>
+            <div className="game_cards">
+              <Row className="gy-4">
+                <Col lg={4}>
+                  <Magento_service_card
+                    cardImg={service1}
+                    cardHeading="Local SEO"
+                    cardPara="Targeting Chandigarh and surrounding areas to improve visibility in local searches"
+                  />
+                </Col>
+                <Col lg={4}>
+                  <Magento_service_card
+                    cardImg={service2}
+                    cardHeading="E-commerce SEO"
+                    cardPara="Optimizing product pages and categories for better rankings on online stores."
+                  />
+                </Col>
+                <Col lg={4}>
+                  <Magento_service_card
+                    cardImg={service3}
+                    cardHeading="Technical SEO"
+                    cardPara=" Fixing website speed, mobile responsiveness, and indexing issues."
+                  />
+                </Col>
+                <Col lg={4} className="d-flex">
+                  <Magento_service_card
+                    cardImg={service4}
+                    cardHeading="Content Marketing & Blogging"
+                    cardPara="Creating high-quality, keyword-rich content to attract organic traffic."
+                  />
+                </Col>
+                <Col lg={4} className="d-flex">
+                  <Magento_service_card
+                    cardImg={service5}
+                    cardHeading="Link Building & Authority Development"
+                    cardPara="Building authoritative backlinks for domain credibility"
+                  />
+                </Col>
+                <Col lg={4} className="d-flex">
+                  <Magento_service_card
+                    cardImg={service6}
+                    cardHeading="Analytics & Performance Tracking"
+                    cardPara="Monitoring site performance and user behavior to refine SEO strategies for better results."
+                  />
+                </Col>
+              </Row>
+            </div>
+          </Container>
+        </section>
 
-                <section className="performance_card2">
-                    <div className="container">
-                        <div className="col-12">
-                            <div className="peformance_card2_heading text-center">
-                                <h2>What Value Can We
-                                    Offer To Your Business?</h2>
-                                <p className="mt-3">Asvayuk Technologies is your ultimate destination for high-performance SEO solutions. Our team of SEO specialists is dedicated to empowering your business with customized strategies that deliver tangible results. Here's a glimpse of what we offer:.</p>
-                            </div>
-                            <div className="performance_card2_inner-sec mt-5">
-                                <div className="row">
-                                    <div className="col-lg-4 pb-4">
-                                        <ServicesCard ServiceCardImg={c11} cardHeading='Strategy Development' cardParaGraph='Our data-driven, success-focused social media strategies serve as the backbone of your branding and lead-generation efforts, maximizing ROI and engagement.' />
-                                    </div>
-                                    <div className="col-lg-4 pb-4">
-                                        <ServicesCard ServiceCardImg={c12} cardHeading='
-Social Profile Setup' cardParaGraph='Establishing your social media presence begins here. Well set up and optimize your profiles across various platforms ensuring effective branding.' />
-                                    </div>
-                                    <div className="col-lg-4 pb-4">
-                                        <ServicesCard ServiceCardImg={c13} cardHeading='Content Development' cardParaGraph='Crafting high-quality content that aligns meticulously with your brands essence, ensuring consistent messaging and maximizing lead-generation potential.' />
-                                    </div>
-                                    <div className="col-lg-4 pb-4">
-                                        <ServicesCard ServiceCardImg={c14} cardHeading='
-Ad Management' cardParaGraph='Precision-engineering paid campaigns to effectively connect with your target audience. Advanced targeting techniques enhance visibility and drive impactful results.' />
-                                    </div>
-                                    <div className="col-lg-4 pb-4">
-                                        <ServicesCard ServiceCardImg={c15} cardHeading='Community Management' cardParaGraph='From posting to active engagement and relationship-building, we manage your community to foster loyalty, strengthen relationships, and optimize lead generation.' />
-                                    </div>
-                                    <div className="col-lg-4 pb-4">
-                                        <ServicesCard ServiceCardImg={c16} cardHeading='Reporting
-' cardParaGraph='Comprehensive analytics and reporting provide actionable insights into your social media performance, empowering you to refine strategies for enhanced lead-generation outcomes.' />
-                                    </div>
-                                </div>
-                            </div>
+        <section className="bg-white py-5">
+          <Container>
+            <div className="pb-4">
+              <h1 className="fw-bold">
+                THE IMPORTANCE OF SEO FOR YOUR BUSINESS{" "}
+                <span className="text-uppercase" style={{ color: "#2cbe9a" }}>
+                  IN PANCHKULA AND CHANDIGARH
+                </span>
+              </h1>
+              <p className="powered_php pt-3">
+                SEO is about more than just achieving rankings; it’s about
+                reaching and engaging the right audience
+              </p>
+            </div>
+            <div className="row">
+              <div className="col-lg-6">
+                <ul className="development_links">
+                  <li>
+                    <a
+                      href="#"
+                      title="School Management App Development Panchkula"
+                    >
+                      Improves brand visibility and credibility
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" title="Custom School Solutions Chandigarh">
+                      Increases website traffic and engagement
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" title="Student Management Systems Panchkula">
+                      Generates high-quality leads and conversions
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div className="col-lg-6">
+                <ul className="development_links">
+                  <li>
+                    <a href="#" title="Real-Time Student Tracking">
+                      Enhances user experience and website performance
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" title="Parent-Teacher Communication System">
+                      Boosts Long-Term Growth and Competitive Advantage
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </Container>
+        </section>
 
-                        </div>
+        <section className="bg-section" aria-label="SMM agency in Chandigarh">
+          <Container>
+            <div className="main-bg p-3">
+              <div className="inside-main mt-1">
+                <h1 className="conclusion_title mb2">
+                  Begin your journey with top-notch SEO services in Chandigarh.
+                </h1>
+                <div>
+                  <p className="fs-6 pt-3 text-white">
+                    If you're looking for a trusted Website SEO provider in
+                    Chandigarh, Asvayuk Technologies Private Ltd. is your go-to
+                    partner. Contact us today and take your business to the next
+                    level with our expert SEO solutions.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </Container>
+        </section>
+
+        <section className="search-engine">
+          <Container>
+            <div className="search-engine-heading">
+              <h2>Tools &amp; Technologies</h2>
+            </div>
+
+            <div className="search-engine-imgs">
+              <Row className="gy-5 mt-3 text-center">
+                <Col lg={3} md={6}>
+                  <img src={Google_logo} alt="SEO Companies of Chandigarh"/>
+                </Col>
+                <Col lg={3} md={6}>
+                  <img src={ahrefs} alt="search engine optimizer"/>
+                </Col>
+                <Col lg={3} md={6}>
+                  <img src={c20} alt="best seo expert in chandigarh"/>
+                </Col>
+                <Col lg={3} md={6}>
+                  <img src={adobe} alt="Website SEO provider in chandigarh"/>
+                </Col>
+              </Row>
+              <div className="text-center  search-engine_last_row ">
+                <Row className="gy-5 gx-5 gap-3">
+                  <Col lg={3} md={6}>
+                    <img src={Semrush} alt="high rank seo website creator in chandigarh"/>
+                  </Col>
+                  <Col lg={3} md={6}>
+                    <img src={Moz_logo} alt="Digital marketing services in Chandigarh"/>
+                  </Col>
+                  <Col lg={3} md={6}>
+                    <img src={Bing_1} alt="Top seo companies in chandigarh"/>
+                  </Col>
+                </Row>
+              </div>
+            </div>
+
+            <div className="search-engine-button mt-5 text-center">
+              <a href="#">
+                <button type="button">Get A Free SEO Audit</button>
+              </a>
+            </div>
+          </Container>
+        </section>
+
+        <Container className="py-5">
+          <Row className="align-items-center mb-4 text-center">
+            <Col lg={10} className="mx-auto">
+              <h2 className="fw-bold display-4">
+                Why Choose Our SEO Services in Chandigarh?
+              </h2>
+              <p>
+                At Asvayuk Technologies Private Ltd., we specialize in SEO
+                services in Chandigarh that align with the latest search engine
+                algorithms. Our approach focuses on ethical and data-driven SEO
+                techniques that yield long-term results. Here’s what sets us
+                apart:
+              </p>
+            </Col>
+          </Row>
+
+          <Row className="gy-4">
+            <Col md={6}>
+              <Card
+                className="p-4 shadow-lg position-relative card"
+                style={{ borderRadius: "12px", background: "#f9f9f9" }}
+              >
+                <Row className="align-items-center">
+                  <Col xs={3} sm={2}>
+                    <img
+                      src={c11}
+                      alt="SEO Company in Chandigarh"
+                      className="rounded-circle img-fluid"
+                    />
+                  </Col>
+                  <Col xs={9} sm={10}>
+                    <h6 className="fw-bold mb-2">
+                      High-Ranking SEO Website Creation
+                    </h6>
+                    <p className="mb-0 text-muted">
+                      Our services also include designing SEO-optimized websites
+                      that load faster, offer seamless navigation, and comply
+                      with Google’s ranking factors.
+                    </p>
+                  </Col>
+                </Row>
+                <span
+                  className="position-absolute top-0 end-0 p-3"
+                  style={{
+                    fontSize: "30px",
+                    color: "#ff7b00",
+                    transform: "scaleX(-1) rotate(180deg)",
+                    opacity: "0.7",
+                  }}
+                >
+                  &#10078;
+                </span>
+              </Card>
+
+              <Card
+                className="p-4 shadow-lg position-relative ms-md-n3 mt-4 card"
+                style={{
+                  borderLeft: "5px solid #6c63ff",
+                  borderRadius: "12px",
+                }}
+              >
+                <Row className="align-items-center">
+                  <Col xs={3} sm={2}>
+                    <img
+                      src={c12}
+                      alt="SEO services in Chandigarh"
+                      className="rounded-circle img-fluid"
+                    />
+                  </Col>
+                  <Col xs={9} sm={10}>
+                    <h6 className="fw-bold mb-2">
+                      Comprehensive On-Page and Off-Page SEO
+                    </h6>
+                    <p className="mb-0 text-muted">
+                      On-Page SEO: Keyword optimization, meta tags, content
+                      optimization, and technical SEO improvements.
+                      <br />
+                      Off-Page SEO: High-quality link building, guest blogging,
+                      social bookmarking, and influencer outreach.
+                    </p>
+                  </Col>
+                </Row>
+                <span
+                  className="position-absolute top-0 end-0 p-3"
+                  style={{
+                    fontSize: "30px",
+                    color: "#6c63ff",
+                    transform: "scaleX(-1) rotate(180deg)",
+                    opacity: "0.7",
+                  }}
+                >
+                  &#10078;
+                </span>
+              </Card>
+            </Col>
+
+            <Col md={6}>
+              <Card
+                className="p-4 shadow-lg position-relative mt-md-4 card"
+                style={{
+                  borderLeft: "5px solid #6c63ff",
+                  borderRadius: "12px",
+                }}
+              >
+                <Row className="align-items-center">
+                  <Col xs={3} sm={2}>
+                    <img
+                      src={c14}
+                      alt="search engine optimization Services chandigarh"
+                      className="rounded-circle img-fluid"
+                    />
+                  </Col>
+                  <Col xs={9} sm={10}>
+                    <h6 className="fw-bold mb-2">
+                      Each business has its own distinct needs, and so should
+                      its approach to SEO
+                    </h6>
+                    <p className="mb-0 text-muted">
+                      Every business is unique, and so should its SEO strategy.
+                      Our experts conduct in-depth keyword research, competitor
+                      analysis, and website audits to develop a tailored SEO
+                      plan that ensures your website ranks higher.
+                    </p>
+                  </Col>
+                </Row>
+                <span
+                  className="position-absolute top-0 end-0 p-3"
+                  style={{
+                    fontSize: "30px",
+                    color: "#6c63ff",
+                    transform: "scaleX(-1) rotate(180deg)",
+                    opacity: "0.7",
+                  }}
+                >
+                  &#10078;
+                </span>
+              </Card>
+
+              <Card
+                className="p-4 shadow-lg position-relative mt-4 card"
+                style={{ background: "#f9f9f9", borderRadius: "12px" }}
+              >
+                <Row className="align-items-center">
+                  <Col xs={3} sm={2}>
+                    <img
+                      src={c13}
+                      alt="OFF Page SEO agency Chandigarh"
+                      className="rounded-circle img-fluid"
+                    />
+                  </Col>
+                  <Col xs={9} sm={10}>
+                    <h6 className="fw-bold mb-2">
+                      Expert Search Engine Optimizers
+                    </h6>
+                    <p className="mb-0 text-muted">
+                      As a leading SEO Company in Chandigarh, our team comprises
+                      experienced search engine optimizers who follow ethical
+                      practices to boost rankings without risking penalties.
+                    </p>
+                  </Col>
+                </Row>
+                <span
+                  className="position-absolute top-0 end-0 p-3"
+                  style={{
+                    fontSize: "30px",
+                    color: "#ff7b00",
+                    transform: "scaleX(-1) rotate(180deg)",
+                    opacity: "0.7",
+                  }}
+                >
+                  &#10078;
+                </span>
+              </Card>
+            </Col>
+          </Row>
+        </Container>
+    
+
+        <section className="software-sec">
+          <Container>
+            <Row>
+              <div className="software-sec-heading text-center">
+                <h2>How Our SEO Services Improve Your Business?</h2>
+              </div>
+              <div className="software-sec-card">
+                <Row className="gy-4">
+                  <div className="col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div className="software-sec-card2 rounded-4">
+                      <h3 className="text-center fw-bold">Example 1</h3>
+                      <div className="languages row pt-4">
+                        <p>
+                          A local restaurant in Chandigarh wasn’t getting online
+                          orders due to poor search rankings. After implementing
+                          our SEO strategies, including local SEO and content
+                          optimization, the business saw a 60% increase in
+                          online reservations within three months.
+                        </p>
+                      </div>
                     </div>
-                </section>
+                  </div>
+                  <div className="col-lg-6 col-md-6 col-sm-12 col-12 d-flex">
+                    <div className="software-sec-card2 rounded-4">
+                      <h3 className="text-center fw-bold">Example 2 </h3>
+                      <div className="languages row pt-4">
+                        <p>
+                          An IT company in Chandigarh struggled with lead
+                          generation. Our OFF Page SEO agency in Chandigarh
+                          helped them gain 200% more leads by improving their
+                          domain authority and ranking for competitive keywords.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </Row>
+              </div>
+            </Row>
+          </Container>
+        </section>
 
-                <section className="search-engine">
-                    <Container>
-                        <div className="search-engine-heading">
-                            <h2>Tools &amp; Technology</h2>
-                        </div>
+        <FAQAccordion
+          title="FAQs on Search Engine Optimization"
+          faqs={faqData}
+        />
+      </main>
+    </>
+  );
+};
 
-                        <div className="search-engine-imgs">
-                            <Row className='gy-5 mt-3 text-center'>
-                                <Col lg={3} md={6}>
-                                    <img src={Google_logo} />
-                                </Col>
-                                <Col lg={3} md={6}>
-                                    <img src={ahrefs} />
-                                </Col>
-                                <Col lg={3} md={6}>
-                                    <img src={c20} />
-                                </Col>
-                                <Col lg={3} md={6}>
-                                    <img src={adobe} />
-                                </Col>
-                            </Row>
-                            <div className='text-center  search-engine_last_row '>
-                                <Row className='gy-5 gx-5 gap-3'>
-                                    <Col lg={3} md={6}>
-                                        <img src={Semrush} />
-                                    </Col>
-                                    <Col lg={3} md={6}>
-                                        <img src={Moz_logo} />
-                                    </Col>
-                                    <Col lg={3} md={6}>
-                                        <img src={Bing_1} />
-                                    </Col>
-                                </Row>
-                            </div>
-
-                        </div>
-
-
-                        <div className="search-engine-button mt-5 text-center">
-                            <a href="#">
-                                <button type="button">Get A Free SEO Audit</button>
-                            </a>
-                        </div>
-                    </Container>
-                </section>
-
-                <section className="bg-section">
-                    <Container className='process_container'>
-                        <Row className="d-flex flex-column text-center">
-                            <div className="main-bg w-100">
-                                <div className="inside-main py-5">
-                                    <h1>Our Process of Expertise</h1>
-                                    <div className="work-para mt-2">
-                                        <p>
-                                            Our team of expert mobile app developers plan, design, develop, test, optimize, and launch mobile apps that redefine user experiences.
-                                        </p>
-                                    </div>
-
-                                    <Row className="curly-img curley-img mt-5">
-                                        <Col xs={6} lg={2}>
-                                            <div className="work-images">
-                                                <img src={container} alt="Product Design" />
-                                                <h6 className="mt-3">Product Design</h6>
-                                                <p className="text-light ">Crafting innovative and user-centric design strategies for a captivating app experience</p>
-                                            </div>
-                                        </Col>
-                                        <Col xs={6} lg={2}>
-                                            <div className="work-images">
-                                                <img src={planning} alt="Mobile App Consulting" />
-                                                <h6 className="mt-3">Mobile App Consulting</h6>
-                                                <p className="text-light">Tailored guidance and strategies to shape your app concept into a successful product.</p>
-                                            </div>
-                                        </Col>
-                                        <Col xs={6} lg={2}>
-                                            <div className="work-images">
-                                                <img src={pen} alt="UI/UX Compatibility" />
-                                                <h6 className="mt-3">UI/UX Compatibility</h6>
-                                                <p className="text-light">Seamless integration of compelling design and intuitive user experiences for enhanced engagement.</p>
-                                            </div>
-                                        </Col>
-                                        <Col xs={6} lg={2}>
-                                            <div className="work-images">
-                                                <img src={development} alt="Development" />
-                                                <h6 className="mt-3">Development</h6>
-                                                <p className="text-light">Utilizing cutting-edge technologies to build robust, scalable, and high-performance mobile applications.</p>
-                                            </div>
-                                        </Col>
-                                        <Col xs={6} lg={2}>
-                                            <div className="work-images">
-                                                <img src={test} alt="QA & Testing" />
-                                                <h6 className="mt-3">QA & Testing</h6>
-                                                <p className="text-light">Our team of mobile testing experts performs testing and debugging to ensure a reliable and optimal functioning app.</p>
-                                            </div>
-                                        </Col>
-
-                                    </Row>
-                                </div>
-                            </div>
-                        </Row>
-                    </Container>
-                </section>
-
-                <Experience expTitle='Why Choose Us??' ExpPara="In Social Media Marketing, we transcend the ordinary. we are the catalysts of your digital metamorphosis. Wondering why we're your strategic partner in this transformative journey? Here's the lowdown:" point1='Leading App Pioneers' pointPara1='Drawing on our years of experience, we specialize in transforming ideas into exceptional, user-centric mobile applications.' point2='Craft Engaging Experiences' pointPara2='Our mobile apps are meticulously designed to be visually stunning and deliver a seamless, intuitive user experience.' point3='Global Trust, Local Impact' pointPara3='Combining local insights with global expertise, we ensure seamless technological excellence.' point4='Your App, Our Expertise' pointPara4='Together, we collaborate to create a digital masterpiece that aligns with your goals and exceeds your expectations.' />
-
-
-                <section className="caseStuides ">
-                    <Container>
-                        <div className="caseStuides_content pb-4">
-                            <Row className='align-items-start'>
-                                <Col lg={8}>
-                                    <h1 className="fw-semibold">Our Case Studies</h1>
-                                </Col>
-                                <Col lg={4} className="text-start text-lg-end text-md-end">
-                                    <Link to="#" className="">
-                                        View All Case Studies →
-                                    </Link>
-                                    <div className="d-flex justify-content-end">
-                                        <div className="casestu_button position-relative mt-4 d-flex gap-5">
-                                            <div className="swiper-button-prev mt-0" />
-                                            <div className="swiper-button-next mt-0" />
-                                        </div>
-                                    </div>
-                                </Col>
-                            </Row>
-                        </div>
-                    </Container>
-
-                    <section className="fullCaseStudy">
-                        <Container>
-                            <Swiper
-                                modules={[Navigation, Autoplay]}
-                                spaceBetween={0}
-                                slidesPerView={1}
-                                navigation
-                                autoplay={{
-                                    delay: 2500,
-                                    disableOnInteraction: false,
-                                }}
-                                loop={true}
-                            >
-                                <SwiperSlide className='slider_bg3 slider_bg'>
-                                    <div className="row align-items-center">
-                                        <div className="col-lg-6 col-md-6 col-12 col-sm-12">
-                                            <div className="fullcase_details">
-                                                <div className="fullCaseStudy_slider_logo">
-                                                    <img src={CoffeeLogo} alt="" className='slider_bg3_logo' />
-                                                </div>
-                                                <div className="fullCaseStudy_textContent py-4">
-                                                    <h2 className="fw-semibold lh-base">IT TAKES A CREATIVE MIND TO BE IN THE
-                                                        FASHION BUSINESS.</h2>
-                                                    <div className="subfullCaseStudy d-flex gap-3 py-4">
-                                                        <div className="bg-dark text-white py-1 px-2 rounded-2">
-                                                            <span>UI/UX</span>
-                                                        </div>
-                                                        <div className="bg-dark text-white py-1 px-2 rounded-2">
-                                                            <span>E-commerce</span>
-                                                        </div>
-                                                        <div className="bg-dark text-white py-1 px-2 rounded-2">
-                                                            <span>Shopify</span>
-                                                        </div>
-                                                    </div>
-                                                    <p className="fullcase_para pb-4">Moonlight Concept is a high-end Qatari brand
-                                                        specialized in women’s apparel and garments. The name choice was
-                                                        influenced by the concept ...</p>
-                                                    <Link to="/case-studies" className="fullCaseStudy_url">Read Full Case Study
-                                                        <FaArrowRightLong className='mx-3' /></Link>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="col-lg-6 col-md-6 col-12 col-sm-12 d-flex justify-content-center justify-content-lg-end justifyconent align-items-center">
-                                            <div className="fullCaseStudy_img">
-                                                <img src={caseStu4} alt="" className="w-100" />
-                                            </div>
-                                        </div>
-                                    </div>
-                                </SwiperSlide>
-                                <SwiperSlide className='slider_bg1 slider_bg'>
-                                    <div className="row align-items-center">
-                                        <div className="col-lg-6 col-md-6 col-12 col-sm-12">
-                                            <div className="fullcase_details">
-                                                <div className="fullCaseStudy_slider_logo">
-                                                    <img src={moonLight} alt="" />
-                                                </div>
-                                                <div className="fullCaseStudy_textContent py-4">
-                                                    <h2 className="fw-semibold lh-base">IT TAKES A CREATIVE MIND TO BE IN THE
-                                                        FASHION BUSINESS.</h2>
-                                                    <div className="subfullCaseStudy d-flex gap-3 py-4">
-                                                        <div className="bg-dark text-white py-1 px-2 rounded-2">
-                                                            <span>UI/UX</span>
-                                                        </div>
-                                                        <div className="bg-dark text-white py-1 px-2 rounded-2">
-                                                            <span>E-commerce</span>
-                                                        </div>
-                                                        <div className="bg-dark text-white py-1 px-2 rounded-2">
-                                                            <span>Shopify</span>
-                                                        </div>
-                                                    </div>
-                                                    <p className="fullcase_para pb-4">Moonlight Concept is a high-end Qatari brand
-                                                        specialized in women’s apparel and garments. The name choice was
-                                                        influenced by the concept ...</p>
-                                                    <Link to="/case-studies" className="fullCaseStudy_url">Read Full Case Study
-                                                        <FaArrowRightLong className='mx-3' /></Link>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="col-lg-6 col-md-6 col-12 col-sm-12 d-flex justify-content-center justify-content-lg-end justifyconent align-items-center">
-                                            <div className="fullCaseStudy_img">
-                                                <img src={caseStu2} alt="" className="w-100" />
-                                            </div>
-                                        </div>
-                                    </div>
-                                </SwiperSlide>
-                                <SwiperSlide className='slider_bg2 slider_bg'>
-                                    <div className="row align-items-center">
-                                        <div className="col-lg-6 col-md-6 col-12 col-sm-12">
-                                            <div className="fullcase_details">
-                                                <div className="fullCaseStudy_slider_logo">
-                                                    <svg aria-hidden="true" focusable="false" role="presentation" width="226" height="29" viewBox="0 0 226 29" xmlns="http://www.w3.org/2000/svg">
-                                                        <path fill="#5789B5" d="M76.8698.307818h-6.3411L64.8341 17.4841 59.1394.307818h-6.3718V21.8551h4.4018V6.21793l5.4484 15.63717h4.4018l5.4791-15.72951V21.8551h4.3711V.307818ZM86.5006 22.1629c4.7404 0 7.8494-2.955 7.8494-8.0033 0-5.01739-3.109-8.00323-7.8494-8.00323s-7.8493 2.98584-7.8493 8.00323c0 5.0483 3.1089 8.0033 7.8493 8.0033Zm0-3.3244c-2.2778 0-3.4475-1.9085-3.4475-4.6789 0-2.7395 1.1697-4.61723 3.4475-4.61723 2.2471 0 3.4476 1.87773 3.4476 4.61723 0 2.7704-1.2005 4.6789-3.4476 4.6789ZM106.323 0v8.24953c-.708-1.23127-2.309-2.09316-4.31-2.09316-3.8165 0-6.8947 3.10897-6.8947 8.15723 0 4.6172 2.5857 7.8493 6.7107 7.8493 2.678 0 4.063-1.4159 4.494-2.1855v1.8777h4.309V0h-4.309Zm-3.386 18.9616c-2.155 0-3.3861-1.6314-3.3861-4.5557 0-2.9243 1.2001-4.77118 3.4171-4.77118 2.093 0 3.355 1.60068 3.355 4.58648 0 3.1398-1.416 4.7404-3.386 4.7404ZM123.119 16.6838c-.308 1.4159-1.324 2.2163-3.079 2.2163-2.031 0-3.447-1.1698-3.663-3.7246h10.836v-.6772c0-5.51-2.894-8.34193-7.542-8.34193-5.048 0-7.665 3.60147-7.665 7.97253 0 4.4018 2.586 8.034 7.942 8.034 4.617 0 6.834-2.401 7.357-5.4791h-4.186Zm-3.386-7.3569c1.723 0 2.831 1.0158 3.047 3.2321h-6.28c.401-2.2163 1.509-3.2321 3.233-3.2321ZM138.211 6.46419c-2.832 0-4.278 1.84691-4.956 3.69381V6.46419h-4.463V21.8551h4.463v-5.356c0-5.3561 2.371-6.3103 5.418-6.3103h1.601V6.46419h-2.063ZM150.961 6.15637c-3.54 0-4.956 2.64724-5.479 4.09403V6.46419h-4.371V21.8551h4.371v-4.5865c0-5.6946 1.754-7.51075 3.817-7.51075 1.785 0 2.401 1.16975 2.401 3.66305v8.4342h4.432v-9.4808c0-4.34024-1.97-6.21793-5.171-6.21793Z">
-                                                        </path>
-                                                        <path fill="#14134A" d="M18.2536.307818H0V4.34024h6.77201V21.8551h4.70959V4.34024h6.772V.307818ZM29.1682 6.15637c-3.5399 0-4.9559 2.64724-5.4792 4.09403V0h-4.371v21.8551h4.371v-4.5865c0-5.6946 1.7546-7.51075 3.817-7.51075 1.7853 0 2.401 1.16975 2.401 3.66305v8.4342h4.4326v-9.4808c0-4.34024-1.9701-6.21793-5.1714-6.21793ZM46.8192 16.6838c-.3078 1.4159-1.3236 2.2163-3.0782 2.2163-2.0316 0-3.4476-1.1698-3.663-3.7246h10.8352v-.6772c0-5.51-2.8935-8.34193-7.5416-8.34193-5.0482 0-7.6647 3.60147-7.6647 7.97253 0 4.4018 2.5857 8.034 7.9418 8.034 4.6172 0 6.8335-2.401 7.3568-5.4791h-4.1863Zm-3.386-7.3569c1.7238 0 2.8319 1.0158 3.0474 3.2321h-6.2795c.4002-2.2163 1.5083-3.2321 3.2321-3.2321ZM162.763 14.9908h-4.618c.277 4.2479 3.294 7.1721 8.373 7.1721 4.402 0 7.695-1.97 7.695-5.9717 0-3.94-2.924-5.356-7.572-6.34101-3.478-.76955-4.556-1.66222-4.556-3.26287 0-1.66222 1.847-2.5549 3.694-2.5549 3.048 0 4.648 1.3544 4.864 4.09399h4.586C174.829 2.06238 170.704 0 165.964 0c-4.094 0-8.557 2.06238-8.557 6.49497 0 4.12473 2.77 5.87933 7.449 6.83353 3.109.708 4.586 1.2005 4.586 2.8935 0 1.4468-1.108 2.0932-2.709 2.0932-2.277 0-3.786-1.1389-3.97-3.3244ZM185.939 6.15637c-3.54 0-4.956 2.64724-5.479 4.09403V0h-4.371v21.8551h4.371v-4.5865c0-5.6946 1.755-7.51075 3.817-7.51075 1.785 0 2.401 1.16975 2.401 3.66305v8.4342h4.433v-9.4808c0-4.34024-1.97-6.21793-5.172-6.21793ZM200.327 22.1629c4.741 0 7.85-2.955 7.85-8.0033 0-5.01739-3.109-8.00323-7.85-8.00323-4.74 0-7.849 2.98584-7.849 8.00323 0 5.0483 3.109 8.0033 7.849 8.0033Zm0-3.3244c-2.278 0-3.447-1.9085-3.447-4.6789 0-2.7395 1.169-4.61723 3.447-4.61723 2.247 0 3.448 1.87773 3.448 4.61723 0 2.7704-1.201 4.6789-3.448 4.6789ZM218.335 6.15637c-1.97 0-3.571.86189-4.31 2.09316V6.46419h-4.371V28.6271h4.371v-8.6497c.462.7696 1.847 2.1855 4.525 2.1855 4.094 0 6.711-3.2321 6.711-7.8493 0-5.04826-3.078-8.15723-6.926-8.15723Zm-.893 12.80523c-2.001 0-3.417-1.6006-3.417-4.7404 0-2.9858 1.293-4.58648 3.386-4.58648 2.217 0 3.417 1.84688 3.417 4.77118s-1.231 4.5557-3.386 4.5557Z">
-                                                        </path>
-                                                    </svg>
-                                                </div>
-                                                <div className="fullCaseStudy_textContent py-4">
-                                                    <h2 className="fw-semibold lh-base">IT TAKES A CREATIVE MIND TO BE IN THE
-                                                        FASHION BUSINESS.</h2>
-                                                    <div className="subfullCaseStudy d-flex gap-3 py-4">
-                                                        <div className="bg-dark text-white py-1 px-2 rounded-2">
-                                                            <span>UI/UX</span>
-                                                        </div>
-                                                        <div className="bg-dark text-white py-1 px-2 rounded-2">
-                                                            <span>E-commerce</span>
-                                                        </div>
-                                                        <div className="bg-dark text-white py-1 px-2 rounded-2">
-                                                            <span>Shopify</span>
-                                                        </div>
-                                                    </div>
-                                                    <p className="fullcase_para pb-4">Moonlight Concept is a high-end Qatari brand
-                                                        specialized in women’s apparel and garments. The name choice was
-                                                        influenced by the concept ...</p>
-                                                    <Link to="#" className="fullCaseStudy_url">Read Full Case Study
-                                                        <FaArrowRightLong className='mx-3' /></Link>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="col-lg-6 col-md-6 col-12 col-sm-12 d-flex justify-content-center justify-content-lg-end justifyconent align-items-center">
-                                            <div className="fullCaseStudy_img">
-                                                <img src={caseStu3} alt="" className="w-100" />
-                                            </div>
-                                        </div>
-                                    </div>
-                                </SwiperSlide>
-                                <SwiperSlide className='slider_bg4 slider_bg'>
-                                    <div className="row align-items-center">
-                                        <div className="col-lg-6 col-md-6 col-12 col-sm-12">
-                                            <div className="fullcase_details">
-                                                <div className="fullCaseStudy_slider_logo">
-                                                    <img src={kriLogo} alt="" className='slider_bg3_logo' />
-                                                </div>
-                                                <div className="fullCaseStudy_textContent py-4">
-                                                    <h2 className="fw-semibold lh-base">IT TAKES A CREATIVE MIND TO BE IN THE
-                                                        FASHION BUSINESS.</h2>
-                                                    <div className="subfullCaseStudy d-flex gap-3 py-4">
-                                                        <div className="bg-dark text-white py-1 px-2 rounded-2">
-                                                            <span>UI/UX</span>
-                                                        </div>
-                                                        <div className="bg-dark text-white py-1 px-2 rounded-2">
-                                                            <span>E-commerce</span>
-                                                        </div>
-                                                        <div className="bg-dark text-white py-1 px-2 rounded-2">
-                                                            <span>Shopify</span>
-                                                        </div>
-                                                    </div>
-                                                    <p className="fullcase_para pb-4">Moonlight Concept is a high-end Qatari brand
-                                                        specialized in women’s apparel and garments. The name choice was
-                                                        influenced by the concept ...</p>
-                                                    <Link to="#" className="fullCaseStudy_url">Read Full Case Study
-                                                        <FaArrowRightLong className='mx-3' /></Link>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="col-lg-6 col-md-6 col-12 col-sm-12 d-flex justify-content-center justify-content-lg-end justifyconent align-items-center">
-                                            <div className="fullCaseStudy_img">
-                                                <img src={caseStu5} alt="" className="w-100" />
-                                            </div>
-                                        </div>
-                                    </div>
-                                </SwiperSlide>
-                                <SwiperSlide className='slider_bg5 slider_bg'>
-                                    <div className="row align-items-center">
-                                        <div className="col-lg-6 col-md-6 col-12 col-sm-12">
-                                            <div className="fullcase_details">
-                                                <div className="fullCaseStudy_slider_logo">
-                                                    <img src={kreLogo} alt="" className='slider_bg3_logo' />
-                                                </div>
-                                                <div className="fullCaseStudy_textContent py-4">
-                                                    <h2 className="fw-semibold lh-base">IT TAKES A CREATIVE MIND TO BE IN THE
-                                                        FASHION BUSINESS.</h2>
-                                                    <div className="subfullCaseStudy d-flex gap-3 py-4">
-                                                        <div className="bg-dark text-white py-1 px-2 rounded-2">
-                                                            <span>UI/UX</span>
-                                                        </div>
-                                                        <div className="bg-dark text-white py-1 px-2 rounded-2">
-                                                            <span>E-commerce</span>
-                                                        </div>
-                                                        <div className="bg-dark text-white py-1 px-2 rounded-2">
-                                                            <span>Shopify</span>
-                                                        </div>
-                                                    </div>
-                                                    <p className="fullcase_para pb-4">Moonlight Concept is a high-end Qatari brand
-                                                        specialized in women’s apparel and garments. The name choice was
-                                                        influenced by the concept ...</p>
-                                                    <Link to="#" className="fullCaseStudy_url">Read Full Case Study
-                                                        <FaArrowRightLong className='mx-3' /></Link>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="col-lg-6 col-md-6 col-12 col-sm-12 d-flex justify-content-center justify-content-lg-end justifyconent align-items-center">
-                                            <div className="fullCaseStudy_img">
-                                                <img src={caseStu6} alt="" className="w-100" />
-                                            </div>
-                                        </div>
-                                    </div>
-                                </SwiperSlide>
-                            </Swiper>
-                        </Container>
-                    </section>
-
-                </section>
-            </main>
-
-        </>
-    )
-}
-
-export default Search_Engine_Opti
+export default Search_Engine_Opti;

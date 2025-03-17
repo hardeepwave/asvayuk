@@ -701,10 +701,10 @@ const Laravel_Dev = () => {
         <section className="bg-section mt-5">
             <Container>
                 <div className="main-bg p-3">
-                <div className="inside-main mt-1">
-                    <h6 className="conclusion_title mb-2">
+                <div className="tool-heading py-5">
+                    <h2 className="conclusion_title mb-2">
                     Get Started with The Best Laravel Development Company in Chandigarh
-                    </h6>
+                    </h2>
                     <div>
                     <p className="text-white lh-lg fs-6 pt-3">
                         Looking for a Laravel development partner in

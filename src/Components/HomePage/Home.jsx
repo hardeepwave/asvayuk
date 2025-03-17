@@ -584,7 +584,7 @@ function Home() {
                                     <div className="row align-items-center">
                                         <div className="col-8">
                                             <div className="Empowering_content text-white">
-                                                <Link to="/search-engine-optimization"><h5>Search Engine Optimization<MdNavigateNext /></h5></Link>
+                                                <Link to="/best-seo-services-in-chandigarh"><h5>Search Engine Optimization<MdNavigateNext /></h5></Link>
                                                 <p className="text-white py-1">A strategic blend of SEO techniques to increase
                                                     website traffic, boost conversions, and solidify brand authority.</p>
                                             </div>

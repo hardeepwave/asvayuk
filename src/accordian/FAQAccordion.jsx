@@ -3,12 +3,12 @@ import { Accordion, Container } from "react-bootstrap";
 
 const FAQAccordion = ({ title, faqs }) => {
   return (
-    <section className="smart_accordian-section mt-5">
+    <section className="smart_accordian-section py-1">
       <Container>
-        <div className="sec_title text-center">
+        <div className="sec_title text-center pt-5">
           <h2 className="fw-semibold text-capitalize mb-0 fs-1">{title}</h2>
         </div>
-        <div className="accourdian my-3 py-5">
+        <div className="accourdian my-2 py-4">
           <Accordion>
             {faqs.map((faq, index) => (
               <Accordion.Item eventKey={index.toString()} key={index} className={`accordian-item item${index + 1}`}>

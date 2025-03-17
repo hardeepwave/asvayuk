@@ -40,7 +40,6 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 import { FaArrowRightLong } from 'react-icons/fa6'
 import Meta_Component from '../Meta_Component/Meta_Component'
 import FAQAccordion from '../../accordian/FAQAccordion'
-import Conclusion from "../../conclusion/Conclusion.jsx";
 
 const faqData = [
     {
@@ -601,15 +600,15 @@ const Woocomerce = () => {
             <section className="bg-section">
                 <Container>
                     <div className="main-bg p-3">
-                    <div className="inside-main mt-1">
-                        <h6 className="conclusion_title mb-2">
-                        Get Started with <br/>WooCommerce Development Today!
-                        </h6>
+                    <div className="tool-heading py-5">
+                        <h2 className="conclusion_title mb-2">
+                          Get Started with <br/>WooCommerce Development Today!
+                        </h2>
                         <div>
                         <p className="text-white lh-lg fs-6 pt-3">
-                        If you are looking for a reliable WooCommerce website provider in Chandigarh, Asvayuk Technologies Private Ltd. is here to help.
-                     Our expert team  ensures that your e-commerce store is designed for success. Contact us today to discuss your 
-                     <Link to="https://maps.app.goo.gl/9F1yq767vCJtZM2q7"> WooCommerce Development Services in Chandigarh.</Link> 
+                            If you are looking for a reliable WooCommerce website provider in Chandigarh, Asvayuk Technologies Private Ltd. is here to help.
+                            Our expert team  ensures that your e-commerce store is designed for success. Contact us today to discuss your 
+                            <Link to="https://maps.app.goo.gl/9F1yq767vCJtZM2q7"> WooCommerce Development Services in Chandigarh.</Link> 
                         </p>
                         </div>
                     </div>

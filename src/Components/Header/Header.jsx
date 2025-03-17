@@ -132,7 +132,7 @@ export default function Header() {
                                       Blockchain Development
                                     </Link>
                                     <Link
-                                      to="/saas-development"
+                                      to="/saas-app-development-company-in-chandigarh"
                                       onClick={handleMegaMenuLinkClick}
                                     >
                                       Saas Development
@@ -236,7 +236,7 @@ export default function Header() {
                                 <Col lg={4}>
                                   <div className="tab-menus tab_menu_top d-flex flex-column gap-4">
                                     <Link
-                                      to="/search-engine-optimization"
+                                      to="/best-seo-services-in-chandigarh"
                                       onClick={handleMegaMenuLinkClick}
                                     >
                                       Search Engine Optimization
@@ -542,7 +542,7 @@ export default function Header() {
                                 </li>
                                 <li className="py-2 border-bottom">
                                   <Link
-                                    to="/saas-development"
+                                    to="/saas-app-development-company-in-chandigarh"
                                     onClick={toggleMenu}
                                   >
                                     Saas Development
@@ -655,7 +655,7 @@ export default function Header() {
                                 </li>
                                 <li className="py-2 border-bottom">
                                   <Link
-                                    to="/search-engine-optimization"
+                                    to="/best-seo-services-in-chandigarh"
                                     onClick={toggleMenu}
                                   >
                                     Search Engine Optimization

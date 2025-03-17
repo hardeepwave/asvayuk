@@ -45,19 +45,48 @@ import node from '../../Images/node.webp';
 import aws from '../../Images/aws.webp';
 import Azure from '../../Images/Azure.webp';
 import Meta_Component from '../Meta_Component/Meta_Component'
+import FAQAccordion from '../../accordian/FAQAccordion'
+
+const faqData = [
+    {
+      question: "Why should I choose Asvayuk Technologies for SaaS app development?",
+      answer:
+        "We provide scalable, secure, and cost-effective SaaS solutions with 24/7 support, ensuring seamless business operations.",
+    },
+    {
+      question: "What industries can benefit from SaaS applications?",
+      answer:
+        "Almost every industry, including healthcare, finance, e-commerce, and education, can leverage SaaS solutions for efficiency and growth.",
+    },
+    {
+      question: "What is the typical time frame for developing a SaaS application?",
+      answer:
+        "The development duration for a SaaS application depends on the project's complexity and unique requirements.",
+    },
+    {
+      question: "Can I customize the features of my SaaS application?",
+      answer:
+        "Yes, we offer fully customizable SaaS solutions tailored to your business needs.",
+    },
+    {
+      question: "Do you provide SaaS solutions for startups?",
+      answer:
+        "Absolutely! We offer scalable and budget-friendly SaaS solutions perfect for startups and growing businesses.",
+    },
+  ];
 
 
 const Saas_Dev = () => {
     return (
         <>
             <Meta_Component
-                title="Custom SaaS Development Solutions | ASVAYuk Technologies"
-                description="Accelerate your business growth with ASVAYuk SaaS development services. We create scalable, secure, and innovative software solutions tailored to your needs."
-                canonical="https://asvayuktech.com/saas-development"
+                title="SaaS App Development Company in Chandigarh"
+                description="Looking for a reliable SaaS App Development Company in Chandigarh? We build scalable, secure, and custom SaaS solutions for your business."
+                canonical="https://asvayuktech.com/saas-app-development-company-in-chandigarh"
             />
 
             <main>
-
+            
                 <section className="banner-en">
                     <Container>
                         <Row className="align-items-center">
@@ -68,15 +97,15 @@ const Saas_Dev = () => {
                                         <Breadcrumb.Item linkAs={Link} linkProps={{ to: "#" }}>Technology</Breadcrumb.Item>
                                         <Breadcrumb.Item active>Saas Development</Breadcrumb.Item>
                                     </Breadcrumb>
-                                    <h1>Driving Innovation for the Future with Skilled SaaS Development Services</h1>
-                                    <p className="py-3">Develop scalable, efficient, and feature-rich SaaS solutions with our advanced SaaS development services, designed to drive your technological evolution forward.</p>
+                                    <h1>SaaS App Development Company in Chandigarh</h1>
+                                    <p className="py-3">In today's digital era, businesses are rapidly shifting towards cloud-based solutions to streamline operations and enhance user experience. Asvayuk Technologies Private Ltd., a leading SaaS App Development Company in Chandigarh, specializes in crafting high-performance software solutions tailored to meet diverse industry needs. Whether you need a robust SaaS platform for your startup or a scalable enterprise application, our expert team ensures seamless development, deployment, and maintenance of cutting-edge SaaS applications.</p>
 
                                     <BannerButton btnTitle='Free Consultation' url='/contact-us' />
                                 </div>
                             </div>
                             <div className="col-lg-6">
                                 <div className="bannerImg">
-                                    <img src={Saas} alt="" width="100%" height="100%" />
+                                    <img src={Saas} alt="SaaS App Development Company in Chandigarh" width="100%" height="100%" />
                                 </div>
                             </div>
                         </Row>
@@ -88,7 +117,7 @@ const Saas_Dev = () => {
                         <Row className='d-flex justify-content-between pt-5  text-center'>
                             <Col lg={2} md={4} sm={6} className="col-6 d-flex flex-column justify-content-center align-items-center">
                                 <div className="blockchain-col-img d-flex text-center">
-                                    <img src={Group_652} className="img-fluid" />
+                                    <img src={Group_652} className="img-fluid" alt='SaaS App Developers in Chandigarh'/>
                                 </div>
                                 <div className="blockchain-col-text mt-3">
                                     <p className="text-center">Easy To Use
@@ -98,7 +127,7 @@ const Saas_Dev = () => {
                             </Col>
                             <Col lg={2} md={4} sm={6} className="col-6 d-flex flex-column justify-content-center align-items-center">
                                 <div className="blockchain-col-img d-flex text-center">
-                                    <img src={Group_859} className="img-fluid" />
+                                    <img src={Group_859} className="img-fluid" alt='SaaS Application Development Services in Chandigarh'/>
                                 </div>
                                 <div className="blockchain-col-text mt-3">
                                     <p className="text-center">Fully Customized
@@ -108,7 +137,7 @@ const Saas_Dev = () => {
                             </Col>
                             <Col lg={2} md={4} sm={6} className="col-6 d-flex flex-column justify-content-center align-items-center">
                                 <div className="blockchain-col-img d-flex text-center">
-                                    <img src={Group_105519} className="img-fluid" />
+                                    <img src={Group_105519} className="img-fluid" alt='SaaS Mobile App & and Website Development Company in Chandigarh'/>
                                 </div>
                                 <div className="blockchain-col-text mt-3">
                                     <p className="text-center">Feature Rich
@@ -118,7 +147,7 @@ const Saas_Dev = () => {
                             </Col>
                             <Col lg={2} md={4} sm={6} className="col-6 d-flex flex-column justify-content-center align-items-center">
                                 <div className="blockchain-col-img d-flex text-center">
-                                    <img src={Group_649} className="img-fluid" />
+                                    <img src={Group_649} className="img-fluid" alt='Software Development Company in Chandigarh'/>
                                 </div>
                                 <div className="blockchain-col-text mt-3">
                                     <p className="text-center">Highly Secured
@@ -128,11 +157,10 @@ const Saas_Dev = () => {
                             </Col>
                             <Col lg={2} md={4} sm={6} className="col-6 d-flex flex-column justify-content-center align-items-center">
                                 <div className="blockchain-col-img d-flex text-center">
-                                    <img src={Group_650} className="img-fluid" />
+                                    <img src={Group_650} className="img-fluid" alt='Saas App Development provider in chandigarh'/>
                                 </div>
                                 <div className="blockchain-col-text mt-3">
                                     <p className="text-center">Extremely Affordable
-
                                     </p>
                                 </div>
                             </Col>
@@ -145,30 +173,28 @@ const Saas_Dev = () => {
                     <div className="container">
                         <div className="col-12">
                             <div className="peformance_card2_heading text-center">
-                                <h2>Our SaaS Development Services</h2>
-                                <p className="mt-3">Harness the power of our technical expertise with our comprehensive suite of Next-Gen SaaS development services.</p>
+                                <h2>Our Expertise in SaaS App Development</h2>
+                                <p className="mt-3">At Asvayuk Technologies Private Ltd., we provide top-tier SaaS Application Development Services in Chandigarh, focusing on :</p>
                             </div>
                             <div className="performance_card2_inner-sec mt-5">
                                 <div className="row">
                                     <div className="col-lg-4 pb-4">
-                                        <ServicesCard ServiceCardImg={c11} cardHeading='SaaS Application Consulting' cardParaGraph='Develop strategic roadmaps with our experienced team of SaaS developers to align your applications seamlessly with business objectives.' />
+                                        <ServicesCard ServiceCardImg={c11} cardHeading='Custom SaaS Development' cardParaGraph='Tailored solutions for startups and enterprises.' />
                                     </div>
                                     <div className="col-lg-4 pb-4">
-                                        <ServicesCard ServiceCardImg={c12} cardHeading='
-Custom SaaS Platform Development' cardParaGraph='Craft custom SaaS platforms using advanced technologies to bring your digital vision to life.' />
+                                        <ServicesCard ServiceCardImg={c12} cardHeading='SaaS Mobile & Website Development' cardParaGraph='Cross-platform applications with responsive UI/UX.' />
                                     </div>
                                     <div className="col-lg-4 pb-4">
-                                        <ServicesCard ServiceCardImg={c13} cardHeading='SaaS Product Design' cardParaGraph='Engineer intuitive, user-centric SaaS products that deliver exceptional user experiences tailored to your audience.' />
+                                        <ServicesCard ServiceCardImg={c13} cardHeading='Multi-Tenant Architecture' cardParaGraph='Scalable solutions for businesses of all sizes.' />
                                     </div>
                                     <div className="col-lg-4 pb-4">
-                                        <ServicesCard ServiceCardImg={c14} cardHeading='API Integration' cardParaGraph='Implement robust API integrations customized to enhance interoperability and data flow within your SaaS ecosystem.' />
+                                        <ServicesCard ServiceCardImg={c14} cardHeading='API Integration & Development' cardParaGraph='Seamless connectivity with third-party services' />
                                     </div>
                                     <div className="col-lg-4 pb-4">
-                                        <ServicesCard ServiceCardImg={c15} cardHeading='Technology Migration' cardParaGraph='Ensure smooth transitions to advanced SaaS infrastructures with minimal disruptions and maximum technological advancement.' />
+                                        <ServicesCard ServiceCardImg={c15} cardHeading='AI & Machine Learning Integration' cardParaGraph='Data-driven insights for better decision-making.' />
                                     </div>
                                     <div className="col-lg-4 pb-4">
-                                        <ServicesCard ServiceCardImg={c16} cardHeading='
-SaaS Support and Maintenance' cardParaGraph='Offer continuous monitoring, swift issue resolution, and regular maintenance to ensure seamless operation of your SaaS ecosystem.' />
+                                        <ServicesCard ServiceCardImg={c16} cardHeading='MLM Software Development' cardParaGraph='Reliable solutions for multi-level marketing businesses.' />
                                     </div>
                                 </div>
                             </div>
@@ -177,11 +203,48 @@ SaaS Support and Maintenance' cardParaGraph='Offer continuous monitoring, swift 
                     </div>
                 </section>
 
-                <KeyPointSection keyHeading="Use Our SaaS Expertise to Transform Your Tech Landscape" keyPara="Explore the future of SaaS development with us. Connect for customized solutions, expert consultation, and unmatched technical excellence." keyPoint1="CFaster Time to Market
-" keyPoint2="Seamless Integration
-" keyPoint3="Future-Proof Scalability" keyPoint4="
-Lower Total Cost of Ownership (TCO)" url="/contact-us" btnTitle="Request Consultation" Group105518={Group105518} />
-                <Experience expTitle='Why Choose Us for Your React Development Needs?' ExpPara='From sparking innovative ideas to transforming them into market-ready products, our extensive range of solutions is crafted to enhance your business value.' point1='Proven Expertise' pointPara1='Enhance your e-commerce strategy with our proven WooCommerce development prowess.' point2='Commitment to Quality' pointPara2='Our dedicated quality assurance team guarantees a flawless, high-performance WooCommerce platform.' point3='Client-centric Approach' pointPara3='We prioritize your needs, ensuring a personalized and effective development journey.' point4='Transparent Communication' pointPara4='We uphold transparent communication throughout your project, keeping you informed at every step.' />
+                <KeyPointSection 
+                keyHeading="Why Choose SaaS Application Development?" 
+                keyPara="SaaS (Software as a Service) applications offer flexibility, security, and scalability. Unlike traditional software, SaaS applications eliminate the need for installation, enabling users to access them via a web browser or mobile app. Businesses across Chandigarh, Mohali, Panchkula, and Zirakpur are increasingly adopting SaaS solutions for their cost-effectiveness and easy maintenance." 
+                keyPoint1="CFaster Time to Market" 
+                keyPoint2="Seamless Integration" 
+                keyPoint3="Future-Proof Scalability" 
+                keyPoint4="Lower Total Cost of Ownership (TCO)" 
+                url="/contact-us" btnTitle="Request Consultation" Group105518={Group105518} />
+
+                <section className="bg-section mt-5">
+                    <Container>
+                        <div className="main-bg p-3">
+                        <div className="tool-heading py-5">
+                            <h2 className="conclusion_title mb-2">
+                            Get Started with the Best SaaS App Development Company in Chandigarh
+                            </h2>
+                            <div>
+                            <p className="text-white lh-lg fs-6 pt-3">
+                            If you’re looking for a SaaS App Maker in Chandigarh that delivers high-performance solutions, Asvayuk Technologies Private Ltd. is your trusted partner.
+                            We specialize in building SaaS applications that enhance productivity, efficiency, and user engagement.
+                            </p>
+                            <p className='text-white fs-6 pt-1'>Contact us today to discuss your project and take your business to the next level!</p>
+                            </div>
+                        </div>
+                        </div>
+                    </Container>
+                </section>
+
+                <Experience 
+                expTitle='Why Choose Asvayuk Technologies for SaaS Development?' 
+                ExpPara='As a SaaS App Development provider in Chandigarh, Panchkula, and Mohali, we prioritize innovation, security, and scalability. Here’s why clients trust us :' 
+                point1='Experienced SaaS Developers' 
+                pointPara1='A skilled team with hands-on experience.' 
+                point2='Bespoke solutions' 
+                pointPara2="designed to meet your business's unique needs."
+                point3='Advanced Security Measures' 
+                pointPara3='Data encryption, secure APIs, and authentication protocols.' 
+                point4='Affordable Pricing' 
+                pointPara4='Cost-effective plans for startups and enterprises' 
+                
+                />
+
 
                 <section className="saas-technology">
                     <div className="container">
@@ -192,7 +255,7 @@ Lower Total Cost of Ownership (TCO)" url="/contact-us" btnTitle="Request Consult
                             <div className="row pt-5 text-center">
                                 <div className="saas_content col-lg-3 col-md-4 col-sm-12 col-12">
                                     <div className="saas-tools-img d-flex justify-content-center">
-                                        <img src={php} />
+                                        <img src={php} alt='Saas App Development provider in panchkula and Mohali'/>
                                     </div>
                                     <div className="saas-tools-img-name d-flex justify-content-center">
                                         <h5>PHP</h5>
@@ -201,7 +264,7 @@ Lower Total Cost of Ownership (TCO)" url="/contact-us" btnTitle="Request Consult
 
                                 <div className="saas_content col-lg-3 col-md-4 col-sm-12 col-12">
                                     <div className="saas-tools-img d-flex justify-content-center">
-                                        <img src={react} />
+                                        <img src={react} alt='Saas development in chandigarh and zirakpur'/>
                                     </div>
                                     <div className="saas-tools-img-name d-flex justify-content-center">
                                         <h5>React-Native</h5>
@@ -211,7 +274,7 @@ Lower Total Cost of Ownership (TCO)" url="/contact-us" btnTitle="Request Consult
 
                                 <div className="saas_content col-lg-3 col-md-4 col-sm-12 col-12">
                                     <div className="saas-tools-img d-flex justify-content-center">
-                                        <img src={java} />
+                                        <img src={java} alt='mlm software developer in chandigarh'/>
                                     </div>
                                     <div className="saas-tools-img-name d-flex justify-content-center">
                                         <h5>Java</h5>
@@ -220,7 +283,7 @@ Lower Total Cost of Ownership (TCO)" url="/contact-us" btnTitle="Request Consult
 
                                 <div className="saas_content col-lg-3 col-md-4 col-sm-12 col-12">
                                     <div className="saas-tools-img d-flex justify-content-center">
-                                        <img src={google} />
+                                        <img src={google} alt='Saas app Maker of chandigarh'/>
                                     </div>
                                     <div className="saas-tools-img-name d-flex justify-content-center">
                                         <h5>Objective-C</h5>
@@ -230,7 +293,7 @@ Lower Total Cost of Ownership (TCO)" url="/contact-us" btnTitle="Request Consult
                             <div className="row pt-5">
                                 <div className="saas_content col-lg-3 col-md-4 col-sm-12 col-12">
                                     <div className="saas-tools-img d-flex justify-content-center">
-                                        <img src={rail} />
+                                        <img src={rail} alt='Trusted Saas App development in chandigarh'/>
                                     </div>
                                     <div className="saas-tools-img-name d-flex justify-content-center">
                                         <h5>Kotlin</h5>
@@ -239,7 +302,7 @@ Lower Total Cost of Ownership (TCO)" url="/contact-us" btnTitle="Request Consult
 
                                 <div className="saas_content col-lg-3 col-md-4 col-sm-12 col-12">
                                     <div className="saas-tools-img d-flex justify-content-center">
-                                        <img src={node} />
+                                        <img src={node} alt='Top Saas App development in chandigarh'/>
                                     </div>
                                     <div className="saas-tools-img-name d-flex justify-content-center">
                                         <h5>Node</h5>
@@ -247,7 +310,7 @@ Lower Total Cost of Ownership (TCO)" url="/contact-us" btnTitle="Request Consult
                                 </div>
                                 <div className="saas_content col-lg-3 col-md-4 col-sm-12 col-12">
                                     <div className="saas-tools-img d-flex justify-content-center">
-                                        <img src={aws} />
+                                        <img src={aws} alt='SaaS App Developers in Chandigarh'/>
                                     </div>
                                     <div className="saas-tools-img-name d-flex justify-content-center">
                                         <h5>AWS</h5>
@@ -255,14 +318,12 @@ Lower Total Cost of Ownership (TCO)" url="/contact-us" btnTitle="Request Consult
                                 </div>
                                 <div className="saas_content col-lg-3 col-md-4 col-sm-12 col-12">
                                     <div className="saas-tools-img d-flex justify-content-center">
-                                        <img src={Azure} />
+                                        <img src={Azure} alt='SaaS Application Development Services in Chandigarh'/>
                                     </div>
                                     <div className="saas-tools-img-name d-flex justify-content-center">
                                         <h5>Azure</h5>
                                     </div>
                                 </div>
-
-
                             </div>
                         </div>
                     </div>
@@ -274,282 +335,57 @@ Lower Total Cost of Ownership (TCO)" url="/contact-us" btnTitle="Request Consult
                         <Row className="d-flex flex-column text-center">
                             <div className="main-bg w-100">
                                 <div className="inside-main py-5">
-                                    <h1>Our Process of Expertise</h1>
+                                    <h1>SaaS App Development Process We Follow</h1>
                                     <div className="work-para mt-2">
                                         <p>
-                                            Our team of expert mobile app developers plan, design, develop, test, optimize, and launch mobile apps that redefine user experiences.
+                                            Our trusted SaaS App Development in Chandigarh follows a structured approach to ensure seamless development and deployment :
                                         </p>
                                     </div>
 
                                     <Row className="curly-img curley-img mt-2">
                                         <Col xs={6} lg={2}>
                                             <div className="work-images">
-                                                <img src={container} alt="Product Design" />
-                                                <h6 className="mt-3">Product Design</h6>
-                                                <p className="text-light ">Crafting innovative and user-centric design strategies for a captivating app experience</p>
+                                                <img src={container} alt="SaaS Mobile App & and Website Development Company in Chandigarh" />
+                                                <h6 className="mt-4">Requirement Analysis</h6>
+                                                <p className="text-light ">Understanding your business needs and defining goals.</p>
                                             </div>
                                         </Col>
                                         <Col xs={6} lg={2}>
                                             <div className="work-images">
-                                                <img src={planning} alt="Mobile App Consulting" />
-                                                <h6 className="mt-3">Mobile App Consulting</h6>
-                                                <p className="text-light">Tailored guidance and strategies to shape your app concept into a successful product.</p>
+                                                <img src={planning} alt="Software Development Company in Chandigarh" />
+                                                <h6 className="mt-4">Planning & Wireframing</h6>
+                                                <p className="text-light">Crafting user-friendly UI/UX designs.</p>
                                             </div>
                                         </Col>
                                         <Col xs={6} lg={2}>
                                             <div className="work-images">
-                                                <img src={pen} alt="UI/UX Compatibility" />
-                                                <h6 className="mt-3">UI/UX Compatibility</h6>
-                                                <p className="text-light">Seamless integration of compelling design and intuitive user experiences for enhanced engagement.</p>
+                                                <img src={pen} alt="Saas App Development provider in chandigarh" />
+                                                <h6 className="mt-4">Development</h6>
+                                                <p className="text-light">Agile development methodologies for robust solutions.</p>
                                             </div>
                                         </Col>
                                         <Col xs={6} lg={2}>
                                             <div className="work-images">
-                                                <img src={development} alt="Development" />
-                                                <h6 className="mt-3">Development</h6>
-                                                <p className="text-light">Utilizing cutting-edge technologies to build robust, scalable, and high-performance mobile applications.</p>
+                                                <img src={development} alt="Saas App Development provider in panchkula and Mohali" />
+                                                <h6 className="mt-3">Testing & Quality Assurance</h6>
+                                                <p className="text-light">Testing the app for smooth performance, security, and reliability.</p>
                                             </div>
                                         </Col>
                                         <Col xs={6} lg={2}>
                                             <div className="work-images">
-                                                <img src={test} alt="QA & Testing" />
-                                                <h6 className="mt-3">QA & Testing</h6>
-                                                <p className="text-light">Our team of mobile testing experts performs testing and debugging to ensure a reliable and optimal functioning app.</p>
+                                                <img src={test} alt="Saas development in chandigarh and zirakpur" />
+                                                <h6 className="mt-3">Deployment & Maintenance</h6>
+                                                <p className="text-light">Launching with continuous support, updates, and scalability.</p>
                                             </div>
                                         </Col>
-
                                     </Row>
                                 </div>
                             </div>
                         </Row>
                     </Container>
                 </section>
-                <section className="caseStuides ">
-                    <Container>
-                        <div className="caseStuides_content pb-4">
-                            <Row className='align-items-start'>
-                                <Col lg={8}>
-                                    <h1 className="fw-semibold">Our Case Studies</h1>
-                                </Col>
-                                <Col lg={4} className="text-end">
-                                    <Link to="#" className="">
-                                        View All Case Studies →
-                                    </Link>
-                                    <div className="d-flex justify-content-end">
-                                        <div className="casestu_button position-relative mt-4 d-flex gap-5">
-                                            <div className="swiper-button-prev mt-0" />
-                                            <div className="swiper-button-next mt-0" />
-                                        </div>
-                                    </div>
-                                </Col>
-                            </Row>
-                        </div>
-                    </Container>
 
-                    <section className="fullCaseStudy">
-                        <Container>
-                            <Swiper
-                                modules={[Navigation, Autoplay]}
-                                spaceBetween={0}
-                                slidesPerView={1}
-                                navigation
-                                autoplay={{
-                                    delay: 2500,
-                                    disableOnInteraction: false,
-                                }}
-                                loop={true}
-                            >
-                                <SwiperSlide className='slider_bg3 slider_bg'>
-                                    <div className="row align-items-center">
-                                        <div className="col-lg-6 col-md-6 col-12 col-sm-12">
-                                            <div className="fullcase_details">
-                                                <div className="fullCaseStudy_slider_logo">
-                                                    <img src={CoffeeLogo} alt="" className='slider_bg3_logo' />
-                                                </div>
-                                                <div className="fullCaseStudy_textContent py-4">
-                                                    <h2 className="fw-semibold lh-base">IT TAKES A CREATIVE MIND TO BE IN THE
-                                                        FASHION BUSINESS.</h2>
-                                                    <div className="subfullCaseStudy d-flex gap-3 py-4">
-                                                        <div className="bg-dark text-white py-1 px-2 rounded-2">
-                                                            <span>UI/UX</span>
-                                                        </div>
-                                                        <div className="bg-dark text-white py-1 px-2 rounded-2">
-                                                            <span>E-commerce</span>
-                                                        </div>
-                                                        <div className="bg-dark text-white py-1 px-2 rounded-2">
-                                                            <span>Shopify</span>
-                                                        </div>
-                                                    </div>
-                                                    <p className="fullcase_para pb-4">Moonlight Concept is a high-end Qatari brand
-                                                        specialized in women’s apparel and garments. The name choice was
-                                                        influenced by the concept ...</p>
-                                                    <Link to="/case-studies" className="fullCaseStudy_url">Read Full Case Study
-                                                        <FaArrowRightLong className='mx-3' /></Link>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="col-lg-6 col-md-6 col-12 col-sm-12 d-flex justify-content-center justify-content-lg-end justifyconent align-items-center">
-                                            <div className="fullCaseStudy_img">
-                                                <img src={caseStu4} alt="" className="w-100" />
-                                            </div>
-                                        </div>
-                                    </div>
-                                </SwiperSlide>
-                                <SwiperSlide className='slider_bg1 slider_bg'>
-                                    <div className="row align-items-center">
-                                        <div className="col-lg-6 col-md-6 col-12 col-sm-12">
-                                            <div className="fullcase_details">
-                                                <div className="fullCaseStudy_slider_logo">
-                                                    <img src={moonLight} alt="" />
-                                                </div>
-                                                <div className="fullCaseStudy_textContent py-4">
-                                                    <h2 className="fw-semibold lh-base">IT TAKES A CREATIVE MIND TO BE IN THE
-                                                        FASHION BUSINESS.</h2>
-                                                    <div className="subfullCaseStudy d-flex gap-3 py-4">
-                                                        <div className="bg-dark text-white py-1 px-2 rounded-2">
-                                                            <span>UI/UX</span>
-                                                        </div>
-                                                        <div className="bg-dark text-white py-1 px-2 rounded-2">
-                                                            <span>E-commerce</span>
-                                                        </div>
-                                                        <div className="bg-dark text-white py-1 px-2 rounded-2">
-                                                            <span>Shopify</span>
-                                                        </div>
-                                                    </div>
-                                                    <p className="fullcase_para pb-4">Moonlight Concept is a high-end Qatari brand
-                                                        specialized in women’s apparel and garments. The name choice was
-                                                        influenced by the concept ...</p>
-                                                    <Link to="/case-studies" className="fullCaseStudy_url">Read Full Case Study
-                                                        <FaArrowRightLong className='mx-3' /></Link>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="col-lg-6 col-md-6 col-12 col-sm-12 d-flex justify-content-center justify-content-lg-end justifyconent align-items-center">
-                                            <div className="fullCaseStudy_img">
-                                                <img src={caseStu2} alt="" className="w-100" />
-                                            </div>
-                                        </div>
-                                    </div>
-                                </SwiperSlide>
-                                <SwiperSlide className='slider_bg2 slider_bg'>
-                                    <div className="row align-items-center">
-                                        <div className="col-lg-6 col-md-6 col-12 col-sm-12">
-                                            <div className="fullcase_details">
-                                                <div className="fullCaseStudy_slider_logo">
-                                                    <svg aria-hidden="true" focusable="false" role="presentation" width="226" height="29" viewBox="0 0 226 29" xmlns="http://www.w3.org/2000/svg">
-                                                        <path fill="#5789B5" d="M76.8698.307818h-6.3411L64.8341 17.4841 59.1394.307818h-6.3718V21.8551h4.4018V6.21793l5.4484 15.63717h4.4018l5.4791-15.72951V21.8551h4.3711V.307818ZM86.5006 22.1629c4.7404 0 7.8494-2.955 7.8494-8.0033 0-5.01739-3.109-8.00323-7.8494-8.00323s-7.8493 2.98584-7.8493 8.00323c0 5.0483 3.1089 8.0033 7.8493 8.0033Zm0-3.3244c-2.2778 0-3.4475-1.9085-3.4475-4.6789 0-2.7395 1.1697-4.61723 3.4475-4.61723 2.2471 0 3.4476 1.87773 3.4476 4.61723 0 2.7704-1.2005 4.6789-3.4476 4.6789ZM106.323 0v8.24953c-.708-1.23127-2.309-2.09316-4.31-2.09316-3.8165 0-6.8947 3.10897-6.8947 8.15723 0 4.6172 2.5857 7.8493 6.7107 7.8493 2.678 0 4.063-1.4159 4.494-2.1855v1.8777h4.309V0h-4.309Zm-3.386 18.9616c-2.155 0-3.3861-1.6314-3.3861-4.5557 0-2.9243 1.2001-4.77118 3.4171-4.77118 2.093 0 3.355 1.60068 3.355 4.58648 0 3.1398-1.416 4.7404-3.386 4.7404ZM123.119 16.6838c-.308 1.4159-1.324 2.2163-3.079 2.2163-2.031 0-3.447-1.1698-3.663-3.7246h10.836v-.6772c0-5.51-2.894-8.34193-7.542-8.34193-5.048 0-7.665 3.60147-7.665 7.97253 0 4.4018 2.586 8.034 7.942 8.034 4.617 0 6.834-2.401 7.357-5.4791h-4.186Zm-3.386-7.3569c1.723 0 2.831 1.0158 3.047 3.2321h-6.28c.401-2.2163 1.509-3.2321 3.233-3.2321ZM138.211 6.46419c-2.832 0-4.278 1.84691-4.956 3.69381V6.46419h-4.463V21.8551h4.463v-5.356c0-5.3561 2.371-6.3103 5.418-6.3103h1.601V6.46419h-2.063ZM150.961 6.15637c-3.54 0-4.956 2.64724-5.479 4.09403V6.46419h-4.371V21.8551h4.371v-4.5865c0-5.6946 1.754-7.51075 3.817-7.51075 1.785 0 2.401 1.16975 2.401 3.66305v8.4342h4.432v-9.4808c0-4.34024-1.97-6.21793-5.171-6.21793Z">
-                                                        </path>
-                                                        <path fill="#14134A" d="M18.2536.307818H0V4.34024h6.77201V21.8551h4.70959V4.34024h6.772V.307818ZM29.1682 6.15637c-3.5399 0-4.9559 2.64724-5.4792 4.09403V0h-4.371v21.8551h4.371v-4.5865c0-5.6946 1.7546-7.51075 3.817-7.51075 1.7853 0 2.401 1.16975 2.401 3.66305v8.4342h4.4326v-9.4808c0-4.34024-1.9701-6.21793-5.1714-6.21793ZM46.8192 16.6838c-.3078 1.4159-1.3236 2.2163-3.0782 2.2163-2.0316 0-3.4476-1.1698-3.663-3.7246h10.8352v-.6772c0-5.51-2.8935-8.34193-7.5416-8.34193-5.0482 0-7.6647 3.60147-7.6647 7.97253 0 4.4018 2.5857 8.034 7.9418 8.034 4.6172 0 6.8335-2.401 7.3568-5.4791h-4.1863Zm-3.386-7.3569c1.7238 0 2.8319 1.0158 3.0474 3.2321h-6.2795c.4002-2.2163 1.5083-3.2321 3.2321-3.2321ZM162.763 14.9908h-4.618c.277 4.2479 3.294 7.1721 8.373 7.1721 4.402 0 7.695-1.97 7.695-5.9717 0-3.94-2.924-5.356-7.572-6.34101-3.478-.76955-4.556-1.66222-4.556-3.26287 0-1.66222 1.847-2.5549 3.694-2.5549 3.048 0 4.648 1.3544 4.864 4.09399h4.586C174.829 2.06238 170.704 0 165.964 0c-4.094 0-8.557 2.06238-8.557 6.49497 0 4.12473 2.77 5.87933 7.449 6.83353 3.109.708 4.586 1.2005 4.586 2.8935 0 1.4468-1.108 2.0932-2.709 2.0932-2.277 0-3.786-1.1389-3.97-3.3244ZM185.939 6.15637c-3.54 0-4.956 2.64724-5.479 4.09403V0h-4.371v21.8551h4.371v-4.5865c0-5.6946 1.755-7.51075 3.817-7.51075 1.785 0 2.401 1.16975 2.401 3.66305v8.4342h4.433v-9.4808c0-4.34024-1.97-6.21793-5.172-6.21793ZM200.327 22.1629c4.741 0 7.85-2.955 7.85-8.0033 0-5.01739-3.109-8.00323-7.85-8.00323-4.74 0-7.849 2.98584-7.849 8.00323 0 5.0483 3.109 8.0033 7.849 8.0033Zm0-3.3244c-2.278 0-3.447-1.9085-3.447-4.6789 0-2.7395 1.169-4.61723 3.447-4.61723 2.247 0 3.448 1.87773 3.448 4.61723 0 2.7704-1.201 4.6789-3.448 4.6789ZM218.335 6.15637c-1.97 0-3.571.86189-4.31 2.09316V6.46419h-4.371V28.6271h4.371v-8.6497c.462.7696 1.847 2.1855 4.525 2.1855 4.094 0 6.711-3.2321 6.711-7.8493 0-5.04826-3.078-8.15723-6.926-8.15723Zm-.893 12.80523c-2.001 0-3.417-1.6006-3.417-4.7404 0-2.9858 1.293-4.58648 3.386-4.58648 2.217 0 3.417 1.84688 3.417 4.77118s-1.231 4.5557-3.386 4.5557Z">
-                                                        </path>
-                                                    </svg>
-                                                </div>
-                                                <div className="fullCaseStudy_textContent py-4">
-                                                    <h2 className="fw-semibold lh-base">IT TAKES A CREATIVE MIND TO BE IN THE
-                                                        FASHION BUSINESS.</h2>
-                                                    <div className="subfullCaseStudy d-flex gap-3 py-4">
-                                                        <div className="bg-dark text-white py-1 px-2 rounded-2">
-                                                            <span>UI/UX</span>
-                                                        </div>
-                                                        <div className="bg-dark text-white py-1 px-2 rounded-2">
-                                                            <span>E-commerce</span>
-                                                        </div>
-                                                        <div className="bg-dark text-white py-1 px-2 rounded-2">
-                                                            <span>Shopify</span>
-                                                        </div>
-                                                    </div>
-                                                    <p className="fullcase_para pb-4">Moonlight Concept is a high-end Qatari brand
-                                                        specialized in women’s apparel and garments. The name choice was
-                                                        influenced by the concept ...</p>
-                                                    <Link to="#" className="fullCaseStudy_url">Read Full Case Study
-                                                        <FaArrowRightLong className='mx-3' /></Link>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="col-lg-6 col-md-6 col-12 col-sm-12 d-flex justify-content-center justify-content-lg-end justifyconent align-items-center">
-                                            <div className="fullCaseStudy_img">
-                                                <img src={caseStu3} alt="" className="w-100" />
-                                            </div>
-                                        </div>
-                                    </div>
-                                </SwiperSlide>
-                                <SwiperSlide className='slider_bg4 slider_bg'>
-                                    <div className="row align-items-center">
-                                        <div className="col-lg-6 col-md-6 col-12 col-sm-12">
-                                            <div className="fullcase_details">
-                                                <div className="fullCaseStudy_slider_logo">
-                                                    <img src={kriLogo} alt="" className='slider_bg3_logo' />
-                                                </div>
-                                                <div className="fullCaseStudy_textContent py-4">
-                                                    <h2 className="fw-semibold lh-base">IT TAKES A CREATIVE MIND TO BE IN THE
-                                                        FASHION BUSINESS.</h2>
-                                                    <div className="subfullCaseStudy d-flex gap-3 py-4">
-                                                        <div className="bg-dark text-white py-1 px-2 rounded-2">
-                                                            <span>UI/UX</span>
-                                                        </div>
-                                                        <div className="bg-dark text-white py-1 px-2 rounded-2">
-                                                            <span>E-commerce</span>
-                                                        </div>
-                                                        <div className="bg-dark text-white py-1 px-2 rounded-2">
-                                                            <span>Shopify</span>
-                                                        </div>
-                                                    </div>
-                                                    <p className="fullcase_para pb-4">Moonlight Concept is a high-end Qatari brand
-                                                        specialized in women’s apparel and garments. The name choice was
-                                                        influenced by the concept ...</p>
-                                                    <Link to="#" className="fullCaseStudy_url">Read Full Case Study
-                                                        <FaArrowRightLong className='mx-3' /></Link>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="col-lg-6 col-md-6 col-12 col-sm-12 d-flex justify-content-center justify-content-lg-end justifyconent align-items-center">
-                                            <div className="fullCaseStudy_img">
-                                                <img src={caseStu5} alt="" className="w-100" />
-                                            </div>
-                                        </div>
-                                    </div>
-                                </SwiperSlide>
-                                <SwiperSlide className='slider_bg5 slider_bg'>
-                                    <div className="row align-items-center">
-                                        <div className="col-lg-6 col-md-6 col-12 col-sm-12">
-                                            <div className="fullcase_details">
-                                                <div className="fullCaseStudy_slider_logo">
-                                                    <img src={kreLogo} alt="" className='slider_bg3_logo' />
-                                                </div>
-                                                <div className="fullCaseStudy_textContent py-4">
-                                                    <h2 className="fw-semibold lh-base">IT TAKES A CREATIVE MIND TO BE IN THE
-                                                        FASHION BUSINESS.</h2>
-                                                    <div className="subfullCaseStudy d-flex gap-3 py-4">
-                                                        <div className="bg-dark text-white py-1 px-2 rounded-2">
-                                                            <span>UI/UX</span>
-                                                        </div>
-                                                        <div className="bg-dark text-white py-1 px-2 rounded-2">
-                                                            <span>E-commerce</span>
-                                                        </div>
-                                                        <div className="bg-dark text-white py-1 px-2 rounded-2">
-                                                            <span>Shopify</span>
-                                                        </div>
-                                                    </div>
-                                                    <p className="fullcase_para pb-4">Moonlight Concept is a high-end Qatari brand
-                                                        specialized in women’s apparel and garments. The name choice was
-                                                        influenced by the concept ...</p>
-                                                    <Link to="#" className="fullCaseStudy_url">Read Full Case Study
-                                                        <FaArrowRightLong className='mx-3' /></Link>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="col-lg-6 col-md-6 col-12 col-sm-12 d-flex justify-content-center justify-content-lg-end justifyconent align-items-center">
-                                            <div className="fullCaseStudy_img">
-                                                <img src={caseStu6} alt="" className="w-100" />
-                                            </div>
-                                        </div>
-                                    </div>
-                                </SwiperSlide>
-                            </Swiper>
-                        </Container>
-                    </section>
-                </section>
-
-
+                      
                 <section className="Industries">
                     <div className="container">
                         <div>
@@ -603,6 +439,235 @@ Lower Total Cost of Ownership (TCO)" url="/contact-us" btnTitle="Request Consult
                         </div>
                     </div>
                 </section>
+
+                <section className="caseStuides ">
+                    <Container>
+                        <div className="caseStuides_content pb-4">
+                            <Row className='align-items-start'>
+                                <Col lg={8}>
+                                    <h1 className="fw-semibold">Our Case Studies</h1>
+                                </Col>
+                                <Col lg={4} className="text-end">
+                                    <Link to="#" className="">
+                                        View All Case Studies →
+                                    </Link>
+                                    <div className="d-flex justify-content-end">
+                                        <div className="casestu_button position-relative mt-4 d-flex gap-5">
+                                            <div className="swiper-button-prev mt-0" />
+                                            <div className="swiper-button-next mt-0" />
+                                        </div>
+                                    </div>
+                                </Col>
+                            </Row>
+                        </div>
+                    </Container>
+
+                    <section className="fullCaseStudy">
+                        <Container>
+                            <Swiper
+                                modules={[Navigation, Autoplay]}
+                                spaceBetween={0}
+                                slidesPerView={1}
+                                navigation
+                                autoplay={{
+                                    delay: 2500,
+                                    disableOnInteraction: false,
+                                }}
+                                loop={true}
+                            >
+                                <SwiperSlide className='slider_bg3 slider_bg'>
+                                    <div className="row align-items-center">
+                                        <div className="col-lg-6 col-md-6 col-12 col-sm-12">
+                                            <div className="fullcase_details">
+                                                <div className="fullCaseStudy_slider_logo">
+                                                    <img src={CoffeeLogo} alt="mlm software developer in chandigarh" className='slider_bg3_logo' />
+                                                </div>
+                                                <div className="fullCaseStudy_textContent py-4">
+                                                    <h2 className="fw-semibold lh-base">IT TAKES A CREATIVE MIND TO BE IN THE
+                                                        FASHION BUSINESS.</h2>
+                                                    <div className="subfullCaseStudy d-flex gap-3 py-4">
+                                                        <div className="bg-dark text-white py-1 px-2 rounded-2">
+                                                            <span>UI/UX</span>
+                                                        </div>
+                                                        <div className="bg-dark text-white py-1 px-2 rounded-2">
+                                                            <span>E-commerce</span>
+                                                        </div>
+                                                        <div className="bg-dark text-white py-1 px-2 rounded-2">
+                                                            <span>Shopify</span>
+                                                        </div>
+                                                    </div>
+                                                    <p className="fullcase_para pb-4">Moonlight Concept is a high-end Qatari brand
+                                                        specialized in women’s apparel and garments. The name choice was
+                                                        influenced by the concept ...</p>
+                                                    <Link to="/case-studies" className="fullCaseStudy_url">Read Full Case Study
+                                                        <FaArrowRightLong className='mx-3' /></Link>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="col-lg-6 col-md-6 col-12 col-sm-12 d-flex justify-content-center justify-content-lg-end justifyconent align-items-center">
+                                            <div className="fullCaseStudy_img">
+                                                <img src={caseStu4} alt="Saas app Maker of chandigarh" className="w-100" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </SwiperSlide>
+                                <SwiperSlide className='slider_bg1 slider_bg'>
+                                    <div className="row align-items-center">
+                                        <div className="col-lg-6 col-md-6 col-12 col-sm-12">
+                                            <div className="fullcase_details">
+                                                <div className="fullCaseStudy_slider_logo">
+                                                    <img src={moonLight} alt="Trusted Saas App development in chandigarh" />
+                                                </div>
+                                                <div className="fullCaseStudy_textContent py-4">
+                                                    <h2 className="fw-semibold lh-base">IT TAKES A CREATIVE MIND TO BE IN THE
+                                                        FASHION BUSINESS.</h2>
+                                                    <div className="subfullCaseStudy d-flex gap-3 py-4">
+                                                        <div className="bg-dark text-white py-1 px-2 rounded-2">
+                                                            <span>UI/UX</span>
+                                                        </div>
+                                                        <div className="bg-dark text-white py-1 px-2 rounded-2">
+                                                            <span>E-commerce</span>
+                                                        </div>
+                                                        <div className="bg-dark text-white py-1 px-2 rounded-2">
+                                                            <span>Shopify</span>
+                                                        </div>
+                                                    </div>
+                                                    <p className="fullcase_para pb-4">Moonlight Concept is a high-end Qatari brand
+                                                        specialized in women’s apparel and garments. The name choice was
+                                                        influenced by the concept ...</p>
+                                                    <Link to="/case-studies" className="fullCaseStudy_url">Read Full Case Study
+                                                        <FaArrowRightLong className='mx-3' /></Link>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="col-lg-6 col-md-6 col-12 col-sm-12 d-flex justify-content-center justify-content-lg-end justifyconent align-items-center">
+                                            <div className="fullCaseStudy_img">
+                                                <img src={caseStu2} alt="Top Saas App development in chandigarh" className="w-100" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </SwiperSlide>
+                                <SwiperSlide className='slider_bg2 slider_bg'>
+                                    <div className="row align-items-center">
+                                        <div className="col-lg-6 col-md-6 col-12 col-sm-12">
+                                            <div className="fullcase_details">
+                                                <div className="fullCaseStudy_slider_logo">
+                                                    <svg aria-hidden="true" focusable="false" role="presentation" width="226" height="29" viewBox="0 0 226 29" xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill="#5789B5" d="M76.8698.307818h-6.3411L64.8341 17.4841 59.1394.307818h-6.3718V21.8551h4.4018V6.21793l5.4484 15.63717h4.4018l5.4791-15.72951V21.8551h4.3711V.307818ZM86.5006 22.1629c4.7404 0 7.8494-2.955 7.8494-8.0033 0-5.01739-3.109-8.00323-7.8494-8.00323s-7.8493 2.98584-7.8493 8.00323c0 5.0483 3.1089 8.0033 7.8493 8.0033Zm0-3.3244c-2.2778 0-3.4475-1.9085-3.4475-4.6789 0-2.7395 1.1697-4.61723 3.4475-4.61723 2.2471 0 3.4476 1.87773 3.4476 4.61723 0 2.7704-1.2005 4.6789-3.4476 4.6789ZM106.323 0v8.24953c-.708-1.23127-2.309-2.09316-4.31-2.09316-3.8165 0-6.8947 3.10897-6.8947 8.15723 0 4.6172 2.5857 7.8493 6.7107 7.8493 2.678 0 4.063-1.4159 4.494-2.1855v1.8777h4.309V0h-4.309Zm-3.386 18.9616c-2.155 0-3.3861-1.6314-3.3861-4.5557 0-2.9243 1.2001-4.77118 3.4171-4.77118 2.093 0 3.355 1.60068 3.355 4.58648 0 3.1398-1.416 4.7404-3.386 4.7404ZM123.119 16.6838c-.308 1.4159-1.324 2.2163-3.079 2.2163-2.031 0-3.447-1.1698-3.663-3.7246h10.836v-.6772c0-5.51-2.894-8.34193-7.542-8.34193-5.048 0-7.665 3.60147-7.665 7.97253 0 4.4018 2.586 8.034 7.942 8.034 4.617 0 6.834-2.401 7.357-5.4791h-4.186Zm-3.386-7.3569c1.723 0 2.831 1.0158 3.047 3.2321h-6.28c.401-2.2163 1.509-3.2321 3.233-3.2321ZM138.211 6.46419c-2.832 0-4.278 1.84691-4.956 3.69381V6.46419h-4.463V21.8551h4.463v-5.356c0-5.3561 2.371-6.3103 5.418-6.3103h1.601V6.46419h-2.063ZM150.961 6.15637c-3.54 0-4.956 2.64724-5.479 4.09403V6.46419h-4.371V21.8551h4.371v-4.5865c0-5.6946 1.754-7.51075 3.817-7.51075 1.785 0 2.401 1.16975 2.401 3.66305v8.4342h4.432v-9.4808c0-4.34024-1.97-6.21793-5.171-6.21793Z">
+                                                        </path>
+                                                        <path fill="#14134A" d="M18.2536.307818H0V4.34024h6.77201V21.8551h4.70959V4.34024h6.772V.307818ZM29.1682 6.15637c-3.5399 0-4.9559 2.64724-5.4792 4.09403V0h-4.371v21.8551h4.371v-4.5865c0-5.6946 1.7546-7.51075 3.817-7.51075 1.7853 0 2.401 1.16975 2.401 3.66305v8.4342h4.4326v-9.4808c0-4.34024-1.9701-6.21793-5.1714-6.21793ZM46.8192 16.6838c-.3078 1.4159-1.3236 2.2163-3.0782 2.2163-2.0316 0-3.4476-1.1698-3.663-3.7246h10.8352v-.6772c0-5.51-2.8935-8.34193-7.5416-8.34193-5.0482 0-7.6647 3.60147-7.6647 7.97253 0 4.4018 2.5857 8.034 7.9418 8.034 4.6172 0 6.8335-2.401 7.3568-5.4791h-4.1863Zm-3.386-7.3569c1.7238 0 2.8319 1.0158 3.0474 3.2321h-6.2795c.4002-2.2163 1.5083-3.2321 3.2321-3.2321ZM162.763 14.9908h-4.618c.277 4.2479 3.294 7.1721 8.373 7.1721 4.402 0 7.695-1.97 7.695-5.9717 0-3.94-2.924-5.356-7.572-6.34101-3.478-.76955-4.556-1.66222-4.556-3.26287 0-1.66222 1.847-2.5549 3.694-2.5549 3.048 0 4.648 1.3544 4.864 4.09399h4.586C174.829 2.06238 170.704 0 165.964 0c-4.094 0-8.557 2.06238-8.557 6.49497 0 4.12473 2.77 5.87933 7.449 6.83353 3.109.708 4.586 1.2005 4.586 2.8935 0 1.4468-1.108 2.0932-2.709 2.0932-2.277 0-3.786-1.1389-3.97-3.3244ZM185.939 6.15637c-3.54 0-4.956 2.64724-5.479 4.09403V0h-4.371v21.8551h4.371v-4.5865c0-5.6946 1.755-7.51075 3.817-7.51075 1.785 0 2.401 1.16975 2.401 3.66305v8.4342h4.433v-9.4808c0-4.34024-1.97-6.21793-5.172-6.21793ZM200.327 22.1629c4.741 0 7.85-2.955 7.85-8.0033 0-5.01739-3.109-8.00323-7.85-8.00323-4.74 0-7.849 2.98584-7.849 8.00323 0 5.0483 3.109 8.0033 7.849 8.0033Zm0-3.3244c-2.278 0-3.447-1.9085-3.447-4.6789 0-2.7395 1.169-4.61723 3.447-4.61723 2.247 0 3.448 1.87773 3.448 4.61723 0 2.7704-1.201 4.6789-3.448 4.6789ZM218.335 6.15637c-1.97 0-3.571.86189-4.31 2.09316V6.46419h-4.371V28.6271h4.371v-8.6497c.462.7696 1.847 2.1855 4.525 2.1855 4.094 0 6.711-3.2321 6.711-7.8493 0-5.04826-3.078-8.15723-6.926-8.15723Zm-.893 12.80523c-2.001 0-3.417-1.6006-3.417-4.7404 0-2.9858 1.293-4.58648 3.386-4.58648 2.217 0 3.417 1.84688 3.417 4.77118s-1.231 4.5557-3.386 4.5557Z">
+                                                        </path>
+                                                    </svg>
+                                                </div>
+                                                <div className="fullCaseStudy_textContent py-4">
+                                                    <h2 className="fw-semibold lh-base">IT TAKES A CREATIVE MIND TO BE IN THE
+                                                        FASHION BUSINESS.</h2>
+                                                    <div className="subfullCaseStudy d-flex gap-3 py-4">
+                                                        <div className="bg-dark text-white py-1 px-2 rounded-2">
+                                                            <span>UI/UX</span>
+                                                        </div>
+                                                        <div className="bg-dark text-white py-1 px-2 rounded-2">
+                                                            <span>E-commerce</span>
+                                                        </div>
+                                                        <div className="bg-dark text-white py-1 px-2 rounded-2">
+                                                            <span>Shopify</span>
+                                                        </div>
+                                                    </div>
+                                                    <p className="fullcase_para pb-4">Moonlight Concept is a high-end Qatari brand
+                                                        specialized in women’s apparel and garments. The name choice was
+                                                        influenced by the concept ...</p>
+                                                    <Link to="#" className="fullCaseStudy_url">Read Full Case Study
+                                                        <FaArrowRightLong className='mx-3' /></Link>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="col-lg-6 col-md-6 col-12 col-sm-12 d-flex justify-content-center justify-content-lg-end justifyconent align-items-center">
+                                            <div className="fullCaseStudy_img">
+                                                <img src={caseStu3} alt="SaaS App Developers in Chandigarh" className="w-100" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </SwiperSlide>
+                                <SwiperSlide className='slider_bg4 slider_bg'>
+                                    <div className="row align-items-center">
+                                        <div className="col-lg-6 col-md-6 col-12 col-sm-12">
+                                            <div className="fullcase_details">
+                                                <div className="fullCaseStudy_slider_logo">
+                                                    <img src={kriLogo} alt="Saas App Development provider in panchkula and Mohali" className='slider_bg3_logo' />
+                                                </div>
+                                                <div className="fullCaseStudy_textContent py-4">
+                                                    <h2 className="fw-semibold lh-base">IT TAKES A CREATIVE MIND TO BE IN THE
+                                                        FASHION BUSINESS.</h2>
+                                                    <div className="subfullCaseStudy d-flex gap-3 py-4">
+                                                        <div className="bg-dark text-white py-1 px-2 rounded-2">
+                                                            <span>UI/UX</span>
+                                                        </div>
+                                                        <div className="bg-dark text-white py-1 px-2 rounded-2">
+                                                            <span>E-commerce</span>
+                                                        </div>
+                                                        <div className="bg-dark text-white py-1 px-2 rounded-2">
+                                                            <span>Shopify</span>
+                                                        </div>
+                                                    </div>
+                                                    <p className="fullcase_para pb-4">Moonlight Concept is a high-end Qatari brand
+                                                        specialized in women’s apparel and garments. The name choice was
+                                                        influenced by the concept ...</p>
+                                                    <Link to="#" className="fullCaseStudy_url">Read Full Case Study
+                                                        <FaArrowRightLong className='mx-3' /></Link>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="col-lg-6 col-md-6 col-12 col-sm-12 d-flex justify-content-center justify-content-lg-end justifyconent align-items-center">
+                                            <div className="fullCaseStudy_img">
+                                                <img src={caseStu5} alt="Saas app Maker of chandigarh" className="w-100" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </SwiperSlide>
+                                <SwiperSlide className='slider_bg5 slider_bg'>
+                                    <div className="row align-items-center">
+                                        <div className="col-lg-6 col-md-6 col-12 col-sm-12">
+                                            <div className="fullcase_details">
+                                                <div className="fullCaseStudy_slider_logo">
+                                                    <img src={kreLogo} alt="Saas App Development provider in panchkula and Mohali" className='slider_bg3_logo' />
+                                                </div>
+                                                <div className="fullCaseStudy_textContent py-4">
+                                                    <h2 className="fw-semibold lh-base">IT TAKES A CREATIVE MIND TO BE IN THE
+                                                        FASHION BUSINESS.</h2>
+                                                    <div className="subfullCaseStudy d-flex gap-3 py-4">
+                                                        <div className="bg-dark text-white py-1 px-2 rounded-2">
+                                                            <span>UI/UX</span>
+                                                        </div>
+                                                        <div className="bg-dark text-white py-1 px-2 rounded-2">
+                                                            <span>E-commerce</span>
+                                                        </div>
+                                                        <div className="bg-dark text-white py-1 px-2 rounded-2">
+                                                            <span>Shopify</span>
+                                                        </div>
+                                                    </div>
+                                                    <p className="fullcase_para pb-4">Moonlight Concept is a high-end Qatari brand
+                                                        specialized in women’s apparel and garments. The name choice was
+                                                        influenced by the concept ...</p>
+                                                    <Link to="#" className="fullCaseStudy_url">Read Full Case Study
+                                                        <FaArrowRightLong className='mx-3' /></Link>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="col-lg-6 col-md-6 col-12 col-sm-12 d-flex justify-content-center justify-content-lg-end justifyconent align-items-center">
+                                            <div className="fullCaseStudy_img">
+                                                <img src={caseStu6} alt="SaaS Mobile App & and Website Development Company in Chandigarh" className="w-100" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </SwiperSlide>
+                            </Swiper>
+                        </Container>
+                    </section>
+                </section> 
+
+
+           
+                <FAQAccordion title="FAQs on SaaS Development" faqs={faqData}/>
             </main>
         </>
     )
