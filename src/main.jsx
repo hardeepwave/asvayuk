@@ -111,7 +111,7 @@ const router = createBrowserRouter([
       { path: "/ar-vr-development", element: <Ar_Vr_Dev /> },
       { path: "/social-media-marketing", element: <Social_Media_Marketing /> },
       { path: "/best-seo-services-in-chandigarh", element: <Search_Engine_Opti /> },
-      { path: "/ui-ux-design", element: <UI_UX_Design /> },
+      { path: "/best-ui-ux-designers-in-chandigarh", element: <UI_UX_Design /> },
       { path: "/mlm-software-chandigarh-panchkula", element: <MLM_Software /> },
       { path: "/ai-chatbot-chandigarh-panchkula", element: <AI_chatBot /> },
       { path: "/crm-erp", element: <CRM_ERP /> },

@@ -251,7 +251,7 @@ export default function Header() {
                                 <Col lg={4}>
                                   <div className="tab-menus tab_menu_top d-flex flex-column gap-4">
                                     <Link
-                                      to="/ui-ux-design"
+                                      to="/best-ui-ux-designers-in-chandigarh"
                                       onClick={handleMegaMenuLinkClick}
                                     >
                                       UI UX Design
@@ -671,7 +671,7 @@ export default function Header() {
                             <div>
                               <ul className="list-unstyled d-flex flex-column">
                                 <li className="py-2 border-bottom">
-                                  <Link to="/ui-ux-design" onClick={toggleMenu}>
+                                  <Link to="/best-ui-ux-designers-in-chandigarh" onClick={toggleMenu}>
                                     UI UX Design
                                   </Link>
                                 </li>

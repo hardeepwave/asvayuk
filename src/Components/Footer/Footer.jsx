@@ -273,7 +273,7 @@ function Footer() {
                                     <div className="footer_menu">
                                         <ul className="list-unstyled d-flex flex-column gap-2">
                                             <li>
-                                                <Link to="/ui-ux-design">UI/UX Design</Link>
+                                                <Link to="/best-ui-ux-designers-in-chandigarh">UI/UX Design</Link>
                                             </li>
                                             <li>
                                                 <Link to="/website-development-company-in-chandigarh-and-mohali">Website Development</Link>

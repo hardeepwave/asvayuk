@@ -524,7 +524,7 @@ function Home() {
                                     <div className="row align-items-center">
                                         <div className="col-8">
                                             <div className="Empowering_content text-white">
-                                                <Link to="/ui-ux-design"><h5>UI/UX Design<MdNavigateNext /></h5></Link>
+                                                <Link to="/best-ui-ux-designers-in-chandigarh"><h5>UI/UX Design<MdNavigateNext /></h5></Link>
                                                 <p className="text-white py-1">We at Asvayuk Technologies design seamless interfaces and captivating user experiences with meticulous attention to detail, enhancing your digital presence and user engagement.</p>
                                             </div>
                                         </div>

@@ -85,7 +85,7 @@ const UI_UX_Design = () => {
             <Meta_Component
                 title="Best UI/UX designers in Chandigarh | Asvayuk Technologies"
                 description="Looking for the Best UI/UX designers in Chandigarh? Asvayuk Technologies offers top-notch UI/UX solutions for websites & mobile apps."
-                canonical="https://asvayuktech.com/ui-ux-design"
+                canonical="https://asvayuktech.com/best-ui-ux-designers-in-chandigarh"
             />
 
             <main>
