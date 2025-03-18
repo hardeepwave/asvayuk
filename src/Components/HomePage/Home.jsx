@@ -467,7 +467,7 @@ function Home() {
                         </div>
                     </Container>
                 </section>
-
+{/* 
                 <section className="caseStuidesResponsive bg-light py-4 d-block d-lg-none d-md-none">
                     <div className="container text-center">
                         <div className="caseStuidesResponsive_content pb-3">
@@ -509,7 +509,7 @@ function Home() {
                             </Link>
                         </div>
                     </div>
-                </section> 
+                </section>  */}
                 
 
                 {/* <!-- Empowering  --> */}
