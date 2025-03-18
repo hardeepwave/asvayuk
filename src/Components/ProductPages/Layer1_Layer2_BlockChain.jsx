@@ -26,14 +26,15 @@ import service6 from '../../Images/services6.webp'
 
 
 const Layer1_Layer2_BlockChain = () => {
+    
     return (
         <>
             <Meta_Component
                 title="Expert Layer 1 & Layer 2 Blockchain Development in Panchkula and Chandigarh"
-                description="Asvayuk Technologies offers innovative Layer 1 & Layer 2 blockchain solutions in Panchkula & Chandigarh, providing secure, scalable, customized blockchain services."
+                description="Asvayuk Technologies offers Layer 1 & Layer 2 blockchain solutions in Panchkula & Chandigarh, providing secure, scalable, and customized services"
                 canonical="https://asvayuktech.com/layer1-layer2-blockchain-panchkula-chandigarh"
             />
-<main>
+        <main>
             <section className="banner-en">
                 <Container>
                     <Row className="align-items-center">

@@ -34,6 +34,11 @@
     font-weight: 600;
     line-height: 60px;
 }
+.Empowering_title h2{
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 60px;
+}
 
 
 .bg_empowering {
@@ -192,3 +197,13 @@
     text-transform: capitalize;
     color: black;
 }
+.Relationships_title h2{
+    font-size: 50px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: black;
+}
+
+.LifeWaveInfoTech_title h2{
+    font-size : 45px;
+  }

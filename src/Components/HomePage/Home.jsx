@@ -80,7 +80,7 @@ function Home() {
         <>
             <Meta_Component
                 title="Asvayuk Technologies | Top Web Development & Digital Marketing Solutions"
-                description="Asvayuk Technologies offers expert web development, digital marketing, and blockchain solutions. Established in 2013, we provide innovative services to elevate your business. Contact us!"
+                description="Asvayuk Technologies provides expert web development, digital marketing, and blockchain solutions to elevate your business. Contact us today!"
                 canonical="https://asvayuktech.com/"
             />
             <main>
@@ -323,7 +323,7 @@ function Home() {
                             <h5>Case Studies</h5>
                             <Row className="align-items-start">
                                 <div className="col-8">
-                                    <h1 className="fw-semibold"> Practical Solutions That Revolutionized Industries!</h1>
+                                    <h2 className="fw-semibold fs-1"> Practical Solutions That Revolutionized Industries!</h2>
                                 </div>
                                 <div className="col-lg-4 text-end fw-bold">
                                     <Link to="/case-studies">View All Case Studies →</Link>
@@ -471,7 +471,7 @@ function Home() {
                 <section className="caseStuidesResponsive bg-light py-4 d-block d-lg-none d-md-none">
                     <div className="container text-center">
                         <div className="caseStuidesResponsive_content pb-3">
-                            <h1 className="fw-semibold"> Practical Solutions That Revolutionized Industries!</h1>
+                            <p className="fw-semibold"> Practical Solutions That Revolutionized Industries!</p>
                         </div>
                         <div className="row">
                             <div className="col-12 col-sm-6 pb-4">
@@ -509,14 +509,15 @@ function Home() {
                             </Link>
                         </div>
                     </div>
-                </section>
+                </section> 
+                
 
                 {/* <!-- Empowering  --> */}
                 <section className="Empowering py-4 py-lg-0 py-md-0">
                     <div className="container">
                         <div className="Empowering_title text-center pb-2 pb-md-5">
-                            <h1 className="fw-semibold">Fueling Your Growth with Customized Solutions
-                            </h1>
+                            <h2 className="fw-semibold">Fueling Your Growth with Customized Solutions
+                            </h2>
                         </div>
                         <div className="row pt-0 pt-lg-3 pt-md-3">
                             <div className="col-lg-6 col-md-6 col-sm-6 col-12 px-2 pb-3 pb-lg-0 pb-md-0">
@@ -646,7 +647,7 @@ function Home() {
                 <section className="Industries">
                     <div className="container">
                         <div>
-                            <h1 className="fw-semibold">Industries We Serve</h1>
+                            <h2 className="fw-semibold fs-1">Industries We Serve</h2>
                             <p>Staying attuned to diverse industries, Asvayuk Technologies serves a wide range of sectors, providing customized solutions that set new benchmarks and drive innovation.</p>
                         </div>
                         <div className="row pt-3">
@@ -900,7 +901,7 @@ function Home() {
                 <section className="Our_Relationships">
                     <div className="container">
                         <div className="Relationships_title text-center">
-                            <h1 className="fw-semibold">Our Relationships</h1>
+                            <h2 className="fw-semibold">Our Relationships</h2>
                         </div>
                         <div className="row pt-3 gx-2 gy-2 gx-md-0 gy-md-0e">
                             <div className="rel-imgInfo col-lg-2 col-md-4 col-6 p-md-1">
@@ -1002,7 +1003,7 @@ function Home() {
                     <div className="container">
                         <div className="row">
                             <div className="LifeWaveInfoTech_title px-0 px-lg-5 px-md-5 mx-0 ">
-                                <h1 className="fw-semibold">Life At Asvayuk</h1>
+                                <h2 className="fw-semibold text-white">Life At Asvayuk</h2>
                                 <p className="text-light px-3 px-md-0">At Asvayuk Technologies, innovation thrives, ideas flourish, and teamwork propels
                                     us toward excellence. Our dynamic culture fosters growth and continuous learning.</p>
                             </div>

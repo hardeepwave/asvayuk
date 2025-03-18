@@ -32,6 +32,9 @@ a {
 .loaction_content p {
     font-size: 13px;
 }
+.location_title h2{
+    font-size: 41px;
+}
 
 footer {
     padding-block: 30px;

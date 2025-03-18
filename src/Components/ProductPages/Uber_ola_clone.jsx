@@ -30,7 +30,7 @@ const Uber_ola_clone = () => {
         <>
             <Meta_Component
                 title="Uber/Ola Clone App Development Services in Panchkula and Chandigarh"
-                description="Asvayuk Technologies offers Uber/Ola clone app development in Panchkula & Chandigarh, providing scalable, customizable ride-hailing solutions for businesses."
+                description="Asvayuk Technologies offers Uber/Ola clone app development in Panchkula & Chandigarh, providing scalable and customizable ride-hailing solutions."
                 canonical="https://asvayuktech.com/uber-ola-clone-panchkula-chandigarh"
             />
 

@@ -5,7 +5,7 @@ import Mumbai from '../../Images/mumbai_footer_img.webp'
 import Dubai from '../../Images/dubai_footer_img.webp'
 import Logo from '../../Images/footer-logo.png'
 import { Link, useLocation } from 'react-router-dom'
-import { FaEnvelope, FaInstagram, FaLinkedin, FaPhoneAlt, FaPinterestP, FaSkype } from 'react-icons/fa'
+import { FaEnvelope, FaInstagram, FaLinkedin, FaPhoneAlt, FaPinterestP, FaSkype ,FaYoutube} from 'react-icons/fa'
 import { IoCall, IoLocationSharp } from 'react-icons/io5'
 import React, { useState } from 'react';
 import { Modal, Row } from 'react-bootstrap';
@@ -117,7 +117,7 @@ function Footer() {
                 <section className="location">
                     <div className="container">
                         <div className="location_title text-center">
-                            <h1 className="mb-0 fw-semibold">Our Locations</h1>
+                            <h2 className="mb-0 fw-semibold">Our Locations</h2>
                         </div>
                         <div className="row pt-5 align-items-end px-2 px-lg-0 px-lg-0">
 
@@ -216,7 +216,7 @@ function Footer() {
                                     </li>
                                 </ul>
                             </div>
-                            <div className="col-lg-6 ">
+                            <div className="col-lg-5">
                                 <div>
                                     <ul
                                         className="list-unstyled d-flex gap-3 justify-content-start justify-content-lg-end justify-content-md-end">
@@ -238,6 +238,11 @@ function Footer() {
                                         <li>
                                             <Link to="https://x.com/asvayuktech">
                                                 <FaXTwitter />
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link to="https://www.youtube.com/@AsvayukTechnologies">
+                                               <FaYoutube/>
                                             </Link>
                                         </li>
                                         <li>
@@ -328,12 +333,12 @@ function Footer() {
                                     <div className="footer_menu_title pb-2">
                                         <h3 className="fw-semibold">Contact Us</h3>
                                     </div>
-                                    <div className="footer_menu">
+                                    <div className="footer_menu pe-5">
                                         <ul className="list-unstyled d-flex flex-column gap-2 contact_info">
                                             <li>
-                                                <Link to={"https://maps.app.goo.gl/4HYCGEiryydf54xdA"} className="d-flex gap-2 align-items-center">
-                                                    <IoLocationSharp className='fs-2' />
-                                                    <p className="text-white mb-0">SCO-44, Sector 5-MDC, Panchkula, Haryana</p>
+                                                <Link to={"https://maps.app.goo.gl/4HYCGEiryydf54xdA"} className="d-flex gap-3">
+                                                    <IoLocationSharp className='fs-3 pt-1' />
+                                                    <p className="text-white mb-0"><b>Our Address :</b><br/>SCO-44, Sector 5-MDC, Panchkula, Haryana</p>
                                                 </Link>
                                             </li>
                                             <li>

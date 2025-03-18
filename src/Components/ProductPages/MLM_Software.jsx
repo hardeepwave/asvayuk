@@ -30,7 +30,7 @@ const MLM_Software = () => {
         <>
             <Meta_Component
                 title="MLM Software in Chandigarh Panchkula | Asvayuk Technologies"
-                description="Asvayuk offers advanced MLM Software development services in Chandigarh and Panchkula to optimize multi-level marketing strategies and achieve scalable growth."
+                description="Asvayuk offers advanced MLM Software development in Chandigarh & Panchkula to optimize multi-level marketing strategies for scalable growth."
                 canonical="https://asvayuktech.com/mlm-software-chandigarh-panchkula"
             />
             <main>
