@@ -54,7 +54,7 @@ const Ar_Vr_Dev = () => {
                             </div>
                             <div className="col-lg-6">
                                 <div className="bannerImg d-flex justify-content-center align-items-center">
-                                    <img src={Ar_Vr} alt="" className='w-100 h-100' />
+                                    <img src={Ar_Vr} alt="AR VR Development Services Chandigarh" className='w-100 h-100' />
                                 </div>
                             </div>
                         </Row>
@@ -271,7 +271,7 @@ const Ar_Vr_Dev = () => {
                                         <div className="col-lg-6 col-md-6 col-12 col-sm-12">
                                             <div className="fullcase_details">
                                                 <div className="fullCaseStudy_slider_logo">
-                                                    <img src={CoffeeLogo} alt="" className='slider_bg3_logo' />
+                                                    <img src={CoffeeLogo} alt="Best AR VR Developers Panchkula" className='slider_bg3_logo' />
                                                 </div>
                                                 <div className="fullCaseStudy_textContent py-4">
                                                     <h2 className="fw-semibold lh-base">IT TAKES A CREATIVE MIND TO BE IN THE FASHION BUSINESS.</h2>
@@ -294,7 +294,7 @@ const Ar_Vr_Dev = () => {
                                         </div>
                                         <div className="col-lg-6 col-md-6 col-12 col-sm-12 d-flex justify-content-center justify-content-lg-end justifyconent align-items-center">
                                             <div className="fullCaseStudy_img">
-                                                <img src={caseStu4} alt="" className="w-100" />
+                                                <img src={caseStu4} alt="Virtual Reality App Development" className="w-100" />
                                             </div>
                                         </div>
                                     </div>
@@ -304,7 +304,7 @@ const Ar_Vr_Dev = () => {
                                         <div className="col-lg-6 col-md-6 col-12 col-sm-12">
                                             <div className="fullcase_details">
                                                 <div className="fullCaseStudy_slider_logo">
-                                                    <img src={moonLight} alt="" />
+                                                    <img src={moonLight} alt="Augmented Reality Solutions Chandigarh" />
                                                 </div>
                                                 <div className="fullCaseStudy_textContent py-4">
                                                     <h2 className="fw-semibold lh-base">IT TAKES A CREATIVE MIND TO BE IN THE
@@ -330,7 +330,7 @@ const Ar_Vr_Dev = () => {
                                         </div>
                                         <div className="col-lg-6 col-md-6 col-12 col-sm-12 d-flex justify-content-center justify-content-lg-end justifyconent align-items-center">
                                             <div className="fullCaseStudy_img">
-                                                <img src={caseStu2} alt="" className="w-100" />
+                                                <img src={caseStu2} alt="Immersive AR/VR Experiences" className="w-100" />
                                             </div>
                                         </div>
                                     </div>
@@ -371,7 +371,7 @@ const Ar_Vr_Dev = () => {
                                         </div>
                                         <div className="col-lg-6 col-md-6 col-12 col-sm-12 d-flex justify-content-center justify-content-lg-end justifyconent align-items-center">
                                             <div className="fullCaseStudy_img">
-                                                <img src={caseStu3} alt="" className="w-100" />
+                                                <img src={caseStu3} alt="Custom AR/VR App Development" className="w-100" />
                                             </div>
                                         </div>
                                     </div>
@@ -381,7 +381,7 @@ const Ar_Vr_Dev = () => {
                                         <div className="col-lg-6 col-md-6 col-12 col-sm-12">
                                             <div className="fullcase_details">
                                                 <div className="fullCaseStudy_slider_logo">
-                                                    <img src={kriLogo} alt="" className='slider_bg3_logo' />
+                                                    <img src={kriLogo} alt="AR VR Software Development Company" className='slider_bg3_logo' />
                                                 </div>
                                                 <div className="fullCaseStudy_textContent py-4">
                                                     <h2 className="fw-semibold lh-base">IT TAKES A CREATIVE MIND TO BE IN THE
@@ -407,7 +407,7 @@ const Ar_Vr_Dev = () => {
                                         </div>
                                         <div className="col-lg-6 col-md-6 col-12 col-sm-12 d-flex justify-content-center justify-content-lg-end justifyconent align-items-center">
                                             <div className="fullCaseStudy_img">
-                                                <img src={caseStu5} alt="" className="w-100" />
+                                                <img src={caseStu5} alt="Interactive 3D Solutions Chandigarh" className="w-100" />
                                             </div>
                                         </div>
                                     </div>
@@ -417,7 +417,7 @@ const Ar_Vr_Dev = () => {
                                         <div className="col-lg-6 col-md-6 col-12 col-sm-12">
                                             <div className="fullcase_details">
                                                 <div className="fullCaseStudy_slider_logo">
-                                                    <img src={kreLogo} alt="" className='slider_bg3_logo' />
+                                                    <img src={kreLogo} alt="Metaverse & AR/VR Game Development" className='slider_bg3_logo' />
                                                 </div>
                                                 <div className="fullCaseStudy_textContent py-4">
                                                     <h2 className="fw-semibold lh-base">IT TAKES A CREATIVE MIND TO BE IN THE
@@ -443,7 +443,7 @@ const Ar_Vr_Dev = () => {
                                         </div>
                                         <div className="col-lg-6 col-md-6 col-12 col-sm-12 d-flex justify-content-center justify-content-lg-end justifyconent align-items-center">
                                             <div className="fullCaseStudy_img">
-                                                <img src={caseStu6} alt="" className="w-100" />
+                                                <img src={caseStu6} alt="Augmented Reality Solutions Chandigarh" className="w-100" />
                                             </div>
                                         </div>
                                     </div>

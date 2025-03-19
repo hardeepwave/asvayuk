@@ -226,7 +226,7 @@ const Game24 = () => {
                                         <div className="col-lg-6 col-md-6 col-12 col-sm-12">
                                             <div className="fullcase_details">
                                                 <div className="fullCaseStudy_slider_logo">
-                                                    <img src={CoffeeLogo} alt="" className='slider_bg3_logo' />
+                                                    <img src={CoffeeLogo} alt="24 Games Development Company in Chandigarh" className='slider_bg3_logo' />
                                                 </div>
                                                 <div className="fullCaseStudy_textContent py-4">
                                                     <h2 className="fw-semibold lh-base">IT TAKES A CREATIVE MIND TO BE IN THE FASHION BUSINESS.</h2>
@@ -249,7 +249,7 @@ const Game24 = () => {
                                         </div>
                                         <div className="col-lg-6 col-md-6 col-12 col-sm-12 d-flex justify-content-center justify-content-lg-end justifyconent align-items-center">
                                             <div className="fullCaseStudy_img">
-                                                <img src={caseStu4} alt="" className="w-100" />
+                                                <img src={caseStu4} alt="Best 24 Games Developers in Panchkula" className="w-100" />
                                             </div>
                                         </div>
                                     </div>
@@ -259,7 +259,7 @@ const Game24 = () => {
                                         <div className="col-lg-6 col-md-6 col-12 col-sm-12">
                                             <div className="fullcase_details">
                                                 <div className="fullCaseStudy_slider_logo">
-                                                    <img src={moonLight} alt="" />
+                                                    <img src={moonLight} alt="Custom 24 Games Software in Chandigarh" />
                                                 </div>
                                                 <div className="fullCaseStudy_textContent py-4">
                                                     <h2 className="fw-semibold lh-base">IT TAKES A CREATIVE MIND TO BE IN THE
@@ -285,7 +285,7 @@ const Game24 = () => {
                                         </div>
                                         <div className="col-lg-6 col-md-6 col-12 col-sm-12 d-flex justify-content-center justify-content-lg-end justifyconent align-items-center">
                                             <div className="fullCaseStudy_img">
-                                                <img src={caseStu2} alt="" className="w-100" />
+                                                <img src={caseStu2} alt="Top Gaming Software Solutions in Panchkula" className="w-100" />
                                             </div>
                                         </div>
                                     </div>
@@ -326,7 +326,7 @@ const Game24 = () => {
                                         </div>
                                         <div className="col-lg-6 col-md-6 col-12 col-sm-12 d-flex justify-content-center justify-content-lg-end justifyconent align-items-center">
                                             <div className="fullCaseStudy_img">
-                                                <img src={caseStu3} alt="" className="w-100" />
+                                                <img src={caseStu3} alt="24 Games Mobile App Development Chandigarh" className="w-100" />
                                             </div>
                                         </div>
                                     </div>
@@ -336,7 +336,7 @@ const Game24 = () => {
                                         <div className="col-lg-6 col-md-6 col-12 col-sm-12">
                                             <div className="fullcase_details">
                                                 <div className="fullCaseStudy_slider_logo">
-                                                    <img src={kriLogo} alt="" className='slider_bg3_logo' />
+                                                    <img src={kriLogo} alt="Online 24 Games Development in Panchkula" className='slider_bg3_logo' />
                                                 </div>
                                                 <div className="fullCaseStudy_textContent py-4">
                                                     <h2 className="fw-semibold lh-base">IT TAKES A CREATIVE MIND TO BE IN THE
@@ -362,7 +362,7 @@ const Game24 = () => {
                                         </div>
                                         <div className="col-lg-6 col-md-6 col-12 col-sm-12 d-flex justify-content-center justify-content-lg-end justifyconent align-items-center">
                                             <div className="fullCaseStudy_img">
-                                                <img src={caseStu5} alt="" className="w-100" />
+                                                <img src={caseStu5} alt="Multiplayer 24 Games Solutions in Chandigarh" className="w-100" />
                                             </div>
                                         </div>
                                     </div>
@@ -372,7 +372,7 @@ const Game24 = () => {
                                         <div className="col-lg-6 col-md-6 col-12 col-sm-12">
                                             <div className="fullcase_details">
                                                 <div className="fullCaseStudy_slider_logo">
-                                                    <img src={kreLogo} alt="" className='slider_bg3_logo' />
+                                                    <img src={kreLogo} alt="Secure 24 Games Platform Development in Panchkula" className='slider_bg3_logo' />
                                                 </div>
                                                 <div className="fullCaseStudy_textContent py-4">
                                                     <h2 className="fw-semibold lh-base">IT TAKES A CREATIVE MIND TO BE IN THE
@@ -398,7 +398,7 @@ const Game24 = () => {
                                         </div>
                                         <div className="col-lg-6 col-md-6 col-12 col-sm-12 d-flex justify-content-center justify-content-lg-end justifyconent align-items-center">
                                             <div className="fullCaseStudy_img">
-                                                <img src={caseStu6} alt="" className="w-100" />
+                                                <img src={caseStu6} alt="24 Games Software Company in Chandigarh" className="w-100" />
                                             </div>
                                         </div>
                                     </div>

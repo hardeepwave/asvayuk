@@ -11,8 +11,8 @@ function DAppDevelopment() {
         <>
 
                 <Meta_Component
-                    title="DApp Development Company in Chandigarh - Unlock Decentralized Innovation at Asvayuk Technologies"
-                    description="Asvayuk Technologies is a leading DApp development company in Chandigarh, offering cutting-edge, decentralized solutions for businesses looking to leverage the power of blockchain technology."
+                    title="App Development Company in Chandigarh | Asvayuk Tech"
+                    description="Asvayuk Technologies is a leading DApp development company in Chandigarh, offering decentralized solutions to leverage blockchain technology."
                     canonical="https://asvayuktech.com/blog/dapp-development-chandigarh" />
                     <main>
                 <section className="blog_cads">

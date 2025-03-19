@@ -126,7 +126,7 @@ function Footer() {
                                     <div className="row align-items-end">
                                         <div className="col-lg-4">
                                             <div>
-                                                <img src={CHD} alt="" className="img-fluid" />
+                                                <img src={CHD} alt="Our Address" className="img-fluid" />
                                             </div>
                                         </div>
                                         <div className="col-lg-8 p-0">
@@ -148,7 +148,7 @@ function Footer() {
                                     <div className="row align-items-end">
                                         <div className="col-lg-4">
                                             <div>
-                                                <img src={Canada} alt="" className="img-fluid" />
+                                                <img src={Canada} alt="Our location 2" className="img-fluid" />
                                             </div>
                                         </div>
                                         <div className="col-lg-8 p-0">
@@ -165,7 +165,7 @@ function Footer() {
                                     <div className="row align-items-end">
                                         <div className="col-lg-4">
                                             <div>
-                                                <img src={Mumbai} alt="" className="img-fluid" />
+                                                <img src={Mumbai} alt="Our location 3" className="img-fluid" />
                                             </div>
                                         </div>
                                         <div className="col-lg-8 p-0">
@@ -183,7 +183,7 @@ function Footer() {
                                     <div className="row align-items-end">
                                         <div className="col-lg-4">
                                             <div>
-                                                <img src={Dubai} alt="" className="img-fluid" />
+                                                <img src={Dubai} alt="Our location 4" className="img-fluid" />
                                             </div>
                                         </div>
                                         <div className="col-lg-8 p-0">

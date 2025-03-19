@@ -11,8 +11,8 @@ function NetworkMarketing() {
         <>
             <Meta_Component
                 title="Network Marketing Software Development | Asvayuk Technologies"
-                description="Discover how Asvayuk Technologies develops tailored network marketing software solutions to automate workflows, enhance transparency, and drive business growth."
-                canonical="https://www.asvayuktech.com/blog/network-marketing-software" />
+                description="Asvayuk Technologies develops tailored network marketing software to automate workflows, enhance transparency, and drive business growth."
+                canonical="https://asvayuktech.com/blog/network-marketing-software" />
             <main>
                 <section className="blog_cads">
                     <Container>

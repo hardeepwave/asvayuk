@@ -191,7 +191,7 @@ const Layer1_Layer2_BlockChain = () => {
                                     <div className="col-lg-6 col-md-6 col-12 col-sm-12">
                                         <div className="fullcase_details">
                                             <div className="fullCaseStudy_slider_logo">
-                                                <img src={CoffeeLogo} alt="" className='slider_bg3_logo' />
+                                                <img src={CoffeeLogo} alt="Layer 1 Blockchain Development Company in Chandigarh" className='slider_bg3_logo' />
                                             </div>
                                             <div className="fullCaseStudy_textContent py-4">
                                                 <h2 className="fw-semibold lh-base">IT TAKES A CREATIVE MIND TO BE IN THE FASHION BUSINESS.</h2>
@@ -214,7 +214,7 @@ const Layer1_Layer2_BlockChain = () => {
                                     </div>
                                     <div className="col-lg-6 col-md-6 col-12 col-sm-12 d-flex justify-content-center justify-content-lg-end justifyconent align-items-center">
                                         <div className="fullCaseStudy_img">
-                                            <img src={caseStu4} alt="" className="w-100" />
+                                            <img src={caseStu4} alt="Layer 2 Blockchain Solutions in Panchkula" className="w-100" />
                                         </div>
                                     </div>
                                 </div>
@@ -224,7 +224,7 @@ const Layer1_Layer2_BlockChain = () => {
                                     <div className="col-lg-6 col-md-6 col-12 col-sm-12">
                                         <div className="fullcase_details">
                                             <div className="fullCaseStudy_slider_logo">
-                                                <img src={moonLight} alt="" />
+                                                <img src={moonLight} alt="Custom Blockchain Development Services in Chandigarh" />
                                             </div>
                                             <div className="fullCaseStudy_textContent py-4">
                                                 <h2 className="fw-semibold lh-base">IT TAKES A CREATIVE MIND TO BE IN THE
@@ -250,7 +250,7 @@ const Layer1_Layer2_BlockChain = () => {
                                     </div>
                                     <div className="col-lg-6 col-md-6 col-12 col-sm-12 d-flex justify-content-center justify-content-lg-end justifyconent align-items-center">
                                         <div className="fullCaseStudy_img">
-                                            <img src={caseStu2} alt="" className="w-100" />
+                                            <img src={caseStu2} alt="Scalable Layer 1 Blockchain Development in Panchkula" className="w-100" />
                                         </div>
                                     </div>
                                 </div>
@@ -291,7 +291,7 @@ const Layer1_Layer2_BlockChain = () => {
                                     </div>
                                     <div className="col-lg-6 col-md-6 col-12 col-sm-12 d-flex justify-content-center justify-content-lg-end justifyconent align-items-center">
                                         <div className="fullCaseStudy_img">
-                                            <img src={caseStu3} alt="" className="w-100" />
+                                            <img src={caseStu3} alt="Layer 2 Scaling Solutions for Blockchain in Chandigarh" className="w-100" />
                                         </div>
                                     </div>
                                 </div>
@@ -301,7 +301,7 @@ const Layer1_Layer2_BlockChain = () => {
                                     <div className="col-lg-6 col-md-6 col-12 col-sm-12">
                                         <div className="fullcase_details">
                                             <div className="fullCaseStudy_slider_logo">
-                                                <img src={kriLogo} alt="" className='slider_bg3_logo' />
+                                                <img src={kriLogo} alt="Blockchain Protocol Development in Panchkula" className='slider_bg3_logo' />
                                             </div>
                                             <div className="fullCaseStudy_textContent py-4">
                                                 <h2 className="fw-semibold lh-base">IT TAKES A CREATIVE MIND TO BE IN THE
@@ -327,7 +327,7 @@ const Layer1_Layer2_BlockChain = () => {
                                     </div>
                                     <div className="col-lg-6 col-md-6 col-12 col-sm-12 d-flex justify-content-center justify-content-lg-end justifyconent align-items-center">
                                         <div className="fullCaseStudy_img">
-                                            <img src={caseStu5} alt="" className="w-100" />
+                                            <img src={caseStu5} alt="Secure & Fast Blockchain Development in Chandigarh" className="w-100" />
                                         </div>
                                     </div>
                                 </div>
@@ -337,7 +337,7 @@ const Layer1_Layer2_BlockChain = () => {
                                     <div className="col-lg-6 col-md-6 col-12 col-sm-12">
                                         <div className="fullcase_details">
                                             <div className="fullCaseStudy_slider_logo">
-                                                <img src={kreLogo} alt="" className='slider_bg3_logo' />
+                                                <img src={kreLogo} alt="Layer 1 & Layer 2 Crypto Network Solutions in Panchkula" className='slider_bg3_logo' />
                                             </div>
                                             <div className="fullCaseStudy_textContent py-4">
                                                 <h2 className="fw-semibold lh-base">IT TAKES A CREATIVE MIND TO BE IN THE
@@ -363,7 +363,7 @@ const Layer1_Layer2_BlockChain = () => {
                                     </div>
                                     <div className="col-lg-6 col-md-6 col-12 col-sm-12 d-flex justify-content-center justify-content-lg-end justifyconent align-items-center">
                                         <div className="fullCaseStudy_img">
-                                            <img src={caseStu6} alt="" className="w-100" />
+                                            <img src={caseStu6} alt="Blockchain Smart Contract Development in Chandigarh" className="w-100" />
                                         </div>
                                     </div>
                                 </div>

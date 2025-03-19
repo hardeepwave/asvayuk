@@ -63,7 +63,7 @@ const About = () => {
                 </h1>
               </div>
               <div className="right-box col-lg-6 mt-4  d-lg-block">
-                <img src={right_logo} alt="" className="img-fluid" />
+                <img src={right_logo} alt="logo" className="img-fluid" />
               </div>
             </Row>
             <Row className="py-5 my-0">
@@ -154,7 +154,7 @@ const About = () => {
                 <div className="core-main-image">
                   <img
                     src={Group_415}
-                    alt=""
+                    alt="Asvayuk Technologies"
                     className="core-main img-fluid"
                   />
                 </div>

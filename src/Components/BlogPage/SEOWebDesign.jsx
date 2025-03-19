@@ -12,7 +12,7 @@ function SEOWebDesign() {
 
             <Meta_Component
                 title="SEO Web Design Services in Chandigarh | Asvayuk Technologies"
-                description="Asvayuk Technologies offers expert SEO web design services in Chandigarh, merging creativity with optimization to create impactful and discoverable websites."
+                description="Asvayuk Technologies offers expert SEO web design services in Chandigarh, blending creativity with optimization to create impactful, discoverable websites."
                 canonical="https://www.asvayuktech.com/blog/seo-web-design-services-chandigarh" />
             <main>
                 <section className="blog_cads">

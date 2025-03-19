@@ -50,7 +50,7 @@ const LowCode_NoCode = () => {
                             </div>
                             <div className="col-lg-6">
                                 <div className="bannerImg">
-                                    <img src={banners14} alt="" width="100%" height="100%" />
+                                    <img src={banners14} alt="Low-Code No-Code Development Chandigarh" width="100%" height="100%" />
                                 </div>
                             </div>
                         </Row>

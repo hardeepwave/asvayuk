@@ -211,7 +211,7 @@ const SmartContract = () => {
                     <div className="container">
                         <div className="row d-flex align-items-center flex-wrap">
                             <div className='col-lg-6'>
-                                <img src={wshopify} alt="" className='img-fluid' />
+                                <img src={wshopify} alt="Best Smart Contract Developers in Chandigarh and Panchkula" className='img-fluid' />
                             </div>
                             <div className="col-lg-6">
                                 <div className="section-title">

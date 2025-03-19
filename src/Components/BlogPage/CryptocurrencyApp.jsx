@@ -12,8 +12,8 @@ function CryptocurrencyApp() {
             
                 <Meta_Component
                     title="Cryptocurrency App Development | Asvayuk Technologies"
-                    description="Asvayuk Technologies specializes in custom cryptocurrency app development, enabling secure, decentralized, and efficient digital transactions. Explore our solutions for wallets, exchanges, DeFi apps, and more."
-                    canonical="https://www.asvayuktech.com/blog/cryptocurrency-app-development" />
+                    description="Asvayuk Technologies specializes in custom cryptocurrency app development, offering secure solutions for wallets, exchanges, DeFi apps, and more."
+                    canonical="https://asvayuktech.com/blog/cryptocurrency-app-development" />
                     <main>
                 <section className="blog_cads">
                     <Container>

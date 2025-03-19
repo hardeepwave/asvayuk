@@ -12,7 +12,7 @@ function MetaverseDeveloper() {
             <Meta_Component
                 title="Metaverse Developer in Chandigarh: Unlocking the Future of Virtual Experiences."
                 description="Step into the Metaverse with Asvayuk Technologies, offering innovative development services to create immersive digital experiences."
-                canonical="https://asvayuktech.com//blog/metaverse-developer-in-chandigarh" />
+                canonical="https://asvayuktech.com/blog/metaverse-developer-in-chandigarh" />
             <main>
                 <section className="blog_cads">
                     <Container>

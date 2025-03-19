@@ -12,8 +12,8 @@ function HybridMLMSoftware() {
 
 
             <Meta_Component
-                title="Hybrid MLM Software Developer in Chandigarh - Improve Your Network Marketing Business"
-                description="Asvayuk Technologies is a top Hybrid MLM software solution provider in Chandigarh, offering customized software to help businesses thrive in competitive MLM landscapes."
+                title="Hybrid MLM Software Developer in Chandigarh"
+                description="Asvayuk Technologies is a top Hybrid MLM software solution provider in Chandigarh, offering customized software to help businesses thrive in MLM."
                 canonical="https://www.asvayuktech.com/blog/hybrid-mlm-software-developer-chandigarh" />
             <main>
                 <section className="blog_cads">

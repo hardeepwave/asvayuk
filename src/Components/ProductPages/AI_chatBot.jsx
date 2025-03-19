@@ -162,7 +162,7 @@ const AI_chatBot = () => {
                                         <div className="col-lg-6 col-md-6 col-12 col-sm-12">
                                             <div className="fullcase_details">
                                                 <div className="fullCaseStudy_slider_logo">
-                                                    <img src={CoffeeLogo} alt="" className='slider_bg3_logo' />
+                                                    <img src={CoffeeLogo} alt="AI Chatbot Development in Chandigarh, Mohali & Panchkula" className='slider_bg3_logo' />
                                                 </div>
                                                 <div className="fullCaseStudy_textContent py-4">
                                                     <h2 className="fw-semibold lh-base">IT TAKES A CREATIVE MIND TO BE IN THE FASHION BUSINESS.</h2>
@@ -185,7 +185,7 @@ const AI_chatBot = () => {
                                         </div>
                                         <div className="col-lg-6 col-md-6 col-12 col-sm-12 d-flex justify-content-center justify-content-lg-end justifyconent align-items-center">
                                             <div className="fullCaseStudy_img">
-                                                <img src={caseStu4} alt="" className="w-100" />
+                                                <img src={caseStu4} alt="Best AI Chatbot Services in Mohali" className="w-100" />
                                             </div>
                                         </div>
                                     </div>
@@ -195,7 +195,7 @@ const AI_chatBot = () => {
                                         <div className="col-lg-6 col-md-6 col-12 col-sm-12">
                                             <div className="fullcase_details">
                                                 <div className="fullCaseStudy_slider_logo">
-                                                    <img src={moonLight} alt="" />
+                                                    <img src={moonLight} alt="AI-Powered Chatbot Solutions in Panchkula" />
                                                 </div>
                                                 <div className="fullCaseStudy_textContent py-4">
                                                     <h2 className="fw-semibold lh-base">IT TAKES A CREATIVE MIND TO BE IN THE
@@ -221,7 +221,7 @@ const AI_chatBot = () => {
                                         </div>
                                         <div className="col-lg-6 col-md-6 col-12 col-sm-12 d-flex justify-content-center justify-content-lg-end justifyconent align-items-center">
                                             <div className="fullCaseStudy_img">
-                                                <img src={caseStu2} alt="" className="w-100" />
+                                                <img src={caseStu2} alt="AI Chatbot Development for Startups" className="w-100" />
                                             </div>
                                         </div>
                                     </div>
@@ -262,7 +262,7 @@ const AI_chatBot = () => {
                                         </div>
                                         <div className="col-lg-6 col-md-6 col-12 col-sm-12 d-flex justify-content-center justify-content-lg-end justifyconent align-items-center">
                                             <div className="fullCaseStudy_img">
-                                                <img src={caseStu3} alt="" className="w-100" />
+                                                <img src={caseStu3} alt="AI Chatbot for E-commerce Websites" className="w-100" />
                                             </div>
                                         </div>
                                     </div>
@@ -272,7 +272,7 @@ const AI_chatBot = () => {
                                         <div className="col-lg-6 col-md-6 col-12 col-sm-12">
                                             <div className="fullcase_details">
                                                 <div className="fullCaseStudy_slider_logo">
-                                                    <img src={kriLogo} alt="" className='slider_bg3_logo' />
+                                                    <img src={kriLogo} alt="AI Chatbot for Real Estate Lead Generation" className='slider_bg3_logo' />
                                                 </div>
                                                 <div className="fullCaseStudy_textContent py-4">
                                                     <h2 className="fw-semibold lh-base">IT TAKES A CREATIVE MIND TO BE IN THE
@@ -298,7 +298,7 @@ const AI_chatBot = () => {
                                         </div>
                                         <div className="col-lg-6 col-md-6 col-12 col-sm-12 d-flex justify-content-center justify-content-lg-end justifyconent align-items-center">
                                             <div className="fullCaseStudy_img">
-                                                <img src={caseStu5} alt="" className="w-100" />
+                                                <img src={caseStu5} alt="AI Chatbot for Education & E-learning Platform" className="w-100" />
                                             </div>
                                         </div>
                                     </div>
@@ -308,7 +308,7 @@ const AI_chatBot = () => {
                                         <div className="col-lg-6 col-md-6 col-12 col-sm-12">
                                             <div className="fullcase_details">
                                                 <div className="fullCaseStudy_slider_logo">
-                                                    <img src={kreLogo} alt="" className='slider_bg3_logo' />
+                                                    <img src={kreLogo} alt="AI Chatbot for Healthcare & Hospitals" className='slider_bg3_logo' />
                                                 </div>
                                                 <div className="fullCaseStudy_textContent py-4">
                                                     <h2 className="fw-semibold lh-base">IT TAKES A CREATIVE MIND TO BE IN THE
@@ -334,7 +334,7 @@ const AI_chatBot = () => {
                                         </div>
                                         <div className="col-lg-6 col-md-6 col-12 col-sm-12 d-flex justify-content-center justify-content-lg-end justifyconent align-items-center">
                                             <div className="fullCaseStudy_img">
-                                                <img src={caseStu6} alt="" className="w-100" />
+                                                <img src={caseStu6} alt="AI Chatbot for WhatsApp, Facebook & Websites" className="w-100" />
                                             </div>
                                         </div>
                                     </div>

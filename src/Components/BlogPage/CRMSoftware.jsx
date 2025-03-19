@@ -11,9 +11,9 @@ function CRMSoftware() {
         <>
 
             <Meta_Component
-                title="Chandigarh CRM Software Solutions: Empowering Business Growth | Asvayuk Technologies"
-                description="Asvayuk Technologies offers customized CRM software solutions in Chandigarh, tailored to enhance customer engagement and streamline business operations for growth."
-                canonical="https://www.asvayuktech.com/blog/chandigarh-crm-software-solutions" />
+                title="Chandigarh CRM Software Solutions"
+                description="Asvayuk Technologies offers customized CRM software solutions in Chandigarh, enhancing customer engagement and streamlining business operations."
+                canonical="https://asvayuktech.com/blog/chandigarh-crm-software-solutions" />
             <main>
                 <section className="blog_cads">
                     <Container>

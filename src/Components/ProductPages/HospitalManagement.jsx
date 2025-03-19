@@ -224,7 +224,7 @@ const HospitalManagement = () => {
                                         <div className="col-lg-6 col-md-6 col-12 col-sm-12">
                                             <div className="fullcase_details">
                                                 <div className="fullCaseStudy_slider_logo">
-                                                    <img src={CoffeeLogo} alt="" className='slider_bg3_logo' />
+                                                    <img src={CoffeeLogo} alt="Hospital Management System in Chandigarh" className='slider_bg3_logo' />
                                                 </div>
                                                 <div className="fullCaseStudy_textContent py-4">
                                                     <h2 className="fw-semibold lh-base">IT TAKES A CREATIVE MIND TO BE IN THE FASHION BUSINESS.</h2>
@@ -247,7 +247,7 @@ const HospitalManagement = () => {
                                         </div>
                                         <div className="col-lg-6 col-md-6 col-12 col-sm-12 d-flex justify-content-center justify-content-lg-end justifyconent align-items-center">
                                             <div className="fullCaseStudy_img">
-                                                <img src={caseStu4} alt="" className="w-100" />
+                                                <img src={caseStu4} alt="Best Hospital Software Solutions" className="w-100" />
                                             </div>
                                         </div>
                                     </div>
@@ -257,7 +257,7 @@ const HospitalManagement = () => {
                                         <div className="col-lg-6 col-md-6 col-12 col-sm-12">
                                             <div className="fullcase_details">
                                                 <div className="fullCaseStudy_slider_logo">
-                                                    <img src={moonLight} alt="" />
+                                                    <img src={moonLight} alt="EHR & EMR Software Development" />
                                                 </div>
                                                 <div className="fullCaseStudy_textContent py-4">
                                                     <h2 className="fw-semibold lh-base">IT TAKES A CREATIVE MIND TO BE IN THE
@@ -283,7 +283,7 @@ const HospitalManagement = () => {
                                         </div>
                                         <div className="col-lg-6 col-md-6 col-12 col-sm-12 d-flex justify-content-center justify-content-lg-end justifyconent align-items-center">
                                             <div className="fullCaseStudy_img">
-                                                <img src={caseStu2} alt="" className="w-100" />
+                                                <img src={caseStu2} alt="Healthcare Software Company in Mohali" className="w-100" />
                                             </div>
                                         </div>
                                     </div>
@@ -324,7 +324,7 @@ const HospitalManagement = () => {
                                         </div>
                                         <div className="col-lg-6 col-md-6 col-12 col-sm-12 d-flex justify-content-center justify-content-lg-end justifyconent align-items-center">
                                             <div className="fullCaseStudy_img">
-                                                <img src={caseStu3} alt="" className="w-100" />
+                                                <img src={caseStu3} alt="AI-Powered Hospital Management System" className="w-100" />
                                             </div>
                                         </div>
                                     </div>
@@ -334,7 +334,7 @@ const HospitalManagement = () => {
                                         <div className="col-lg-6 col-md-6 col-12 col-sm-12">
                                             <div className="fullcase_details">
                                                 <div className="fullCaseStudy_slider_logo">
-                                                    <img src={kriLogo} alt="" className='slider_bg3_logo' />
+                                                    <img src={kriLogo} alt="Patient Management System for Hospitals" className='slider_bg3_logo' />
                                                 </div>
                                                 <div className="fullCaseStudy_textContent py-4">
                                                     <h2 className="fw-semibold lh-base">IT TAKES A CREATIVE MIND TO BE IN THE
@@ -360,7 +360,7 @@ const HospitalManagement = () => {
                                         </div>
                                         <div className="col-lg-6 col-md-6 col-12 col-sm-12 d-flex justify-content-center justify-content-lg-end justifyconent align-items-center">
                                             <div className="fullCaseStudy_img">
-                                                <img src={caseStu5} alt="" className="w-100" />
+                                                <img src={caseStu5} alt="Hospital Billing and Inventory Software" className="w-100" />
                                             </div>
                                         </div>
                                     </div>
@@ -370,7 +370,7 @@ const HospitalManagement = () => {
                                         <div className="col-lg-6 col-md-6 col-12 col-sm-12">
                                             <div className="fullcase_details">
                                                 <div className="fullCaseStudy_slider_logo">
-                                                    <img src={kreLogo} alt="" className='slider_bg3_logo' />
+                                                    <img src={kreLogo} alt="Medical Records Management Software" className='slider_bg3_logo' />
                                                 </div>
                                                 <div className="fullCaseStudy_textContent py-4">
                                                     <h2 className="fw-semibold lh-base">IT TAKES A CREATIVE MIND TO BE IN THE
@@ -396,7 +396,7 @@ const HospitalManagement = () => {
                                         </div>
                                         <div className="col-lg-6 col-md-6 col-12 col-sm-12 d-flex justify-content-center justify-content-lg-end justifyconent align-items-center">
                                             <div className="fullCaseStudy_img">
-                                                <img src={caseStu6} alt="" className="w-100" />
+                                                <img src={caseStu6} alt="Secure Healthcare Data Management" className="w-100" />
                                             </div>
                                         </div>
                                     </div>

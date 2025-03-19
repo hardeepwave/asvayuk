@@ -12,7 +12,7 @@ function MLM_software_developer_Chandigarh() {
             <Meta_Component
                 title="Transform Your MLM Business with Asvayuk Technologies' Software Solutions."
                 description="Streamline operations, enhance security, and scale your network marketing business with custom MLM software from Asvayuk Technologies."
-                canonical="https://asvayuktech.com//blog/Blockchain-Developer-in-Zirakpur-Chandigarh-Panchkula-Mohali" />
+                canonical="https://asvayuktech.com/blog/MLM-Software-Developer-in-Chandigarh-Panchkula-Mohali" />
             <main>
                 <section className="blog_cads">
                     <Container>

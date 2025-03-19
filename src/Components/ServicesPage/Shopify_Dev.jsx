@@ -60,7 +60,7 @@ const Shopify_Dev = () => {
                             </div>
                             <div className="col-lg-6">
                                 <div className="bannerImg">
-                                    <img src={Group_105527} alt="" width="100%" height="100%" />
+                                    <img src={Group_105527} alt="Shopify Website Design Company in Chandigarh" width="100%" height="100%" />
                                 </div>
                             </div>
                         </Row>
@@ -197,7 +197,7 @@ const Shopify_Dev = () => {
                                         <div className="col-lg-6 col-md-6 col-12 col-sm-12">
                                             <div className="fullcase_details">
                                                 <div className="fullCaseStudy_slider_logo">
-                                                    <img src={CoffeeLogo} alt="" className='slider_bg3_logo' />
+                                                    <img src={CoffeeLogo} alt="Best Shopify Developers in Chandigarh" className='slider_bg3_logo' />
                                                 </div>
                                                 <div className="fullCaseStudy_textContent py-4">
                                                     <h2 className="fw-semibold lh-base">IT TAKES A CREATIVE MIND TO BE IN THE
@@ -223,7 +223,7 @@ const Shopify_Dev = () => {
                                         </div>
                                         <div className="col-lg-6 col-md-6 col-12 col-sm-12 d-flex justify-content-center justify-content-lg-end justifyconent align-items-center">
                                             <div className="fullCaseStudy_img">
-                                                <img src={caseStu4} alt="" className="w-100 h-100" />
+                                                <img src={caseStu4} alt="Custom Shopify Website Development Chandigarh" className="w-100 h-100" />
                                             </div>
                                         </div>
                                     </div>
@@ -233,7 +233,7 @@ const Shopify_Dev = () => {
                                         <div className="col-lg-6 col-md-6 col-12 col-sm-12">
                                             <div className="fullcase_details">
                                                 <div className="fullCaseStudy_slider_logo">
-                                                    <img src={moonLight} alt="" />
+                                                    <img src={moonLight} alt="Top Shopify Website Designers in Chandigarh" />
                                                 </div>
                                                 <div className="fullCaseStudy_textContent py-4">
                                                     <h2 className="fw-semibold lh-base">IT TAKES A CREATIVE MIND TO BE IN THE
@@ -259,7 +259,7 @@ const Shopify_Dev = () => {
                                         </div>
                                         <div className="col-lg-6 col-md-6 col-12 col-sm-12 d-flex justify-content-center justify-content-lg-end justifyconent align-items-center">
                                             <div className="fullCaseStudy_img">
-                                                <img src={caseStu2} alt="" className="w-100" />
+                                                <img src={caseStu2} alt="E-commerce Shopify Development in Chandigarh" className="w-100" />
                                             </div>
                                         </div>
                                     </div>
@@ -300,7 +300,7 @@ const Shopify_Dev = () => {
                                         </div>
                                         <div className="col-lg-6 col-md-6 col-12 col-sm-12 d-flex justify-content-center justify-content-lg-end justifyconent align-items-center">
                                             <div className="fullCaseStudy_img">
-                                                <img src={caseStu3} alt="" className="w-100" />
+                                                <img src={caseStu3} alt="Responsive Shopify Website Design Chandigarh" className="w-100" />
                                             </div>
                                         </div>
                                     </div>
@@ -310,7 +310,7 @@ const Shopify_Dev = () => {
                                         <div className="col-lg-6 col-md-6 col-12 col-sm-12">
                                             <div className="fullcase_details">
                                                 <div className="fullCaseStudy_slider_logo">
-                                                    <img src={kriLogo} alt="" className='slider_bg3_logo' />
+                                                    <img src={kriLogo} alt="Shopify Store Setup & Customization Chandigarh" className='slider_bg3_logo' />
                                                 </div>
                                                 <div className="fullCaseStudy_textContent py-4">
                                                     <h2 className="fw-semibold lh-base">IT TAKES A CREATIVE MIND TO BE IN THE
@@ -336,7 +336,7 @@ const Shopify_Dev = () => {
                                         </div>
                                         <div className="col-lg-6 col-md-6 col-12 col-sm-12 d-flex justify-content-center justify-content-lg-end justifyconent align-items-center">
                                             <div className="fullCaseStudy_img">
-                                                <img src={caseStu5} alt="" className="w-100" />
+                                                <img src={caseStu5} alt="SEO-Optimized Shopify Websites Chandigarh" className="w-100" />
                                             </div>
                                         </div>
                                     </div>
@@ -346,7 +346,7 @@ const Shopify_Dev = () => {
                                         <div className="col-lg-6 col-md-6 col-12 col-sm-12">
                                             <div className="fullcase_details">
                                                 <div className="fullCaseStudy_slider_logo">
-                                                    <img src={kreLogo} alt="" className='slider_bg3_logo' />
+                                                    <img src={kreLogo} alt="Affordable Shopify Development Services Chandigarh" className='slider_bg3_logo' />
                                                 </div>
                                                 <div className="fullCaseStudy_textContent py-4">
                                                     <h2 className="fw-semibold lh-base">IT TAKES A CREATIVE MIND TO BE IN THE
@@ -372,7 +372,7 @@ const Shopify_Dev = () => {
                                         </div>
                                         <div className="col-lg-6 col-md-6 col-12 col-sm-12 d-flex justify-content-center justify-content-lg-end justifyconent align-items-center">
                                             <div className="fullCaseStudy_img">
-                                                <img src={caseStu6} alt="" className="w-100" />
+                                                <img src={caseStu6} alt="Affordable Shopify Development Services Panchkula" className="w-100" />
                                             </div>
                                         </div>
                                     </div>

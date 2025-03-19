@@ -10,8 +10,8 @@ function BlockchainSolutions() {
     return (
         <>
             <Meta_Component
-                title="Token Developer in Chandigarh: Transforming Blockchain Solutions with Asvayuk Technologies"
-                description="Asvayuk Technologies is a leading token developer in Chandigarh, creating customized blockchain solutions tailored to your business needs."
+                title="Token Developer in Chandigarh | Asvayuk Technologies"
+                description="Asvayuk Technologies offers expert NFT development in Chandigarh, helping businesses tokenize assets like art, gaming items, real estate, and collectibles."
                 canonical="https://asvayuktech.com/blog/token-developer-chandigarh" />
             <main>
                 <section className="blog_cads">

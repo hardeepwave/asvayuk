@@ -11,8 +11,8 @@ function Web3Development() {
         <>
             <Meta_Component
                 title="Custom Web Design in Chandigarh: Tailored Solutions for Your Digital Success"
-                description="Asvayuk Technologies specializes in custom web design in Chandigarh, offering tailored solutions that represent your brand, engage your audience, and drive results."
-                canonical="https://www.asvayuktech.com/blog/custom-web-design-chandigarh" />
+                description="Asvayuk Technologies specializes in custom web design in Chandigarh, offering tailored solutions to represent your brand and drive results."
+                canonical="https://asvayuktech.com/blog/custom-web-design-chandigarh" />
             <main>
                 <section className="blog_cads">
                     <Container>

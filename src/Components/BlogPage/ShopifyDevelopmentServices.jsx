@@ -11,7 +11,7 @@ function ShopifyDevelopmentServices() {
         <>
             <Meta_Component
                 title="Shopify Development Services in Chandigarh | Asvayuk Technologies"
-                description="Asvayuk Technologies offers professional Shopify development services in Chandigarh, helping businesses unleash the secrets of e-commerce success with tailored solutions."
+                description="Asvayuk Technologies offers Shopify development services in Chandigarh, helping businesses achieve e-commerce success with custom solutions."
                 canonical="https://www.asvayuktech.com/blog/shopify-development-services-chandigarh" />
             <main>
                 <section className="blog_cads">

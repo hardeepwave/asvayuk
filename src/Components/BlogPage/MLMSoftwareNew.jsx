@@ -10,8 +10,8 @@ function MLMSoftwareNew() {
     return (
         <>
             <Meta_Component
-                title="Binary MLM Software Company in Chandigarh - Empowering Your Network Marketing Business"
-                description="Asvayuk Technologies is a leading Binary MLM software company in Chandigarh, offering advanced and customizable solutions for managing and scaling your MLM operations."
+                title="Binary MLM Software Company in Chandigarh"
+                description="Asvayuk Technologies is a leading Binary MLM software company in Chandigarh, offering advanced, customizable solutions to scale your MLM operations."
                 canonical="https://asvayuktech.com/blog/binary-mlm-software-chandigarh" />
             <main>
                 <section className="blog_cads">

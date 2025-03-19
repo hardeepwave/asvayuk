@@ -107,13 +107,13 @@ function Blog() {
                                         </Link>
                                     </Col>
                                     <Col lg={6} md={6} sm={12} xs={12} className="pb-4">
-                                        <Link to="/blog/Crypto-Software-Developer-in-Chandigarh">
-                                            <CardBlog singleBlogImg={crypto} time='11 Nov 2024' blogTitle='Crypto Software Developer in Chandigarh' blogPara="Mastering Machine Learning Models (MLMs) is an essential skill for software developers looking to stay competitive in today's tech-driven world." CommentNum='0' viwer='285' urlSingleBlog='/blog/Crypto-Software-Developer-in-Chandigarh' />
+                                        <Link to="/blog/Crypto-Software-Development-by-Asvayuk-Technologies">
+                                            <CardBlog singleBlogImg={crypto} time='11 Nov 2024' blogTitle='Crypto Software Developer in Chandigarh' blogPara="Mastering Machine Learning Models (MLMs) is an essential skill for software developers looking to stay competitive in today's tech-driven world." CommentNum='0' viwer='285' urlSingleBlog='/blog/Crypto-Software-Development-by-Asvayuk-Technologies' />
                                         </Link>
                                     </Col>
                                     <Col lg={6} md={6} sm={12} xs={12} className="pb-4">
                                         <Link to="/blog/Crypto-Exchange-Development-in-Chandigarh-Zirakpur-Mohali">
-                                            <CardBlog singleBlogImg={cryptoEx} time=' 12 Nov 2024' blogTitle='Crypto Exchange Developer in Chandigarh, Zirakpur, Mohali' blogPara="As the cryptocurrency market expands, the demand for safe and efficient - and most importantly, easy-to-use - crypto exchanges grows." CommentNum='0' viwer='285' urlSingleBlog='/blog/Crypto-Exchange-Developer-in-Chandigarh-Zirakpur-Mohali' />
+                                            <CardBlog singleBlogImg={cryptoEx} time=' 12 Nov 2024' blogTitle='Crypto Exchange Developer in Chandigarh, Zirakpur, Mohali' blogPara="As the cryptocurrency market expands, the demand for safe and efficient - and most importantly, easy-to-use - crypto exchanges grows." CommentNum='0' viwer='285' urlSingleBlog='/blog/Crypto-Exchange-Development-in-Chandigarh-Zirakpur-Mohali' />
                                         </Link>
                                     </Col>
                                     <Col lg={6} md={6} sm={12} xs={12} className="pb-4">

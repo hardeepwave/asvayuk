@@ -12,7 +12,7 @@ function SmartContractDeveloperNew() {
 
             <Meta_Component
                 title="Best Smart Contract Developer in Mohali: Asvayuk Technologies"
-                description="Asvayuk Technologies offers smart contract development services to revolutionize businesses in Mohali with secure, efficient, and transparent blockchain solutions."
+                description="Asvayuk Technologies offers smart contract development in Mohali, providing secure, efficient, and transparent blockchain solutions for businesses."
                 canonical="https://asvayuktech.com/blog/smart-contract-developer-mohali" />
             <main>
                 <section className="blog_cads">

@@ -216,7 +216,7 @@ const BlockchainDeveloper = () => {
                     <div className="container">
                         <div className="row d-flex align-items-center flex-wrap">
                             <div className='col-lg-6'>
-                                <img src={wshopify} alt="" className='img-fluid' />
+                                <img src={wshopify} alt="BlockChain Developmemt company in chandigarh" className='img-fluid' />
                             </div>
                             <div className="iwt_text col-lg-6">
                                 <div className="section-title">

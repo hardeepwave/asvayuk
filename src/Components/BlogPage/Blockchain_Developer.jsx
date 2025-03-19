@@ -12,7 +12,7 @@ function Blockchain_Developer() {
             <Meta_Component
                 title="Blockchain Development at Asvayuk Technologies: Shaping the Future"
                 description="Asvayuk Technologies provides secure, scalable blockchain solutions for businesses with smart contracts and decentralized apps."
-                canonical="https://asvayuktech.com//blog/Blockchain-Developer-in-Zirakpur-Chandigarh-Panchkula-Mohali" />
+                canonical="https://asvayuktech.com/blog/Blockchain-Developer-in-Zirakpur-Chandigarh-Panchkula-Mohali" />
             <main>
                 <section className="blog_cads">
                     <Container>

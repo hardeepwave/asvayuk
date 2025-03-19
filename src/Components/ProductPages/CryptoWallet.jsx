@@ -428,7 +428,7 @@ const CryptoWallet = () => {
                         <div className="fullCaseStudy_slider_logo">
                           <img
                             src={CoffeeLogo}
-                            alt=""
+                            alt="Crypto Wallet Development Company in Chandigarh"
                             className="slider_bg3_logo"
                           />
                         </div>
@@ -465,7 +465,7 @@ const CryptoWallet = () => {
                     </div>
                     <div className="col-lg-6 col-md-6 col-12 col-sm-12 d-flex justify-content-center justify-content-lg-end justifyconent align-items-center">
                       <div className="fullCaseStudy_img">
-                        <img src={caseStu4} alt="" className="w-100" />
+                        <img src={caseStu4} alt="Best Cryptocurrency Wallet Development in Mohali" className="w-100" />
                       </div>
                     </div>
                   </div>
@@ -475,7 +475,8 @@ const CryptoWallet = () => {
                     <div className="col-lg-6 col-md-6 col-12 col-sm-12">
                       <div className="fullcase_details">
                         <div className="fullCaseStudy_slider_logo">
-                          <img src={moonLight} alt="" />
+                          <img src={moonLight} alt="Secure Blockchain Wallet Development Services
+" />
                         </div>
                         <div className="fullCaseStudy_textContent py-4">
                           <h2 className="fw-semibold lh-base">
@@ -510,7 +511,7 @@ const CryptoWallet = () => {
                     </div>
                     <div className="col-lg-6 col-md-6 col-12 col-sm-12 d-flex justify-content-center justify-content-lg-end justifyconent align-items-center">
                       <div className="fullCaseStudy_img">
-                        <img src={caseStu2} alt="" className="w-100" />
+                        <img src={caseStu2} alt="Multi-Currency Crypto Wallet Development" className="w-100" />
                       </div>
                     </div>
                   </div>
@@ -572,7 +573,7 @@ const CryptoWallet = () => {
                     </div>
                     <div className="col-lg-6 col-md-6 col-12 col-sm-12 d-flex justify-content-center justify-content-lg-end justifyconent align-items-center">
                       <div className="fullCaseStudy_img">
-                        <img src={caseStu3} alt="" className="w-100" />
+                        <img src={caseStu3} alt="Web3 Wallet Development Company in Panchkula" className="w-100" />
                       </div>
                     </div>
                   </div>
@@ -584,7 +585,7 @@ const CryptoWallet = () => {
                         <div className="fullCaseStudy_slider_logo">
                           <img
                             src={kriLogo}
-                            alt=""
+                            alt="Crypto Payment Gateway & Wallet Integration"
                             className="slider_bg3_logo"
                           />
                         </div>
@@ -621,7 +622,7 @@ const CryptoWallet = () => {
                     </div>
                     <div className="col-lg-6 col-md-6 col-12 col-sm-12 d-flex justify-content-center justify-content-lg-end justifyconent align-items-center">
                       <div className="fullCaseStudy_img">
-                        <img src={caseStu5} alt="" className="w-100" />
+                        <img src={caseStu5} alt="Custom Bitcoin & Ethereum Wallet Development" className="w-100" />
                       </div>
                     </div>
                   </div>
@@ -633,7 +634,7 @@ const CryptoWallet = () => {
                         <div className="fullCaseStudy_slider_logo">
                           <img
                             src={kreLogo}
-                            alt=""
+                            alt="Affordable Crypto Wallet Development Services"
                             className="slider_bg3_logo"
                           />
                         </div>
@@ -670,7 +671,7 @@ const CryptoWallet = () => {
                     </div>
                     <div className="col-lg-6 col-md-6 col-12 col-sm-12 d-flex justify-content-center justify-content-lg-end justifyconent align-items-center">
                       <div className="fullCaseStudy_img">
-                        <img src={caseStu6} alt="" className="w-100" />
+                        <img src={caseStu6} alt="Crypto Wallet App Development for Android & iOS" className="w-100" />
                       </div>
                     </div>
                   </div>

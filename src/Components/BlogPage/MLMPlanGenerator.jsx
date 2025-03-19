@@ -11,7 +11,7 @@ function MLMPlanGenerator() {
         <>
             <Meta_Component
                 title="MLM Plan Generator in Chandigarh: Boost Your Network Marketing"
-                description="Asvayuk Technologies is a premier provider of Generation MLM plan software solutions in Chandigarh, offering cutting-edge software to boost your network marketing business."
+                description="Asvayuk Technologies specializes in Web3 development, helping businesses leverage blockchain for a secure, decentralized, and future-ready internet."
                 canonical="https://www.asvayuktech.com/blog/mlm-plan-generator-chandigarh" />
             <main>
                 <section className="blog_cads">

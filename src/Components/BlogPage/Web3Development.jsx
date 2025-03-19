@@ -11,7 +11,7 @@ function Web3Development() {
     <>
       <Meta_Component
         title="Web3 Development: Why It’s the Future of the Internet"
-        description="Asvayuk Technologies specializes in Web3 development, helping businesses leverage blockchain technology for a decentralized, secure, and future-ready internet."
+        description="Asvayuk Technologies specializes in Web3 development, helping businesses leverage blockchain for a secure, decentralized, and future-ready internet."
         canonical="https://asvayuktech.com/blog/web3-development-future-internet"
       />
 

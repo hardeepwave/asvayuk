@@ -11,9 +11,9 @@ function Smart_Contract_Development_at_Asvayuk_Technologies() {
         <>
 
             <Meta_Component
-                title="Smart Contract Development at Asvayuk Technologies: Secure, Automated Solutions Pioneer"
-                description="Explore how Asvayuk Technologies is leading the way in smart contract development, offering secure, automated solutions that streamline your business processes."
-                canonical="https://asvayuktech.com//blog/Smart-Contract-Development-at-Asvayuk-Technologies" />
+                title="Smart Contract Development | Asvayuk Technologies"
+                description="Asvayuk Technologies leads in smart contract development, offering secure, automated solutions to streamline your business processes efficiently."
+                canonical="https://asvayuktech.com//blog/Smart-Contract-Developer-in-Chandigarh-Panchkula-Mohali" />
             <main>
                 <section className="blog_cads">
                     <Container>
