@@ -129,87 +129,87 @@ function Home() {
                                 >
                                     <SwiperSlide>
                                         <div className='affiliationImg'>
-                                            <img src={Vinculum} alt="" className="img-fluid" />
+                                            <img src={Vinculum} alt="Our Affiliations 1" className="img-fluid" />
                                         </div>
                                     </SwiperSlide>
                                     <SwiperSlide>
                                         <div className='affiliationImg'>
-                                            <img src={ISO} alt="" className="img-fluid" />
+                                            <img src={ISO} alt="Our Affiliations 2" className="img-fluid" />
                                         </div>
                                     </SwiperSlide>
                                     <SwiperSlide>
                                         <div className='affiliationImg'>
-                                            <img src={sitecore} alt="" className="img-fluid" />
+                                            <img src={sitecore} alt="Our Affiliations 3" className="img-fluid" />
                                         </div>
                                     </SwiperSlide>
                                     <SwiperSlide>
                                         <div className='affiliationImg'>
-                                            <img src={Odoo} alt="" className="img-fluid" />
+                                            <img src={Odoo} alt="Our Affiliations 4" className="img-fluid" />
                                         </div>
                                     </SwiperSlide>
                                     <SwiperSlide>
                                         <div className='affiliationImg'>
-                                            <img src={ShopifyImg} alt="" className="img-fluid" />
+                                            <img src={ShopifyImg} alt="Our Affiliations 5" className="img-fluid" />
                                         </div>
                                     </SwiperSlide>
                                     <SwiperSlide>
                                         <div className='affiliationImg'>
-                                            <img src={awsPartner} alt="" className="img-fluid" />
+                                            <img src={awsPartner} alt="Our Affiliations 6" className="img-fluid" />
                                         </div>
                                     </SwiperSlide>
                                     <SwiperSlide>
                                         <div className='affiliationImg'>
-                                            <img src={googlePartner} alt="" className="img-fluid" />
+                                            <img src={googlePartner} alt="Our Affiliations 7" className="img-fluid" />
                                         </div>
                                     </SwiperSlide>
                                     <SwiperSlide>
                                         <div className='affiliationImg'>
-                                            <img src={aster} alt="" className="img-fluid" />
+                                            <img src={aster} alt="Our Affiliations 8" className="img-fluid" />
                                         </div>
                                     </SwiperSlide>
                                     <SwiperSlide>
                                         <div className='affiliationImg'>
-                                            <img src={coinGecko} alt="" className="img-fluid" />
+                                            <img src={coinGecko} alt="Our Affiliations 9" className="img-fluid" />
                                         </div>
                                     </SwiperSlide>
                                     <SwiperSlide>
                                         <div className='affiliationImg'>
-                                            <img src={coinMarketCap} alt="" className="img-fluid" />
+                                            <img src={coinMarketCap} alt="Our Affiliations 10" className="img-fluid" />
                                         </div>
                                     </SwiperSlide>
                                     <SwiperSlide>
                                         <div className='affiliationImg'>
-                                            <img src={meydan} alt="" className="img-fluid" />
+                                            <img src={meydan} alt="Our Affiliations 11" className="img-fluid" />
                                         </div>
                                     </SwiperSlide>
                                     <SwiperSlide>
                                         <div className='affiliationImg'>
-                                            <img src={rezorpay} alt="" className="img-fluid" />
+                                            <img src={rezorpay} alt="Our Affiliations 12" className="img-fluid" />
                                         </div>
                                     </SwiperSlide>
                                     <SwiperSlide>
                                         <div className='affiliationImg'>
-                                            <img src={koinBx} alt="" className="img-fluid" />
+                                            <img src={koinBx} alt="Our Affiliations 13" className="img-fluid" />
                                         </div>
                                     </SwiperSlide>
                                     <SwiperSlide>
                                         <div className='affiliationImg'>
-                                            <img src={koi} alt="" className="img-fluid" />
+                                            <img src={koi} alt="Our Affiliations 14" className="img-fluid" />
                                         </div>
                                     </SwiperSlide>
                                     <SwiperSlide>
                                         <div className='affiliationImg'>
-                                            <img src={PaisaPay} alt="" className="img-fluid" />
+                                            <img src={PaisaPay} alt="Our Affiliations 15" className="img-fluid" />
                                         </div>
                                     </SwiperSlide>
                                     <SwiperSlide>
                                         <div className='affiliationImg'>
-                                            <img src={strapi} alt="" className="img-fluid" />
+                                            <img src={strapi} alt="Our Affiliations 16" className="img-fluid" />
                                         </div>
                                     </SwiperSlide>
                                     <SwiperSlide>
                                         <div className='affiliationImg'>
-                                            <img src={Unicommerce} alt="" className="img-fluid" />
+                                            <img src={Unicommerce} alt="Our Affiliations 17" className="img-fluid" />
                                         </div>
                                     </SwiperSlide>
                                 </Swiper>

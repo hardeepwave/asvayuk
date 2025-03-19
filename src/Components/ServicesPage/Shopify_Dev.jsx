@@ -382,7 +382,6 @@ const Shopify_Dev = () => {
                     </section>
                 </section>
 
-
                 <section className="Industries">
                     <div className="container">
                         <div>
