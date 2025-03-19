@@ -217,7 +217,7 @@ function Home() {
                         </div>
                     </div>
 
-                    <div className="affiliationResponsive container d-block d-lg-none ">
+                    <div className="affiliationResponsive container d-block d-lg-none">
                         <div className="affiliation_title text-center">
                             <h2 className="mb-0 fw-semibold">Our Affiliations</h2>
                         </div>
