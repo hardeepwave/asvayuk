@@ -1021,7 +1021,7 @@ function Home() {
                     </div>
                     <div className="col-lg-12 d-flex justify-content-center pt-3">
                         <div className="bg-white text-dark pt-3 px-3 rounded text-center d-flex align-items-center">
-                            <p className="fs-5 fw-semibold text-black">Many more to come... <img src="img/Vector.webp" alt="Ecommerce Developers in Chandigarh" /></p>
+                            <p className="fs-5 fw-semibold text-black">Many more to come... </p>
                         </div>
                     </div>
                 </section>
