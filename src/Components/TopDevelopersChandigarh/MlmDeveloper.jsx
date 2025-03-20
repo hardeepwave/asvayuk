@@ -1,4 +1,5 @@
 import { Container, Row, Col } from 'react-bootstrap';
+import { Link } from 'react-router-dom'
 import { FaSearch, FaBullseye, FaMugHot, FaRocket, FaShopify, FaShieldAlt, FaQuestionCircle } from "react-icons/fa";
 import shopifyImg from '../../Images/shopifyImg1.webp'
 import reviewGoogle from '../../Images/review_google.webp'
@@ -68,7 +69,7 @@ const MlmDeveloper = () => {
                                     <div className="logoArea pb-4">
                                     </div>
                                     <div className='bannerAreaTop_content'>
-                                        <h1 className="h1 mb-5 text-white">The Best <span className='fw-bold' style={{ color: '#ffbf0b' }}>MLM</span> Software Developers in Chandigarh!</h1>
+                                        <h1 className="h1 mb-5 text-white"><Link to="https://maps.app.goo.gl/sDkN86Cnw1b1W8iK7">The Best <span className='fw-bold' style={{ color: '#ffbf0b' }}>MLM</span> Software Developers in Chandigarh!</Link></h1>
                                         <p className='text-white'>
                                             Asvayuk Technologies is one of the leading names in MLM software development in Chandigarh, known for providing innovative and tailored solutions for multi-level marketing businesses. </p>
                                     </div>

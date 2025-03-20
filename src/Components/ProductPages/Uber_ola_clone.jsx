@@ -46,7 +46,7 @@ const Uber_ola_clone = () => {
                                         <Breadcrumb.Item linkAs={Link} linkProps={{ to: "#" }}>Products</Breadcrumb.Item>
                                         <Breadcrumb.Item active>Uber/Ola Clone App Development</Breadcrumb.Item>
                                     </Breadcrumb>
-                                    <h1>Uber/Ola Clone App Development Services in Panchkula and Chandigarh</h1>
+                                    <h1><Link to="https://maps.app.goo.gl/sDkN86Cnw1b1W8iK7">Uber/Ola Clone App Development Services in Panchkula and Chandigarh</Link></h1>
                                     <p className="py-3">
                                         Asvayuk Technologies specializes in developing Uber/Ola clone apps in Panchkula and Chandigarh. We provide scalable and feature-rich ride-hailing app solutions to meet the growing demands of businesses in the transport and mobility sector.
                                     </p>

@@ -44,7 +44,7 @@ const DAP_DAO = () => {
                                         <Breadcrumb.Item linkAs={Link} linkProps={{ to: "#" }}>Solutions</Breadcrumb.Item>
                                         <Breadcrumb.Item active>DAP and DAO Solutions</Breadcrumb.Item>
                                     </Breadcrumb>
-                                    <h1>DAP and DAO Solutions in Chandigarh Panchkula</h1>
+                                    <h1><Link to="https://maps.app.goo.gl/sDkN86Cnw1b1W8iK7">DAP and DAO Solutions in Chandigarh Panchkula</Link></h1>
                                     <p className="py-3">
                                         Transform your business in Chandigarh Panchkula with Asvayuk Technologies' DAP and DAO solutions. We specialize in developing decentralized applications and autonomous organizations that increase transparency, secure transactions, and enhance business autonomy.
                                     </p>

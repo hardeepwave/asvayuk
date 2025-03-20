@@ -46,7 +46,7 @@ const Ar_Vr_Dev = () => {
                                         <Breadcrumb.Item linkAs={Link} linkProps={{ to: "#" }}>Technology</Breadcrumb.Item>
                                         <Breadcrumb.Item active>AR/VR Development</Breadcrumb.Item>
                                     </Breadcrumb>
-                                    <h1>AR/VR Development Services Expertise Transforming Realities.</h1>
+                                    <h1><Link to="https://maps.app.goo.gl/sDkN86Cnw1b1W8iK7">AR/VR Development Services Expertise Transforming Realities.</Link></h1>
                                     <p className="py-3">Join forces with us for unmatched AR/VR services. Make your company future-proof with technology that makes a big impression.</p>
 
                                     <BannerButton btnTitle='Free Consultation' url='/contact-us' />

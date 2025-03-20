@@ -1,4 +1,5 @@
 import { Container, Row, Col } from 'react-bootstrap';
+import { Link } from 'react-router-dom'
 import { FaSearch, FaBullseye, FaMugHot, FaRocket, FaShopify, FaQuestionCircle, FaShieldAlt } from "react-icons/fa";
 import shopifyImg from '../../Images/shopifyImg1.webp'
 import reviewGoogle from '../../Images/review_google.webp'
@@ -65,7 +66,7 @@ const ShopifyDeveloper = () => {
                                     <div className="logoArea pb-4">
                                     </div>
                                     <div className='bannerAreaTop_content'>
-                                        <h1 className="h1 mb-5 text-white"><span style={{ color: '#ffbf0b' }}>Shopify</span> Website Design Company in <span style={{ color: '#ffbf0b' }}>Chandigarh!</span> </h1>
+                                        <h1 className="h1 mb-5 text-white"><Link to="https://maps.app.goo.gl/sDkN86Cnw1b1W8iK7"><span style={{ color: '#ffbf0b' }}>Shopify</span> Website Design Company in <span style={{ color: '#ffbf0b' }}>Chandigarh!</span></Link></h1>
                                         <p className='text-white'>
                                                     At Asvayuk Technologies Private Ltd., we are a leading Shopify website design company in Chandigarh,
                                                     specializing in crafting visually appealing, user-friendly, and high-performance Shopify websites.

@@ -1,4 +1,5 @@
 import { Container, Row, Col } from 'react-bootstrap';
+import { Link } from 'react-router-dom'
 import { FaSearch, FaBullseye, FaMugHot, FaRocket, FaShopify, FaShieldAlt, FaQuestionCircle } from "react-icons/fa";
 import shopifyImg from '../../Images/shopifyImg1.webp'
 import reviewGoogle from '../../Images/review_google.webp'
@@ -69,7 +70,7 @@ const CryptoExchangeDeveloper = () => {
                                         {/* <img src={shopifyImg} className="img-fluid w-25" alt="Crypto_Logo" /> */}
                                     </div>
                                     <div className='bannerAreaTop_content'>
-                                        <h1 className="h1 mb-5 text-white">The Best <span className='fw-bold' style={{ color: '#ffbf0b' }}>Crypto Exchange</span> Developers in Chandigarh!</h1>
+                                        <h1 className="h1 mb-5 text-white"><Link to="https://maps.app.goo.gl/sDkN86Cnw1b1W8iK7">The Best <span className='fw-bold' style={{ color: '#ffbf0b' }}>Crypto Exchange</span> Developers in Chandigarh!</Link></h1>
                                         <p className='text-white'>Asvayuk Technologies specializes in developing reliable and scalable crypto exchange platforms, providing customized solutions that are tailored to meet your business’s specific needs and ensure smooth, secure trading operations.</p>
                                     </div>
                                     <div className="review_section mb-5">

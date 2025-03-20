@@ -52,7 +52,7 @@ const Shopify_Dev = () => {
                                         <Breadcrumb.Item linkAs={Link} linkProps={{ to: "#" }}>Technology</Breadcrumb.Item>
                                         <Breadcrumb.Item active>Shopify Development</Breadcrumb.Item>
                                     </Breadcrumb>
-                                    <h1>Shopify Website Design Company in Chandigarh</h1>
+                                    <h1><Link to="https://maps.app.goo.gl/sDkN86Cnw1b1W8iK7">Shopify Website Design Company in Chandigarh</Link></h1>
                                     <p className="py-3">We take pride in being a leading provider of Shopify Development Services, offering customized solutions to meet unique business requirements.</p>
 
                                     <BannerButton btnTitle='Free Consultation' url='/contact-us' />

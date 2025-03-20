@@ -77,7 +77,7 @@ const Social_Media_Marketing = () => {
                   </Breadcrumb.Item>
                 </Breadcrumb>
                 <div className="peformance_section_top-heading perTitle mt-3">
-                  <h2>Social Media Marketing Agency in Chandigarh</h2>
+                  <h2><Link to="https://maps.app.goo.gl/sDkN86Cnw1b1W8iK7">Social Media Marketing Agency in Chandigarh</Link></h2>
                   <p>
                     In today’s digital world, having a strong online presence is
                     crucial for business growth, and social media marketing

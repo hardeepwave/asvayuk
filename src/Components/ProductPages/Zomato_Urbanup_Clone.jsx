@@ -46,7 +46,7 @@ const Zomato_Urbanup_Clone = () => {
                                         <Breadcrumb.Item linkAs={Link} linkProps={{ to: "#" }}>Products</Breadcrumb.Item>
                                         <Breadcrumb.Item active>Zomato/UrbanUp Clone</Breadcrumb.Item>
                                     </Breadcrumb>
-                                    <h1>Zomato/UrbanUp Clone App Development Services in Panchkula & Chandigarh</h1>
+                                    <h1><Link to="https://maps.app.goo.gl/sDkN86Cnw1b1W8iK7">Zomato/UrbanUp Clone App Development Services in Panchkula & Chandigarh</Link></h1>
                                     <p className="py-3">
                                         Asvayuk Technologies specializes in developing Zomato/UrbanUp clone apps in Panchkula & Chandigarh. Our scalable and feature-packed on-demand food delivery app solutions cater to the ever-growing needs of businesses in the food and logistics sector.
                                     </p>

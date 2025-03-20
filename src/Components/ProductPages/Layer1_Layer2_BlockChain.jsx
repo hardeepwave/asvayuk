@@ -45,7 +45,7 @@ const Layer1_Layer2_BlockChain = () => {
                                     <Breadcrumb.Item linkAs={Link} linkProps={{ to: "#" }}>Services</Breadcrumb.Item>
                                     <Breadcrumb.Item active>Layer 1 & Layer 2 Blockchain</Breadcrumb.Item>
                                 </Breadcrumb>
-                                <h1>Expert Layer 1 & Layer 2 Blockchain Development in Panchkula and Chandigarh</h1>
+                                <h1><Link to="https://maps.app.goo.gl/sDkN86Cnw1b1W8iK7">Expert Layer 1 & Layer 2 Blockchain Development in Panchkula and Chandigarh</Link></h1>
                                 <p className="py-3">
                                     Asvayuk Technologies specializes in Layer 1 & Layer 2 blockchain solutions in Panchkula and Chandigarh. Our scalable, secure blockchain solutions empower businesses with next-generation technology for secure and efficient data management.
                                 </p>

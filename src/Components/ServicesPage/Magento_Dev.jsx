@@ -81,7 +81,7 @@ const Magento_Dev = () => {
                                         <Breadcrumb.Item linkAs={Link} linkProps={{ to: "#" }}>Technology</Breadcrumb.Item>
                                         <Breadcrumb.Item active>Magento Development</Breadcrumb.Item>
                                     </Breadcrumb>
-                                    <h1>Best Magento Developers in Chandigarh</h1>
+                                    <h1><Link to="https://maps.app.goo.gl/sDkN86Cnw1b1W8iK7">Best Magento Developers in Chandigarh</Link></h1>
                                     <p className="py-3">
                                     When it comes to developing highly efficient and scalable eCommerce websites, Magento stands out as one of the most powerful platforms.
                                     For businesses in Chandigarh and Mohali seeking to build or improve their online stores, finding the <b>Best Magento Developers in Chandigarh</b> is crucial.

@@ -62,7 +62,7 @@ const React_Native = () => {
                                         <div className="logoArea pb-4">
                                         </div>
                                         <div className='bannerAreaTop_content'>
-                                            <h1 className="h1 mb-5 text-white">React<span className='fw-bold' style={{ color: '#ffbf0b' }}> Native</span> Developers Chandigarh</h1>
+                                            <h1 className="h1 mb-5 text-white"><Link to="https://maps.app.goo.gl/sDkN86Cnw1b1W8iK7">React<span className='fw-bold' style={{ color: '#ffbf0b' }}> Native</span> Developers Chandigarh</Link></h1>
                                             <p className='text-white'>
                                             In today’s fast-paced world, mobile applications are crucial for businesses to reach and engage with their target audience.
                                             At Asvayuk Technologies Private Ltd., we specialize in providing top-tier React Native development in Chandigarh.

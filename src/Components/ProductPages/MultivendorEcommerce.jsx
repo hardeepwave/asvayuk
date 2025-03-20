@@ -44,7 +44,7 @@ const MultivendorEcommerce = () => {
                                         <Breadcrumb.Item linkAs={Link} linkProps={{ to: "#" }}>Services</Breadcrumb.Item>
                                         <Breadcrumb.Item active>Multi-Vendor E-commerce</Breadcrumb.Item>
                                     </Breadcrumb>
-                                    <h1>Multi-Vendor E-commerce Development in Panchkula & Chandigarh</h1>
+                                    <h1><Link to="https://maps.app.goo.gl/sDkN86Cnw1b1W8iK7">Multi-Vendor E-commerce Development in Panchkula & Chandigarh</Link></h1>
                                     <p className="py-3">
                                         Build a successful multi-vendor e-commerce platform with Asvayuk Technologies. We offer customized solutions to streamline vendor management, optimize online sales, and create a seamless shopping experience for businesses in Panchkula and Chandigarh.
                                     </p>

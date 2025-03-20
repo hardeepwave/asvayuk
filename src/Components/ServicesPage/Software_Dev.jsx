@@ -91,7 +91,7 @@ const Software_Dev = () => {
                                         <Breadcrumb.Item linkAs={Link} linkProps={{ to: "#" }}>Technology</Breadcrumb.Item>
                                         <Breadcrumb.Item active>Software Development</Breadcrumb.Item>
                                     </Breadcrumb>
-                                    <h1>Software Development Company in Chandigarh</h1>
+                                    <h1><Link to="https://maps.app.goo.gl/sDkN86Cnw1b1W8iK7">Software Development Company in Chandigarh</Link></h1>
                                     <p className="py-3">Asvayuk Technologies Private Ltd. is a premier Software Development Company in Chandigarh, offering cutting-edge solutions for businesses of all sizes. With a team of highly skilled Software Developers in Chandigarh, we specialize in delivering custom software development in Chandigarh, enterprise-grade applications, and robust software testing services. Our goal is to help businesses streamline operations, improve efficiency, and drive digital transformation.</p>
 
                                     <BannerButton btnTitle='Free Consultation' url='/contact-us' />

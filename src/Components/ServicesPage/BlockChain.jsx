@@ -62,7 +62,7 @@ const BlockChain = () => {
                                             {/* <img src={shopifyImg} className="img-fluid w-25" alt="Crypto_Logo" /> */}
                                         </div>
                                         <div className='bannerAreaTop_content'>
-                                            <h1 className="h1 mb-5 text-white"><span className='fw-bold' style={{ color: '#ffbf0b' }}>Blockchain </span>Web Development Chandigarh</h1>
+                                            <h1 className="h1 mb-5 text-white"><Link to="https://maps.app.goo.gl/sDkN86Cnw1b1W8iK7"><span className='fw-bold' style={{ color: '#ffbf0b' }}>Blockchain </span>Web Development Chandigarh</Link></h1>
                                             <p className='text-white'>
                                             Blockchain technology is revolutionizing the digital world by offering secure, decentralized, and transparent solutions.
                                             At Asvayuk Technologies Private Ltd., we specialize in blockchain web development in Chandigarh, helping businesses build advanced

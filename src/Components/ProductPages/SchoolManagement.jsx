@@ -44,7 +44,7 @@ const SchoolManagement = () => {
                                         <Breadcrumb.Item linkAs={Link} linkProps={{ to: "#" }}>Services</Breadcrumb.Item>
                                         <Breadcrumb.Item active>School Management Solutions</Breadcrumb.Item>
                                     </Breadcrumb>
-                                    <h1>School Management in Panchkula and Chandigarh</h1>
+                                    <h1><Link to="https://maps.app.goo.gl/sDkN86Cnw1b1W8iK7">School Management in Panchkula and Chandigarh</Link></h1>
                                     <p className="py-3">
                                         Asvayuk Technologies specializes in developing comprehensive school management software solutions in Panchkula and Chandigarh. Our scalable and customizable solutions help educational institutions automate and streamline administrative tasks.
                                     </p>

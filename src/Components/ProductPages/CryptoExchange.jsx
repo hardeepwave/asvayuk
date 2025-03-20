@@ -44,7 +44,7 @@ const CryptoExchange = () => {
                                         <Breadcrumb.Item linkAs={Link} linkProps={{ to: "#" }}>Services</Breadcrumb.Item>
                                         <Breadcrumb.Item active>Crypto Exchange Solutions</Breadcrumb.Item>
                                     </Breadcrumb>
-                                    <h1>Crypto Exchange Solutions in Chandigarh & Panchkula</h1>
+                                    <h1><Link to="https://maps.app.goo.gl/sDkN86Cnw1b1W8iK7">Crypto Exchange Solutions in Chandigarh & Panchkula</Link></h1>
                                     <p className="py-3">
                                         Asvayuk Technologies offers cutting-edge crypto exchange services in Chandigarh and Panchkula, providing secure and efficient trading solutions for digital assets. Our platform is designed to offer seamless integration, scalability, and decentralized control, ensuring a safe and user-friendly experience for traders.
                                     </p>

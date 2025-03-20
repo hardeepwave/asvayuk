@@ -84,7 +84,7 @@ const Search_Engine_Opti = () => {
                   <Breadcrumb.Item active>SEO</Breadcrumb.Item>
                 </Breadcrumb>
                 <div className="peformance_section_top-heading mt-3">
-                  <h2>Best SEO Services in Chandigarh</h2>
+                  <h2><Link to="https://maps.app.goo.gl/sDkN86Cnw1b1W8iK7">Best SEO Services in Chandigarh</Link></h2>
                   <p>
                     Having trouble improving your website’s Google ranking?
                     Asvayuk Technologies Private Ltd. offers the best SEO

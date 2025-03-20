@@ -44,7 +44,7 @@ const MLM_Software = () => {
                                         <Breadcrumb.Item linkAs={Link} linkProps={{ to: "#" }}>Services</Breadcrumb.Item>
                                         <Breadcrumb.Item active>MLM Software</Breadcrumb.Item>
                                     </Breadcrumb>
-                                    <h1>MLM Software Development in Chandigarh Panchkula</h1>
+                                    <h1><Link to="https://maps.app.goo.gl/sDkN86Cnw1b1W8iK7">MLM Software Development in Chandigarh Panchkula</Link></h1>
                                     <p className="py-3">
                                         Asvayuk Technologies specializes in providing custom MLM software solutions in Chandigarh and Panchkula. We help businesses streamline commission tracking, downline management, and performance analytics to achieve optimal growth in the multi-level marketing industry.
                                     </p>

@@ -45,7 +45,7 @@ const TradingBot = () => {
                                         <Breadcrumb.Item linkAs={Link} linkProps={{ to: "#" }}>Services</Breadcrumb.Item>
                                         <Breadcrumb.Item active>Job Portal in Chandigarh</Breadcrumb.Item>
                                     </Breadcrumb>
-                                    <h1>Job Portal Solutions in Chandigarh, Panchkula, and Zarapkar</h1>
+                                    <h1><Link to="https://maps.app.goo.gl/sDkN86Cnw1b1W8iK7">Job Portal Solutions in Chandigarh, Panchkula, and Zarapkar</Link></h1>
                                     <p className="py-3">
                                         Asvayuk Technologies offers cutting-edge job portal solutions in Chandigarh, Panchkula, and Zarapkar, enabling businesses and job seekers to connect seamlessly. Our platforms are designed to provide an intuitive, efficient, and user-friendly experience for recruitment and hiring needs.
                                     </p>

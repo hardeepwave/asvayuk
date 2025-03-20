@@ -91,7 +91,7 @@ function Home() {
                         <div className="row">
                             <div className="col-lg-6">
                                 <div className="banner_textInfo pe-0 pe-lg-5 pe-md-5">
-                                    <h1>Design Development Marketing</h1>
+                                    <h1><Link to="https://maps.app.goo.gl/sDkN86Cnw1b1W8iK7">Design Development Marketing</Link></h1>
                                     <h2 className="py-3" style={{ fontSize: '16px', color: '#494949', fontWeight: '500', lineHeight: '1.5rem' }}>Asvayuk Technologies seamlessly combines innovative web design, advanced technology solutions, and strategic digital marketing to enhance your business's online presence and drive growth.</h2>
                                     <BannerButton btnTitle='Free Consultation' />
                                 </div>

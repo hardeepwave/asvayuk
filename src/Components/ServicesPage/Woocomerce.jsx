@@ -90,7 +90,7 @@ const Woocomerce = () => {
                                         <Breadcrumb.Item linkAs={Link} linkProps={{ to: "#" }}>Technology</Breadcrumb.Item>
                                         <Breadcrumb.Item active>WooCommerce Development</Breadcrumb.Item>
                                     </Breadcrumb>
-                                    <h1>WooCommerce Development Services in Chandigarh</h1>
+                                    <h1><Link to="https://maps.app.goo.gl/sDkN86Cnw1b1W8iK7">WooCommerce Development Services in Chandigarh</Link></h1>
                                     <p className="py-3">In the fast-evolving e-commerce industry in Chandigarh, businesses need robust and scalable online stores to stay ahead of the competition.<b> Asvayuk Technologies Private Ltd. </b>
                                      offers top-notch <b>WooCommerce Development Services in Chandigarh</b>, making us the trusted WooCommerce development partner in Chandigarh.
                                      Our expertise ensures that your e-commerce store is feature-rich, secure, and optimized for conversions, helping you establish a strong online presence.</p>

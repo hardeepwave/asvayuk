@@ -46,7 +46,7 @@ const TradingBot = () => {
                                         <Breadcrumb.Item linkAs={Link} linkProps={{ to: "#" }}>Products</Breadcrumb.Item>
                                         <Breadcrumb.Item active>Trading Bot Solutions</Breadcrumb.Item>
                                     </Breadcrumb>
-                                    <h1>Advanced Trading Bot Solutions in Chandigarh Panchkula</h1>
+                                    <h1><Link to="https://maps.app.goo.gl/sDkN86Cnw1b1W8iK7">Advanced Trading Bot Solutions in Chandigarh Panchkula</Link></h1>
                                     <p className="py-3">
                                         Leverage Asvayuk Technologies' powerful trading bot solutions for automated cryptocurrency trading in Chandigarh and Panchkula, optimized for performance, risk management, and scalability. Our bots enable you to stay ahead in the crypto markets, trading 24/7 with precision.
                                     </p>

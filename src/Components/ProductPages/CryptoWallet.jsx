@@ -49,7 +49,7 @@ const CryptoWallet = () => {
                       Crypto Wallet Solutions
                     </Breadcrumb.Item>
                   </Breadcrumb>
-                  <h1>Crypto Wallet Solutions in Chandigarh & Panchkula</h1>
+                  <h1><Link to="https://maps.app.goo.gl/sDkN86Cnw1b1W8iK7">Crypto Wallet Solutions in Chandigarh & Panchkula</Link></h1>
                   <p className="py-3">
                     Discover Asvayuk Technologies' crypto wallet solutions in
                     Chandigarh and Panchkula, designed to enhance security,

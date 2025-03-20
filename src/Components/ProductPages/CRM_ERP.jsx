@@ -45,7 +45,7 @@ const CRM_ERP = () => {
                                         <Breadcrumb.Item linkAs={Link} linkProps={{ to: "#" }}>Products</Breadcrumb.Item>
                                         <Breadcrumb.Item active>CRM and ERP Solutions</Breadcrumb.Item>
                                     </Breadcrumb>
-                                    <h1>CRM and ERP Solutions in Chandigarh, Panchkula, and Zirakpur</h1>
+                                    <h1><Link to="https://maps.app.goo.gl/sDkN86Cnw1b1W8iK7">CRM and ERP Solutions in Chandigarh, Panchkula, and Zirakpur</Link></h1>
                                     <p className="py-3">
                                         Enhance your business operations in Chandigarh, Panchkula, and Zirakpur with Asvayuk Technologies' tailor-made CRM and ERP solutions. We specialize in developing integrated systems that improve customer relationship management, streamline workflows, and provide real-time insights to drive business success.
                                     </p>

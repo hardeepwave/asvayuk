@@ -1,4 +1,5 @@
 import { Container, Row, Col } from 'react-bootstrap';
+import { Link } from 'react-router-dom'
 import { FaSearch, FaBullseye, FaMugHot, FaRocket, FaShopify, FaShieldAlt, FaQuestionCircle } from "react-icons/fa";
 import reviewGoogle from '../../Images/review_google.webp'
 import GoodFirms from '../../Images/GoodFirms.webp'
@@ -67,7 +68,7 @@ const BlockchainDeveloper = () => {
                                     <div className="logoArea pb-4">
                                     </div>
                                     <div className='bannerAreaTop_content'>
-                                        <h1 className="h1 mb-5 text-white">The Best <span className='fw-bold' style={{ color: '#ffbf0b' }}>Blockchain Developers</span> in Chandigarh!</h1>
+                                        <h1 className="h1 mb-5 text-white"><Link to="https://maps.app.goo.gl/sDkN86Cnw1b1W8iK7">The Best <span className='fw-bold' style={{ color: '#ffbf0b' }}>Blockchain Developers</span> in Chandigarh!</Link></h1>
                                         <p className='text-white'>At Asvayuk Technologies, we specialize in delivering innovative blockchain solutions customized to meet your business needs. Our team of expert developers is dedicated to building secure, scalable, and forward-thinking blockchain applications across a wide range of industries.</p>
                                     </div>
                                     <div className="review_section mb-5">

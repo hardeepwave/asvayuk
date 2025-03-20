@@ -44,7 +44,7 @@ const Game24 = () => {
                                         <Breadcrumb.Item linkAs={Link} linkProps={{ to: "#" }}>Products</Breadcrumb.Item>
                                         <Breadcrumb.Item active>24 Games with Asvayuk</Breadcrumb.Item>
                                     </Breadcrumb>
-                                    <h1>Game Development Solutions by Asvayuk Technologies in Panchkula Chandigarh</h1>
+                                    <h1><Link to="https://maps.app.goo.gl/sDkN86Cnw1b1W8iK7">Game Development Solutions by Asvayuk Technologies in Panchkula Chandigarh</Link></h1>
                                     <p className="py-3">
                                         Asvayuk Technologies specializes in game development services in Panchkula and Chandigarh, offering a range of innovative 24 games. Our solutions are designed to enhance user engagement and provide scalable solutions for businesses looking to integrate gaming elements into their strategy.
                                     </p>

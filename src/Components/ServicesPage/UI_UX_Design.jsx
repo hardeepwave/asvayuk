@@ -100,7 +100,7 @@ const UI_UX_Design = () => {
                                         <Breadcrumb.Item linkAs={Link} linkProps={{ to: "#" }}>Technology</Breadcrumb.Item>
                                         <Breadcrumb.Item active>UI/UX Design</Breadcrumb.Item>
                                     </Breadcrumb>
-                                    <h1>Best UI/UX Designers in Chandigarh</h1>
+                                    <h1><Link to="https://maps.app.goo.gl/sDkN86Cnw1b1W8iK7">Best UI/UX Designers in Chandigarh</Link></h1>
                                     <p className="py-3">In today’s digital era, an intuitive and visually appealing user interface (UI) combined with a seamless user experience (UX) is essential for any business. At Asvayuk Technologies Private Ltd., we take pride in being one of the best UI/UX designers in Chandigarh, delivering innovative and user-friendly digital solutions tailored to your business needs.</p>
 
                                     <BannerButton btnTitle='Free Consultation' url='/contact-us' />

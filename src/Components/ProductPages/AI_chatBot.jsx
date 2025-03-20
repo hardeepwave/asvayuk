@@ -44,7 +44,7 @@ const AI_chatBot = () => {
                                         <Breadcrumb.Item linkAs={Link} linkProps={{ to: "#" }}>Services</Breadcrumb.Item>
                                         <Breadcrumb.Item active>AI ChatBot Development</Breadcrumb.Item>
                                     </Breadcrumb>
-                                    <h1>AI ChatBot Development in Chandigarh & Panchkula</h1>
+                                    <h1><Link to="https://maps.app.goo.gl/sDkN86Cnw1b1W8iK7">AI ChatBot Development in Chandigarh & Panchkula</Link></h1>
                                     <p className="py-3">
                                         Transform customer engagement strategies with AI ChatBots. At Asvayuk Technologies, we specialize in developing AI-driven ChatBots that enhance user experience, automate support, and improve business efficiency, now in Chandigarh and Panchkula.
                                     </p>

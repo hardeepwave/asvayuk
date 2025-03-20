@@ -43,7 +43,7 @@ const HospitalManagement = () => {
                                         <Breadcrumb.Item linkAs={Link} linkProps={{ to: "#" }}>Products</Breadcrumb.Item>
                                         <Breadcrumb.Item active>Hospital Management Software</Breadcrumb.Item>
                                     </Breadcrumb>
-                                    <h1>Hospital Management Software in Panchkula & Chandigarh</h1>
+                                    <h1><Link to="https://maps.app.goo.gl/sDkN86Cnw1b1W8iK7">Hospital Management Software in Panchkula & Chandigarh</Link></h1>
                                     <p className="py-3">
                                         Asvayuk Technologies provides advanced hospital management software solutions in Panchkula and Chandigarh, offering highly customizable and scalable systems to optimize administrative processes and enhance patient care efficiency.
                                     </p>

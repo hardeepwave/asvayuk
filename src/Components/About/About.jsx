@@ -59,7 +59,9 @@ const About = () => {
                   </ol>
                 </nav>
                 <h1 className="left-para pt-1">
+                <Link to="https://maps.app.goo.gl/sDkN86Cnw1b1W8iK7">
                   Asvayuk Technologies: Pioneering IT Solutions for Your Business Growth
+                  </Link>
                 </h1>
               </div>
               <div className="right-box col-lg-6 mt-4  d-lg-block">
