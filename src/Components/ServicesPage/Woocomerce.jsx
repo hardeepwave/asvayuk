@@ -94,8 +94,9 @@ const Woocomerce = () => {
                                     <p className="py-3">In the fast-evolving e-commerce industry in Chandigarh, businesses need robust and scalable online stores to stay ahead of the competition.<b> Asvayuk Technologies Private Ltd. </b>
                                      offers top-notch <b>WooCommerce Development Services in Chandigarh</b>, making us the trusted WooCommerce development partner in Chandigarh.
                                      Our expertise ensures that your e-commerce store is feature-rich, secure, and optimized for conversions, helping you establish a strong online presence.</p>
-
-                                    <BannerButton btnTitle='Free Consultation' url='/contact-us' />
+                                <div className='pb-5'>
+                                    <BannerButton btnTitle='Free Consultation' url='/contact-us' className='pb-2'/>
+                                </div>
                                 </div>
                             </div>
                             <div className="col-lg-6">

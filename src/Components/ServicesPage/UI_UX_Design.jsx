@@ -106,7 +106,7 @@ const UI_UX_Design = () => {
                                     <BannerButton btnTitle='Free Consultation' url='/contact-us' />
                                 </div>
                             </div>
-                            <div className="col-lg-6">
+                            <div className="col-lg-6 pb-4">
                                 <div className="bannerImg d-flex justify-content-center align-items-center">
                                     <img src={banners_41_1} alt="Best UI/UX designers in Chandigarh" className='w-75 py-5' />
                                 </div>
@@ -115,7 +115,8 @@ const UI_UX_Design = () => {
                     </Container>
                 </section>
 
-                <section className="bg-section mt-5">
+                <section className="bg-section">
+                    <div className=''>
                         <Container>
                             <div className="main-bg p-3">
                             <div className="tool-heading py-5">
@@ -130,6 +131,7 @@ const UI_UX_Design = () => {
                             </div>
                             </div>
                         </Container>
+                        </div>
                 </section>
 
                 <section className='magento_service_card'>

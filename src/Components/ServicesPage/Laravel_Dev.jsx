@@ -121,7 +121,7 @@ const Laravel_Dev = () => {
           <div className="container">
             <div className="Empowering_title text-center pb-2 pb-md-5">
               <h1 className="fw-semibold">
-                Our Laravel Development Services in Chandigarh
+                Our Laravel Development Services<br/> in Chandigarh
               </h1>
               <p>
                 At Asvayuk Technologies Private Ltd., we offer a wide range of
@@ -185,7 +185,7 @@ const Laravel_Dev = () => {
                 />
               </div>
             </div>
-            <div className="row pt-0 pt-lg-3 pt-md-3">
+            <div className="row pt-0 pt-lg-3 pt-md-3 pb-5">
               <div className="col-lg-6 col-md-6 col-sm-6 col-12 px-2 pb-3 pb-lg-0 pb-md-0">
                 <ServicesCard
                   ServiceCardImg={c15}
@@ -214,6 +214,26 @@ const Laravel_Dev = () => {
               </div>
             </div>
           </div>
+        </section>
+
+        <section className="bg-section">
+            <Container>
+                <div className="main-bg">
+                <div className="tool-heading pt-5 pb-3">
+                    <h2 className="conclusion_title mb-2 text-center">
+                    Get Started with The Best Laravel Development Company in Chandigarh
+                    </h2>
+                    <div>
+                    <p className="text-white lh-base fs-6 pt-3 text-center">
+                        Looking for a Laravel development partner in
+                        Chandigarh to build your next web application?<br/> Asvayuk
+                        Technologies Private Ltd. is here to provide expert
+                        solutions.
+                    </p>
+                    </div>
+                </div>
+                </div>
+            </Container>
         </section>
 
         <KeyPointSection
@@ -698,25 +718,6 @@ const Laravel_Dev = () => {
           </div>
         </section>
 
-        <section className="bg-section mt-5">
-            <Container>
-                <div className="main-bg p-3">
-                <div className="tool-heading py-5">
-                    <h2 className="conclusion_title mb-2">
-                    Get Started with The Best Laravel Development Company in Chandigarh
-                    </h2>
-                    <div>
-                    <p className="text-white lh-lg fs-6 pt-3">
-                        Looking for a Laravel development partner in
-                        Chandigarh to build your next web application? Asvayuk
-                        Technologies<br/> Private Ltd. is here to provide expert
-                        solutions.
-                    </p>
-                    </div>
-                </div>
-                </div>
-            </Container>
-        </section>
         <FAQAccordion title="FAQs on Laravel Development" faqs={faqData} />
       </main>
     </>
