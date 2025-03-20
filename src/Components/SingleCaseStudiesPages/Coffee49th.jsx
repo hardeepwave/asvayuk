@@ -39,7 +39,7 @@ const Coffee49th = () => {
                             <div className="ms-auto col-lg-4 col-md-6 col-12 col-sm-12">
                                 <div className="fullcase_details">
                                     <div className="fullCaseStudy_slider_logo">
-                                        <img src={moonLight} alt="" style={{ mixBlendMode: "darken", height: 'unset !important' }} />
+                                        <img src={moonLight} alt="Laravel PHP development services in Chandigarh" style={{ mixBlendMode: "darken", height: 'unset !important' }} />
                                     </div>
                                     <div className="fullCaseStudy_textContent py-4">
                                         <h2 className="fw-semibold fs-1" style={{ textTransform: 'uppercase', lineHeight: '3.2rem' }}>Small-batch roasting and always fresh.</h2>
@@ -61,7 +61,7 @@ const Coffee49th = () => {
                             </div>
                             <div className="col-lg-6 col-md-6 col-12 col-sm-12 d-flex justify-content-center justify-content-lg-end justifyconent align-items-center px-0">
                                 <div className="fullCaseStudy_img w-75">
-                                    <img src={caseStu4} alt="" className="w-100" />
+                                    <img src={caseStu4} alt="Laravel website development agency Chandigarh" className="w-100" />
                                 </div>
                             </div>
                         </div>
@@ -112,7 +112,7 @@ const Coffee49th = () => {
                             <div className="col-lg-3 col-md-6 col-sm-12 col-12 mb-4 mb-lg-0 mb-md-4">
                                 <div className="strategycard">
                                     <div className="cardimg mb-3">
-                                        <img src={optimization} alt="" width={"60px"} />
+                                        <img src={optimization} alt="Laravel web application development Chandigarh" width={"60px"} />
                                     </div>
                                     <h6 className="cardtitle mb-2 fw-bold">
                                         Seamless User Interface
@@ -126,7 +126,7 @@ const Coffee49th = () => {
                             <div className="col-lg-3 col-md-6 col-sm-12 col-12 mb-4 mb-lg-0 mb-md-4">
                                 <div className="strategycard">
                                     <div className="cardimg mb-3">
-                                        <img src={backlink} alt="" width={"60px"} />
+                                        <img src={backlink} alt="Top 10 Software Development Companies In Chandigarh" width={"60px"} />
                                     </div>
                                     <h6 className="cardtitle mb-2 fw-bold">
                                         Smooth Checkout Flow
@@ -140,7 +140,7 @@ const Coffee49th = () => {
                             <div className="col-lg-3 col-md-6 col-sm-12 col-12 mb-4 mb-lg-0 mb-md-4">
                                 <div className="strategycard">
                                     <div className="cardimg mb-3">
-                                        <img src={technicalseo} alt="" width={"60px"} />
+                                        <img src={technicalseo} alt="CUSTOM SOFTWARE DEVELOPMENT IN CHANDIGARH" width={"60px"} />
                                     </div>
                                     <h6 className="cardtitle mb-2 fw-bold">
                                         Cross-Device Compatibility
@@ -154,7 +154,7 @@ const Coffee49th = () => {
                             <div className="col-lg-3 col-md-6 col-sm-12 col-12 mb-4 mb-lg-0 mb-md-4">
                                 <div className="strategycard">
                                     <div className="cardimg mb-3">
-                                        <img src={content} alt="" width={"60px"} />
+                                        <img src={content} alt="Best Laravel development company under budget in Chandigarh" width={"60px"} />
                                     </div>
                                     <h6 className="cardtitle mb-2 fw-bold">
                                         Data-Driven Personalization
@@ -243,7 +243,7 @@ const Coffee49th = () => {
                                 </ul>
                             </div>
                             <div className='col-lg-4 col-md-4 col-12'>
-                                <img src={cs1} alt="" className='img-fluid h-100 object-fit-cover' />
+                                <img src={cs1} alt="web3 android app development" className='img-fluid h-100 object-fit-cover' />
                             </div>
                         </Row>
                     </Container>
@@ -253,7 +253,7 @@ const Coffee49th = () => {
                     <Container className='py-5'>
                         <Row>
                             <Col lg={4}>
-                                <img src={conclusion} alt="" width={"100%"} />
+                                <img src={conclusion} alt="Professional Ecommerce Website Builders in Chandigarh" width={"100%"} />
                             </Col>
                             <Col lg={8}>
                                 <h2 className="sectitle fw-bold mb-3">
@@ -311,7 +311,7 @@ const Coffee49th = () => {
                                         <SwiperSlide>
                                             <div className="caseStuides_MainContent rounded-4 overflow-hidden bg-light">
                                                 <div>
-                                                    <Link to="#"><img src={caseStu1} alt="" className="img-fluid" /></Link>
+                                                    <Link to="#"><img src={caseStu1} alt="Magento Development Services Chandigarh" className="img-fluid" /></Link>
                                                 </div>
                                                 <div className="caseStuides_para">
                                                     <p className="mb-0 pb-1"><Link to="#">Website Development</Link></p>
@@ -322,7 +322,7 @@ const Coffee49th = () => {
                                         <SwiperSlide>
                                             <div className="caseStuides_MainContent rounded-4 overflow-hidden bg-light">
                                                 <div>
-                                                    <Link to="#"><img src={caseStu2} alt="" className="img-fluid" /></Link>
+                                                    <Link to="#"><img src={caseStu2} alt="Affordable Magento Development Chandigarh" className="img-fluid" /></Link>
                                                 </div>
                                                 <div className="caseStuides_para">
                                                     <p className="mb-0 pb-1"><Link to="#">Website Development</Link></p>
@@ -333,7 +333,7 @@ const Coffee49th = () => {
                                         <SwiperSlide>
                                             <div className="caseStuides_MainContent rounded-4 overflow-hidden bg-light">
                                                 <div>
-                                                    <Link to="#"><img src={caseStu3} alt="" className="img-fluid" /></Link>
+                                                    <Link to="#"><img src={caseStu3} alt="Commerce website development Chandigarh" className="img-fluid" /></Link>
                                                 </div>
                                                 <div className="caseStuides_para">
                                                     <p className="mb-0 pb-1"><Link to="#">Website Development</Link></p>
@@ -344,7 +344,7 @@ const Coffee49th = () => {
                                         <SwiperSlide>
                                             <div className="caseStuides_MainContent rounded-4 overflow-hidden bg-light">
                                                 <div>
-                                                    <Link to="#"><img src={caseStu4} alt="" className="img-fluid" /></Link>
+                                                    <Link to="#"><img src={caseStu4} alt="Top 10 Digital Marketing Companies in Chandigarh" className="img-fluid" /></Link>
                                                 </div>
                                                 <div className="caseStuides_para">
                                                     <p className="mb-0 pb-1"><Link to="#">Website Development</Link></p>
@@ -355,7 +355,7 @@ const Coffee49th = () => {
                                         <SwiperSlide>
                                             <div className="caseStuides_MainContent rounded-4 overflow-hidden bg-light">
                                                 <div>
-                                                    <Link to="#"><img src={caseStu5} alt="" className="img-fluid" /></Link>
+                                                    <Link to="#"><img src={caseStu5} alt="Laravel website development agency Chandigarh" className="img-fluid" /></Link>
                                                 </div>
                                                 <div className="caseStuides_para">
                                                     <p className="mb-0 pb-1"><Link to="#">Website Development</Link></p>
@@ -366,7 +366,7 @@ const Coffee49th = () => {
                                         <SwiperSlide>
                                             <div className="caseStuides_MainContent rounded-4 overflow-hidden bg-light">
                                                 <div>
-                                                    <Link to="#"><img src={caseStu6} alt="" className="img-fluid" /></Link>
+                                                    <Link to="#"><img src={caseStu6} alt="Laravel Development Partner in Chandigarh" className="img-fluid" /></Link>
                                                 </div>
                                                 <div className="caseStuides_para">
                                                     <p className="mb-0 pb-1"><Link to="#">Website Development</Link></p>
@@ -377,7 +377,7 @@ const Coffee49th = () => {
                                         <SwiperSlide>
                                             <div className="caseStuides_MainContent rounded-4 overflow-hidden bg-light">
                                                 <div>
-                                                    <Link to="#"><img src={caseStu8} alt="" className="img-fluid" /></Link>
+                                                    <Link to="#"><img src={caseStu8} alt="Responsive web development chandigarh" className="img-fluid" /></Link>
                                                 </div>
                                                 <div className="caseStuides_para">
                                                     <p className="mb-0 pb-1"><Link to="#">Website Development</Link></p>
@@ -388,7 +388,7 @@ const Coffee49th = () => {
                                         <SwiperSlide>
                                             <div className="caseStuides_MainContent rounded-4 overflow-hidden bg-light">
                                                 <div>
-                                                    <Link to="#"><img src={caseStu9} alt="" className="img-fluid" /></Link>
+                                                    <Link to="#"><img src={caseStu9} alt="Magento Web development provider in chandigarh" className="img-fluid" /></Link>
                                                 </div>
                                                 <div className="caseStuides_para">
                                                     <p className="mb-0 pb-1"><Link to="#">Website Development</Link></p>
@@ -399,7 +399,7 @@ const Coffee49th = () => {
                                         <SwiperSlide>
                                             <div className="caseStuides_MainContent rounded-4 overflow-hidden bg-light">
                                                 <div>
-                                                    <Link to="#"><img src={caseStu10} alt="" className="img-fluid" /></Link>
+                                                    <Link to="#"><img src={caseStu10} alt="Top Shopify Development Companies in Chandigarh" className="img-fluid" /></Link>
                                                 </div>
                                                 <div className="caseStuides_para">
                                                     <p className="mb-0 pb-1"><Link to="#">Website Development</Link></p>

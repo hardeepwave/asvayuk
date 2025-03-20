@@ -40,7 +40,7 @@ const QuadLock = () => {
                             <div className="ms-auto col-lg-4 col-md-6 col-12 col-sm-12">
                                 <div className="fullcase_details">
                                     <div className="fullCaseStudy_slider_logo">
-                                        <img src={moonLight} alt="" style={{ mixBlendMode: "darken" }} />
+                                        <img src={moonLight} alt="Digital Marketing Companies in Chandigarh" style={{ mixBlendMode: "darken" }} />
                                     </div>
                                     <div className="fullCaseStudy_textContent py-4">
                                         <h2 className="fw-semibold fs-1" style={{ textTransform: 'uppercase', lineHeight: '3.2rem' }}>EVERY DAY, EVERY ADVENTURE.</h2>
@@ -62,7 +62,7 @@ const QuadLock = () => {
                             </div>
                             <div className="col-lg-6 col-md-6 col-12 col-sm-12 d-flex justify-content-center justify-content-lg-end justifyconent align-items-center px-0">
                                 <div className="fullCaseStudy_img w-75">
-                                    <img src={caseStu} alt="" className="w-100" />
+                                    <img src={caseStu} alt="Crypto Token Development Company in Chandigarh" className="w-100" />
                                 </div>
                             </div>
                         </div>
@@ -114,7 +114,7 @@ const QuadLock = () => {
                             <div className="col-lg-3 col-md-6 col-sm-12 col-12 mb-4 mb-lg-0 mb-md-4">
                                 <div className="strategycard">
                                     <div className="cardimg mb-3">
-                                        <img src={optimization} alt="" width={"60px"} />
+                                        <img src={optimization} alt="Shopify website development Mohali" width={"60px"} />
                                     </div>
                                     <h6 className="cardtitle mb-2 fw-bold">
                                         User-Centric Design
@@ -128,7 +128,7 @@ const QuadLock = () => {
                             <div className="col-lg-3 col-md-6 col-sm-12 col-12 mb-4 mb-lg-0 mb-md-4">
                                 <div className="strategycard">
                                     <div className="cardimg mb-3">
-                                        <img src={backlink} alt="" width={"60px"} />
+                                        <img src={backlink} alt="Digital marketing services in Chandigarh" width={"60px"} />
                                     </div>
                                     <h6 className="cardtitle mb-2 fw-bold">
                                         Smooth Navigation
@@ -142,7 +142,7 @@ const QuadLock = () => {
                             <div className="col-lg-3 col-md-6 col-sm-12 col-12 mb-4 mb-lg-0 mb-md-4">
                                 <div className="strategycard">
                                     <div className="cardimg mb-3">
-                                        <img src={technicalseo} alt="" width={"60px"} />
+                                        <img src={technicalseo} alt="Digital Marketing Companies in Chandigarh" width={"60px"} />
                                     </div>
                                     <h6 className="cardtitle mb-2 fw-bold">
                                         Mobile Optimization
@@ -156,7 +156,7 @@ const QuadLock = () => {
                             <div className="col-lg-3 col-md-6 col-sm-12 col-12 mb-4 mb-lg-0 mb-md-4">
                                 <div className="strategycard">
                                     <div className="cardimg mb-3">
-                                        <img src={content} alt="" width={"60px"} />
+                                        <img src={content} alt="Best Laravel development company under budget in Chandigarh" width={"60px"} />
                                     </div>
                                     <h6 className="cardtitle mb-2 fw-bold">
                                         Personalization & AI Integration
@@ -248,7 +248,7 @@ const QuadLock = () => {
                                 </ul>
                             </div>
                             <div className='col-lg-4 col-md-4 col-12'>
-                                <img src={cs1} alt="" className='img-fluid h-100 object-fit-cover' />
+                                <img src={cs1} alt="high rank seo website creator in chandigarh" className='img-fluid h-100 object-fit-cover' />
                             </div>
                         </Row>
                     </Container>
@@ -258,7 +258,7 @@ const QuadLock = () => {
                     <Container className='py-5'>
                         <Row>
                             <Col lg={4}>
-                                <img src={conclusion} alt="" width={"100%"} />
+                                <img src={conclusion} alt="professional Software Consultants in Chandigarh" width={"100%"} />
                             </Col>
                             <Col lg={8}>
                                 <h2 className="sectitle fw-bold mb-3">
@@ -316,7 +316,7 @@ const QuadLock = () => {
                                         <SwiperSlide>
                                             <div className="caseStuides_MainContent rounded-4 overflow-hidden bg-light">
                                                 <div>
-                                                    <Link to="#"><img src={caseStu1} alt="" className="img-fluid" /></Link>
+                                                    <Link to="#"><img src={caseStu1} alt="Affordable UI UX design company in Chandigarh" className="img-fluid" /></Link>
                                                 </div>
                                                 <div className="caseStuides_para">
                                                     <p className="mb-0 pb-1"><Link to="#">Website Development</Link></p>
@@ -327,7 +327,7 @@ const QuadLock = () => {
                                         <SwiperSlide>
                                             <div className="caseStuides_MainContent rounded-4 overflow-hidden bg-light">
                                                 <div>
-                                                    <Link to="#"><img src={caseStu2} alt="" className="img-fluid" /></Link>
+                                                    <Link to="#"><img src={caseStu2} alt="Best UI UX designers in Chandigarh" className="img-fluid" /></Link>
                                                 </div>
                                                 <div className="caseStuides_para">
                                                     <p className="mb-0 pb-1"><Link to="#">Website Development</Link></p>
@@ -338,7 +338,7 @@ const QuadLock = () => {
                                         <SwiperSlide>
                                             <div className="caseStuides_MainContent rounded-4 overflow-hidden bg-light">
                                                 <div>
-                                                    <Link to="#"><img src={caseStu3} alt="" className="img-fluid" /></Link>
+                                                    <Link to="#"><img src={caseStu3} alt="SaaS Application Development Services in Chandigarh" className="img-fluid" /></Link>
                                                 </div>
                                                 <div className="caseStuides_para">
                                                     <p className="mb-0 pb-1"><Link to="#">Website Development</Link></p>
@@ -349,7 +349,7 @@ const QuadLock = () => {
                                         <SwiperSlide>
                                             <div className="caseStuides_MainContent rounded-4 overflow-hidden bg-light">
                                                 <div>
-                                                    <Link to="#"><img src={caseStu4} alt="" className="img-fluid" /></Link>
+                                                    <Link to="#"><img src={caseStu4} alt="SaaS Mobile App & and Website Development Company in Chandigarh" className="img-fluid" /></Link>
                                                 </div>
                                                 <div className="caseStuides_para">
                                                     <p className="mb-0 pb-1"><Link to="#">Website Development</Link></p>
@@ -360,7 +360,7 @@ const QuadLock = () => {
                                         <SwiperSlide>
                                             <div className="caseStuides_MainContent rounded-4 overflow-hidden bg-light">
                                                 <div>
-                                                    <Link to="#"><img src={caseStu5} alt="" className="img-fluid" /></Link>
+                                                    <Link to="#"><img src={caseStu5} alt="social media marketing agency in chandigarh" className="img-fluid" /></Link>
                                                 </div>
                                                 <div className="caseStuides_para">
                                                     <p className="mb-0 pb-1"><Link to="#">Website Development</Link></p>
@@ -371,7 +371,7 @@ const QuadLock = () => {
                                         <SwiperSlide>
                                             <div className="caseStuides_MainContent rounded-4 overflow-hidden bg-light">
                                                 <div>
-                                                    <Link to="#"><img src={caseStu6} alt="" className="img-fluid" /></Link>
+                                                    <Link to="#"><img src={caseStu6} alt="Digital marketing experts in Chandigarh" className="img-fluid" /></Link>
                                                 </div>
                                                 <div className="caseStuides_para">
                                                     <p className="mb-0 pb-1"><Link to="#">Website Development</Link></p>
@@ -382,7 +382,7 @@ const QuadLock = () => {
                                         <SwiperSlide>
                                             <div className="caseStuides_MainContent rounded-4 overflow-hidden bg-light">
                                                 <div>
-                                                    <Link to="#"><img src={caseStu8} alt="" className="img-fluid" /></Link>
+                                                    <Link to="#"><img src={caseStu8} alt="Blockchain web development provider in chandigarh" className="img-fluid" /></Link>
                                                 </div>
                                                 <div className="caseStuides_para">
                                                     <p className="mb-0 pb-1"><Link to="#">Website Development</Link></p>
@@ -393,7 +393,7 @@ const QuadLock = () => {
                                         <SwiperSlide>
                                             <div className="caseStuides_MainContent rounded-4 overflow-hidden bg-light">
                                                 <div>
-                                                    <Link to="#"><img src={caseStu9} alt="" className="img-fluid" /></Link>
+                                                    <Link to="#"><img src={caseStu9} alt="Magento Web development provider in chandigarh" className="img-fluid" /></Link>
                                                 </div>
                                                 <div className="caseStuides_para">
                                                     <p className="mb-0 pb-1"><Link to="#">Website Development</Link></p>
@@ -404,7 +404,7 @@ const QuadLock = () => {
                                         <SwiperSlide>
                                             <div className="caseStuides_MainContent rounded-4 overflow-hidden bg-light">
                                                 <div>
-                                                    <Link to="#"><img src={caseStu10} alt="" className="img-fluid" /></Link>
+                                                    <Link to="#"><img src={caseStu10} alt="Shopify development agency in chandigarh" className="img-fluid" /></Link>
                                                 </div>
                                                 <div className="caseStuides_para">
                                                     <p className="mb-0 pb-1"><Link to="#">Website Development</Link></p>

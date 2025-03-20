@@ -39,7 +39,7 @@ const Kreshya = () => {
                             <div className="ms-auto col-lg-4 col-md-6 col-12 col-sm-12">
                                 <div className="fullcase_details">
                                     <div className="fullCaseStudy_slider_logo">
-                                        <img src={moonLight} alt="" style={{ mixBlendMode: "darken", width: '20px !important' }} />
+                                        <img src={moonLight} alt="Shopify Development Company Chandigarh" style={{ mixBlendMode: "darken", width: '20px !important' }} />
                                     </div>
                                     <div className="fullCaseStudy_textContent py-4">
                                         <h2 className="fw-semibold fs-1" style={{ textTransform: 'uppercase', lineHeight: '3.2rem' }}>Explore our exquisite collection of pearls jewellery and find your perfect piece today!</h2>
@@ -59,7 +59,7 @@ const Kreshya = () => {
                             </div>
                             <div className="col-lg-6 col-md-6 col-12 col-sm-12 d-flex justify-content-center justify-content-lg-end justifyconent align-items-center px-0">
                                 <div className="fullCaseStudy_img w-75">
-                                    <img src={caseStu6} alt="" className="w-100" />
+                                    <img src={caseStu6} alt="Shopify development services in Chandigarh" className="w-100" />
                                 </div>
                             </div>
                         </div>
@@ -105,7 +105,7 @@ const Kreshya = () => {
                             <div className="col-lg-3 col-md-6 col-sm-12 col-12 mb-4 mb-lg-0 mb-md-4">
                                 <div className="strategycard">
                                     <div className="cardimg mb-3">
-                                        <img src={optimization} alt="" width={"60px"} />
+                                        <img src={optimization} alt="100% guaranteed digital marketing services in Chandigarh" width={"60px"} />
                                     </div>
                                     <h6 className="cardtitle mb-2 fw-bold">
                                         Seamless User Interface
@@ -119,7 +119,7 @@ const Kreshya = () => {
                             <div className="col-lg-3 col-md-6 col-sm-12 col-12 mb-4 mb-lg-0 mb-md-4">
                                 <div className="strategycard">
                                     <div className="cardimg mb-3">
-                                        <img src={backlink} alt="" width={"60px"} />
+                                        <img src={backlink} alt="social media marketing agency in chandigarh" width={"60px"} />
                                     </div>
                                     <h6 className="cardtitle mb-2 fw-bold">
                                         Smooth Checkout Flow
@@ -133,7 +133,7 @@ const Kreshya = () => {
                             <div className="col-lg-3 col-md-6 col-sm-12 col-12 mb-4 mb-lg-0 mb-md-4">
                                 <div className="strategycard">
                                     <div className="cardimg mb-3">
-                                        <img src={technicalseo} alt="" width={"60px"} />
+                                        <img src={technicalseo} alt="high rank seo website creator in chandigarh" width={"60px"} />
                                     </div>
                                     <h6 className="cardtitle mb-2 fw-bold">
                                         Cross-Device Compatibility
@@ -147,7 +147,7 @@ const Kreshya = () => {
                             <div className="col-lg-3 col-md-6 col-sm-12 col-12 mb-4 mb-lg-0 mb-md-4">
                                 <div className="strategycard">
                                     <div className="cardimg mb-3">
-                                        <img src={content} alt="" width={"60px"} />
+                                        <img src={content} alt="SaaS Application Development Services in Chandigarh" width={"60px"} />
                                     </div>
                                     <h6 className="cardtitle mb-2 fw-bold">
                                         Data-Driven Personalization
@@ -236,7 +236,7 @@ const Kreshya = () => {
                                 </ul>
                             </div>
                             <div className='col-lg-4 col-md-4 col-12'>
-                                <img src={caseStu6} alt="" className='img-fluid h-100 object-fit-cover' />
+                                <img src={caseStu6} alt="Best UI UX designers in Chandigarh" className='img-fluid h-100 object-fit-cover' />
                             </div>
                         </Row>
                     </Container>
@@ -246,7 +246,7 @@ const Kreshya = () => {
                     <Container className='py-5'>
                         <Row>
                             <Col lg={4}>
-                                <img src={conclusion} alt="" width={"100%"} />
+                                <img src={conclusion} alt="React Native development agency Chandigarh" width={"100%"} />
                             </Col>
                             <Col lg={8}>
                                 <h2 className="sectitle fw-bold mb-3">
@@ -305,7 +305,7 @@ const Kreshya = () => {
                                         <SwiperSlide>
                                             <div className="caseStuides_MainContent rounded-4 overflow-hidden bg-light">
                                                 <div>
-                                                    <Link to="#"><img src={caseStu1} alt="" className="img-fluid" /></Link>
+                                                    <Link to="#"><img src={caseStu1} alt="React Native development solutions Chandigarh" className="img-fluid" /></Link>
                                                 </div>
                                                 <div className="caseStuides_para">
                                                     <p className="mb-0 pb-1"><Link to="#">Website Development</Link></p>
@@ -316,7 +316,7 @@ const Kreshya = () => {
                                         <SwiperSlide>
                                             <div className="caseStuides_MainContent rounded-4 overflow-hidden bg-light">
                                                 <div>
-                                                    <Link to="#"><img src={caseStu2} alt="" className="img-fluid" /></Link>
+                                                    <Link to="#"><img src={caseStu2} alt="blockchain development experts chandigarh" className="img-fluid" /></Link>
                                                 </div>
                                                 <div className="caseStuides_para">
                                                     <p className="mb-0 pb-1"><Link to="#">Website Development</Link></p>
@@ -327,7 +327,7 @@ const Kreshya = () => {
                                         <SwiperSlide>
                                             <div className="caseStuides_MainContent rounded-4 overflow-hidden bg-light">
                                                 <div>
-                                                    <Link to="#"><img src={caseStu3} alt="" className="img-fluid" /></Link>
+                                                    <Link to="#"><img src={caseStu3} alt="blockchain app development services chandigarh" className="img-fluid" /></Link>
                                                 </div>
                                                 <div className="caseStuides_para">
                                                     <p className="mb-0 pb-1"><Link to="#">Website Development</Link></p>
@@ -338,7 +338,7 @@ const Kreshya = () => {
                                         <SwiperSlide>
                                             <div className="caseStuides_MainContent rounded-4 overflow-hidden bg-light">
                                                 <div>
-                                                    <Link to="#"><img src={caseStu4} alt="" className="img-fluid" /></Link>
+                                                    <Link to="#"><img src={caseStu4} alt="e-commerce development business in Chandigarh" className="img-fluid" /></Link>
                                                 </div>
                                                 <div className="caseStuides_para">
                                                     <p className="mb-0 pb-1"><Link to="#">Website Development</Link></p>
@@ -349,7 +349,7 @@ const Kreshya = () => {
                                         <SwiperSlide>
                                             <div className="caseStuides_MainContent rounded-4 overflow-hidden bg-light">
                                                 <div>
-                                                    <Link to="#"><img src={caseStu5} alt="" className="img-fluid" /></Link>
+                                                    <Link to="#"><img src={caseStu5} alt="Ecommerce Website designing Company Chandigarh" className="img-fluid" /></Link>
                                                 </div>
                                                 <div className="caseStuides_para">
                                                     <p className="mb-0 pb-1"><Link to="#">Website Development</Link></p>
@@ -360,7 +360,7 @@ const Kreshya = () => {
                                         <SwiperSlide>
                                             <div className="caseStuides_MainContent rounded-4 overflow-hidden bg-light">
                                                 <div>
-                                                    <Link to="#"><img src={caseStu6} alt="" className="img-fluid" /></Link>
+                                                    <Link to="#"><img src={caseStu6} alt="e-commerce development business in Chandigarh" className="img-fluid" /></Link>
                                                 </div>
                                                 <div className="caseStuides_para">
                                                     <p className="mb-0 pb-1"><Link to="#">Website Development</Link></p>
@@ -371,7 +371,7 @@ const Kreshya = () => {
                                         <SwiperSlide>
                                             <div className="caseStuides_MainContent rounded-4 overflow-hidden bg-light">
                                                 <div>
-                                                    <Link to="#"><img src={caseStu8} alt="" className="img-fluid" /></Link>
+                                                    <Link to="#"><img src={caseStu8} alt="Shopify Website Development in Chandigarh" className="img-fluid" /></Link>
                                                 </div>
                                                 <div className="caseStuides_para">
                                                     <p className="mb-0 pb-1"><Link to="#">Website Development</Link></p>
@@ -382,7 +382,7 @@ const Kreshya = () => {
                                         <SwiperSlide>
                                             <div className="caseStuides_MainContent rounded-4 overflow-hidden bg-light">
                                                 <div>
-                                                    <Link to="#"><img src={caseStu9} alt="" className="img-fluid" /></Link>
+                                                    <Link to="#"><img src={caseStu9} alt="crypto web development" className="img-fluid" /></Link>
                                                 </div>
                                                 <div className="caseStuides_para">
                                                     <p className="mb-0 pb-1"><Link to="#">Website Development</Link></p>
@@ -393,7 +393,7 @@ const Kreshya = () => {
                                         <SwiperSlide>
                                             <div className="caseStuides_MainContent rounded-4 overflow-hidden bg-light">
                                                 <div>
-                                                    <Link to="#"><img src={caseStu10} alt="" className="img-fluid" /></Link>
+                                                    <Link to="#"><img src={caseStu10} alt="Top React Native development companies Chandigarh" className="img-fluid" /></Link>
                                                 </div>
                                                 <div className="caseStuides_para">
                                                     <p className="mb-0 pb-1"><Link to="#">Website Development</Link></p>

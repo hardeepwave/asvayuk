@@ -79,7 +79,7 @@ function Home() {
     return (
         <>
             <Meta_Component
-                title="Asvayuk Technologies | Top Web Development & Digital Marketing Solutions"
+                title="Web Development & Digital Marketing company in Chandigarh"
                 description="Asvayuk Technologies provides expert web development, digital marketing, and blockchain solutions to elevate your business. Contact us today!"
                 canonical="https://asvayuktech.com/"
             />
@@ -224,92 +224,92 @@ function Home() {
                         <Row className="pt-4 gx-2 gy-2">
                             <Col xs={6} sm={6} className>
                                 <div className="affiliationImg_mobile">
-                                    <img src={ISO} alt="" className="img-fluid " />
+                                    <img src={ISO} alt="Website development company chandigarh and mohali" className="img-fluid " />
                                 </div>
                             </Col>
                             <Col xs={6} sm={6} className="">
                                 <div className="affiliationImg_mobile">
-                                    <img src={Odoo} alt="" className="img-fluid " />
+                                    <img src={Odoo} alt="Mobile app development chandigarh" className="img-fluid " />
                                 </div>
                             </Col>
                             <Col xs={6} sm={6} className="">
                                 <div className="affiliationImg_mobile">
-                                    <img src={life} alt="" className="img-fluid " />
+                                    <img src={life} alt="web portal development Chandigarh" className="img-fluid " />
                                 </div>
                             </Col>
                             <Col xs={6} sm={6} className="">
                                 <div className="affiliationImg_mobile">
-                                    <img src={ShopifyImg} alt="" className="img-fluid " />
+                                    <img src={ShopifyImg} alt="WooCommerce Development Services in Chandigarh" className="img-fluid " />
                                 </div>
                             </Col>
                             <Col xs={6} sm={6} className="">
                                 <div className="affiliationImg_mobile">
-                                    <img src={awsPartner} alt="" className="img-fluid " />
+                                    <img src={awsPartner} alt="Ecommerce Website designing Company Chandigarh" className="img-fluid " />
                                 </div>
                             </Col>
                             <Col xs={6} sm={6} className="">
                                 <div className="affiliationImg_mobile">
-                                    <img src={googlePartner} alt="" className="img-fluid " />
+                                    <img src={googlePartner} alt="Best Magento Developers in Chandigarh" className="img-fluid " />
                                 </div>
                             </Col>
                             <Col xs={6} sm={6} className="">
                                 <div className="affiliationImg_mobile">
-                                    <img src={aster} alt="" className="img-fluid " />
+                                    <img src={aster} alt="blockchain web development chandigarh" className="img-fluid " />
                                 </div>
                             </Col>
                             <Col xs={6} sm={6} className="">
                                 <div className="affiliationImg_mobile">
-                                    <img src={coinGecko} alt="" className="img-fluid " />
+                                    <img src={coinGecko} alt="Shopify website design company in Chandigarh" className="img-fluid " />
                                 </div>
                             </Col>
                             <Col xs={6} sm={6} className="">
                                 <div className="affiliationImg_mobile">
-                                    <img src={coinMarketCap} alt="" className="img-fluid " />
+                                    <img src={coinMarketCap} alt="React Native developers Chandigarh" className="img-fluid " />
                                 </div>
                             </Col>
                             <Col xs={6} sm={6} className="">
                                 <div className="affiliationImg_mobile">
-                                    <img src={meydan} alt="" className="img-fluid " />
+                                    <img src={meydan} alt="Digital marketing services in Chandigarh" className="img-fluid " />
                                 </div>
                             </Col>
                             <Col xs={6} sm={6} className="">
                                 <div className="affiliationImg_mobile">
-                                    <img src={rezorpay} alt="" className="img-fluid " />
+                                    <img src={rezorpay} alt="Digital marketing services in Chandigarh" className="img-fluid " />
                                 </div>
                             </Col>
                             <Col xs={6} sm={6} className="">
                                 <div className="affiliationImg_mobile">
-                                    <img src={koinBx} alt="" className="img-fluid " />
+                                    <img src={koinBx} alt="Laravel Development Company Chandigarh" className="img-fluid " />
                                 </div>
                             </Col>
                             <Col xs={6} sm={6} className="">
                                 <div className="affiliationImg_mobile">
-                                    <img src={koi} alt="" className="img-fluid " />
+                                    <img src={koi} alt="social media marketing agency in chandigarh" className="img-fluid " />
                                 </div>
                             </Col>
                             <Col xs={6} sm={6} className="">
                                 <div className="affiliationImg_mobile">
-                                    <img src={PaisaPay} alt="" className="img-fluid " />
+                                    <img src={PaisaPay} alt="best SEO Services in Chandigarh" className="img-fluid " />
                                 </div>
                             </Col>
                             <Col xs={6} sm={6} className="">
                                 <div className="affiliationImg_mobile">
-                                    <img src={strapi} alt="" className="img-fluid " />
+                                    <img src={strapi} alt="SaaS App Development Company in Chandigarh" className="img-fluid " />
                                 </div>
                             </Col>
                             <Col xs={6} sm={6} className="">
                                 <div className="affiliationImg_mobile">
-                                    <img src={Unicommerce} alt="" className="img-fluid " />
+                                    <img src={Unicommerce} alt="Software Development Company in Chandigarh" className="img-fluid " />
                                 </div>
                             </Col>
                             <Col xs={6} sm={6} className="">
                                 <div className="affiliationImg_mobile">
-                                    <img src={Vinculum} alt="" className="img-fluid " />
+                                    <img src={Vinculum} alt="Best UI UX designers in Chandigarh" className="img-fluid " />
                                 </div>
                             </Col>
                             <Col xs={6} sm={6} className="">
                                 <div className="affiliationImg_mobile">
-                                    <img src={sitecore} alt="" className="img-fluid " />
+                                    <img src={sitecore} alt="Website development company in chandigarh" className="img-fluid " />
                                 </div>
                             </Col>
                         </Row>
@@ -365,7 +365,7 @@ function Home() {
                                         <SwiperSlide>
                                             <div className="caseStuides_MainContent rounded-4 overflow-hidden bg-light">
                                                 <div>
-                                                    <Link to="/case-studies/spicetribe"><img src={caseStu1} alt="" className="img-fluid" /></Link>
+                                                    <Link to="/case-studies/spicetribe"><img src={caseStu1} alt="best web development in chandigarh" className="img-fluid" /></Link>
                                                 </div>
                                                 <div className="caseStuides_para">
                                                     <p className="mb-0 pb-1"><Link to="/case-studies/spicetribe">Website Development</Link></p>
@@ -376,7 +376,7 @@ function Home() {
                                         <SwiperSlide>
                                             <div className="caseStuides_MainContent rounded-4 overflow-hidden bg-light">
                                                 <div>
-                                                    <Link to="/case-studies/moonlightconcept"><img src={caseStu2} alt="" className="img-fluid" /></Link>
+                                                    <Link to="/case-studies/moonlightconcept"><img src={caseStu2} alt="website development provider chandigarh" className="img-fluid" /></Link>
                                                 </div>
                                                 <div className="caseStuides_para">
                                                     <p className="mb-0 pb-1"><Link to="/case-studies/moonlightconcept">Website Development</Link></p>
@@ -387,7 +387,7 @@ function Home() {
                                         <SwiperSlide>
                                             <div className="caseStuides_MainContent rounded-4 overflow-hidden bg-light">
                                                 <div>
-                                                    <Link to="/case-studies/themodernshop"><img src={caseStu3} alt="" className="img-fluid" /></Link>
+                                                    <Link to="/case-studies/themodernshop"><img src={caseStu3} alt="Web developers for website portal development in chandigarh" className="img-fluid" /></Link>
                                                 </div>
                                                 <div className="caseStuides_para">
                                                     <p className="mb-0 pb-1"><Link to="/case-studies/themodernshop">Website Development</Link></p>
@@ -398,7 +398,7 @@ function Home() {
                                         <SwiperSlide>
                                             <div className="caseStuides_MainContent rounded-4 overflow-hidden bg-light">
                                                 <div>
-                                                    <Link to="/case-studies/49thcoffee"><img src={caseStu4} alt="" className="img-fluid" /></Link>
+                                                    <Link to="/case-studies/49thcoffee"><img src={caseStu4} alt="Chandigarh's Most Trusted Mobile App Development Company" className="img-fluid" /></Link>
                                                 </div>
                                                 <div className="caseStuides_para">
                                                     <p className="mb-0 pb-1"><Link to="/case-studies/49thcoffee">Website Development</Link></p>
@@ -406,21 +406,10 @@ function Home() {
                                                 </div>
                                             </div>
                                         </SwiperSlide>
-                                        {/* <SwiperSlide>
-                                            <div className="caseStuides_MainContent rounded-4 overflow-hidden bg-light">
-                                                <div>
-                                                    <Link to="#"><img src={caseStu5} alt="" className="img-fluid" /></Link>
-                                                </div>
-                                                <div className="caseStuides_para">
-                                                    <p className="mb-0 pb-1"><Link to="#">Website Development</Link></p>
-                                                    <h5><Link to="#">Aus Brite Solar</Link></h5>
-                                                </div>
-                                            </div>
-                                        </SwiperSlide> */}
                                         <SwiperSlide>
                                             <div className="caseStuides_MainContent rounded-4 overflow-hidden bg-light">
                                                 <div>
-                                                    <Link to="/case-studies/krishnapearlsandjewellers"><img src={caseStu6} alt="" className="img-fluid" /></Link>
+                                                    <Link to="/case-studies/krishnapearlsandjewellers"><img src={caseStu6} alt="best WooCommerce Developers in Chandigarh" className="img-fluid" /></Link>
                                                 </div>
                                                 <div className="caseStuides_para">
                                                     <p className="mb-0 pb-1"><Link to="/case-studies/krishnapearlsandjewellers">Website Development</Link></p>
@@ -431,7 +420,7 @@ function Home() {
                                         <SwiperSlide>
                                             <div className="caseStuides_MainContent rounded-4 overflow-hidden bg-light">
                                                 <div>
-                                                    <Link to="/case-studies/bookmytask"><img src={caseStu8} alt="" className="img-fluid" /></Link>
+                                                    <Link to="/case-studies/bookmytask"><img src={caseStu8} alt="Professional Ecommerce Website Builders in Chandigarh" className="img-fluid" /></Link>
                                                 </div>
                                                 <div className="caseStuides_para">
                                                     <p className="mb-0 pb-1"><Link to="/case-studies/bookmytask">Website Development</Link></p>
@@ -442,7 +431,7 @@ function Home() {
                                         <SwiperSlide>
                                             <div className="caseStuides_MainContent rounded-4 overflow-hidden bg-light">
                                                 <div>
-                                                    <Link to="/case-studies/quadlock"><img src={caseStu9} alt="" className="img-fluid" /></Link>
+                                                    <Link to="/case-studies/quadlock"><img src={caseStu9} alt="Affordable Magento Development Chandigarh" className="img-fluid" /></Link>
                                                 </div>
                                                 <div className="caseStuides_para">
                                                     <p className="mb-0 pb-1"><Link to="/case-studies/quadlock">Website Development</Link></p>
@@ -450,67 +439,12 @@ function Home() {
                                                 </div>
                                             </div>
                                         </SwiperSlide>
-                                        {/* <SwiperSlide>
-                                            <div className="caseStuides_MainContent rounded-4 overflow-hidden bg-light">
-                                                <div>
-                                                    <Link to="/case-studies/spicetribe"><img src={caseStu10} alt="" className="img-fluid" /></Link>
-                                                </div>
-                                                <div className="caseStuides_para">
-                                                    <p className="mb-0 pb-1"><Link to="/case-studies/spicetribe">Website Development</Link></p>
-                                                    <h5><Link to="/case-studies/spicetribe">Spicetribe</Link></h5>
-                                                </div>
-                                            </div>
-                                        </SwiperSlide> */}
                                     </Swiper>
                                 </div>
                             </Row>
                         </div>
                     </Container>
-                </section>
-{/* 
-                <section className="caseStuidesResponsive bg-light py-4 d-block d-lg-none d-md-none">
-                    <div className="container text-center">
-                        <div className="caseStuidesResponsive_content pb-3">
-                            <p className="fw-semibold"> Practical Solutions That Revolutionized Industries!</p>
-                        </div>
-                        <div className="row">
-                            <div className="col-12 col-sm-6 pb-4">
-                                <div className="caseStuides_MainContent rounded-4 overflow-hidden bg-light">
-                                    <div>
-                                        <Link to="#">
-                                            <img src={caseStu1} alt="" className="img-fluid" />
-                                        </Link>
-                                    </div>
-                                    <div className="caseStuides_para">
-                                        <p className="mb-0 pb-1"><Link to="#">Website Development</Link></p>
-                                        <h5><Link to="#">Aus Brite Solar</Link></h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-12 col-sm-6">
-                                <div className="caseStuides_MainContent rounded-4 overflow-hidden bg-light">
-                                    <div>
-                                        <Link to="#">
-                                            <img src={caseStu10} alt="" className="img-fluid" />
-                                        </Link>
-                                    </div>
-                                    <div className="caseStuides_para">
-                                        <p className="mb-0 pb-1"><Link to="#">Website Development</Link></p>
-                                        <h5><Link to="#">Aus Brite Solar</Link></h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="btnHome1 d-inline-block px-4 py-3 fs-5 rounded-1 fw-medium">
-                            <Link to="/case-studies">
-                                <span>
-                                    View All Case Studies →
-                                </span>
-                            </Link>
-                        </div>
-                    </div>
-                </section>  */}
-                
+                </section>          
 
                 {/* <!-- Empowering  --> */}
                 <section className="Empowering py-4 py-lg-0 py-md-0">
@@ -531,7 +465,7 @@ function Home() {
                                         </div>
                                         <div className="col-4">
                                             <div className="solution_img">
-                                                <img src={Solutions1} alt="" className="img-fluid" />
+                                                <img src={Solutions1} alt="best digital marketing company in chandigarh" className="img-fluid" />
                                             </div>
                                         </div>
                                     </div>
@@ -552,7 +486,7 @@ function Home() {
                                         </div>
                                         <div className="col-4">
                                             <div className="solution_img">
-                                                <img src={Solutions2} alt="" className="img-fluid" />
+                                                <img src={Solutions2} alt="Laravel PHP development services in Chandigarh" className="img-fluid" />
                                             </div>
                                         </div>
                                     </div>
@@ -574,7 +508,7 @@ function Home() {
                                         </div>
                                         <div className="col-4">
                                             <div className="solution_img">
-                                                <img src={Solutions3} alt="" className="img-fluid" />
+                                                <img src={Solutions3} alt="Best Laravel development company under budget in Chandigarh" className="img-fluid" />
                                             </div>
                                         </div>
                                     </div>
@@ -592,7 +526,7 @@ function Home() {
                                         </div>
                                         <div className="col-4">
                                             <div className="solution_img">
-                                                <img src={Solutions4} alt="" className="img-fluid" />
+                                                <img src={Solutions4} alt="award-winning SEO agency in Chandigarh" className="img-fluid" />
                                             </div>
                                         </div>
                                     </div>
@@ -613,7 +547,7 @@ function Home() {
                                         </div>
                                         <div className="col-4">
                                             <div className="solution_img">
-                                                <img src={Solutions5} alt="" className="img-fluid" />
+                                                <img src={Solutions5} alt="SaaS App Development Company in Chandigarh" className="img-fluid" />
                                             </div>
                                         </div>
                                     </div>
@@ -630,7 +564,7 @@ function Home() {
                                         </div>
                                         <div className="col-4">
                                             <div className="solution_img">
-                                                <img src={Solutions6} alt="" className="img-fluid" />
+                                                <img src={Solutions6} alt="ENTERPRISE SOFTWARE SOLUTIONS IN CHANDIGARH" className="img-fluid" />
                                             </div>
                                         </div>
                                     </div>
@@ -713,7 +647,7 @@ function Home() {
                                     <div className="col-lg-6 col-md-6 col-12 col-sm-12">
                                         <div className="fullcase_details">
                                             <div className="fullCaseStudy_slider_logo">
-                                                <img src={CoffeeLogo} alt="" className='slider_bg3_logo' />
+                                                <img src={CoffeeLogo} alt="Best UI UX designers in Chandigarh" className='slider_bg3_logo' />
                                             </div>
                                             <div className="fullCaseStudy_textContent py-4">
                                                 <h2 className="fw-semibold lh-base">IT TAKES A CREATIVE MIND TO BE IN THE
@@ -739,7 +673,7 @@ function Home() {
                                     </div>
                                     <div className="col-lg-6 col-md-6 col-12 col-sm-12 d-flex justify-content-center justify-content-lg-end justifyconent align-items-center">
                                         <div className="fullCaseStudy_img">
-                                            <img src={caseStu4} alt="" className="img-fluid" />
+                                            <img src={caseStu4} alt="Saas App Development provider in panchkula and Mohali" className="img-fluid" />
                                         </div>
                                     </div>
                                 </div>
@@ -749,7 +683,7 @@ function Home() {
                                     <div className="col-lg-6 col-md-6 col-12 col-sm-12">
                                         <div className="fullcase_details">
                                             <div className="fullCaseStudy_slider_logo">
-                                                <img src={moonLight} alt="" />
+                                                <img src={moonLight} alt="UI UX development company in Chandigarh" />
                                             </div>
                                             <div className="fullCaseStudy_textContent py-4">
                                                 <h2 className="fw-semibold lh-base">IT TAKES A CREATIVE MIND TO BE IN THE
@@ -775,7 +709,7 @@ function Home() {
                                     </div>
                                     <div className="col-lg-6 col-md-6 col-12 col-sm-12 d-flex justify-content-center justify-content-lg-end justifyconent align-items-center">
                                         <div className="fullCaseStudy_img">
-                                            <img src={caseStu2} alt="" className="w-100" />
+                                            <img src={caseStu2} alt="Top Software Development Companies in Chandigarh" className="w-100" />
                                         </div>
                                     </div>
                                 </div>
@@ -816,7 +750,7 @@ function Home() {
                                     </div>
                                     <div className="col-lg-6 col-md-6 col-12 col-sm-12 d-flex justify-content-center justify-content-lg-end justifyconent align-items-center">
                                         <div className="fullCaseStudy_img">
-                                            <img src={caseStu3} alt="" className="w-100" />
+                                            <img src={caseStu3} alt="Digital marketing experts in Chandigarh" className="w-100" />
                                         </div>
                                     </div>
                                 </div>
@@ -826,7 +760,7 @@ function Home() {
                                     <div className="col-lg-6 col-md-6 col-12 col-sm-12">
                                         <div className="fullcase_details">
                                             <div className="fullCaseStudy_slider_logo">
-                                                <img src={kriLogo} alt="" className='slider_bg3_logo img-fluid' />
+                                                <img src={kriLogo} alt="Shopify website design company in Chandigarh" className='slider_bg3_logo img-fluid' />
                                             </div>
                                             <div className="fullCaseStudy_textContent py-4">
                                                 <h2 className="fw-semibold lh-base">IT TAKES A CREATIVE MIND TO BE IN THE
@@ -852,7 +786,7 @@ function Home() {
                                     </div>
                                     <div className="col-lg-6 col-md-6 col-12 col-sm-12 d-flex justify-content-center justify-content-lg-end justifyconent align-items-center">
                                         <div className="fullCaseStudy_img">
-                                            <img src={caseStu5} alt="" className="w-100" />
+                                            <img src={caseStu5} alt="Web portal development services in chandigarh" className="w-100" />
                                         </div>
                                     </div>
                                 </div>
@@ -862,7 +796,7 @@ function Home() {
                                     <div className="col-lg-6 col-md-6 col-12 col-sm-12">
                                         <div className="fullcase_details">
                                             <div className="fullCaseStudy_slider_logo">
-                                                <img src={kreLogo} alt="" className='slider_bg3_logo' />
+                                                <img src={kreLogo} alt="Magento Web development provider in chandigarh" className='slider_bg3_logo' />
                                             </div>
                                             <div className="fullCaseStudy_textContent py-4">
                                                 <h2 className="fw-semibold lh-base">IT TAKES A CREATIVE MIND TO BE IN THE
@@ -888,7 +822,7 @@ function Home() {
                                     </div>
                                     <div className="col-lg-6 col-md-6 col-12 col-sm-12 d-flex justify-content-center justify-content-lg-end justifyconent align-items-center">
                                         <div className="fullCaseStudy_img">
-                                            <img src={caseStu6} alt="" className="w-100" />
+                                            <img src={caseStu6} alt="blockchain app development services chandigarh" className="w-100" />
                                         </div>
                                     </div>
                                 </div>
@@ -906,92 +840,92 @@ function Home() {
                         <div className="row pt-3 gx-2 gy-2 gx-md-0 gy-md-0e">
                             <div className="rel-imgInfo col-lg-2 col-md-4 col-6 p-md-1">
                                 <div className='rel-img'>
-                                    <img src={rel1} alt="" className="img-fluid" />
+                                    <img src={rel1} alt="Magento Website maker in mohali and chandigarh" className="img-fluid" />
                                 </div>
                             </div>
                             <div className="rel-imgInfo col-lg-2 col-md-4 col-6 p-md-1">
                                 <div className='rel-img'>
-                                    <img src={rel2} alt="" className="img-fluid" />
+                                    <img src={rel2} alt="React Native developers Chandigarh" className="img-fluid" />
                                 </div>
                             </div>
                             <div className="rel-imgInfo col-lg-2 col-md-4 col-6 p-md-1">
                                 <div className='rel-img'>
-                                    <img src={rel3} alt="" className="img-fluid" />
+                                    <img src={rel3} alt="Digital marketing experts in Chandigarh" className="img-fluid" />
                                 </div>
                             </div>
                             <div className="rel-imgInfo col-lg-2 col-md-4 col-6 p-md-1">
                                 <div className='rel-img'>
-                                    <img src={rel4} alt="" className="img-fluid" />
+                                    <img src={rel4} alt="social media company in chandigarh" className="img-fluid" />
                                 </div>
                             </div>
                             <div className="rel-imgInfo col-lg-2 col-md-4 col-6 p-md-1">
                                 <div className='rel-img'>
-                                    <img src={rel5} alt="" className="img-fluid" />
+                                    <img src={rel5} alt="Software Development Company in Chandigarh" className="img-fluid" />
                                 </div>
                             </div>
                             <div className="rel-imgInfo col-lg-2 col-md-4 col-6 p-md-1">
                                 <div className='rel-img'>
-                                    <img src={rel6} alt="" className="img-fluid" />
+                                    <img src={rel6} alt="SOFTWARE TESTING COMPANY IN CHANDIGARH" className="img-fluid" />
                                 </div>
                             </div>
                             <div className="rel-imgInfo col-lg-2 col-md-4 col-6 p-md-1">
                                 <div className='rel-img'>
-                                    <img src={rel7} alt="" className="img-fluid" />
+                                    <img src={rel7} alt="social media marketing in chandigarh" className="img-fluid" />
                                 </div>
                             </div>
                             <div className="rel-imgInfo col-lg-2 col-md-4 col-6 p-md-1">
                                 <div className='rel-img'>
-                                    <img src={rel8} alt="" className="img-fluid" />
+                                    <img src={rel8} alt="Shopify web developers in Chandigarh" className="img-fluid" />
                                 </div>
                             </div>
                             <div className="rel-imgInfo col-lg-2 col-md-4 col-6 p-md-1">
                                 <div className='rel-img'>
-                                    <img src={rel9} alt="" className="img-fluid" />
+                                    <img src={rel9} alt="Magento Development Services Chandigarh" className="img-fluid" />
                                 </div>
                             </div>
                             <div className="rel-imgInfo col-lg-2 col-md-4 col-6 p-md-1">
                                 <div className='rel-img'>
-                                    <img src={rel10} alt="" className="img-fluid" />
+                                    <img src={rel10} alt="best WooCommerce Developers in Chandigarh" className="img-fluid" />
                                 </div>
                             </div>
                             <div className="rel-imgInfo col-lg-2 col-md-4 col-6 p-md-1">
                                 <div className='rel-img'>
-                                    <img src={rel11} alt="" className="img-fluid" />
+                                    <img src={rel11} alt="Best SEO company in Chandigarh" className="img-fluid" />
                                 </div>
                             </div>
                             <div className="rel-imgInfo col-lg-2 col-md-4 col-6 p-md-1">
                                 <div className='rel-img'>
-                                    <img src={rel12} alt="" className="img-fluid" />
+                                    <img src={rel12} alt="Digital marketing experts in Chandigarh" className="img-fluid" />
                                 </div>
                             </div>
                             <div className="rel-imgInfo col-lg-2 col-md-4 col-6 p-md-1">
                                 <div className='rel-img'>
-                                    <img src={rel13} alt="" className="img-fluid" />
+                                    <img src={rel13} alt="Social Media marketing Company in Chandigarh" className="img-fluid" />
                                 </div>
                             </div>
                             <div className="rel-imgInfo col-lg-2 col-md-4 col-6 p-md-1">
                                 <div className='rel-img'>
-                                    <img src={rel14} alt="" className="img-fluid" />
+                                    <img src={rel14} alt="Saas App Development provider in chandigarh" className="img-fluid" />
                                 </div>
                             </div>
                             <div className="rel-imgInfo col-lg-2 col-md-4 col-6 p-md-1">
                                 <div className='rel-img'>
-                                    <img src={rel15} alt="" className="img-fluid" />
+                                    <img src={rel15} alt="mlm software developer in chandigarh" className="img-fluid" />
                                 </div>
                             </div>
                             <div className="rel-imgInfo col-lg-2 col-md-4 col-6 p-md-1">
                                 <div className='rel-img'>
-                                    <img src={rel16} alt="" className="img-fluid" />
+                                    <img src={rel16} alt="UI UX development agency in Chandigarh" className="img-fluid" />
                                 </div>
                             </div>
                             <div className="rel-imgInfo col-lg-2 col-md-4 col-6 p-md-1">
                                 <div className='rel-img'>
-                                    <img src={rel17} alt="" className="img-fluid" />
+                                    <img src={rel17} alt="Custom UI UX solutions in Chandigarh" className="img-fluid" />
                                 </div>
                             </div>
                             <div className="rel-imgInfo col-lg-2 col-md-4 col-6 p-md-1">
                                 <div className='rel-img'>
-                                    <img src={rel18} alt="" className="img-fluid" />
+                                    <img src={rel18} alt="Mobile app UI UX development Chandigarh" className="img-fluid" />
                                 </div>
                             </div>
                         </div>
@@ -1049,37 +983,37 @@ function Home() {
                         >
                             <SwiperSlide>
                                 <div className="wavelife_img">
-                                    <img src={w1} alt="" className='img-fluid w-100' />
+                                    <img src={w1} alt="Best UI UX designers in mohali" className='img-fluid w-100' />
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <div className="wavelife_img">
-                                    <img src={w5} alt="" className='img-fluid w-100' />
+                                    <img src={w5} alt="professional Software Consultants in Chandigarh" className='img-fluid w-100' />
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <div className="wavelife_img">
-                                    <img src={w4} alt="" className='img-fluid w-100' />
+                                    <img src={w4} alt="search engine optimization Services chandigarh" className='img-fluid w-100' />
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <div className="wavelife_img">
-                                    <img src={w3} alt="" className='img-fluid w-100' />
+                                    <img src={w3} alt="Laravel Development Company Chandigarh" className='img-fluid w-100' />
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <div className="wavelife_img">
-                                    <img src={w6} alt="" className='img-fluid w-100' />
+                                    <img src={w6} alt="React Native development agency Chandigarh" className='img-fluid w-100' />
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <div className="wavelife_img">
-                                    <img src={w7} alt="" className='img-fluid w-100' />
+                                    <img src={w7} alt="React Native app development experts Chandigarh" className='img-fluid w-100' />
                                 </div>
                             </SwiperSlide>
                             <SwiperSlide>
                                 <div className="wavelife_img">
-                                    <img src={w8} alt="" className='img-fluid w-100' />
+                                    <img src={w8} alt="blockchain development experts chandigarh" className='img-fluid w-100' />
                                 </div>
                             </SwiperSlide>
 
@@ -1087,7 +1021,7 @@ function Home() {
                     </div>
                     <div className="col-lg-12 d-flex justify-content-center pt-3">
                         <div className="bg-white text-dark pt-3 px-3 rounded text-center d-flex align-items-center">
-                            <p className="fs-5 fw-semibold text-black">Many more to come... <img src="img/Vector.webp" alt="" /></p>
+                            <p className="fs-5 fw-semibold text-black">Many more to come... <img src="img/Vector.webp" alt="Ecommerce Developers in Chandigarh" /></p>
                         </div>
                     </div>
                 </section>

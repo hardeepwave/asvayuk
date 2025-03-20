@@ -23,7 +23,7 @@ function Experience({ expTitle, ExpPara, point1, pointPara1, point2, pointPara2,
                                 <div className="d-flex flex-column justify-content-xl-between align-items-center h-100">
                                     <div className="position-relative">
                                         <div className="experience_img pb-3 pb-lg-0 pb-md-0 py-2 oredr-3">
-                                            <img src={group1} alt="" className="img-fluid" />
+                                            <img src={group1} alt="Laravel web application development Chandigarh" className="img-fluid" />
                                         </div>
                                         <div className="experience_content text-center w-75 position-absolute top-50 start-50 translate-middle">
                                             <h6>{point1}</h6>
@@ -32,7 +32,7 @@ function Experience({ expTitle, ExpPara, point1, pointPara1, point2, pointPara2,
                                     </div>
                                     <div className="position-relative">
                                         <div className="experience_img pb-3 pb-lg-0 pb-md-0 py-2">
-                                            <img src={group2} alt="" className="img-fluid" />
+                                            <img src={group2} alt="social media marketing project in Chandigarh" className="img-fluid" />
                                         </div>
                                         <div className="experience_content text-center w-75 position-absolute top-50 start-50 translate-middle">
                                             <h6>{point2}</h6>
@@ -43,14 +43,14 @@ function Experience({ expTitle, ExpPara, point1, pointPara1, point2, pointPara2,
                             </div>
                             <div className="center_logo_img col-lg-4 d-flex align-items-center justify-content-center d-none d-lg-block">
                                 <div>
-                                    <img src={Mockups} alt="" className="img-fluid h-100 w-100" />
+                                    <img src={Mockups} alt="Saas App Development provider in panchkula and Mohali" className="img-fluid h-100 w-100" />
                                 </div>
                             </div>
                             <div className="col-lg-4 col-md-6 col-sm-12 ">
                                 <div className="d-flex flex-column justify-content-xl-between h-100">
                                     <div className="position-relative">
                                         <div className="experience_img pb-3 pb-lg-0 pb-md-0 py-2 order-1">
-                                            <img src={group3} alt="" className="img-fluid" />
+                                            <img src={group3} alt="Best UI UX designers in Chandigarh" className="img-fluid" />
                                         </div>
                                         <div className="experience_content text-center w-75 position-absolute top-50 start-50 translate-middle pt-2">
                                             <h6>{point3}</h6>
@@ -59,7 +59,7 @@ function Experience({ expTitle, ExpPara, point1, pointPara1, point2, pointPara2,
                                     </div>
                                     <div className="position-relative">
                                         <div className="experience_img pb-3 pb-lg-0 pb-md-0 py-2">
-                                            <img src={group4} alt="" className="img-fluid" />
+                                            <img src={group4} alt="Software Development Services Chandigarh" className="img-fluid" />
                                         </div>
                                         <div className="experience_content text-center w-75 position-absolute top-50 start-50 translate-middle">
                                             <h6>{point4}</h6>
@@ -71,7 +71,7 @@ function Experience({ expTitle, ExpPara, point1, pointPara1, point2, pointPara2,
                         </div>
                     </div>
                     <div className="experienceBg">
-                        <img src={WhiteLogo} alt="" className="w-100 h-100" />
+                        <img src={WhiteLogo} alt="Website SEO provider in chandigarh" className="w-100 h-100" />
                     </div>
                 </section>
 
@@ -86,7 +86,7 @@ function Experience({ expTitle, ExpPara, point1, pointPara1, point2, pointPara2,
                         <div className="d-flex flex-column justify-content-xl-between align-items-center h-100">
                             <div className="position-relative">
                                 <div className="experience_img pb-3 pb-lg-0 pb-md-0 py-2 oredr-3">
-                                    <img src={group1} alt="" className="img-fluid" />
+                                    <img src={group1} alt="Blockchain web development provider in chandigarh" className="img-fluid" />
                                 </div>
                                 <div className="experience_content text-center w-75 position-absolute top-50 start-50 translate-middle">
                                     <h6>{point1}</h6>
@@ -95,7 +95,7 @@ function Experience({ expTitle, ExpPara, point1, pointPara1, point2, pointPara2,
                             </div>
                             <div className="position-relative">
                                 <div className="experience_img pb-3 pb-lg-0 pb-md-0 py-2">
-                                    <img src={group3} alt="" className="img-fluid" />
+                                    <img src={group3} alt="ecommerce development services in Chandigarh" className="img-fluid" />
                                 </div>
                                 <div className="experience_content text-center w-75 position-absolute top-50 start-50 translate-middle">
                                     <h6>{point2}</h6>
@@ -109,7 +109,7 @@ function Experience({ expTitle, ExpPara, point1, pointPara1, point2, pointPara2,
                         <div className="d-flex flex-column justify-content-xl-between h-100">
                             <div className="position-relative">
                                 <div className="experience_img pb-3 pb-lg-0 pb-md-0 py-2 order-1">
-                                    <img src={group2} alt="" className="img-fluid" />
+                                    <img src={group2} alt="mobile app development companies in Chandigarh" className="img-fluid" />
                                 </div>
                                 <div className="experience_content text-center w-75 position-absolute top-50 start-50 translate-middle">
                                     <h6>{point3}</h6>
@@ -118,7 +118,7 @@ function Experience({ expTitle, ExpPara, point1, pointPara1, point2, pointPara2,
                             </div>
                             <div className="position-relative">
                                 <div className="experience_img pb-3 pb-lg-0 pb-md-0">
-                                    <img src={group4} alt="" className="img-fluid" />
+                                    <img src={group4} alt="Best Magento Developers in Chandigarh" className="img-fluid" />
                                 </div>
                                 <div className="experience_content text-center w-75 position-absolute top-50 start-50 translate-middle">
                                     <h6>{point4}</h6>

@@ -37,7 +37,7 @@ const Bookmytask = () => {
                             <div className="ms-auto col-lg-4 col-md-6 col-12 col-sm-12">
                                 <div className="fullcase_details">
                                     <div className="fullCaseStudy_slider_logo">
-                                        <img src={moonLight} alt="" style={{ mixBlendMode: "darken", width: '20px !important' }} />
+                                        <img src={moonLight} alt="Website development services in chandigarh" style={{ mixBlendMode: "darken", width: '20px !important' }} />
                                     </div>
                                     <div className="fullCaseStudy_textContent py-4">
                                         <h2 className="fw-semibold fs-1" style={{ textTransform: 'uppercase', lineHeight: '3.2rem' }}> Connecting you with skilled professionals for every task, big or small.</h2>
@@ -57,7 +57,7 @@ const Bookmytask = () => {
                             </div>
                             <div className="col-lg-6 col-md-6 col-12 col-sm-12 d-flex justify-content-center justify-content-lg-end justifyconent align-items-center px-0">
                                 <div className="fullCaseStudy_img w-75">
-                                    <img src={caseStu8} alt="" className="w-100" />
+                                    <img src={caseStu8} alt="Web developers for website portal development in chandigarh" className="w-100" />
                                 </div>
                             </div>
                         </div>
@@ -101,7 +101,7 @@ const Bookmytask = () => {
                             <div className="col-lg-3 col-md-6 col-sm-12 mb-4">
                                 <div className="strategycard">
                                     <div className="cardimg mb-3">
-                                        <img src={optimization} alt="" width="60px" />
+                                        <img src={optimization} alt="trusted WooCommerce development partner in Chandigarh" width="60px" />
                                     </div>
                                     <h6 className="cardtitle mb-2 fw-bold">Visual Storytelling</h6>
                                     <p className="cardcontent" style={{ fontSize: '14px' }}>
@@ -112,7 +112,7 @@ const Bookmytask = () => {
                             <div className="col-lg-3 col-md-6 col-sm-12 mb-4">
                                 <div className="strategycard">
                                     <div className="cardimg mb-3">
-                                        <img src={technicalseo} alt="" width="60px" />
+                                        <img src={technicalseo} alt="Chandigarh's Most Trusted Mobile App Development Company" width="60px" />
                                     </div>
                                     <h6 className="cardtitle mb-2 fw-bold">Streamlined Checkout</h6>
                                     <p className="cardcontent" style={{ fontSize: '14px' }}>
@@ -123,7 +123,7 @@ const Bookmytask = () => {
                             <div className="col-lg-3 col-md-6 col-sm-12 mb-4">
                                 <div className="strategycard">
                                     <div className="cardimg mb-3">
-                                        <img src={backlink} alt="" width="60px" />
+                                        <img src={backlink} alt="Magento Ecommerce Development in Chandigarh" width="60px" />
                                     </div>
                                     <h6 className="cardtitle mb-2 fw-bold">Responsive Design</h6>
                                     <p className="cardcontent" style={{ fontSize: '14px' }}>
@@ -134,7 +134,7 @@ const Bookmytask = () => {
                             <div className="col-lg-3 col-md-6 col-sm-12 mb-4">
                                 <div className="strategycard">
                                     <div className="cardimg mb-3">
-                                        <img src={content} alt="" width="60px" />
+                                        <img src={content} alt="Magento Development Services Chandigarh" width="60px" />
                                     </div>
                                     <h6 className="cardtitle mb-2 fw-bold">Personalized Recommendations</h6>
                                     <p className="cardcontent" style={{ fontSize: '14px' }}>
@@ -202,7 +202,7 @@ const Bookmytask = () => {
                                 </ul>
                             </div>
                             <div className="col-lg-4 col-md-4">
-                                <img src={caseStu8} alt="" className="img-fluid h-100 object-fit-cover" />
+                                <img src={caseStu8} alt="Shopify website development Mohali" className="img-fluid h-100 object-fit-cover" />
                             </div>
                         </div>
                     </div>
@@ -212,7 +212,7 @@ const Bookmytask = () => {
                     <div className="container py-5">
                         <div className="row">
                             <div className="col-lg-4">
-                                <img src={conclusion} alt="" width="100%" />
+                                <img src={conclusion} alt="Digital marketing services in Chandigarh" width="100%" />
                             </div>
                             <div className="col-lg-8">
                                 <h2 className="sectitle fw-bold mb-3">Conclusion</h2>
@@ -270,7 +270,7 @@ const Bookmytask = () => {
                                         <SwiperSlide>
                                             <div className="caseStuides_MainContent rounded-4 overflow-hidden bg-light">
                                                 <div>
-                                                    <Link to="#"><img src={caseStu1} alt="" className="img-fluid" /></Link>
+                                                    <Link to="#"><img src={caseStu1} alt="best social media marketing services in Chandigarh" className="img-fluid" /></Link>
                                                 </div>
                                                 <div className="caseStuides_para">
                                                     <p className="mb-0 pb-1"><Link to="#">Website Development</Link></p>
@@ -281,7 +281,7 @@ const Bookmytask = () => {
                                         <SwiperSlide>
                                             <div className="caseStuides_MainContent rounded-4 overflow-hidden bg-light">
                                                 <div>
-                                                    <Link to="#"><img src={caseStu2} alt="" className="img-fluid" /></Link>
+                                                    <Link to="#"><img src={caseStu2} alt="UI UX development company in Chandigarh" className="img-fluid" /></Link>
                                                 </div>
                                                 <div className="caseStuides_para">
                                                     <p className="mb-0 pb-1"><Link to="#">Website Development</Link></p>
@@ -292,7 +292,7 @@ const Bookmytask = () => {
                                         <SwiperSlide>
                                             <div className="caseStuides_MainContent rounded-4 overflow-hidden bg-light">
                                                 <div>
-                                                    <Link to="#"><img src={caseStu3} alt="" className="img-fluid" /></Link>
+                                                    <Link to="#"><img src={caseStu3} alt="Software Outsourcing Company Chandigarh" className="img-fluid" /></Link>
                                                 </div>
                                                 <div className="caseStuides_para">
                                                     <p className="mb-0 pb-1"><Link to="#">Website Development</Link></p>
@@ -303,7 +303,7 @@ const Bookmytask = () => {
                                         <SwiperSlide>
                                             <div className="caseStuides_MainContent rounded-4 overflow-hidden bg-light">
                                                 <div>
-                                                    <Link to="#"><img src={caseStu4} alt="" className="img-fluid" /></Link>
+                                                    <Link to="#"><img src={caseStu4} alt="Website development services in chandigarh" className="img-fluid" /></Link>
                                                 </div>
                                                 <div className="caseStuides_para">
                                                     <p className="mb-0 pb-1"><Link to="#">Website Development</Link></p>
@@ -314,7 +314,7 @@ const Bookmytask = () => {
                                         <SwiperSlide>
                                             <div className="caseStuides_MainContent rounded-4 overflow-hidden bg-light">
                                                 <div>
-                                                    <Link to="#"><img src={caseStu5} alt="" className="img-fluid" /></Link>
+                                                    <Link to="#"><img src={caseStu5} alt="Woocommerce Website Development Company in Chandigarh" className="img-fluid" /></Link>
                                                 </div>
                                                 <div className="caseStuides_para">
                                                     <p className="mb-0 pb-1"><Link to="#">Website Development</Link></p>
@@ -325,7 +325,7 @@ const Bookmytask = () => {
                                         <SwiperSlide>
                                             <div className="caseStuides_MainContent rounded-4 overflow-hidden bg-light">
                                                 <div>
-                                                    <Link to="#"><img src={caseStu6} alt="" className="img-fluid" /></Link>
+                                                    <Link to="#"><img src={caseStu6} alt="Blockchain web development provider in chandigarh" className="img-fluid" /></Link>
                                                 </div>
                                                 <div className="caseStuides_para">
                                                     <p className="mb-0 pb-1"><Link to="#">Website Development</Link></p>
@@ -336,7 +336,7 @@ const Bookmytask = () => {
                                         <SwiperSlide>
                                             <div className="caseStuides_MainContent rounded-4 overflow-hidden bg-light">
                                                 <div>
-                                                    <Link to="#"><img src={caseStu8} alt="" className="img-fluid" /></Link>
+                                                    <Link to="#"><img src={caseStu8} alt="Blockchain for businesses in Chandigarh" className="img-fluid" /></Link>
                                                 </div>
                                                 <div className="caseStuides_para">
                                                     <p className="mb-0 pb-1"><Link to="#">Website Development</Link></p>
@@ -347,7 +347,7 @@ const Bookmytask = () => {
                                         <SwiperSlide>
                                             <div className="caseStuides_MainContent rounded-4 overflow-hidden bg-light">
                                                 <div>
-                                                    <Link to="#"><img src={caseStu9} alt="" className="img-fluid" /></Link>
+                                                    <Link to="#"><img src={caseStu9} alt="Full-stack React Native developers Chandigarh" className="img-fluid" /></Link>
                                                 </div>
                                                 <div className="caseStuides_para">
                                                     <p className="mb-0 pb-1"><Link to="#">Website Development</Link></p>
@@ -358,7 +358,7 @@ const Bookmytask = () => {
                                         <SwiperSlide>
                                             <div className="caseStuides_MainContent rounded-4 overflow-hidden bg-light">
                                                 <div>
-                                                    <Link to="#"><img src={caseStu10} alt="" className="img-fluid" /></Link>
+                                                    <Link to="#"><img src={caseStu10} alt="Laravel Development Partner in Chandigarh" className="img-fluid" /></Link>
                                                 </div>
                                                 <div className="caseStuides_para">
                                                     <p className="mb-0 pb-1"><Link to="#">Website Development</Link></p>
