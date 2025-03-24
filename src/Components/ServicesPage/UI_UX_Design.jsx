@@ -227,56 +227,56 @@ const UI_UX_Design = () => {
                 />
 
                    <section className="bg-section">
-                                    <Container className='process_container'>
-                                        <Row className="d-flex flex-column text-center">
-                                            <div className="main-bg w-100">
-                                                <div className="inside-main py-5">
-                                                    <h1>How We Ensure Exceptional UI/UX Design</h1>
-                                                    <div>
-                                                        <p className='text-white fs-5 pt-2 pb-4'>Our approach to UI/UX design follows a strategic and user-centered methodology:</p>
-                                                    </div>
-                                                    <Row className="curly-img curley-img mt-2">
-                                                        <Col xs={6} lg={2}>
-                                                            <div className="work-images">
-                                                                <img src={container} alt="Affordable UI/UX design company in Chandigarh" />
-                                                                <h6 className="mt-3">User Research & Analysis</h6>
-                                                                <p className="text-light">Understanding your target audience, their needs, and pain points to create a user-focused design.</p>
-                                                            </div>
-                                                        </Col>
-                                                        <Col xs={6} lg={2}>
-                                                            <div className="work-images">
-                                                                <img src={planning} alt="Mobile app UI/UX design Chandigarh" />
-                                                                <h6 className="mt-3">Information Architecture & Wireframing </h6>
-                                                                <p className="text-light">Structuring content and designing wireframes to ensure seamless navigation and user flow.</p>
-                                                            </div>
-                                                        </Col>
-                                                        <Col xs={6} lg={2}>
-                                                            <div className="work-images">
-                                                                <img src={pen} alt="UI/UX consulting services Chandigarh" />
-                                                                <h6 className="mt-3">Prototyping & Interaction Design</h6>
-                                                                <p className="text-light">Developing interactive prototypes to visualize functionality before final implementation.</p>
-                                                            </div>
-                                                        </Col>
-                                                        <Col xs={6} lg={2}>
-                                                            <div className="work-images">
-                                                                <img src={development} alt="Website UI/UX design company in Chandigarh" />
-                                                                <h6 className="mt-3">User Testing & Feedback</h6>
-                                                                <p className="text-light">Gathering real user insights to refine and optimize the design for the best experience.</p>
-                                                            </div>
-                                                        </Col>
-                                                        <Col xs={6} lg={2}>
-                                                            <div className="work-images">
-                                                                <img src={test} alt="UI/UX development agency in Chandigarh" />
-                                                                <h6 className="mt-3">Visual Design & Development</h6>
-                                                                <p className="text-light">Crafting an aesthetically pleasing, high-performing, and responsive UI for a polished final product.</p>
-                                                            </div>
-                                                        </Col>
-                                                    </Row>
-                                                </div>
+                    <Container className='process_container'>
+                        <Row className="d-flex flex-column text-center">
+                            <div className="main-bg w-100">
+                                <div className="inside-main py-5">
+                                    <h1>How We Ensure Exceptional UI/UX Design</h1>
+                                    <div>
+                                        <p className='text-white fs-5 pt-2 pb-4'>Our approach to UI/UX design follows a strategic and user-centered methodology:</p>
+                                    </div>
+                                    <Row className="curly-img curley-img mt-2">
+                                        <Col xs={6} lg={2}>
+                                            <div className="work-images">
+                                                <img src={container} alt="Affordable UI/UX design company in Chandigarh" />
+                                                <h6 className="mt-3">User Research & Analysis</h6>
+                                                <p className="text-light">Understanding your target audience, their needs, and pain points to create a user-focused design.</p>
                                             </div>
-                                        </Row>
-                                    </Container>
-                                </section>
+                                        </Col>
+                                        <Col xs={6} lg={2}>
+                                            <div className="work-images">
+                                                <img src={planning} alt="Mobile app UI/UX design Chandigarh" />
+                                                <h6 className="mt-3">Information Architecture & Wireframing </h6>
+                                                <p className="text-light">Structuring content and designing wireframes to ensure seamless navigation and user flow.</p>
+                                            </div>
+                                        </Col>
+                                        <Col xs={6} lg={2}>
+                                            <div className="work-images">
+                                                <img src={pen} alt="UI/UX consulting services Chandigarh" />
+                                                <h6 className="mt-3">Prototyping & Interaction Design</h6>
+                                                <p className="text-light">Developing interactive prototypes to visualize functionality before final implementation.</p>
+                                            </div>
+                                        </Col>
+                                        <Col xs={6} lg={2}>
+                                            <div className="work-images">
+                                                <img src={development} alt="Website UI/UX design company in Chandigarh" />
+                                                <h6 className="mt-3">User Testing & Feedback</h6>
+                                                <p className="text-light">Gathering real user insights to refine and optimize the design for the best experience.</p>
+                                            </div>
+                                        </Col>
+                                        <Col xs={6} lg={2}>
+                                            <div className="work-images">
+                                                <img src={test} alt="UI/UX development agency in Chandigarh" />
+                                                <h6 className="mt-3">Visual Design & Development</h6>
+                                                <p className="text-light">Crafting an aesthetically pleasing, high-performing, and responsive UI for a polished final product.</p>
+                                            </div>
+                                        </Col>
+                                    </Row>
+                                </div>
+                            </div>
+                        </Row>
+                    </Container>
+                </section>
 
 
                 <section className="Industries">

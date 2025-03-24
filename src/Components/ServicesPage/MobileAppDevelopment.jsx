@@ -74,7 +74,7 @@ function MobileAppDevelopment() {
         <>
          <Meta_Component
         title="Mobile App Development Chandigarh | Asvayuk Technologies"
-        description="Mobile App Development Chandigarh by Asvayuk Technologies – delivering custom Android & iOS apps with expert solutions for businesses."
+        description="Mobile App Development Chandigarh by Asvayuk Technologies – delivering custom Android & iOS apps with expert solutions for businesses"
         canonical="https://asvayuktech.com/mobile-app-development-chandigarh"
        />
             <main>
@@ -83,7 +83,7 @@ function MobileAppDevelopment() {
                     <div className="container">
                         <div className="col-12">
                             <div className="row ">
-                                <div className="col-lg-6 col-md-6 col-12 pt-5">
+                                <div className="col-lg-6 col-md-6 col-12 pt-3">
                                     <Breadcrumb>
                                         <Breadcrumb.Item linkAs={Link} linkProps={{ to: "/" }}>Home</Breadcrumb.Item>
                                         <Breadcrumb.Item linkAs={Link} linkProps={{ to: "#" }}>Technology</Breadcrumb.Item>
