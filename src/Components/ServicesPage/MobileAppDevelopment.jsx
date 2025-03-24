@@ -161,7 +161,16 @@ function MobileAppDevelopment() {
                     point1='Skilled Developers' pointPara1={<>Our team of experienced mobile app developers is proficient in the latest technologies and frameworks, ensuring apps meet global standards.</>}
                     point2='Great Solutions' pointPara2={<>We understand every business is unique, so we craft customized mobile app solutions tailored to your needs for tangible results.</>}
                     point3='On-Time Delivery' pointPara3={<>We respect your deadlines and ensure on-time delivery with high performance, seamless functionality, and uncompromised quality.</>}
-                    point4='Competitive Pricing' pointPara4={<>Our services are priced competitively to ensure you get the best value for your investment in mobile app development.</>} />
+                    point4='Competitive Pricing' pointPara4={<>Our services are priced competitively to ensure you get the best value for your investment in mobile app development.</>}
+                    altTags={{
+                        group1: "Mobile app development chandigarh",
+                        group2: "reliable app development company in Chandigarh",
+                        group3: "mobile app development companies in Chandigarh",
+                        group4: "Chandigarh's Leading Mobile App Development Company",
+                        mockups: "Chandigarh's Most Trusted Mobile App Development Company",
+                        whiteLogo: "Software Development Company in Chandigarh"
+                    }}
+                     />
 
                 <section className="saas-technology">
                     <div className="container">

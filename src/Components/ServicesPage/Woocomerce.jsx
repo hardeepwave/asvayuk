@@ -198,7 +198,16 @@ const Woocomerce = () => {
                    url="/contact-us"
                    btnTitle="Request Consultation"
                    Group105518={Group105518}
-                   hideKeyPoints ={true} />
+                   hideKeyPoints ={true} 
+                   altTags={{
+                        check1: "Check icon for performance feature",
+                        check2: "Check icon for SEO optimization",
+                        check3: "Check icon for UI design",
+                        check4: "Check icon for security feature",
+                        check5: "Check icon for customer support",
+                        Group105518: "WooCommerce Development Services in Chandigarh"
+                    }}
+                   />
 
 
                 <section className="saas-sec py-5">
@@ -259,7 +268,10 @@ const Woocomerce = () => {
                 point3='SEO-Optimized Stores' 
                 pointPara3='Our WooCommerce development in Chandigarh city ensures that your store is search engine friendly, driving more traffic and sales.'
                 point4='Affordable Pricing' 
-                pointPara4='We provide cost-effective WooCommerce solutions without compromising on quality.' />
+                pointPara4='We provide cost-effective WooCommerce solutions without compromising on quality.' 
+                
+
+                />
 
 
                 <section className="bg-section">

@@ -250,7 +250,7 @@ const Website_Development = () => {
                             <div className="row pt-5 text-center">
                                 <div className="saas_content col-lg-4 col-md-4 col-sm-12 col-12">
                                     <div className="saas-tools-img d-flex justify-content-center">
-                                        <img src={html} />
+                                        <img src={html} alt="Website development company chandigarh and mohali"/>
                                     </div>
                                     <div className="saas-tools-img-name d-flex justify-content-center">
                                         <h5>HTML/CSS</h5>
@@ -259,7 +259,7 @@ const Website_Development = () => {
 
                                 <div className="saas_content col-lg-4 col-md-4 col-sm-12 col-12">
                                     <div className="saas-tools-img d-flex justify-content-center">
-                                        <img src={react} />
+                                        <img src={react} alt="Website development services in chandigarh"/>
                                     </div>
                                     <div className="saas-tools-img-name d-flex justify-content-center">
                                         <h5>React </h5>
@@ -268,7 +268,7 @@ const Website_Development = () => {
 
                                 <div className="saas_content col-lg-4 col-md-4 col-sm-12 col-12">
                                     <div className="saas-tools-img d-flex justify-content-center">
-                                        <img src={objective} />
+                                        <img src={objective} alt="website designers chandigarh, mohali"/>
                                     </div>
                                     <div className="saas-tools-img-name d-flex justify-content-center">
                                         <h5>Objective-C</h5>
@@ -278,7 +278,7 @@ const Website_Development = () => {
                             <div className="row pt-5 text-center justify-content-center">
                                 <div className="saas_content col-lg-4 col-md-4 col-sm-12 col-12">
                                     <div className="saas-tools-img d-flex justify-content-center">
-                                        <img src={kotlin} />
+                                        <img src={kotlin} alt="website development company mohali"/>
                                     </div>
                                     <div className="saas-tools-img-name d-flex justify-content-center">
                                         <h5>Kotlin</h5>
@@ -287,7 +287,7 @@ const Website_Development = () => {
 
                                 <div className="saas_content col-lg-4 col-md-4 col-sm-12 col-12">
                                     <div className="saas-tools-img d-flex justify-content-center">
-                                        <img src={swift} />
+                                        <img src={swift} alt="web development agency chandigarh"/>
                                     </div>
                                     <div className="saas-tools-img-name d-flex justify-content-center">
                                         <h5>Java Script</h5>
@@ -583,64 +583,6 @@ const Website_Development = () => {
             </Container>
           </section>
         </section>
-
-        {/* <section className="saas-technology">
-                    <div className="container">
-                        <div className="px-5 mx-5">
-                            <div className="saas-technology-heading text-center">
-                                <h2>Our Arsenal of Powerful Tech Stack To Fuel Your Mobile App</h2>
-                            </div>
-                            <div className="row pt-5 text-center">
-                                <div className="saas_content col-lg-4 col-md-4 col-sm-12 col-12">
-                                    <div className="saas-tools-img d-flex justify-content-center">
-                                        <img src={html} />
-                                    </div>
-                                    <div className="saas-tools-img-name d-flex justify-content-center">
-                                        <h5>HTML/CSS</h5>
-                                    </div>
-                                </div>
-
-                                <div className="saas_content col-lg-4 col-md-4 col-sm-12 col-12">
-                                    <div className="saas-tools-img d-flex justify-content-center">
-                                        <img src={react} />
-                                    </div>
-                                    <div className="saas-tools-img-name d-flex justify-content-center">
-                                        <h5>React </h5>
-                                    </div>
-                                </div>
-
-                                <div className="saas_content col-lg-4 col-md-4 col-sm-12 col-12">
-                                    <div className="saas-tools-img d-flex justify-content-center">
-                                        <img src={objective} />
-                                    </div>
-                                    <div className="saas-tools-img-name d-flex justify-content-center">
-                                        <h5>Objective-C</h5>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="row pt-5 text-center justify-content-center">
-                                <div className="saas_content col-lg-4 col-md-4 col-sm-12 col-12">
-                                    <div className="saas-tools-img d-flex justify-content-center">
-                                        <img src={kotlin} />
-                                    </div>
-                                    <div className="saas-tools-img-name d-flex justify-content-center">
-                                        <h5>Kotlin</h5>
-                                    </div>
-                                </div>
-
-                                <div className="saas_content col-lg-4 col-md-4 col-sm-12 col-12">
-                                    <div className="saas-tools-img d-flex justify-content-center">
-                                        <img src={swift} />
-                                    </div>
-                                    <div className="saas-tools-img-name d-flex justify-content-center">
-                                        <h5>Java Script</h5>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-         </section>  */}
 
         <section className="performance_card2">
           <div className="container">
