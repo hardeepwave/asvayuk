@@ -77,11 +77,11 @@ const ECommerce = () => {
                 canonical="https://asvayuktech.com/ecommerce-website-designing-company-chandigarh"
             />
             <main>
-                <section className="banner-en py-5">
+                <section className="banner-en py-3">
                     <Container>
                         <Row className="align-items-center">
                             <div className="col-lg-6">
-                                <div className="banner_textInfo-en">
+                                <div className="banner_textInfo-en pb-2">
                                     <Breadcrumb>
                                         <Breadcrumb.Item linkAs={Link} linkProps={{ to: "/" }}>Home</Breadcrumb.Item>
                                         <Breadcrumb.Item linkAs={Link} linkProps={{ to: "#" }}>Technology</Breadcrumb.Item>

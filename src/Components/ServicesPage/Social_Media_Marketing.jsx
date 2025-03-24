@@ -57,7 +57,7 @@ const Social_Media_Marketing = () => {
       <Meta_Component
         title="Social Media Marketing Agency in Chandigarh"
         description="Looking for a reliable social media marketing agency in Chandigarh? Boost your brand’s online presence with expert strategies. Contact us today!"
-        canonical="https://asvayuktech.com/social-media-marketing"
+        canonical="https://asvayuktech.com/social-media-marketing-agency-in-chandigarh"
       />
 
       <main>

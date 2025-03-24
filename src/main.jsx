@@ -109,7 +109,7 @@ const router = createBrowserRouter([
       { path: "/software-development-company-in-chandigarh", element: <Software_Dev /> },
       { path: "/laravel-development-company-in-chandigarh", element: <Laravel_Dev /> },
       { path: "/ar-vr-development", element: <Ar_Vr_Dev /> },
-      { path: "/social-media-marketing", element: <Social_Media_Marketing /> },
+      { path: "/social-media-marketing-agency-in-chandigarh", element: <Social_Media_Marketing /> },
       { path: "/best-seo-services-in-chandigarh", element: <Search_Engine_Opti /> },
       { path: "/best-ui-ux-designers-in-chandigarh", element: <UI_UX_Design /> },
       { path: "/mlm-software-chandigarh-panchkula", element: <MLM_Software /> },

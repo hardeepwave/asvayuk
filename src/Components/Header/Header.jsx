@@ -226,7 +226,7 @@ export default function Header() {
                                 <Col lg={4}>
                                   <div className="tab-menus tab_menu_top d-flex flex-column gap-4">
                                     <Link
-                                      to="/social-media-marketing"
+                                      to="/social-media-marketing-agency-in-chandigarh"
                                       onClick={handleMegaMenuLinkClick}
                                     >
                                       Social Media Marketing
@@ -647,7 +647,7 @@ export default function Header() {
                                 </li>
                                 <li className="py-2 border-bottom">
                                   <Link
-                                    to="/social-media-marketing"
+                                    to="/social-media-marketing-agency-in-chandigarh"
                                     onClick={toggleMenu}
                                   >
                                     Social Media Marketing

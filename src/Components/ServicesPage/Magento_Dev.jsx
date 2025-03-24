@@ -469,7 +469,7 @@ const Magento_Dev = () => {
                                             </Col>
                                             <Col lg={6}>
                                                 <div className="swiper_right_sec_5 d-flex justify-content-end align-items-end h-100 pe-4 ps-4">
-                                                    <img src={caseStu6} alt="Custom Magento Development Chandigarh" class="img-fluid" />
+                                                    <img src={caseStu6} alt="Custom Magento Development Chandigarh" className="img-fluid" />
                                                 </div>
                                             </Col>
 
