@@ -102,22 +102,22 @@ const SchoolManagement = () => {
                         <div className='game_cards'>
                             <Row className='gy-4'>
                                 <Col lg={4}>
-                                    <Magento_service_card cardImg={service1} cardHeading="Custom School Management Software" cardPara="We create custom school management solutions, tailored to meet your institution's unique needs and goals." />
+                                    <Magento_service_card cardImg={service1} altText='School Management Software in Panchkula & Chandigarh' cardHeading="Custom School Management Software" cardPara="We create custom school management solutions, tailored to meet your institution's unique needs and goals." />
                                 </Col>
                                 <Col lg={4}>
-                                    <Magento_service_card cardImg={service2} cardHeading="Student & Faculty Management" cardPara="Our software enables seamless management of student and faculty data, enhancing academic and administrative efficiency." />
+                                    <Magento_service_card cardImg={service2} altText='Best School Management Software in Chandigarh & Panchkula' cardHeading="Student & Faculty Management" cardPara="Our software enables seamless management of student and faculty data, enhancing academic and administrative efficiency." />
                                 </Col>
                                 <Col lg={4}>
-                                    <Magento_service_card cardImg={service3} cardHeading="Real-Time Communication Tools" cardPara="We integrate real-time communication tools for efficient interaction between teachers, students, and parents." />
+                                    <Magento_service_card cardImg={service3} altText='Smart School ERP Solutions for Schools & Colleges'  cardHeading="Real-Time Communication Tools" cardPara="We integrate real-time communication tools for efficient interaction between teachers, students, and parents." />
                                 </Col>
                                 <Col lg={4}>
-                                    <Magento_service_card cardImg={service4} cardHeading="Fee & Payment Management" cardPara="Our school management system includes automated fee collection, payment tracking, and invoice generation features." />
+                                    <Magento_service_card cardImg={service4} altText='Cloud-Based School Management System in Chandigarh'  cardHeading="Fee & Payment Management" cardPara="Our school management system includes automated fee collection, payment tracking, and invoice generation features." />
                                 </Col>
                                 <Col lg={4}>
-                                    <Magento_service_card cardImg={service5} cardHeading="Timetable & Scheduling Features" cardPara="Our platform provides easy-to-manage timetables and scheduling features for students, teachers, and school staff." />
+                                    <Magento_service_card cardImg={service5} altText='Student Attendance & Fee Management Software'  cardHeading="Timetable & Scheduling Features" cardPara="Our platform provides easy-to-manage timetables and scheduling features for students, teachers, and school staff." />
                                 </Col>
                                 <Col lg={4}>
-                                    <Magento_service_card cardImg={service6} cardHeading="Exam & Result Management" cardPara="We help schools manage exams, results, and grade books, streamlining the entire process for efficiency." />
+                                    <Magento_service_card cardImg={service6} altText='All-in-One School Administration Software Panchkula'  cardHeading="Exam & Result Management" cardPara="We help schools manage exams, results, and grade books, streamlining the entire process for efficiency." />
                                 </Col>
                             </Row>
                         </div>
@@ -184,6 +184,16 @@ const SchoolManagement = () => {
                     pointPara3='We offer a range of customizable features to fit your specific needs.'
                     point4='Ongoing Support & Maintenance'
                     pointPara4='We ensure continuous support and regular updates for your software.'
+
+                    altTags={{
+                        group1: "Secure & Scalable School Management System Chandigarh",
+                        group2: "Affordable School Management Software for Institutes",
+                        group3: "All-in-One School Administration Software Panchkula",
+                        group4: "Best School Management Software in Chandigarh & Panchkula",
+                        mockups: "School Management Software in Panchkula & Chandigarh",
+                        whiteLogo: "Student Attendance & Fee Management Software"
+                    }}
+
                 />
 
                 <section className="caseStuides">

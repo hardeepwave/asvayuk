@@ -102,22 +102,22 @@ const MLM_Software = () => {
                         <div className='magento_cards'>
                             <Row className='gy-4'>
                                 <Col lg={4}>
-                                    <Magento_service_card cardImg={service1} cardHeading="MLM System Customization" cardPara="Develop a tailor-made MLM software system that fits your business needs, providing scalability and flexibility." />
+                                    <Magento_service_card cardImg={service1} altText='Best MLM Software Development in Chandigarh' cardHeading="MLM System Customization" cardPara="Develop a tailor-made MLM software system that fits your business needs, providing scalability and flexibility." />
                                 </Col>
                                 <Col lg={4}>
-                                    <Magento_service_card cardImg={service2} cardHeading="MLM Mobile App Development" cardPara="Create a mobile app for your MLM business, offering easy access to your network and real-time updates." />
+                                    <Magento_service_card cardImg={service2} altText='Affordable MLM Software in Chandigarh' cardHeading="MLM Mobile App Development" cardPara="Create a mobile app for your MLM business, offering easy access to your network and real-time updates." />
                                 </Col>
                                 <Col lg={4}>
-                                    <Magento_service_card cardImg={service3} cardHeading="Advanced MLM Commission Systems" cardPara="Implement complex commission structures for your MLM business, ensuring seamless compensation management." />
+                                    <Magento_service_card cardImg={service3} altText='Reliable MLM Software Services Panchkula' cardHeading="Advanced MLM Commission Systems" cardPara="Implement complex commission structures for your MLM business, ensuring seamless compensation management." />
                                 </Col>
                                 <Col lg={4}>
-                                    <Magento_service_card cardImg={service4} cardHeading="MLM Software Integration" cardPara="Integrate your MLM system with eCommerce platforms and CRM tools to streamline operations and improve workflow." />
+                                    <Magento_service_card cardImg={service4} altText='Top MLM Software Developers Chandigarh' cardHeading="MLM Software Integration" cardPara="Integrate your MLM system with eCommerce platforms and CRM tools to streamline operations and improve workflow." />
                                 </Col>
                                 <Col lg={4}>
-                                    <Magento_service_card cardImg={service5} cardHeading="MLM Software Security" cardPara="Ensure the security of your MLM platform with robust encryption, fraud detection, and secure data management features." />
+                                    <Magento_service_card cardImg={service5} altText='Custom MLM Software Solutions Chandigarh' cardHeading="MLM Software Security" cardPara="Ensure the security of your MLM platform with robust encryption, fraud detection, and secure data management features." />
                                 </Col>
                                 <Col lg={4}>
-                                    <Magento_service_card cardImg={service6} cardHeading="Real-Time Analytics for MLM" cardPara="Gain valuable insights into your MLM network’s performance with real-time analytics and custom reports." />
+                                    <Magento_service_card cardImg={service6} altText='Network Marketing Software in Panchkula' cardHeading="Real-Time Analytics for MLM" cardPara="Gain valuable insights into your MLM network’s performance with real-time analytics and custom reports." />
                                 </Col>
                             </Row>
                         </div>
@@ -184,6 +184,15 @@ const MLM_Software = () => {
                     pointPara3='We tailor our MLM software solutions to align with your unique requirements in the Chandigarh Panchkula area.'
                     point4='Transparent Communication'
                     pointPara4='We keep you informed throughout the MLM software development process, ensuring clarity at every step for our clients in Chandigarh Panchkula.'
+
+                    altTags={{
+                        group1: "Best MLM Software Development in Chandigarh",
+                        group2: "MLM Software Company in Panchkula",
+                        group3: "Custom MLM Software Solutions Chandigarh",
+                        group4: "Direct Selling Software Development Panchkula",
+                        mockups: "Affordable MLM Software in Chandigarh",
+                        whiteLogo: "Network Marketing Software in Panchkula"
+                    }}
                 />
 
                 <section className="caseStuides">

@@ -162,22 +162,22 @@ const Woocomerce = () => {
                             <div className="performance_card2_inner-sec mt-5">
                                 <div className="row">
                                     <div className="col-lg-4 pb-4">
-                                        <ServicesCard ServiceCardImg={c11} cardHeading='Custom WooCommerce Website Development' cardParaGraph={<>Our <b>WooCommerce website experts in Chandigarh </b>create fully customized online stores that reflect your brand identity and meet your business requirements.</>} />
+                                        <ServicesCard ServiceCardImg={c11} altText="Woocommerce Website Development Company in Chandigarh" cardHeading='Custom WooCommerce Website Development' cardParaGraph={<>Our <b>WooCommerce website experts in Chandigarh </b>create fully customized online stores that reflect your brand identity and meet your business requirements.</>} />
                                     </div>
                                     <div className="col-lg-4 pb-4 d-flex">
-                                        <ServicesCard ServiceCardImg={c12} cardHeading='WooCommerce Theme Design and Development' cardParaGraph={<>We design and develop visually appealing and user-friendly WooCommerce themes that enhance the shopping experience and improve customer engagement.</>}/>
+                                        <ServicesCard ServiceCardImg={c12} altText="WooCommerce Developer near Chandigarh" cardHeading='WooCommerce Theme Design and Development' cardParaGraph={<>We design and develop visually appealing and user-friendly WooCommerce themes that enhance the shopping experience and improve customer engagement.</>}/>
                                     </div>
                                     <div className="col-lg-4 pb-4 d-flex">
-                                        <ServicesCard ServiceCardImg={c13} cardHeading='WooCommerce Plugin Development and Integration' cardParaGraph={<>Extend the functionality of your online store with custom plugin development and seamless third-party integrations.</>}/>
+                                        <ServicesCard ServiceCardImg={c13} altText="trusted WooCommerce development partner in Chandigarh" cardHeading='WooCommerce Plugin Development and Integration' cardParaGraph={<>Extend the functionality of your online store with custom plugin development and seamless third-party integrations.</>}/>
                                     </div>
                                     <div className="col-lg-4 pb-4">
-                                        <ServicesCard ServiceCardImg={c14} cardHeading='WooCommerce Migration Services' cardParaGraph={<>If you are looking to migrate your existing store to WooCommerce, our WooCommerce website makers in Chandigarh ensure a smooth and hassle-free transition with minimal downtime.</>} />
+                                        <ServicesCard ServiceCardImg={c14} altText="woo commerce development agency in chandigarh" cardHeading='WooCommerce Migration Services' cardParaGraph={<>If you are looking to migrate your existing store to WooCommerce, our WooCommerce website makers in Chandigarh ensure a smooth and hassle-free transition with minimal downtime.</>} />
                                     </div>
                                     <div className="col-lg-4 pb-4 d-flex">
-                                        <ServicesCard ServiceCardImg={c15} cardHeading='WooCommerce SEO and Performance Optimization' cardParaGraph={<>Our WooCommerce website creators in Chandigarh implement best SEO practices to improve search engine rankings and enhance website speed for better user experience.</>} />
+                                        <ServicesCard ServiceCardImg={c15} altText="woo commerce website provider in chandigarh" cardHeading='WooCommerce SEO and Performance Optimization' cardParaGraph={<>Our WooCommerce website creators in Chandigarh implement best SEO practices to improve search engine rankings and enhance website speed for better user experience.</>} />
                                     </div>
                                     <div className="col-lg-4 pb-4 d-flex">
-                                        <ServicesCard ServiceCardImg={c16} cardHeading='WooCommerce Maintenance and Support' cardParaGraph={<>We provide ongoing support and maintenance to keep your WooCommerce store secure, up-to-date, and running smoothly.</>} />
+                                        <ServicesCard ServiceCardImg={c16} altText="woo commerce website makers chandigarh" cardHeading='WooCommerce Maintenance and Support' cardParaGraph={<>We provide ongoing support and maintenance to keep your WooCommerce store secure, up-to-date, and running smoothly.</>} />
                                     </div>
                                 </div>
                             </div>
@@ -188,26 +188,16 @@ const Woocomerce = () => {
 
 
                 <KeyPointSection keyHeading={<>Why Choose WooCommerce for Your Online Store ?</>}
-                    keyPara={<>WooCommerce is one of the most powerful and flexible e-commerce platforms available today. It is built on WordPress,
-                        offering a user-friendly interface, extensive customization options, and a vast array of plugins to enhance functionality.
-                        Whether you are a startup or an established business, WooCommerce provides a cost-effective solution for selling products online.
-                        <br/> <br/>
-                        At <b>Asvayuk Technologies Private Ltd.</b>, we specialize in <b>WooCommerce Development Services in Chandigarh</b>, ensuring seamless integration,
-                        mobile responsiveness, and high-performance solutions tailored to your business needs.
-                    </>}
-                   url="/contact-us"
-                   btnTitle="Request Consultation"
-                   Group105518={Group105518}
-                   hideKeyPoints ={true} 
-                   altTags={{
-                        check1: "Check icon for performance feature",
-                        check2: "Check icon for SEO optimization",
-                        check3: "Check icon for UI design",
-                        check4: "Check icon for security feature",
-                        check5: "Check icon for customer support",
+                    keyPara={<>WooCommerce is one of the most powerful and flexible e-commerce platforms available today. It is built on WordPress,offering a user-friendly interface, extensive customization options, and a vast array of plugins to enhance functionality.Whether you are a startup or an established business, WooCommerce provides a cost-effective solution for selling products online.<br/> <br/>At <b>Asvayuk Technologies Private Ltd.</b>, we specialize in <b>WooCommerce Development Services in Chandigarh</b>, ensuring seamless integration,mobile responsiveness, and high-performance solutions tailored to your business needs.</>}
+                    url="/contact-us"
+                    btnTitle="Request Consultation"
+                    Group105518={Group105518}
+                    hideKeyPoints ={true}
+                    altTags=
+                    {{
                         Group105518: "WooCommerce Development Services in Chandigarh"
                     }}
-                   />
+                />
 
 
                 <section className="saas-sec py-5">
@@ -268,8 +258,15 @@ const Woocomerce = () => {
                 point3='SEO-Optimized Stores' 
                 pointPara3='Our WooCommerce development in Chandigarh city ensures that your store is search engine friendly, driving more traffic and sales.'
                 point4='Affordable Pricing' 
-                pointPara4='We provide cost-effective WooCommerce solutions without compromising on quality.' 
-                
+                pointPara4='We provide cost-effective WooCommerce solutions without compromising on quality.'
+                altTags={{
+                        group1: "trusted WooCommerce development partner in Chandigarh",
+                        group2: "woo commerce development agency in chandigarh",
+                        group3: "Woocommerce Website Development Company in Chandigarh",
+                        group4: "woo commerce website experts in chandigarh",
+                        mockups: "woo commerce website makers chandigarh",
+                        whiteLogo: "WooCommerce Development Services in Chandigarh"
+                    }}
 
                 />
 

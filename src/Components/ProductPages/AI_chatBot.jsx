@@ -102,22 +102,22 @@ const AI_chatBot = () => {
                         <div className='magento_cards'>
                             <Row className='gy-4'>
                                 <Col lg={4}>
-                                    <Magento_service_card cardImg={service1} cardHeading="Custom AI ChatBot Development" cardPara="Create a fully customized AI ChatBot that suits your business requirements, improving customer service and engagement." />
+                                    <Magento_service_card cardImg={service1} altText='AI Chatbot for E-commerce Websites' cardHeading="Custom AI ChatBot Development" cardPara="Create a fully customized AI ChatBot that suits your business requirements, improving customer service and engagement." />
                                 </Col>
                                 <Col lg={4}>
-                                    <Magento_service_card cardImg={service2} cardHeading="AI ChatBot for Customer Support" cardPara="Build an AI-driven support system capable of answering customer inquiries 24/7, reducing wait times and enhancing satisfaction." />
+                                    <Magento_service_card cardImg={service2} altText='AI Chatbot Development in Chandigarh, Mohali & Panchkula' cardHeading="AI ChatBot for Customer Support" cardPara="Build an AI-driven support system capable of answering customer inquiries 24/7, reducing wait times and enhancing satisfaction." />
                                 </Col>
                                 <Col lg={4}>
-                                    <Magento_service_card cardImg={service3} cardHeading="ChatBot with NLP Capabilities" cardPara="Integrate natural language processing into your ChatBot for a more intelligent and human-like conversation experience." />
+                                    <Magento_service_card cardImg={service3} altText='Best AI Chatbot Services in Mohali' cardHeading="ChatBot with NLP Capabilities" cardPara="Integrate natural language processing into your ChatBot for a more intelligent and human-like conversation experience." />
                                 </Col>
                                 <Col lg={4}>
-                                    <Magento_service_card cardImg={service4} cardHeading="AI ChatBot for E-commerce" cardPara="Improve the shopping experience with AI-powered ChatBots that assist customers, answer product queries, and process orders." />
+                                    <Magento_service_card cardImg={service4} altText='"AI Chatbot for E-commerce Websites' cardHeading="AI ChatBot for E-commerce" cardPara="Improve the shopping experience with AI-powered ChatBots that assist customers, answer product queries, and process orders." />
                                 </Col>
                                 <Col lg={4}>
-                                    <Magento_service_card cardImg={service5} cardHeading="ChatBot Integration" cardPara="Seamlessly integrate ChatBots into your existing platforms like CRM, websites, and mobile apps for enhanced user experience." />
+                                    <Magento_service_card cardImg={service5} altText='AI ChatBot Solutions in Chandigarh and Panchkula' cardHeading="ChatBot Integration" cardPara="Seamlessly integrate ChatBots into your existing platforms like CRM, websites, and mobile apps for enhanced user experience." />
                                 </Col>
                                 <Col lg={4}>
-                                    <Magento_service_card cardImg={service6} cardHeading="AI ChatBot Analytics" cardPara="Monitor and analyze the performance of your AI ChatBot with detailed reports and insights to improve its effectiveness." />
+                                    <Magento_service_card cardImg={service6} altText='AI Chatbot for WhatsApp, Facebook & Websites' cardHeading="AI ChatBot Analytics" cardPara="Monitor and analyze the performance of your AI ChatBot with detailed reports and insights to improve its effectiveness." />
                                 </Col>
                             </Row>
                         </div>

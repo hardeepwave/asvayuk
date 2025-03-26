@@ -1,7 +1,6 @@
 import React from 'react'
 import { Breadcrumb, Col, Container, Row } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
-import { useState, useEffect, useRef } from "react";
 import BannerButton from '../BannerBtn/BannerButton'
 import Group_900 from '../../Images/Group-900.webp'
 import KeyPointSection from './KeyPointSection'
@@ -111,22 +110,22 @@ const Magento_Dev = () => {
                         <div className='magento_cards'>
                             <Row className='gy-4'>
                                 <Col lg={4}>
-                                    <Magento_service_card cardImg={service1} cardHeading="Magento Custom Development" cardPara="We create custom Magento themes and extensions to enhance the functionality and design of your website, making it stand out in the crowded eCommerce space." />
+                                    <Magento_service_card cardImg={service1} altText='Magento Website Development Chandigarh' cardHeading="Magento Custom Development" cardPara="We create custom Magento themes and extensions to enhance the functionality and design of your website, making it stand out in the crowded eCommerce space." />
                                 </Col>
                                 <Col lg={4}>
-                                    <Magento_service_card cardImg={service2} cardHeading="Magento Migration Services" cardPara="If you are looking to migrate your website from another platform to Magento, our experts make this seamless, ensuring data integrity and minimal downtime." />
+                                    <Magento_service_card cardImg={service2} altText='Magento Web Design Chandigarh' cardHeading="Magento Migration Services" cardPara="If you are looking to migrate your website from another platform to Magento, our experts make this seamless, ensuring data integrity and minimal downtime." />
                                 </Col>
                                 <Col lg={4}>
-                                    <Magento_service_card cardImg={service3} cardHeading="Magento Integration" cardPara="We integrate third-party applications and services with your Magento store to enhance functionality and provide a smoother shopping experience for your customers." />
+                                    <Magento_service_card cardImg={service3} altText='Custom Magento Development Chandigarh' cardHeading="Magento Integration" cardPara="We integrate third-party applications and services with your Magento store to enhance functionality and provide a smoother shopping experience for your customers." />
                                 </Col>
                                 <Col lg={4}>
-                                    <Magento_service_card cardImg={service5} cardHeading="eCommerce Development" cardPara="We ensure a swift and secure migration to Magento with our expert migration services, transferring data, performance-driven design elements and functionality seamlessly."/>
+                                    <Magento_service_card cardImg={service5} altText='Commerce website development Chandigarh' cardHeading="eCommerce Development" cardPara="We ensure a swift and secure migration to Magento with our expert migration services, transferring data, performance-driven design elements and functionality seamlessly."/>
                                 </Col>
                                 <Col lg={4}>
-                                    <Magento_service_card cardImg={service4} cardHeading="Magento Maintenance and Support" cardPara="We offer ongoing support and maintenance services to keep your Magento store running smoothly, with regular updates, security patches, and performance enhancements." />
+                                    <Magento_service_card cardImg={service4} altText='Magento Web development provider in chandigarh' cardHeading="Magento Maintenance and Support" cardPara="We offer ongoing support and maintenance services to keep your Magento store running smoothly, with regular updates, security patches, and performance enhancements." />
                                 </Col>
                                 <Col lg={4}>
-                                    <Magento_service_card cardImg={service6} cardHeading="Headless Development" cardPara="Future-proof your eCommerce store with headless architecture, ensuring enhanced flexibility, faster performance, seamless integrations, and a scalable online shopping experience" />
+                                    <Magento_service_card cardImg={service6} altText='Magento Website comapny in chandigarh' cardHeading="Headless Development" cardPara="Future-proof your eCommerce store with headless architecture, ensuring enhanced flexibility, faster performance, seamless integrations, and a scalable online shopping experience" />
                                 </Col>
                             </Row>
                         </div>
@@ -148,6 +147,15 @@ const Magento_Dev = () => {
                     btnTitle="Request Consultation"
                     Group105518={Group105518} 
 
+                    altTags={{
+                        check1: "Magento Website Development Chandigarh",
+                        check2: "Magento Development Services Chandigarh",
+                        check3: "Affordable Magento Development Chandigarh",
+                        check4: "Magento Store Development Chandigarh",
+                        check5: "Commerce website development Chandigarh",
+                        Group105518: "Best Magento Developers in Chandigarh"
+                    }}
+
                 />
 
                 <Experience 
@@ -161,6 +169,15 @@ const Magento_Dev = () => {
                     pointPara3='Combining local insights with global expertise, we ensure seamless technological excellence.' 
                     point4='24/7 Support & Maintenance'
                     pointPara4='Our dedicated support team ensures your store runs smoothly with regular updates and security patches.'
+
+                    altTags={{
+                        group1: "Magento Web development provider in chandigarh",
+                        group2: "Magento Website comapny in chandigarh",
+                        group3: "Magento Web development provider in chandigarh",
+                        group4: "Custom Magento Development Chandigarh",
+                        mockups: "Magento Website Development Chandigarh",
+                        whiteLogo: "Best Magento Developers in Chandigarh"
+                    }}
                 />
 
 
@@ -231,12 +248,6 @@ const Magento_Dev = () => {
                                     <Link to="#" className="">
                                         View All Case Studies →
                                     </Link>
-                                    {/* <div className="d-flex justify-content-end">
-                                    <div className="casestu_button position-relative mt-4 d-flex gap-5">
-                                        <div className="swiper-button-prev mt-0" />
-                                        <div className="swiper-button-next mt-0" />
-                                    </div>
-                                </div> */}
                                 </Col>
                             </Row>
                         </div>
@@ -290,7 +301,7 @@ const Magento_Dev = () => {
                                             </Col>
                                             <Col lg={6}>
                                                 <div className="swiper_right_sec_1 d-flex justify-content-end align-items-end h-100 pe-4 ps-4">
-                                                    <img src={caseStu2} alt="Magento Development Services Chandigarh" class="img-fluid" />
+                                                    <img src={caseStu2} alt="Magento Development Services Chandigarh" className="img-fluid" />
                                                 </div>
                                             </Col>
 
@@ -333,7 +344,7 @@ const Magento_Dev = () => {
                                             </Col>
                                             <Col lg={6}>
                                                 <div className="swiper_right_sec_2 d-flex justify-content-end align-items-end h-100 pe-4 ps-4">
-                                                    <img src={caseStu4} alt="Magento Website Development Chandigarh" class="img-fluid" />
+                                                    <img src={caseStu4} alt="Magento Website Development Chandigarh" className="img-fluid" />
                                                 </div>
                                             </Col>
 
@@ -382,7 +393,7 @@ const Magento_Dev = () => {
                                             </Col>
                                             <Col lg={6}>
                                                 <div className="swiper_right_sec_3 d-flex justify-content-end align-items-end h-100 pe-4 ps-4">
-                                                    <img src={caseStu3} alt="Magento Web Design Chandigarh" class="img-fluid" />
+                                                    <img src={caseStu3} alt="Magento Web Design Chandigarh" className="img-fluid" />
                                                 </div>
                                             </Col>
 
@@ -426,7 +437,7 @@ const Magento_Dev = () => {
                                             </Col>
                                             <Col lg={6}>
                                                 <div className="swiper_right_sec_4 d-flex justify-content-end align-items-end h-100 pe-4 ps-4">
-                                                    <img src={caseStu5} alt="Affordable Magento Development Chandigarh" class="img-fluid" />
+                                                    <img src={caseStu5} alt="Affordable Magento Development Chandigarh" className="img-fluid" />
                                                 </div>
                                             </Col>
 

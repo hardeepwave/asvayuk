@@ -102,22 +102,22 @@ const Game24 = () => {
                         <div className='game_cards'>
                             <Row className='gy-4'>
                                 <Col lg={4}>
-                                    <Magento_service_card cardImg={service1} cardHeading="Custom 24 Games Development" cardPara="We specialize in developing custom 24 games tailored to your business needs, enhancing customer interaction and loyalty." />
+                                    <Magento_service_card cardImg={service1} altText='Top Game Development Company in Chandigarh & Panchkula' cardHeading="Custom 24 Games Development" cardPara="We specialize in developing custom 24 games tailored to your business needs, enhancing customer interaction and loyalty." />
                                 </Col>
                                 <Col lg={4}>
-                                    <Magento_service_card cardImg={service2} cardHeading="Mobile Game Development" cardPara="Our mobile game development services focus on creating engaging experiences for users across multiple platforms." />
+                                    <Magento_service_card cardImg={service2} altText='Custom Game Development Services by Asvayuk Technologies' cardHeading="Mobile Game Development" cardPara="Our mobile game development services focus on creating engaging experiences for users across multiple platforms." />
                                 </Col>
                                 <Col lg={4}>
-                                    <Magento_service_card cardImg={service3} cardHeading="Cross-Platform Game Development" cardPara="Develop cross-platform games that work seamlessly across all devices, ensuring maximum reach and engagement." />
+                                    <Magento_service_card cardImg={service3} altText='Best Mobile Game Developers in Chandigarh & Panchkula' cardHeading="Cross-Platform Game Development" cardPara="Develop cross-platform games that work seamlessly across all devices, ensuring maximum reach and engagement." />
                                 </Col>
                                 <Col lg={4}>
-                                    <Magento_service_card cardImg={service4} cardHeading="AR/VR Game Development" cardPara="Integrate AR and VR technologies to create immersive gaming experiences that captivate your audience." />
+                                    <Magento_service_card cardImg={service4} altText='2D & 3D Game Development Company in Panchkula' cardHeading="AR/VR Game Development" cardPara="Integrate AR and VR technologies to create immersive gaming experiences that captivate your audience." />
                                 </Col>
                                 <Col lg={4}>
-                                    <Magento_service_card cardImg={service5} cardHeading="Game Monetization" cardPara="Explore different monetization strategies for your games, including in-app purchases and ads, to maximize revenue." />
+                                    <Magento_service_card cardImg={service5} altText='Chandigarh’s Best Indie & AAA Game Development Studio' cardHeading="Game Monetization" cardPara="Explore different monetization strategies for your games, including in-app purchases and ads, to maximize revenue." />
                                 </Col>
                                 <Col lg={4}>
-                                    <Magento_service_card cardImg={service6} cardHeading="Game UI/UX Design" cardPara="We offer expert UI/UX design services to create visually appealing and user-friendly gaming interfaces." />
+                                    <Magento_service_card cardImg={service6} altText='Multiplayer Game Development Company in Panchkula & Mohali' cardHeading="Game UI/UX Design" cardPara="We offer expert UI/UX design services to create visually appealing and user-friendly gaming interfaces." />
                                 </Col>
                             </Row>
                         </div>
@@ -184,6 +184,15 @@ const Game24 = () => {
                     pointPara3='We deliver custom gaming solutions to meet the unique needs of businesses in the region.'
                     point4='Clear Communication'
                     pointPara4='We maintain transparent communication with clients throughout the development process.'
+
+                    altTags={{
+                        group1: "Top Game Development Company in Chandigarh & Panchkula",
+                        group2: "Best Mobile Game Developers in Chandigarh & Panchkula",
+                        group3: "Unity & Unreal Engine Game Development in Chandigarh",
+                        group4: "Multiplayer Game Development Company in Panchkula & Mohali",
+                        mockups: "Cross-Platform Game Development by Asvayuk Technologies",
+                        whiteLogo: "Custom Game Development Services  in Panchkula"
+                    }}
                 />
 
 

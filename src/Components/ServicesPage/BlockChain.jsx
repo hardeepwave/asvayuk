@@ -60,7 +60,6 @@ const BlockChain = () => {
                                 <Col xm={7} sm={12} lg={7} md={6}>
                                     <div className="bannerAreaTop">
                                         <div className="logoArea pb-4">
-                                            {/* <img src={shopifyImg} className="img-fluid w-25" alt="Crypto_Logo" /> */}
                                         </div>
                                         <div className='bannerAreaTop_content'>
                                             <h1 className="h1 mb-5 text-white"><Link to="https://maps.app.goo.gl/sDkN86Cnw1b1W8iK7"><span className='fw-bold' style={{ color: '#ffbf0b' }}>Blockchain </span>Web Development Chandigarh</Link></h1>

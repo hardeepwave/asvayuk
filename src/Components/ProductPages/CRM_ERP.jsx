@@ -103,22 +103,22 @@ const CRM_ERP = () => {
                         <div className='magento_cards'>
                             <Row className='gy-4'>
                                 <Col lg={4}>
-                                    <Magento_service_card cardImg={service1} cardHeading="CRM Development" cardPara="Develop a fully customized CRM system to manage customer relationships, automate sales, and enhance customer satisfaction in Chandigarh, Panchkula, and Zirakpur." />
+                                    <Magento_service_card cardImg={service1} altText='CRM ERP Development Company in Chandigarh' cardHeading="CRM Development" cardPara="Develop a fully customized CRM system to manage customer relationships, automate sales, and enhance customer satisfaction in Chandigarh, Panchkula, and Zirakpur." />
                                 </Col>
                                 <Col lg={4}>
-                                    <Magento_service_card cardImg={service2} cardHeading="ERP for Business Automation" cardPara="Implement an ERP system to automate key business processes, improve efficiency, and integrate all functions into one platform, tailored for Chandigarh, Panchkula, and Zirakpur businesses." />
+                                    <Magento_service_card cardImg={service2} altText='Best ERP Software Development in Mohali' cardHeading="ERP for Business Automation" cardPara="Implement an ERP system to automate key business processes, improve efficiency, and integrate all functions into one platform, tailored for Chandigarh, Panchkula, and Zirakpur businesses." />
                                 </Col>
                                 <Col lg={4}>
-                                    <Magento_service_card cardImg={service3} cardHeading="CRM and ERP Integration" cardPara="Seamlessly integrate CRM and ERP systems for a holistic view of your business, streamlining operations and improving data accuracy." />
+                                    <Magento_service_card cardImg={service3} altText='Affordable CRM & ERP Software Development' cardHeading="CRM and ERP Integration" cardPara="Seamlessly integrate CRM and ERP systems for a holistic view of your business, streamlining operations and improving data accuracy." />
                                 </Col>
                                 <Col lg={4}>
-                                    <Magento_service_card cardImg={service4} cardHeading="Mobile CRM Solutions" cardPara="Provide your sales team with mobile CRM solutions to access customer data and manage relationships from anywhere, enhancing productivity." />
+                                    <Magento_service_card cardImg={service4} altText='Sales & Marketing CRM Development Services' cardHeading="Mobile CRM Solutions" cardPara="Provide your sales team with mobile CRM solutions to access customer data and manage relationships from anywhere, enhancing productivity." />
                                 </Col>
                                 <Col lg={4}>
-                                    <Magento_service_card cardImg={service5} cardHeading="ERP for Inventory Management" cardPara="Optimize your supply chain and manage your inventory effectively with an ERP system tailored to your business needs." />
+                                    <Magento_service_card cardImg={service5} altText='Cloud-Based ERP Software Development' cardHeading="ERP for Inventory Management" cardPara="Optimize your supply chain and manage your inventory effectively with an ERP system tailored to your business needs." />
                                 </Col>
                                 <Col lg={4}>
-                                    <Magento_service_card cardImg={service6} cardHeading="ERP Data Analytics" cardPara="Utilize real-time data analytics within your ERP system to gain insights into your business performance and make informed decisions." />
+                                    <Magento_service_card cardImg={service6} altText='CRM ERP Development Company in Panchkula' cardHeading="ERP Data Analytics" cardPara="Utilize real-time data analytics within your ERP system to gain insights into your business performance and make informed decisions." />
                                 </Col>
                             </Row>
                         </div>
@@ -187,6 +187,15 @@ const CRM_ERP = () => {
                     pointPara3='We design solutions that fit your business processes in these regions, enhancing efficiency and supporting growth.'
                     point4='Clear Communication'
                     pointPara4='We ensure transparent communication throughout the process, keeping you informed at every stage.'
+
+                    altTags={{
+                        group1: "CRM ERP Development Company in Chandigarh",
+                        group2: "CRM and ERP Solutions in Chandigarh, Panchkula, and Zirakpur",
+                        group3: "Cloud-Based ERP Software Development",
+                        group4: "AI-Powered CRM & ERP Solutions",
+                        mockups: "Enterprise Resource Planning Solutions",
+                        whiteLogo: "Custom CRM Software Development Services"
+                    }}
                 />
 
                 <section className="caseStuides">

@@ -128,6 +128,7 @@ const Search_Engine_Opti = () => {
                 <Col lg={4}>
                   <Magento_service_card
                     cardImg={service1}
+                    altText="SEO Company in Chandigarh"
                     cardHeading="Local SEO"
                     cardPara="Targeting Chandigarh and surrounding areas to improve visibility in local searches"
                   />
@@ -135,6 +136,7 @@ const Search_Engine_Opti = () => {
                 <Col lg={4}>
                   <Magento_service_card
                     cardImg={service2}
+                    altText="search engine optimization Services chandigarh"
                     cardHeading="E-commerce SEO"
                     cardPara="Optimizing product pages and categories for better rankings on online stores."
                   />
@@ -142,6 +144,7 @@ const Search_Engine_Opti = () => {
                 <Col lg={4}>
                   <Magento_service_card
                     cardImg={service3}
+                    altText="OFF Page SEO agency Chandigarh"
                     cardHeading="Technical SEO"
                     cardPara=" Fixing website speed, mobile responsiveness, and indexing issues."
                   />
@@ -149,6 +152,7 @@ const Search_Engine_Opti = () => {
                 <Col lg={4} className="d-flex">
                   <Magento_service_card
                     cardImg={service4}
+                    altText="best seo expert in chandigarh"
                     cardHeading="Content Marketing & Blogging"
                     cardPara="Creating high-quality, keyword-rich content to attract organic traffic."
                   />
@@ -156,6 +160,7 @@ const Search_Engine_Opti = () => {
                 <Col lg={4} className="d-flex">
                   <Magento_service_card
                     cardImg={service5}
+                    altText="Website SEO provider in chandigarh"
                     cardHeading="Link Building & Authority Development"
                     cardPara="Building authoritative backlinks for domain credibility"
                   />
@@ -163,6 +168,7 @@ const Search_Engine_Opti = () => {
                 <Col lg={4} className="d-flex">
                   <Magento_service_card
                     cardImg={service6}
+                    altText="high rank seo website creator in chandigarh"
                     cardHeading="Analytics & Performance Tracking"
                     cardPara="Monitoring site performance and user behavior to refine SEO strategies for better results."
                   />

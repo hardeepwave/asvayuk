@@ -104,22 +104,22 @@ const Uber_ola_clone = () => {
                         <div className='game_cards'>
                             <Row className='gy-4'>
                                 <Col lg={4}>
-                                    <Magento_service_card cardImg={service1} cardHeading="Custom Uber Clone Development" cardPara="We provide custom development services for Uber clone apps, tailored to your business model and requirements." />
+                                    <Magento_service_card cardImg={service1} altText='Best Uber/Ola Clone App Developers in Chandigarh' cardHeading="Custom Uber Clone Development" cardPara="We provide custom development services for Uber clone apps, tailored to your business model and requirements." />
                                 </Col>
                                 <Col lg={4}>
-                                    <Magento_service_card cardImg={service2} cardHeading="Mobile Ride-Hailing App Development" cardPara="Our mobile app development services ensure a smooth and seamless user experience for your ride-hailing platform." />
+                                    <Magento_service_card cardImg={service2} altText='Taxi Booking App Development Company in Panchkula' cardHeading="Mobile Ride-Hailing App Development" cardPara="Our mobile app development services ensure a smooth and seamless user experience for your ride-hailing platform." />
                                 </Col>
                                 <Col lg={4}>
-                                    <Magento_service_card cardImg={service3} cardHeading="Cross-Platform App Solutions" cardPara="Our cross-platform app development services ensure your ride-hailing app functions seamlessly on both iOS and Android." />
+                                    <Magento_service_card cardImg={service3} altText='Affordable Taxi App Development Services in Chandigarh' cardHeading="Cross-Platform App Solutions" cardPara="Our cross-platform app development services ensure your ride-hailing app functions seamlessly on both iOS and Android." />
                                 </Col>
                                 <Col lg={4}>
-                                    <Magento_service_card cardImg={service4} cardHeading="Admin Panel Integration" cardPara="We integrate comprehensive admin panel features, making it easier to manage users, drivers, and rides." />
+                                    <Magento_service_card cardImg={service4} altText='Uber/Ola Clone Development Company Chandigarh' cardHeading="Admin Panel Integration" cardPara="We integrate comprehensive admin panel features, making it easier to manage users, drivers, and rides." />
                                 </Col>
                                 <Col lg={4}>
-                                    <Magento_service_card cardImg={service5} cardHeading="Real-Time Ride Tracking" cardPara="Our ride-hailing app solutions include advanced ride tracking and notifications for drivers and passengers." />
+                                    <Magento_service_card cardImg={service5} altText='Uber Like App Development for Startups in Chandigarh' cardHeading="Real-Time Ride Tracking" cardPara="Our ride-hailing app solutions include advanced ride tracking and notifications for drivers and passengers." />
                                 </Col>
                                 <Col lg={4}>
-                                    <Magento_service_card cardImg={service6} cardHeading="On-Demand Ride Booking" cardPara="We offer on-demand ride-booking features for users, ensuring a smooth and efficient booking experience." />
+                                    <Magento_service_card cardImg={service6} altText='Customizable Taxi App Development for Businesses Chandigarh' cardHeading="On-Demand Ride Booking" cardPara="We offer on-demand ride-booking features for users, ensuring a smooth and efficient booking experience." />
                                 </Col>
                             </Row>
                         </div>
@@ -186,6 +186,15 @@ const Uber_ola_clone = () => {
                     pointPara3='Our apps are designed for maximum user engagement.'
                     point4='Clear Communication & Support'
                     pointPara4='We ensure ongoing support and transparent communication.'
+
+                    altTags={{
+                        group1: "Best Uber/Ola Clone App Development in Chandigarh",
+                        group2: "Taxi Booking App Development in Panchkula",
+                        group3: "Custom Ride-Hailing App Development Chandigarh",
+                        group4: "Uber Clone App Developers in Panchkula",
+                        mockups: "Ola Clone App Solutions in Chandigarh",
+                        whiteLogo: "On-Demand Taxi App Development in Panchkula"
+                    }}
                 />
 
                 <section className="caseStuides">

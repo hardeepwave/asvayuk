@@ -102,22 +102,22 @@ const DAP_DAO = () => {
                         <div className='magento_cards'>
                             <Row className='gy-4'>
                                 <Col lg={4}>
-                                    <Magento_service_card cardImg={service1} cardHeading="DAP Development in Chandigarh Panchkula" cardPara="Develop decentralized applications for secure, scalable, and autonomous operations in Chandigarh Panchkula." />
+                                    <Magento_service_card cardImg={service1} altText='DApp Development Company in Chandigarh' cardHeading="DAP Development in Chandigarh Panchkula" cardPara="Develop decentralized applications for secure, scalable, and autonomous operations in Chandigarh Panchkula." />
                                 </Col>
                                 <Col lg={4}>
-                                    <Magento_service_card cardImg={service2} cardHeading="DAO for Business Governance in Chandigarh Panchkula" cardPara="Implement DAO systems to enable autonomous decision-making and governance within your organization in Chandigarh Panchkula." />
+                                    <Magento_service_card cardImg={service2} altText='Decentralized Governance & DAO Development' cardHeading="DAO for Business Governance in Chandigarh Panchkula" cardPara="Implement DAO systems to enable autonomous decision-making and governance within your organization in Chandigarh Panchkula." />
                                 </Col>
                                 <Col lg={4}>
-                                    <Magento_service_card cardImg={service3} cardHeading="DAP and DAO Integration in Chandigarh Panchkula" cardPara="Integrate DAP and DAO systems seamlessly for enhanced data security and operational synergy in Chandigarh Panchkula." />
+                                    <Magento_service_card cardImg={service3} altText='Blockchain-Powered DApp Solutions'  cardHeading="DAP and DAO Integration in Chandigarh Panchkula" cardPara="Integrate DAP and DAO systems seamlessly for enhanced data security and operational synergy in Chandigarh Panchkula." />
                                 </Col>
                                 <Col lg={4}>
-                                    <Magento_service_card cardImg={service4} cardHeading="Mobile DAP Solutions" cardPara="Empower users with mobile-accessible DAPs, facilitating decentralized operations on-the-go." />
+                                    <Magento_service_card cardImg={service4} altText='Web3 & DeFi DApp Development Services'  cardHeading="Mobile DAP Solutions" cardPara="Empower users with mobile-accessible DAPs, facilitating decentralized operations on-the-go." />
                                 </Col>
                                 <Col lg={4}>
-                                    <Magento_service_card cardImg={service5} cardHeading="Smart Contracts for DAOs" cardPara="Utilize smart contracts within DAO frameworks for automated, enforceable governance." />
+                                    <Magento_service_card cardImg={service5} altText='Top DApp Developers in Panchkula'  cardHeading="Smart Contracts for DAOs" cardPara="Utilize smart contracts within DAO frameworks for automated, enforceable governance." />
                                 </Col>
                                 <Col lg={4}>
-                                    <Magento_service_card cardImg={service6} cardHeading="Blockchain Analytics for DAP and DAO" cardPara="Leverage blockchain analytics within your DAO or DAP for real-time insights and performance tracking." />
+                                    <Magento_service_card cardImg={service6} altText='Smart Contract-Based DApp Development'  cardHeading="Blockchain Analytics for DAP and DAO" cardPara="Leverage blockchain analytics within your DAO or DAP for real-time insights and performance tracking." />
                                 </Col>
                             </Row>
                         </div>
@@ -186,6 +186,14 @@ const DAP_DAO = () => {
                     pointPara3='Tailored solutions to boost efficiency and support sustainable growth.'
                     point4='Clear Communication'
                     pointPara4='Transparent communication keeps you informed every step of the way.'
+                    altTags={{
+                        group1: "DApp Development Company in Chandigarh",
+                        group2: "Blockchain-Powered DApp Solutions",
+                        group3: "Decentralized Governance & DAO Development",
+                        group4: "Web3 & DeFi DApp Development Services",
+                        mockups: "Top DApp Developers in Panchkula",
+                        whiteLogo: "Decentralized Governance & DAO Development"
+                    }}
                 />
 
 

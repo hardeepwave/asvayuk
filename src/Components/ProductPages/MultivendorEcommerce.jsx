@@ -44,7 +44,7 @@ const MultivendorEcommerce = () => {
                                         <Breadcrumb.Item linkAs={Link} linkProps={{ to: "#" }}>Services</Breadcrumb.Item>
                                         <Breadcrumb.Item active>Multi-Vendor E-commerce</Breadcrumb.Item>
                                     </Breadcrumb>
-                                    <h1><Link to="https://maps.app.goo.gl/sDkN86Cnw1b1W8iK7">Multi-Vendor E-commerce Development in Panchkula & Chandigarh</Link></h1>
+                                    <h1><Link to="https://maps.app.goo.gl/sDkN86Cnw1b1W8iK7">Multi-Vendor<br/> E-commerce Development in Panchkula & Chandigarh</Link></h1>
                                     <p className="py-3">
                                         Build a successful multi-vendor e-commerce platform with Asvayuk Technologies. We offer customized solutions to streamline vendor management, optimize online sales, and create a seamless shopping experience for businesses in Panchkula and Chandigarh.
                                     </p>
@@ -102,22 +102,22 @@ const MultivendorEcommerce = () => {
                         <div className='ecommerce_cards'>
                             <Row className='gy-4'>
                                 <Col lg={4}>
-                                    <Magento_service_card cardImg={service1} cardHeading="Multi-Vendor Platform" cardPara="Develop a unique multi-vendor platform tailored to your business needs, with features for vendor management, product listings, and payment processing." />
+                                    <Magento_service_card cardImg={service1} altText='Multi-Vendor E-commerce Development in Panchkula & Chandigarh' cardHeading="Multi-Vendor Platform" cardPara="Develop a unique multi-vendor platform tailored to your business needs, with features for vendor management, product listings, and payment processing." />
                                 </Col>
                                 <Col lg={4}>
-                                    <Magento_service_card cardImg={service2} cardHeading="Vendor Management System" cardPara="Efficiently manage multiple vendors, their products, and orders on a centralized platform to streamline operations." />
+                                    <Magento_service_card cardImg={service2} altText='Best Multi-Vendor E-commerce Development in Chandigarh'  cardHeading="Vendor Management System" cardPara="Efficiently manage multiple vendors, their products, and orders on a centralized platform to streamline operations." />
                                 </Col>
                                 <Col lg={4}>
-                                    <Magento_service_card cardImg={service3} cardHeading="Secure Payment Integration" cardPara="Ensure a secure shopping experience with seamless payment gateway integration supporting various methods." />
+                                    <Magento_service_card cardImg={service3} altText='Custom Marketplace Development in Panchkula'  cardHeading="Secure Payment Integration" cardPara="Ensure a secure shopping experience with seamless payment gateway integration supporting various methods." />
                                 </Col>
                                 <Col lg={4}>
-                                    <Magento_service_card cardImg={service4} cardHeading="Mobile-Friendly E-commerce" cardPara="Offer a responsive and mobile-friendly platform to enhance the shopping experience on all devices." />
+                                    <Magento_service_card cardImg={service4} altText='Multi-Vendor Website Development in Chandigarh'  cardHeading="Mobile-Friendly E-commerce" cardPara="Offer a responsive and mobile-friendly platform to enhance the shopping experience on all devices." />
                                 </Col>
                                 <Col lg={4}>
-                                    <Magento_service_card cardImg={service5} cardHeading="Product Catalog Management" cardPara="Easily organize, manage, and update product listings to ensure accurate and updated information." />
+                                    <Magento_service_card cardImg={service5} altText='Scalable E-commerce Solutions in Panchkula'  cardHeading="Product Catalog Management" cardPara="Easily organize, manage, and update product listings to ensure accurate and updated information." />
                                 </Col>
                                 <Col lg={4}>
-                                    <Magento_service_card cardImg={service6} cardHeading="Analytics & Insights" cardPara="Gain insights with analytics tools that help track performance, sales, and customer behavior to optimize your platform." />
+                                    <Magento_service_card cardImg={service6} altText='Custom E-commerce Store Development in Chandigarh'  cardHeading="Analytics & Insights" cardPara="Gain insights with analytics tools that help track performance, sales, and customer behavior to optimize your platform." />
                                 </Col>
                             </Row>
                         </div>

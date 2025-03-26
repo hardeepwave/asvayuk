@@ -173,9 +173,7 @@ const Website_Development = () => {
                   Our Website Development Services in Chandigarh and Mohali
                 </h2>
                 <p className="mt-3">
-                At <b>Asvayuk Technologies</b>, we offer a comprehensive range of
-                  website development services in Chandigarh and Mohali,
-                  ensuring customized solutions for diverse business needs.
+                 At <b>Asvayuk Technologies</b>, we offer a comprehensive range of website development services in Chandigarh and Mohali,ensuring customized solutions for diverse business needs.
                 </p>
               </div>
               <div className="performance_card2_inner-sec mt-5">
@@ -183,6 +181,7 @@ const Website_Development = () => {
                   <div className="col-lg-4 pb-4">
                     <ServicesCard
                       ServiceCardImg={c11}
+                      altText="Website development services in chandigarh"
                       cardHeading="Custom Website Development"
                       cardParaGraph="Our custom web development services are tailored to meet your specific business requirements. Whether you need a portfolio website, a corporate site, or a custom web app, we deliver top-quality solutions."
                     />
@@ -190,6 +189,7 @@ const Website_Development = () => {
                   <div className="col-lg-4 pb-4">
                     <ServicesCard
                       ServiceCardImg={c12}
+                      altText="website designers chandigarh, mohali"
                       cardHeading="E-Commerce Website Development"
                       cardParaGraph="Unlock the power of your online store! With our e-commerce solutions, enjoy secure payments, flawless functionality, and a seamless user experience that will elevate your sales and amplify your brand!"
                     />
@@ -197,6 +197,7 @@ const Website_Development = () => {
                   <div className="col-lg-4 pb-4">
                     <ServicesCard
                       ServiceCardImg={c13}
+                      altText="website development company mohali"
                       cardHeading="Responsive Web Design"
                       cardParaGraph="As a leading web development agency in Chandigarh, we create mobile-friendly, responsive websites with seamless UX/UI, boosting engagement and enhancing your online presence."
                     />
@@ -204,6 +205,7 @@ const Website_Development = () => {
                   <div className="col-lg-4 pb-4">
                     <ServicesCard
                       ServiceCardImg={c14}
+                      altText="web development agency chandigarh"
                       cardHeading="WordPress Development"
                       cardParaGraph="We specialize in WordPress website development, offering customized themes, plugins, and scalable solutions for businesses of all sizes."
                     />
@@ -211,6 +213,7 @@ const Website_Development = () => {
                   <div className="col-lg-4 pb-4">
                     <ServicesCard
                       ServiceCardImg={c15}
+                      altText="website development provider chandigarh"
                       cardHeading="Website Redesign & Maintenance"
                       cardParaGraph="Optimize your web presence for voice search to enhance discoverability and user-friendliness in voice interactions, improving accessibility and user experience."
                     />
@@ -218,6 +221,7 @@ const Website_Development = () => {
                   <div className="col-lg-4 pb-4">
                     <ServicesCard
                       ServiceCardImg={c16}
+                      altText="best web developers of chandigarh and mohali"
                       cardHeading="Blockchain Integration"
                       cardParaGraph="Unlock blockchain security & efficiency! Asvayuk Technologies offers tailored decentralized solutions—secure, scalable, and future-ready."
                     />
@@ -239,6 +243,14 @@ const Website_Development = () => {
           pointPara3="Our commitment to a customer-centric approach ensures a smooth and seamless user experience at every step."
           point4="Robust Support"
           pointPara4="Count on our dedicated support team to ensure your digital presence is always optimized."
+          altTags={{
+              group1: "Website Designing in Chandigarh",
+              group2: "Website development company in chandigarh",
+              group3: "web development agency chandigarh",
+              group4: "website development provider chandigarh",
+              mockups: "best web developers of chandigarh and mohali",
+              whiteLogo: "Website development company chandigarh and mohali"
+          }}
         />
 
           <section className="saas-technology">

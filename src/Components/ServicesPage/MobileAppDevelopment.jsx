@@ -122,22 +122,22 @@ function MobileAppDevelopment() {
                             <div className="performance_card2_inner-sec mt-5">
                                 <div className="row">
                                     <div className="col-lg-4 pb-4 d-flex">
-                                        <ServicesCard ServiceCardImg={c11} cardHeading='Android App Development' cardParaGraph={<>As a trusted <i>Android Application Developer in Chandigarh</i>,we deliver scalable, robust, and feature-rich apps using the latest technologies for high performance and a seamless user experience across devices.</>} />
+                                        <ServicesCard ServiceCardImg={c11} altText='Mobile app development service chandigarh' cardHeading='Android App Development' cardParaGraph={<>As a trusted <i>Android Application Developer in Chandigarh</i>,we deliver scalable, robust, and feature-rich apps using the latest technologies for high performance and a seamless user experience across devices.</>} />
                                     </div>
                                     <div className="col-lg-4 pb-4 d-flex">
-                                        <ServicesCard ServiceCardImg={c12} cardHeading='iOS App Development' cardParaGraph={<>Our <i>skilled iOS app developers in Chandigarh we </i>create customized, high-performance apps optimized for Apple devices, ensuring seamless functionality, speed, and exceptional design.</>}/>
+                                        <ServicesCard ServiceCardImg={c12} altText='Best Mobile App Development Company In Chandigarh' cardHeading='iOS App Development' cardParaGraph={<>Our <i>skilled iOS app developers in Chandigarh we </i>create customized, high-performance apps optimized for Apple devices, ensuring seamless functionality, speed, and exceptional design.</>}/>
                                     </div>
                                     <div className="col-lg-4 pb-4 d-flex">
-                                        <ServicesCard ServiceCardImg={c13} cardHeading='Cross-Platform Mobile Apps' cardParaGraph={<>We specialize in developing cross-platform mobile applications for Android and iOS, ensuring a wider audience reach with seamless functionality, high performance, and consistent design.</>} />
+                                        <ServicesCard ServiceCardImg={c13} altText='mobile App Developers in Chandigarh' cardHeading='Cross-Platform Mobile Apps' cardParaGraph={<>We specialize in developing cross-platform mobile applications for Android and iOS, ensuring a wider audience reach with seamless functionality, high performance, and consistent design.</>} />
                                     </div>
                                     <div className="col-lg-4 pb-4 d-flex">
-                                        <ServicesCard ServiceCardImg={c14} cardHeading='React Native App Development' cardParaGraph='Enhance app performance with consistent user experiences across platforms using React Native, supported by Asvayuk Technologies.' />
+                                        <ServicesCard ServiceCardImg={c14} altText='mobile app development companies in Chandigarh' cardHeading='React Native App Development' cardParaGraph='Enhance app performance with consistent user experiences across platforms using React Native, supported by Asvayuk Technologies.' />
                                     </div>
                                     <div className="col-lg-4 pb-4 d-flex">
-                                        <ServicesCard ServiceCardImg={c15} cardHeading='Flutter App Development' cardParaGraph='Leveraging Flutter, Google’s UI toolkit, Asvayuk Technologies creates visually stunning, natively compiled applications for mobile and web platforms.' />
+                                        <ServicesCard ServiceCardImg={c15} altText={<>Chandigarh's Leading Mobile App Development Company</>} cardHeading='Flutter App Development' cardParaGraph='Leveraging Flutter, Google’s UI toolkit, Asvayuk Technologies creates visually stunning, natively compiled applications for mobile and web platforms.' />
                                     </div>
                                     <div className="col-lg-4 pb-4 d-flex">
-                                        <ServicesCard ServiceCardImg={c16} cardHeading='Hybrid App Development' cardParaGraph='Integrating web technologies efficiency with native app performance Asvayuk Technologies offers robust hybrid app development solutions.' />
+                                        <ServicesCard ServiceCardImg={c16} altText={<>Chandigarh's Most Trusted Mobile App Development Company</>} cardHeading='Hybrid App Development' cardParaGraph='Integrating web technologies efficiency with native app performance Asvayuk Technologies offers robust hybrid app development solutions.' />
                                     </div>
                                 </div>
                             </div>
@@ -149,12 +149,12 @@ function MobileAppDevelopment() {
                 <KeyPointSection keyHeading={<>Why Asvayuk Technologies is the Best Choice for Mobile App Development Chandigarh</>}
                     keyPara={<>When it comes to mobile app development Chandigarh, Asvayuk Technologies is renowned for providing solutions that are innovative, reliable, and user-centric. We are proud to be recognized as Chandigarh’s Leading Mobile App Development Company, delivering high-quality mobile apps that enhance user engagement and drive business growth. Our approach revolves around understanding your unique business requirements, designing tailored solutions, and ensuring that your app provides an exceptional experience for users.</>}
                     hideKeyPoints={true}
-                    // keyPoint1="Custom Smart Contract Development" 
-                    // keyPoint2="Cross-Platform Integration" 
-                    // keyPoint3="Data Privacy and Encryptiont" 
-                    // keyPoint4="Seamless Blockchain Migration"
                     url="/contact-us" btnTitle="Request Consultation"
-                    Group105518={Group105518} />
+                    Group105518={Group105518} 
+                    altTags={{
+                        Group105518: "Mobile app development chandigarh"
+                    }}
+                    />
 
                 <Experience expTitle={<>Why Choose <span style={{color : '#249f81'}}>Asvayuk Technologies</span> for Mobile App Development?</>}
                     ExpPara={<>As Chandigarh's Most Trusted <b>Mobile App Development Company</b>, we stand out for our commitment to delivering apps that are not only innovative but also functional and cost-effective. Here's why you should choose Asvayuk Technologies :</>}
@@ -163,14 +163,14 @@ function MobileAppDevelopment() {
                     point3='On-Time Delivery' pointPara3={<>We respect your deadlines and ensure on-time delivery with high performance, seamless functionality, and uncompromised quality.</>}
                     point4='Competitive Pricing' pointPara4={<>Our services are priced competitively to ensure you get the best value for your investment in mobile app development.</>}
                     altTags={{
-                        group1: "Mobile app development chandigarh",
+                        group1: "Software Development Company in Chandigarh",
                         group2: "reliable app development company in Chandigarh",
                         group3: "mobile app development companies in Chandigarh",
                         group4: "Chandigarh's Leading Mobile App Development Company",
                         mockups: "Chandigarh's Most Trusted Mobile App Development Company",
-                        whiteLogo: "Software Development Company in Chandigarh"
+                        whiteLogo: "Mobile app development chandigarh"
                     }}
-                     />
+                />
 
                 <section className="saas-technology">
                     <div className="container">

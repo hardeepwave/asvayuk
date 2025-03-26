@@ -104,22 +104,22 @@ const Zomato_Urbanup_Clone = () => {
                         <div className='game_cards'>
                             <Row className='gy-4'>
                                 <Col lg={4}>
-                                    <Magento_service_card cardImg={service1} cardHeading="Custom Zomato/UrbanUp Clone Development" cardPara="We provide custom solutions for Zomato/UrbanUp clone apps, tailored to your unique business needs." />
+                                    <Magento_service_card cardImg={service1} altText='Zomato & UrbanClap Clone App Development in Panchkula & Chandigarh' cardHeading="Custom Zomato/UrbanUp Clone Development" cardPara="We provide custom solutions for Zomato/UrbanUp clone apps, tailored to your unique business needs." />
                                 </Col>
                                 <Col lg={4}>
-                                    <Magento_service_card cardImg={service2} cardHeading="Mobile Food Delivery App Development" cardPara="Our mobile app development services ensure an intuitive and engaging food delivery experience for users." />
+                                    <Magento_service_card cardImg={service2} altText='Best Zomato Clone App Development in Chandigarh & Panchkula' cardHeading="Mobile Food Delivery App Development" cardPara="Our mobile app development services ensure an intuitive and engaging food delivery experience for users." />
                                 </Col>
                                 <Col lg={4}>
-                                    <Magento_service_card cardImg={service3} cardHeading="Cross-Platform Solutions" cardPara="We offer cross-platform solutions to ensure your food delivery app performs seamlessly on both iOS and Android." />
+                                    <Magento_service_card cardImg={service3} altText='UrbanClap Clone App Development Services in Chandigarh' cardHeading="Cross-Platform Solutions" cardPara="We offer cross-platform solutions to ensure your food delivery app performs seamlessly on both iOS and Android." />
                                 </Col>
                                 <Col lg={4}>
-                                    <Magento_service_card cardImg={service4} cardHeading="Comprehensive Admin Panel Integration" cardPara="Our admin panel integration allows easy management of restaurants, orders, and delivery agents." />
+                                    <Magento_service_card cardImg={service4} altText='On-Demand Food & Service App Development Company'  cardHeading="Comprehensive Admin Panel Integration" cardPara="Our admin panel integration allows easy management of restaurants, orders, and delivery agents." />
                                 </Col>
                                 <Col lg={4}>
-                                    <Magento_service_card cardImg={service5} cardHeading="Real-Time Order Tracking" cardPara="Track orders in real-time with advanced tracking and notification features for both customers and delivery agents." />
+                                    <Magento_service_card cardImg={service5} altText='Custom Zomato-Like App Development Solutions'  cardHeading="Real-Time Order Tracking" cardPara="Track orders in real-time with advanced tracking and notification features for both customers and delivery agents." />
                                 </Col>
                                 <Col lg={4}>
-                                    <Magento_service_card cardImg={service6} cardHeading="On-Demand Food Delivery Features" cardPara="We provide on-demand features for food delivery services, enhancing user experience with efficient order placement and delivery." />
+                                    <Magento_service_card cardImg={service6} altText='Multi-Vendor Marketplace App Development Services'  cardHeading="On-Demand Food Delivery Features" cardPara="We provide on-demand features for food delivery services, enhancing user experience with efficient order placement and delivery." />
                                 </Col>
                             </Row>
                         </div>
@@ -186,6 +186,15 @@ const Zomato_Urbanup_Clone = () => {
                     pointPara3='Our apps are designed to enhance user engagement and satisfaction.'
                     point4='Clear Communication & Support'
                     pointPara4='We provide ongoing support and transparent communication throughout the development process.'
+
+                    altTags={{
+                        group1: "Affordable Zomato & UrbanClap Clone App Developers",
+                        group2: "End-to-End Mobile App Development for Startups & Enterprises",
+                        group3: "Custom Zomato-Like App Development Solutions",
+                        group4: "Scalable Food Delivery App Development in Panchkula",
+                        mockups: "ulti-Vendor Marketplace App Development Services",
+                        whiteLogo: "Best Zomato Clone App Development in Chandigarh & Panchkula"
+                    }}
                 />
 
 

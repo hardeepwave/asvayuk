@@ -102,22 +102,22 @@ const CryptoExchange = () => {
                         <div className='magento_cards'>
                             <Row className='gy-4'>
                                 <Col lg={4}>
-                                    <Magento_service_card cardImg={service1} cardHeading="Crypto Exchange Development" cardPara="Develop secure, scalable, and efficient crypto exchange platforms with advanced trading features." />
+                                    <Magento_service_card cardImg={service1} altText='Best Crypto Exchange Development Company in Chandigarh' cardHeading="Crypto Exchange Development" cardPara="Develop secure, scalable, and efficient crypto exchange platforms with advanced trading features." />
                                 </Col>
                                 <Col lg={4}>
-                                    <Magento_service_card cardImg={service2} cardHeading="Blockchain Integration" cardPara="Seamlessly integrate blockchain technology to enhance the security and transparency of your exchange platform." />
+                                    <Magento_service_card cardImg={service2} altText='White-Label Crypto Exchange Software Chandigarh'  cardHeading="Blockchain Integration" cardPara="Seamlessly integrate blockchain technology to enhance the security and transparency of your exchange platform." />
                                 </Col>
                                 <Col lg={4}>
-                                    <Magento_service_card cardImg={service3} cardHeading="Multi-Currency Support" cardPara="Offer support for various cryptocurrencies, enabling users to trade multiple digital assets effortlessly." />
+                                    <Magento_service_card cardImg={service3} altText='Crypto Trading Software Development Company Panchkula'  cardHeading="Multi-Currency Support" cardPara="Offer support for various cryptocurrencies, enabling users to trade multiple digital assets effortlessly." />
                                 </Col>
                                 <Col lg={4}>
-                                    <Magento_service_card cardImg={service4} cardHeading="Mobile Crypto Exchange" cardPara="Enable users to access and trade digital assets on-the-go with mobile-compatible crypto exchange platforms." />
+                                    <Magento_service_card cardImg={service4} altText='Secure & Fast Crypto Exchange Solutions Chandigarh'  cardHeading="Mobile Crypto Exchange" cardPara="Enable users to access and trade digital assets on-the-go with mobile-compatible crypto exchange platforms." />
                                 </Col>
                                 <Col lg={4}>
-                                    <Magento_service_card cardImg={service5} cardHeading="Smart Contract Solutions" cardPara="Implement smart contracts to automate processes and ensure secure transactions on your platform." />
+                                    <Magento_service_card cardImg={service5} altText='Blockchain-Powered Crypto Exchange Chandigarh & Panchkula'  cardHeading="Smart Contract Solutions" cardPara="Implement smart contracts to automate processes and ensure secure transactions on your platform." />
                                 </Col>
                                 <Col lg={4}>
-                                    <Magento_service_card cardImg={service6} cardHeading="Blockchain Analytics" cardPara="Leverage blockchain analytics to track exchange transactions, trends, and market behavior." />
+                                    <Magento_service_card cardImg={service6} altText='Multi-Currency Crypto Exchange Development Panchkula'  cardHeading="Blockchain Analytics" cardPara="Leverage blockchain analytics to track exchange transactions, trends, and market behavior." />
                                 </Col>
                             </Row>
                         </div>
@@ -186,6 +186,15 @@ const CryptoExchange = () => {
                     pointPara3='We provide customized crypto exchange platforms that align with your specific business needs.'
                     point4='Clear Communication'
                     pointPara4='We ensure transparency throughout the process, keeping you informed at every stage of development.'
+
+                    altTags={{
+                        group1: "Best Crypto Exchange Development Company in Chandigarh",
+                        group2: "Secure Cryptocurrency Exchange Solutions in Panchkula",
+                        group3: "Custom Crypto Exchange Development in Panchkula",
+                        group4: "Scalable Cryptocurrency Trading Platform Panchkula",
+                        mockups: "Crypto Trading Software Development Company Panchkula",
+                        whiteLogo: "End-to-End Cryptocurrency Exchange Development Panchkula"
+                    }}
                 />
 
                 <section className="caseStuides">

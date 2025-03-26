@@ -183,6 +183,7 @@ const CryptoWallet = () => {
                 <Col lg={4}>
                   <Magento_service_card
                     cardImg={service1}
+                    altText="Crypto Wallet Development Company in Chandigarh"
                     cardHeading="Crypto Wallet Development"
                     cardPara="Develop secure and scalable crypto wallets to manage your digital assets with ease."
                   />
@@ -190,6 +191,7 @@ const CryptoWallet = () => {
                 <Col lg={4}>
                   <Magento_service_card
                     cardImg={service2}
+                    altText="Affordable Crypto Wallet Development Services"
                     cardHeading="Blockchain Wallet Integration"
                     cardPara="Integrate blockchain technology into your wallet for enhanced security and decentralized control."
                   />
@@ -197,6 +199,7 @@ const CryptoWallet = () => {
                 <Col lg={4}>
                   <Magento_service_card
                     cardImg={service3}
+                    altText="Crypto Wallet Solutions in Chandigarh and Panchkula"
                     cardHeading="Multi-Currency Support"
                     cardPara="Support for multiple cryptocurrencies in a single wallet for easy management."
                   />
@@ -204,6 +207,7 @@ const CryptoWallet = () => {
                 <Col lg={4}>
                   <Magento_service_card
                     cardImg={service4}
+                    altText="Custom Bitcoin & Ethereum Wallet Development"
                     cardHeading="Mobile Crypto Wallets"
                     cardPara="Access your digital assets on-the-go with mobile-compatible crypto wallets."
                   />
@@ -211,6 +215,7 @@ const CryptoWallet = () => {
                 <Col lg={4}>
                   <Magento_service_card
                     cardImg={service5}
+                    altText="Web3 Wallet Development Company in Panchkula"
                     cardHeading="Smart Wallet Features"
                     cardPara="Utilize advanced smart wallet features for automation and security in crypto management."
                   />
@@ -218,6 +223,7 @@ const CryptoWallet = () => {
                 <Col lg={4}>
                   <Magento_service_card
                     cardImg={service6}
+                    altText="Secure Blockchain Wallet Development Services"
                     cardHeading="Blockchain Analytics"
                     cardPara="Track blockchain transactions and monitor wallet performance with advanced analytics."
                   />
@@ -383,6 +389,15 @@ const CryptoWallet = () => {
           pointPara3="We customize our wallet solutions to meet the specific needs of your business or personal use."
           point4="Clear Communication"
           pointPara4="We maintain transparency throughout the development process, keeping you informed at every stage."
+
+          altTags={{
+              group1: "Crypto Wallet Development Company in Chandigarh",
+              group2: "Crypto Payment Gateway & Wallet Integration",
+              group3: "Affordable Crypto Wallet Development Services",
+              group4: "Secure Blockchain Wallet Development Services",
+              mockups: "Best Cryptocurrency Wallet Development in Mohali",
+              whiteLogo: "Crypto Wallet Solutions in Chandigarh and Panchkula"
+          }}
         />
 
         <section className="caseStuides">
@@ -475,8 +490,7 @@ const CryptoWallet = () => {
                     <div className="col-lg-6 col-md-6 col-12 col-sm-12">
                       <div className="fullcase_details">
                         <div className="fullCaseStudy_slider_logo">
-                          <img src={moonLight} alt="Secure Blockchain Wallet Development Services
-" />
+                          <img src={moonLight} alt="Secure Blockchain Wallet Development Services" />
                         </div>
                         <div className="fullCaseStudy_textContent py-4">
                           <h2 className="fw-semibold lh-base">

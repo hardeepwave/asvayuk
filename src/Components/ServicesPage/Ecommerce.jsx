@@ -169,29 +169,29 @@ const ECommerce = () => {
                             <div className="performance_card2_inner-sec mt-5">
                                 <div className="row">
                                     <div className="col-lg-4 pb-4 d-flex">
-                                        <ServicesCard ServiceCardImg={c11} cardHeading='Custom eCommerce Design & Development' cardParaGraph='Tailored eCommerce solutions that reflect your brand’s identity, designed to enhance user experience and maximize conversions.' />
+                                        <ServicesCard ServiceCardImg={c11} altText="website designing services in Chandigarh" cardHeading='Custom eCommerce Design & Development' cardParaGraph='Tailored eCommerce solutions that reflect your brand’s identity, designed to enhance user experience and maximize conversions.' />
                                     </div> 
                                     <div className="col-lg-4 pb-4 d-flex">
-                                        <ServicesCard ServiceCardImg={c12} cardHeading='Shopify and Magento Store Setup' cardParaGraph='Seamless Shopify and Magento store setup, crafted for efficient operations and a smooth shopping experience.' />
+                                        <ServicesCard ServiceCardImg={c12} altText="Professional Ecommerce Website Builders in Chandigarh" cardHeading='Shopify and Magento Store Setup' cardParaGraph='Seamless Shopify and Magento store setup, crafted for efficient operations and a smooth shopping experience.' />
                                     </div>
                                     <div className="col-lg-4 pb-4 d-flex">
-                                        <ServicesCard ServiceCardImg={c13} cardHeading='WooCommerce & OpenCart Solutions' cardParaGraph='Scalable WooCommerce and OpenCart solutions, designed to give you complete control over your online store.' />
+                                        <ServicesCard ServiceCardImg={c13} altText="e-commerce development business in Chandigarh" cardHeading='WooCommerce & OpenCart Solutions' cardParaGraph='Scalable WooCommerce and OpenCart solutions, designed to give you complete control over your online store.' />
                                     </div>
                                     <div className="col-lg-4 pb-4 d-flex">
-                                        <ServicesCard ServiceCardImg={c14} cardHeading='Multi-Vendor Marketplace Development' cardParaGraph='Build a robust multi-vendor marketplace, enabling you to manage multiple sellers while optimizing business growth.' />
+                                        <ServicesCard ServiceCardImg={c14} altText="Ecommerce Developers in Chandigarh" cardHeading='Multi-Vendor Marketplace Development' cardParaGraph='Build a robust multi-vendor marketplace, enabling you to manage multiple sellers while optimizing business growth.' />
                                     </div>
                                     <div className="col-lg-4 pb-4 d-flex">
-                                        <ServicesCard ServiceCardImg={c15} cardHeading='Mobile App Integration for eCommerce' cardParaGraph='Boost customer engagement by seamlessly integrating your eCommerce platform with user-friendly mobile apps.' />
+                                        <ServicesCard ServiceCardImg={c15} altText="ecommerce development services in Chandigarh" cardHeading='Mobile App Integration for eCommerce' cardParaGraph='Boost customer engagement by seamlessly integrating your eCommerce platform with user-friendly mobile apps.' />
                                     </div>
                                     <div className="col-lg-4 pb-4 d-flex">
-                                        <ServicesCard ServiceCardImg={c16} cardHeading='Speed Optimization & Performance Enhancement' cardParaGraph='Enhance your store’s speed with cutting-edge optimization strategies, ensuring fast load times and a smooth browsing experience.' />
+                                        <ServicesCard ServiceCardImg={c16} altText="Shopify Website Development in Chandigarh" cardHeading='Speed Optimization & Performance Enhancement' cardParaGraph='Enhance your store’s speed with cutting-edge optimization strategies, ensuring fast load times and a smooth browsing experience.' />
                                     </div>
                                     <div className="ecommerce_cards d-lg-flex justify-content-center gap-4 d-block">
                                         <div className="col-lg-4 pb-4 d-flex">
-                                            <ServicesCard ServiceCardImg={c13} cardHeading='Secure Hosting & Domain Services' cardParaGraph='Reliable, secure hosting and domain services that guarantee your website’s uptime and protect customer data.' />
+                                            <ServicesCard ServiceCardImg={c13} altText="Magento Ecommerce Development in Chandigarh" cardHeading='Secure Hosting & Domain Services' cardParaGraph='Reliable, secure hosting and domain services that guarantee your website’s uptime and protect customer data.' />
                                         </div>
                                         <div className="col-lg-4 pb-4 d-flex">
-                                            <ServicesCard ServiceCardImg={c12} cardHeading='Sitecore Commerce Development' cardParaGraph='Engage shoppers with omnichannel buying experiences across touchpoints and moments using Sitecore commerce solutions.' />
+                                            <ServicesCard ServiceCardImg={c12} altText="Ecommerce Website Makers in Chandigarh" cardHeading='Sitecore Commerce Development' cardParaGraph='Engage shoppers with omnichannel buying experiences across touchpoints and moments using Sitecore commerce solutions.' />
                                         </div>
                                     </div>
                                 </div>
@@ -224,8 +224,16 @@ const ECommerce = () => {
                     pointPara1='We offer personalized website development that suits your business model and target audience.' 
                     point2='SEO-Optimized Websites' pointPara2='Our websites are built with SEO best practices, ensuring higher search rankings and better visibility.' 
                     point3='Mobile-Friendly Designs' pointPara3='We create responsive designs to enhance user experience on all devices' 
-                    point4='24/7 Support & Maintenance' pointPara4='Reliable support and updates to keep your website running smoothly.' 
-                    />
+                    point4='24/7 Support & Maintenance' pointPara4='Reliable support and updates to keep your website running smoothly.'
+                    altTags={{
+                        group1: "Professional Ecommerce Website Builders in Chandigarh",
+                        group2: "website designing services in Chandigarh",
+                        group3: "e-commerce development business in Chandigarh",
+                        group4: "ecommerce development services in Chandigarh",
+                        mockups: "Professional Ecommerce Website Builders in Chandigarh",
+                        whiteLogo: "Ecommerce Website designing Company Chandigarh"
+                    }} 
+                                        />
 
                   <KeyPointSection keyHeading={<>Benefits of eCommerce Development for Your Business</>}
                     keyPara={<>The e-commerce industry is growing rapidly, and businesses need a professional e-commerce development business in Chandigarh to thrive.
@@ -236,7 +244,16 @@ const ECommerce = () => {
                     keyPoint4='Better Customer Insights'
                     keyPoint5='Higher Conversion Rates'
                     url="/contact-us" btnTitle="Request Consultation"
-                    Group105518={Group105518} />
+                    Group105518={Group105518} 
+                    altTags={{
+                        check1: "e commerce website provider chandigarh",
+                        check2: "E-commerce in Chandigarh",
+                        check3: "Ecommerce Website Makers in Chandigarh",
+                        check4: "Shopify Website Development in Chandigarh",
+                        check5: "Magento Ecommerce Development in Chandigarh",
+                        Group105518: "Ecommerce Website designing Company Chandigarh"
+                    }}
+                    />
 
                     <section className="performance_card2">
                             <div className="container">

@@ -101,22 +101,22 @@ const HospitalManagement = () => {
                         <div className='service_cards'>
                             <Row className='gy-4'>
                                 <Col lg={4}>
-                                    <Magento_service_card cardImg={service1} cardHeading="Custom Hospital Management Software" cardPara="We create custom hospital management software solutions tailored to meet your institution's unique needs." />
+                                    <Magento_service_card cardImg={service1} altText='Hospital Management Software in Panchkula & Chandigarh' cardHeading="Custom Hospital Management Software" cardPara="We create custom hospital management software solutions tailored to meet your institution's unique needs." />
                                 </Col>
                                 <Col lg={4}>
-                                    <Magento_service_card cardImg={service2} cardHeading="Patient & Staff Management" cardPara="Our software enables seamless management of patient and staff data, improving healthcare service quality." />
+                                    <Magento_service_card cardImg={service2} altText='Best Hospital Management Software in Chandigarh'  cardHeading="Patient & Staff Management" cardPara="Our software enables seamless management of patient and staff data, improving healthcare service quality." />
                                 </Col>
                                 <Col lg={4}>
-                                    <Magento_service_card cardImg={service3} cardHeading="Real-Time Communication Tools" cardPara="We integrate real-time communication tools for efficient interaction between doctors, staff, and patients." />
+                                    <Magento_service_card cardImg={service3} altText='Advanced Healthcare Software Solutions in Panchkula'  cardHeading="Real-Time Communication Tools" cardPara="We integrate real-time communication tools for efficient interaction between doctors, staff, and patients." />
                                 </Col>
                                 <Col lg={4}>
-                                    <Magento_service_card cardImg={service4} cardHeading="Billing & Payment Management" cardPara="Our hospital management system includes automated billing, payment tracking, and invoice generation features." />
+                                    <Magento_service_card cardImg={service4} altText='Custom Hospital Software Development in Panchkula'  cardHeading="Billing & Payment Management" cardPara="Our hospital management system includes automated billing, payment tracking, and invoice generation features." />
                                 </Col>
                                 <Col lg={4}>
-                                    <Magento_service_card cardImg={service5} cardHeading="Appointment Scheduling & Management" cardPara="Our platform offers easy-to-manage scheduling features for doctors, patients, and hospital staff." />
+                                    <Magento_service_card cardImg={service5} altText='Affordable Hospital ERP Software in Chandigarh'  cardHeading="Appointment Scheduling & Management" cardPara="Our platform offers easy-to-manage scheduling features for doctors, patients, and hospital staff." />
                                 </Col>
                                 <Col lg={4}>
-                                    <Magento_service_card cardImg={service6} cardHeading="Medical Records & Data Management" cardPara="We help hospitals manage electronic medical records, improving data access and security." />
+                                    <Magento_service_card cardImg={service6} altText='AI-Powered Healthcare Solutions in Panchkula'  cardHeading="Medical Records & Data Management" cardPara="We help hospitals manage electronic medical records, improving data access and security." />
                                 </Col>
                             </Row>
                         </div>
@@ -183,6 +183,15 @@ const HospitalManagement = () => {
                     pointPara3='We offer a range of customizable features to fit your specific needs.'
                     point4='Ongoing Support & Maintenance'
                     pointPara4='We ensure continuous support and regular updates for your software.'
+
+                    altTags={{
+                        group1: "EMR & EHR Software for Hospitals in Chandigarh",
+                        group2: "Best Hospital Management Software in Chandigarh",
+                        group3: "Custom Hospital Software Development in Panchkula",
+                        group4: "Advanced Healthcare Software Solutions in Panchkula",
+                        mockups: "Cloud-Based Hospital Management System Panchkula",
+                        whiteLogo: "Automated Patient Management System Chandigarh"
+                    }}
                 />
 
 

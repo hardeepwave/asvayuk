@@ -117,7 +117,7 @@ const Ar_Vr_Dev = () => {
                                                 </ul>
                                             </div>
                                             <div className="col-lg-6 col-md-5 d-flex align-content-center justify-content-center">
-                                                <img src={Group_989} />
+                                                <img src={Group_989} alt='Best AR/VR Development Services in Chandigarh, Panchkula & Mohali'/>
                                             </div>
                                         </div>
 
@@ -166,7 +166,7 @@ const Ar_Vr_Dev = () => {
                                                 </ul>
                                             </div>
                                             <div className="col-lg-6 col-md-5 d-flex align-content-center justify-content-center">
-                                                <img src={Group_989} />
+                                                <img src={Group_989} alt='AR/VR Development Services in Chandigarh & Panchkula'/>
                                             </div>
                                         </div>
 
@@ -177,9 +177,29 @@ const Ar_Vr_Dev = () => {
                     </Container>
                 </section>
 
-                <Experience expTitle='Why Choose Us?' point1='Proven Expertise' pointPara1='Enhance your e-commerce strategy with our proven WooCommerce development prowess.' point2='Commitment to Quality' pointPara2='Our dedicated quality assurance team guarantees a flawless, high-performance WooCommerce platform.' point3='Client-centric Approach' pointPara3='We prioritize your needs, ensuring a personalized and effective development journey.' point4='Transparent Communication' pointPara4='We uphold transparent communication throughout your project, keeping you informed at every step.' />
+                <Experience expTitle='Why Choose Us?' point1='Proven Expertise' pointPara1='Enhance your e-commerce strategy with our proven WooCommerce development prowess.' point2='Commitment to Quality' pointPara2='Our dedicated quality assurance team guarantees a flawless, high-performance WooCommerce platform.' point3='Client-centric Approach' pointPara3='We prioritize your needs, ensuring a personalized and effective development journey.' point4='Transparent Communication' pointPara4='We uphold transparent communication throughout your project, keeping you informed at every step.'
+                altTags={{
+                    group1: "AR/VR Development Services in Chandigarh & Panchkula",
+                    group2: "Best Virtual Reality Solutions in Panchkula & Mohali",
+                    group3: "Top Augmented Reality Developers in Mohali & Chandigarh",
+                    group4: "Custom AR/VR Software Development in Panchkula",
+                    mockups: "Future-Ready AR/VR Application Development in Chandigarh",
+                    whiteLogo: "AR/VR Development Services in Chandigarh & Panchkula"
+                }}
+                 />
 
-                <KeyPointSection keyHeading="With the help of our AR/VR development services, redefine reality." keyPara="Investigate all of the options. For unmatched AR/VR development, collaborate with us. Let's work together to create an immersive future." keyPoint1="Innovative Solutions" keyPoint2="Expert Development Team" keyPoint3="Tailored Experiences" keyPoint4="Transparent Communication" keyPoint5="Continuous Quality Enhancement" url="/contact-us" btnTitle="Request Consultation" Group105518={Group105518} />
+                <KeyPointSection keyHeading="With the help of our AR/VR development services, redefine reality." keyPara="Investigate all of the options. For unmatched AR/VR development, collaborate with us. Let's work together to create an immersive future." keyPoint1="Innovative Solutions" keyPoint2="Expert Development Team" keyPoint3="Tailored Experiences" keyPoint4="Transparent Communication" keyPoint5="Continuous Quality Enhancement" url="/contact-us" btnTitle="Request Consultation" Group105518={Group105518} 
+
+                    altTags={{
+                        check1: "AR/VR Development Services in Chandigarh & Panchkula",
+                        check2: "Top-Rated AR/VR Developers in Mohali & Panchkula",
+                        check3: "Affordable AR/VR Software Solutions in Chandigarh & Mohali",
+                        check4: "Best Virtual Reality Solutions in Panchkula & Mohali",
+                        check5: "Top Augmented Reality Developers in Mohali & Chandigarh",
+                        Group105518: "Custom AR/VR Software Development in Panchkula"
+                    }}
+
+                />
 
                 <section className="bg-section">
                     <Container className='process_container'>
@@ -193,35 +213,35 @@ const Ar_Vr_Dev = () => {
                                     <Row className="curly-img curley-img mt-2">
                                         <Col xs={6} lg={2}>
                                             <div className="work-images">
-                                                <img src={container} alt="Product Design" />
+                                                <img src={container} alt="Top Augmented Reality Developers in Mohali & Chandigarh" />
                                                 <h6 className="mt-3">Product Design</h6>
                                                 <p className="text-light ">Crafting innovative and user-centric design strategies for a captivating app experience</p>
                                             </div>
                                         </Col>
                                         <Col xs={6} lg={2}>
                                             <div className="work-images">
-                                                <img src={planning} alt="Mobile App Consulting" />
+                                                <img src={planning} alt="Best Virtual Reality Solutions in Panchkula & Mohali" />
                                                 <h6 className="mt-3">Mobile App Consulting</h6>
                                                 <p className="text-light">Tailored guidance and strategies to shape your app concept into a successful product.</p>
                                             </div>
                                         </Col>
                                         <Col xs={6} lg={2}>
                                             <div className="work-images">
-                                                <img src={pen} alt="UI/UX Compatibility" />
+                                                <img src={pen} alt="Immersive AR/VR App Development in Chandigarh" />
                                                 <h6 className="mt-3">UI/UX Compatibility</h6>
                                                 <p className="text-light">Seamless integration of compelling design and intuitive user experiences for enhanced engagement.</p>
                                             </div>
                                         </Col>
                                         <Col xs={6} lg={2}>
                                             <div className="work-images">
-                                                <img src={development} alt="Development" />
+                                                <img src={development} alt="Custom AR/VR Software Development in Panchkula" />
                                                 <h6 className="mt-3">Development</h6>
                                                 <p className="text-light">Utilizing cutting-edge technologies to build robust, scalable, and high-performance mobile applications.</p>
                                             </div>
                                         </Col>
                                         <Col xs={6} lg={2}>
                                             <div className="work-images">
-                                                <img src={test} alt="QA & Testing" />
+                                                <img src={test} alt="Leading AR/VR Company in Mohali & Chandigarh" />
                                                 <h6 className="mt-3">QA & Testing</h6>
                                                 <p className="text-light">Our team of mobile testing experts performs testing and debugging to ensure a reliable and optimal functioning app.</p>
                                             </div>

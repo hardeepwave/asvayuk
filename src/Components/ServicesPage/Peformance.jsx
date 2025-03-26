@@ -112,22 +112,22 @@ const Performance = () => {
                             <div className="performance_card2_inner-sec mt-5">
                                 <div className="row">
                                     <div className="col-lg-4 pb-4 d-flex">
-                                        <ServicesCard ServiceCardImg={c11} cardHeading='SEO Services Chandigarh (Search Engine Optimization)' cardParaGraph='Want to rank higher on Google? Our Best SEO company in Chandigarh ensures your website appears on the first page of search results. We optimize your website structure, improve page speed, and implement high-quality backlinks to enhance visibility.' />
+                                        <ServicesCard ServiceCardImg={c11} altText='online marketing company in Chandigarh' cardHeading='SEO Services Chandigarh (Search Engine Optimization)' cardParaGraph='Want to rank higher on Google? Our Best SEO company in Chandigarh ensures your website appears on the first page of search results. We optimize your website structure, improve page speed, and implement high-quality backlinks to enhance visibility.' />
                                     </div>
                                     <div className="col-lg-4 pb-4 d-flex">
-                                        <ServicesCard ServiceCardImg={c12} cardHeading='PPC Service Chandigarh (Pay-Per-Click Advertising)' cardParaGraph='Our PPC service in Chandigarh helps you attract high-intent customers through targeted ads on Google and social media. We manage campaigns effectively, ensuring a high return on investment (ROI).' />
+                                        <ServicesCard ServiceCardImg={c12} altText='PPC service Chandigarh' cardHeading='PPC Service Chandigarh (Pay-Per-Click Advertising)' cardParaGraph='Our PPC service in Chandigarh helps you attract high-intent customers through targeted ads on Google and social media. We manage campaigns effectively, ensuring a high return on investment (ROI).' />
                                     </div>
                                     <div className="col-lg-4 pb-4">
-                                        <ServicesCard ServiceCardImg={c13} cardHeading='SMM Service Chandigarh (Social Media Marketing)' cardParaGraph='Leverage the power of social media with our social media marketing in Chandigarh. We create engaging posts, run ad campaigns, and increase your brand’s followers on platforms like Facebook, Instagram, and LinkedIn.' />
+                                        <ServicesCard ServiceCardImg={c13} altText='Digital Marketing Agency in Chandigarh' cardHeading='SMM Service Chandigarh (Social Media Marketing)' cardParaGraph='Leverage the power of social media with our social media marketing in Chandigarh. We create engaging posts, run ad campaigns, and increase your brand’s followers on platforms like Facebook, Instagram, and LinkedIn.' />
                                     </div>
                                     <div className="col-lg-4 pb-4 d-flex">
-                                        <ServicesCard ServiceCardImg={c14} cardHeading='Content Marketing & Blogging' cardParaGraph='Quality content is a separate role in digital marketing. Our team crafts informative blogs, articles, and website content that establish your authority in your industry.' />
+                                        <ServicesCard ServiceCardImg={c14} altText='Best SEO company in Chandigarh' cardHeading='Content Marketing & Blogging' cardParaGraph='Quality content is a separate role in digital marketing. Our team crafts informative blogs, articles, and website content that establish your authority in your industry.' />
                                     </div>
                                     <div className="col-lg-4 pb-4 d-flex">
-                                        <ServicesCard ServiceCardImg={c16} cardHeading='Online Reputation Management' cardParaGraph='Your brand’s online reputation matters. We monitor and manage customer reviews, ensuring a positive brand image.' />
+                                        <ServicesCard ServiceCardImg={c16} altText='Digital marketing experts in Chandigarh' cardHeading='Online Reputation Management' cardParaGraph='Your brand’s online reputation matters. We monitor and manage customer reviews, ensuring a positive brand image.' />
                                     </div>
                                     <div className="col-lg-4 pb-4 d-flex">
-                                        <ServicesCard ServiceCardImg={c15} cardHeading='Email Marketing & Automation' cardParaGraph='Reach out to potential clients through personalized email campaigns. We create compelling emails that drive engagement and conversions' />
+                                        <ServicesCard ServiceCardImg={c15} altText='Digital Marketers in chandigarh' cardHeading='Email Marketing & Automation' cardParaGraph='Reach out to potential clients through personalized email campaigns. We create compelling emails that drive engagement and conversions' />
                                     </div>
                                 </div>
                             </div>
@@ -142,9 +142,19 @@ const Performance = () => {
                 point1='Leading App Pioneers' pointPara1='Drawing on our years of experience, we specialize in transforming ideas into exceptional, user-centric mobile applications.' 
                 point2='Craft Engaging Experiences' pointPara2='Our mobile apps are meticulously designed to be visually stunning and deliver a seamless, intuitive user experience.' 
                 point3='Global Trust, Local Impact' pointPara3='Combining local insights with global expertise, we ensure seamless technological excellence.' 
-                point4='Your App, Our Expertise' pointPara4='Together, we collaborate to create a digital masterpiece that aligns with your goals and exceeds your expectations.' />
+                point4='Your App, Our Expertise' pointPara4='Together, we collaborate to create a digital masterpiece that aligns with your goals and exceeds your expectations.'
 
-{/* keyPara="Experience unparalleled results through our targeted strategies. Gain a competitive edge through precision-targeted strategies that speak directly to your audience."  */}
+                altTags={{
+                    group1: "Digital Marketing Agency in Chandigarh",
+                    group2: "Digital marketing consultant in Chandigarh",
+                    group3: "Social media marketing in Chandigarh",
+                    group4: "Digital marketing services in Chandigarh",
+                    mockups: "100% guaranteed digital marketing services in Chandigarh.",
+                    whiteLogo: "Digital Marketers in chandigarh"
+                }}
+
+                 />
+
                 <KeyPointSection
                  keyHeading="Benefits of Our Digital Marketing Services in Chandigarh" 
                  keyPara="If you are looking for the best digital marketing company in Chandigarh, Asvayuk Technologies Private Ltd. is your one-stop solution. Our expert team ensures your business achieves maximum online visibility and growth." 
@@ -153,7 +163,17 @@ const Performance = () => {
                  keyPoint3="Higher engagement and conversions." 
                  keyPoint4="100% Guaranteed Digital Marketing Services in Chandigarh for effective results." 
                  keyPoint5="Expert consultation with a Digital Marketing Consultant in Chandigarh.." 
-                 url="/contact-us" btnTitle="Request Consultation" Group105518={C17} />
+                 url="/contact-us" btnTitle="Request Consultation" Group105518={C17} 
+
+                 altTags={{
+                    check1: "best digital marketing company in chandigarh",
+                    check2: "Top 10 Digital Marketing Companies in Chandigarh",
+                    check3: "online marketing company in Chandigarh",
+                    check4: "SEO services Chandigarh",
+                    check5: "PPC service Chandigarh",
+                    Group105518: "SMM service Chandigarh"
+                }}
+                />
 
                 <section className="caseStuides " aria-label='100% guaranteed digital marketing services in Chandigarh.'>
                     <Container>

@@ -45,7 +45,7 @@ const TradingBot = () => {
                                         <Breadcrumb.Item linkAs={Link} linkProps={{ to: "#" }}>Services</Breadcrumb.Item>
                                         <Breadcrumb.Item active>Job Portal in Chandigarh</Breadcrumb.Item>
                                     </Breadcrumb>
-                                    <h1><Link to="https://maps.app.goo.gl/sDkN86Cnw1b1W8iK7">Job Portal Solutions in Chandigarh, Panchkula, and Zarapkar</Link></h1>
+                                    <h1><Link to="https://maps.app.goo.gl/sDkN86Cnw1b1W8iK7">Job Portal Solutions in Chandigarh, Panchkula, and Zirapkar</Link></h1>
                                     <p className="py-3">
                                         Asvayuk Technologies offers cutting-edge job portal solutions in Chandigarh, Panchkula, and Zarapkar, enabling businesses and job seekers to connect seamlessly. Our platforms are designed to provide an intuitive, efficient, and user-friendly experience for recruitment and hiring needs.
                                     </p>
@@ -103,22 +103,22 @@ const TradingBot = () => {
                         <div className='magento_cards'>
                             <Row className='gy-4'>
                                 <Col lg={4}>
-                                    <Magento_service_card cardImg={service1} cardHeading="Custom Job Portal Development" cardPara="Develop job portals that match your unique business needs, ensuring effective recruitment." />
+                                    <Magento_service_card cardImg={service1} altText='Job Portal Solutions in Chandigarh, Panchkula, and Zirakpur' cardHeading="Custom Job Portal Development" cardPara="Develop job portals that match your unique business needs, ensuring effective recruitment." />
                                 </Col>
                                 <Col lg={4}>
-                                    <Magento_service_card cardImg={service2} cardHeading="AI-Powered Job Matching" cardPara="Leverage AI technology to provide intelligent job matches for candidates and employers." />
+                                    <Magento_service_card cardImg={service2} altText='Best Job Portal Development in Chandigarh & Panchkula' cardHeading="AI-Powered Job Matching" cardPara="Leverage AI technology to provide intelligent job matches for candidates and employers." />
                                 </Col>
                                 <Col lg={4}>
-                                    <Magento_service_card cardImg={service3} cardHeading="Applicant Tracking System" cardPara="Streamline the hiring process with a powerful applicant tracking system (ATS)." />
+                                    <Magento_service_card cardImg={service3} altText='Custom Job Portal Solutions in Zirakpur' cardHeading="Applicant Tracking System" cardPara="Streamline the hiring process with a powerful applicant tracking system (ATS)." />
                                 </Col>
                                 <Col lg={4}>
-                                    <Magento_service_card cardImg={service4} cardHeading="Resume Builder Tools" cardPara="Provide candidates with tools to build professional resumes directly through the portal." />
+                                    <Magento_service_card cardImg={service4} altText='AI-Based Job Portals in Chandigarh & Mohali' cardHeading="Resume Builder Tools" cardPara="Provide candidates with tools to build professional resumes directly through the portal." />
                                 </Col>
                                 <Col lg={4}>
-                                    <Magento_service_card cardImg={service5} cardHeading="Job Alerts & Notifications" cardPara="Keep job seekers updated with real-time job alerts and notifications." />
+                                    <Magento_service_card cardImg={service5} altText='Top Job Portal Website Development in Panchkula' cardHeading="Job Alerts & Notifications" cardPara="Keep job seekers updated with real-time job alerts and notifications." />
                                 </Col>
                                 <Col lg={4}>
-                                    <Magento_service_card cardImg={service6} cardHeading="Advanced Analytics" cardPara="Use real-time data to analyze job market trends and improve recruitment strategies." />
+                                    <Magento_service_card cardImg={service6} altText='Recruitment Portal Development in Chandigarh & Zirakpur' cardHeading="Advanced Analytics" cardPara="Use real-time data to analyze job market trends and improve recruitment strategies." />
                                 </Col>
                             </Row>
                         </div>
@@ -186,6 +186,15 @@ const TradingBot = () => {
                     pointPara3='We customize job portal solutions to meet your unique recruitment and hiring needs.'
                     point4='Ongoing Support & Optimization'
                     pointPara4='Our team provides continuous support to ensure your job portal performs seamlessly at all times.'
+
+                    altTags={{
+                        group1: "Job Search Platform Development Services in Mohali",
+                        group2: "Advanced Job Board Solutions in Panchkula & Zirakpur",
+                        group3: "Custom Job Portal Solutions in Zirakpur",
+                        group4: "Job Portal Website & App Development in Chandigarh",
+                        mockups: "Top Hiring & Recruitment Software in Chandigarh",
+                        whiteLogo: "Online Job Marketplace Development in Panchkula & Zirakpur"
+                    }}
                 />
 
                 <section className="caseStuides">

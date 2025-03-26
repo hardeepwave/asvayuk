@@ -76,30 +76,70 @@ const Shopify_Dev = () => {
                         <div className='magento_cards'>
                             <Row className='gy-4'>
                                 <Col lg={4}>
-                                    <Magento_service_card cardImg={service1} cardHeading="Custom Shopify Store Development" cardPara="Craft bespoke Shopify stores aligned with your business objectives to deliver a unique shopping experience." />
+                                    <Magento_service_card cardImg={service1} altText="Shopify web developers in Chandigarh" cardHeading="Custom Shopify Store Development" cardPara="Craft bespoke Shopify stores aligned with your business objectives to deliver a unique shopping experience." />
                                 </Col>
                                 <Col lg={4}>
-                                    <Magento_service_card cardImg={service2} cardHeading="Shopify Theme Development" cardPara="Develop responsive Shopify themes tailored to match your brand identity and enhance user engagement." />
+                                    <Magento_service_card cardImg={service2} altText="Top Shopify Development Companies in Chandigarh" cardHeading="Shopify Theme Development" cardPara="Develop responsive Shopify themes tailored to match your brand identity and enhance user engagement." />
                                 </Col>
                                 <Col lg={4}>
-                                    <Magento_service_card cardImg={service3} cardHeading="Shopify App Development" cardPara="Expand your store's capabilities with custom app development, integrating innovative features and optimizing performance." />
+                                    <Magento_service_card cardImg={service3} altText="Shopify website design company in Chandigarh" cardHeading="Shopify App Development" cardPara="Expand your store's capabilities with custom app development, integrating innovative features and optimizing performance." />
                                 </Col>
                                 <Col lg={4}>
-                                    <Magento_service_card cardImg={service4} cardHeading="Migration to Shopify" cardPara="Effortlessly migrate from other platforms to Shopify, ensuring a seamless transition without sacrificing functionality." />
+                                    <Magento_service_card cardImg={service4} altText="Shopify Development Company Chandigarh"  cardHeading="Migration to Shopify" cardPara="Effortlessly migrate from other platforms to Shopify, ensuring a seamless transition without sacrificing functionality." />
                                 </Col>
                                 <Col lg={4}>
-                                    <Magento_service_card cardImg={service5} cardHeading="Technology Migration" cardPara="Ensure smooth transitions to advanced SaaS infrastructures with minimal disruptions and maximum technological advancement." />
+                                    <Magento_service_card cardImg={service5} altText="Top Shopify Development Companies in Chandigarh"  cardHeading="Technology Migration" cardPara="Ensure smooth transitions to advanced SaaS infrastructures with minimal disruptions and maximum technological advancement." />
                                 </Col>
                                 <Col lg={4}>
-                                    <Magento_service_card cardImg={service6} cardHeading="Shopify Store Setup and Configuration" cardPara="Expert setup and configuration of your Shopify store to ensure optimal performance and functionality from day one." />
+                                    <Magento_service_card cardImg={service6} altText="Shopify development agency in chandigarh"  cardHeading="Shopify Store Setup and Configuration" cardPara="Expert setup and configuration of your Shopify store to ensure optimal performance and functionality from day one." />
                                 </Col>
                             </Row>
                         </div>
                     </Container>
                 </section>
 
-                <KeyPointSection keyHeading="Use Our Shopify Solutions to Revolutionize Your E-Commerce Experience  " keyPara="Explore the transformative impact of advanced Shopify solutions to revolutionize your online store. Enhance your digital commerce experience with our specialized expertise. Partner with us for an exceptional journey toward success." keyPoint1="Custom Smart Contract Development" keyPoint2="Cross-Platform Integration" keyPoint3="Data Privacy and Encryptiont" keyPoint4="Seamless Blockchain Migration" url="/contact-us" btnTitle="Request Consultation" Group105518={Group105518} />
-                <Experience expTitle='Why Choose Our Shopify Development Services?' ExpPara='From sparking innovative ideas to transforming them into market-ready products, our extensive range of solutions is crafted to enhance your business value.' point1='Proven Expertise' pointPara1='Enhance your e-commerce strategy with our proven WooCommerce development prowess.' point2='Commitment to Quality' pointPara2='Our dedicated quality assurance team guarantees a flawless, high-performance WooCommerce platform.' point3='Client-centric Approach' pointPara3='We prioritize your needs, ensuring a personalized and effective development journey.' point4='Transparent Communication' pointPara4='We uphold transparent communication throughout your project, keeping you informed at every step.' />
+                <KeyPointSection 
+                keyHeading="Use Our Shopify Solutions to Revolutionize Your E-Commerce Experience  " 
+                keyPara="Explore the transformative impact of advanced Shopify solutions to revolutionize your online store. Enhance your digital commerce experience with our specialized expertise. Partner with us for an exceptional journey toward success." keyPoint1="Custom Smart Contract Development" keyPoint2="Cross-Platform Integration" 
+                keyPoint3="Data Privacy and Encryptiont" 
+                keyPoint4="Seamless Blockchain Migration" 
+                url="/contact-us" 
+                btnTitle="Request Consultation" 
+                Group105518={Group105518} 
+
+                altTags={{
+                    check1: "Shopify development services in Chandigarh",
+                    check2: "Shopify development agency in chandigarh",
+                    check3: "Shopify website provider chandigarh",
+                    check4: "Shopify development store near chandigarh",
+                    check5: "Shopify web development experts Chandigarh",
+                    Group105518: "Shopify website design company in Chandigarh"
+                }}
+
+                />
+
+                <Experience 
+                expTitle='Why Choose Our Shopify Development Services?' 
+                ExpPara='From sparking innovative ideas to transforming them into market-ready products, our extensive range of solutions is crafted to enhance your business value.' 
+                point1='Proven Expertise' 
+                pointPara1='Enhance your e-commerce strategy with our proven WooCommerce development prowess.' 
+                point2='Commitment to Quality' 
+                pointPara2='Our dedicated quality assurance team guarantees a flawless, high-performance WooCommerce platform.' 
+                point3='Client-centric Approach' 
+                pointPara3='We prioritize your needs, ensuring a personalized and effective development journey.' 
+                point4='Transparent Communication' 
+                pointPara4='We uphold transparent communication throughout your project, keeping you informed at every step.' 
+
+                altTags={{
+                    group1: "Shopify Website Development Chandigarh",
+                    group2: "Shopify Development Company Chandigarh",
+                    group3: "Shopify website development Mohali",
+                    group4: "Shopify web development experts Chandigarh",
+                    mockups: "Shopify web developers in Chandigarh",
+                    whiteLogo: "Shopify website design company in Chandigarh"
+                }}
+
+                />
 
                 <section className="bg-section">
                     <Container className='process_container'>

@@ -131,7 +131,7 @@ const Social_Media_Marketing = () => {
                     cardImg={service1}
                     cardHeading="Social Media Strategy Development"
                     cardPara="We begin with understanding your business and goals, followed by creating a custom social media strategy that drives results."
-                    alt="award-winning SEO agency in Chandigarh"
+                    altText="award-winning SEO agency in Chandigarh"
                   />
                 </Col>
                 <Col lg={4}>
@@ -139,7 +139,7 @@ const Social_Media_Marketing = () => {
                     cardImg={service2}
                     cardHeading="Content Creation and Management"
                     cardPara="Our content creation team designs engaging posts, infographics, and videos to captivate your target audience."
-                    alt="social media company in chandigarh"
+                    altText="social media company in chandigarh"
                   />
                 </Col>
                 <Col lg={4}>
@@ -147,7 +147,7 @@ const Social_Media_Marketing = () => {
                     cardImg={service3}
                     cardHeading="Social Media Ads Management"
                     cardPara="We run highly targeted ad campaigns on Facebook, Instagram, LinkedIn, and Google to enhance visibility and sales"
-                    alt="social media marketing in chandigarh"
+                    altText="social media marketing in chandigarh"
                   />
                 </Col>
                 <Col lg={4} className="d-flex">
@@ -155,7 +155,7 @@ const Social_Media_Marketing = () => {
                     cardImg={service4}
                     cardHeading="Community Engagement"
                     cardPara="We focus on building strong relationships with your audience through consistent and meaningful engagement."
-                    alt="smo company in chandigarh"
+                    altText="smo company in chandigarh"
                   />
                 </Col>
                 <Col lg={4} className="d-flex">
@@ -163,7 +163,7 @@ const Social_Media_Marketing = () => {
                     cardImg={service5}
                     cardHeading="Analytics and Reporting"
                     cardPara="We provide you with detailed reports to measure the performance of your campaigns and continuously optimize strategies for better results."
-                    alt="Social media marketing provider in chandigarh"
+                    altText="Social media marketing provider in chandigarh"
                   />
                 </Col>
                 <Col lg={4} className="d-flex">
@@ -178,7 +178,7 @@ const Social_Media_Marketing = () => {
                         <br /> credibility
                       </>
                     }
-                    alt="best social media marketing services in Chandigarh"
+                    altText="best social media marketing services in Chandigarh"
                   />
                 </Col>
               </Row>

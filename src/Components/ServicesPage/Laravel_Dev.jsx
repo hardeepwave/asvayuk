@@ -133,6 +133,7 @@ const Laravel_Dev = () => {
               <div className="col-lg-6 col-md-6 col-sm-6 col-12 pb-3 pb-lg-0 pt-md-0 pb-md-0">
                 <ServicesCard
                   ServiceCardImg={c11}
+                  altText="Laravel website development Mohali"
                   cardHeading="Custom Laravel Web Development"
                   cardParaGraph={
                     <>
@@ -146,6 +147,7 @@ const Laravel_Dev = () => {
               <div className="col-lg-6 col-md-6 col-sm-6 col-12 px-2 pb-3 pb-lg-0 pb-md-0 d-flex">
                 <ServicesCard
                   ServiceCardImg={c12}
+                  altText="Laravel Development Partner in Chandigarh"
                   cardHeading="Laravel eCommerce Development Services Chandigarh"
                   cardParaGraph={
                     <>
@@ -161,6 +163,7 @@ const Laravel_Dev = () => {
               <div className="col-lg-6 col-md-6 col-sm-6 col-12 px-2 pb-3 pb-lg-0 pb-md-0">
                 <ServicesCard
                   ServiceCardImg={c13}
+                  altText="Laravel PHP development services in Chandigarh"
                   cardHeading="Laravel API Development in Chandigarh"
                   cardParaGraph={
                     <>
@@ -174,6 +177,7 @@ const Laravel_Dev = () => {
               <div className="col-lg-6 col-md-6 col-sm-6 col-12 px-2 pb-3 pb-lg-0 pb-md-0">
                 <ServicesCard
                   ServiceCardImg={c14}
+                  altText="Laravel eCommerce development services Chandigarh"
                   cardHeading="Laravel Web Application Development Chandigarh"
                   cardParaGraph={
                     <>
@@ -189,6 +193,7 @@ const Laravel_Dev = () => {
               <div className="col-lg-6 col-md-6 col-sm-6 col-12 px-2 pb-3 pb-lg-0 pb-md-0">
                 <ServicesCard
                   ServiceCardImg={c15}
+                  altText="Best Laravel development company under budget in Chandigarh"
                   cardHeading="Laravel Development Outsourcing in Chandigarh"
                   cardParaGraph={
                     <>
@@ -202,6 +207,7 @@ const Laravel_Dev = () => {
               <div className="col-lg-6 col-md-6 col-sm-6 col-12 px-2 pb-3 pb-lg-0 pb-md-0">
                 <ServicesCard
                   ServiceCardImg={c16}
+                  altText="Hire Laravel developer in Chandigarh"
                   cardHeading="Laravel Website Maintenance and Support"
                   cardParaGraph={
                     <>
@@ -252,6 +258,15 @@ const Laravel_Dev = () => {
           url="/contact-us"
           btnTitle="Request Consultation"
           Group105518={Group105518}
+
+          altTags={{
+              check1: "Best Laravel development company under budget in Chandigarh",
+              check2: "Hire Laravel developer in Chandigarh",
+              check3: "Laravel website development Mohali",
+              check4: "Laravel Development Partner in Chandigarh",
+              check5: "Laravel PHP development services in Chandigarh",
+              Group105518: "Laravel Development Company Chandigarh"
+          }}
         />
 
         <section className="laravel-projects-section py-5">
@@ -311,6 +326,15 @@ const Laravel_Dev = () => {
           pointPara3="Suitable for startups to large enterprises."
           point4="Eloquent ORM"
           pointPara4="Simplifies database management."
+
+          altTags={{
+              group1: "Laravel PHP development services in Chandigarh",
+              group2: "Laravel website development agency Chandigarh",
+              group3: "laravel website development services Chandigarh",
+              group4: "Laravel website development agency Chandigarh",
+              mockups: "Laravel eCommerce development services Chandigarh",
+              whiteLogo: "Laravel API development in Chandigarh"
+          }}
         />
 
         <section className="bg-section">

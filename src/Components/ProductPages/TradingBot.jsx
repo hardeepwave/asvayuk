@@ -104,22 +104,22 @@ const TradingBot = () => {
                         <div className='magento_cards'>
                             <Row className='gy-4'>
                                 <Col lg={4}>
-                                    <Magento_service_card cardImg={service1} cardHeading="Custom Trading Bot Development" cardPara="Build automated trading systems tailored to your unique cryptocurrency trading strategy." />
+                                    <Magento_service_card cardImg={service1} altText='Trading Bot Solutions in Chandigarh & Panchkula' cardHeading="Custom Trading Bot Development" cardPara="Build automated trading systems tailored to your unique cryptocurrency trading strategy." />
                                 </Col>
                                 <Col lg={4}>
-                                    <Magento_service_card cardImg={service2} cardHeading="AI-Powered Crypto Bots" cardPara="Harness the power of artificial intelligence for smarter, more efficient crypto trading." />
+                                    <Magento_service_card cardImg={service2} altText='Best Crypto Trading Bot in Chandigarh & Panchkula' cardHeading="AI-Powered Crypto Bots" cardPara="Harness the power of artificial intelligence for smarter, more efficient crypto trading." />
                                 </Col>
                                 <Col lg={4}>
-                                    <Magento_service_card cardImg={service3} cardHeading="Blockchain Integration" cardPara="Integrate blockchain protocols for secure, decentralized trading automation." />
+                                    <Magento_service_card cardImg={service3} altText='Automated Trading Software in Chandigarh' cardHeading="Blockchain Integration" cardPara="Integrate blockchain protocols for secure, decentralized trading automation." />
                                 </Col>
                                 <Col lg={4}>
-                                    <Magento_service_card cardImg={service4} cardHeading="Risk Management Bots" cardPara="Minimize trading risks by automating stop-loss and risk management strategies." />
+                                    <Magento_service_card cardImg={service4} altText='AI-Powered Trading Bots in Panchkula & Mohali' cardHeading="Risk Management Bots" cardPara="Minimize trading risks by automating stop-loss and risk management strategies." />
                                 </Col>
                                 <Col lg={4}>
-                                    <Magento_service_card cardImg={service5} cardHeading="24/7 Trading Bots" cardPara="Enable continuous, around-the-clock trading to capitalize on market movements." />
+                                    <Magento_service_card cardImg={service5} altText='Algorithmic Trading Solutions in Chandigarh' cardHeading="24/7 Trading Bots" cardPara="Enable continuous, around-the-clock trading to capitalize on market movements." />
                                 </Col>
                                 <Col lg={4}>
-                                    <Magento_service_card cardImg={service6} cardHeading="Advanced Trading Analytics" cardPara="Gain insights from real-time analytics to optimize trading strategies and performance." />
+                                    <Magento_service_card cardImg={service6} altText='Stock & Crypto Trading Automation in Chandigarh' cardHeading="Advanced Trading Analytics" cardPara="Gain insights from real-time analytics to optimize trading strategies and performance." />
                                 </Col>
                             </Row>
                         </div>
@@ -189,6 +189,15 @@ const TradingBot = () => {
                     pointPara3='We tailor our bots to fit your specific trading strategies, ensuring optimal results.'
                     point4='Dedicated Support'
                     pointPara4='Our team offers ongoing support to ensure your trading bot performs optimally at all times.'
+
+                    altTags={{
+                        group1: "Reliable Trading Automation Services in Chandigarh",
+                        group2: "Best Crypto Trading Bot in Chandigarh & Panchkula",
+                        group3: "AI-Powered Trading Bots in Panchkula & Mohali",
+                        group4: "Custom Crypto Trading Bot Development in Panchkula",
+                        mockups: "Top Trading Bot Development Company in Mohali",
+                        whiteLogo: "Custom Crypto Trading Bot Development in Panchkula"
+                    }}
                 />
 
 

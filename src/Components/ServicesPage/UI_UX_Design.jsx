@@ -12,19 +12,6 @@ import BannerButton from '../BannerBtn/BannerButton'
 import banners_41_1 from '../../Images/banners-41-1.webp'
 import Group105518 from '../../Images/Group-105518.webp'
 import Group_839 from '../../Images/Group-839.webp'
-import ui_2 from '../../Images/ui-2.webp'
-import ui_22 from '../../Images/ui-22.webp'
-import ui_33 from '../../Images/ui-33.webp'
-import ui_44 from '../../Images/ui-44.webp'
-import ui_55 from '../../Images/ui-55.webp'
-import ui_66 from '../../Images/ui-66.webp'
-import c21 from '../../Images/c21.webp'
-import uii from '../../Images/uii.webp'
-import ui_3 from '../../Images/ui-3.webp'
-import ui_4 from '../../Images/ui-4.webp'
-import ui_5 from '../../Images/ui-5.webp'
-import ui_6 from '../../Images/ui-6.webp'
-import work3 from "../../Images/larawk2.jpg";
 import work2 from "../../Images/larawk3.jpg";
 import container from '../../Images/container.webp'
 import planning from '../../Images/planning.webp'
@@ -143,22 +130,22 @@ const UI_UX_Design = () => {
                         <div>
                             <Row className='gy-4'>
                                 <Col lg={4} className='d-flex'>
-                                    <Magento_service_card cardImg={service1} cardHeading="Mobile App UI/UX Design Chandigarh" cardPara="Our team specializes in mobile app UI/UX development in Chandigarh, ensuring that your app delivers an engaging and effortless user experience. From wireframing to interactive prototypes, we design mobile apps that captivate and convert." />
+                                    <Magento_service_card cardImg={service1} altText='Top UI UX development companies in Chandigarh' cardHeading="Mobile App UI/UX Design Chandigarh" cardPara="Our team specializes in mobile app UI/UX development in Chandigarh, ensuring that your app delivers an engaging and effortless user experience. From wireframing to interactive prototypes, we design mobile apps that captivate and convert." />
                                 </Col>
                                 <Col lg={4} className='d-flex' >
-                                    <Magento_service_card cardImg={service2} cardHeading=" Website UI/UX Design Company in Chandigarh" cardPara="We create responsive, visually stunning, and user-friendly website designs. Our website UI/UX design company in Chandigarh ensures that your website is optimized for both desktop and mobile users." />
+                                    <Magento_service_card cardImg={service2} altText='Affordable UI UX design company in Chandigarh' cardHeading=" Website UI/UX Design Company in Chandigarh" cardPara="We create responsive, visually stunning, and user-friendly website designs. Our website UI/UX design company in Chandigarh ensures that your website is optimized for both desktop and mobile users." />
                                 </Col>
                                 <Col lg={4} className='d-flex' >
-                                    <Magento_service_card cardImg={service3} cardHeading="UI/UX Consulting Services Chandigarh" cardPara="Looking for expert advice on improving your digital product’s design? Our UI/UX consulting services in Chandigarh help businesses enhance their UI/UX strategies through research-driven insights and data analysis." />
+                                    <Magento_service_card cardImg={service3} altText='Best UI UX designers in Chandigarh' cardHeading="UI/UX Consulting Services Chandigarh" cardPara="Looking for expert advice on improving your digital product’s design? Our UI/UX consulting services in Chandigarh help businesses enhance their UI/UX strategies through research-driven insights and data analysis." />
                                 </Col>
                                 <Col lg={4} className='d-flex' >
-                                    <Magento_service_card cardImg={service4} cardHeading="Custom UI/UX Solutions in Chandigarh" cardPara="Our custom UI/UX solutions in Chandigarh are tailored to meet specific client requirements, ensuring a personalized user experience." />
+                                    <Magento_service_card cardImg={service4} altText='Custom UI UX solutions in Chandigarh' cardHeading="Custom UI/UX Solutions in Chandigarh" cardPara="Our custom UI/UX solutions in Chandigarh are tailored to meet specific client requirements, ensuring a personalized user experience." />
                                 </Col>
                                 <Col lg={4} className='d-flex' >
-                                    <Magento_service_card cardImg={service5} cardHeading="UI/UX Development Agency in Chandigarh" cardPara="As a full-service UI /X development agency in Chandigarh, we offer end-to-end solutions, including UX research, UI design, prototyping, and testing to deliver the best results." />
+                                    <Magento_service_card cardImg={service5} altText='User experience design company Chandigarh' cardHeading="UI/UX Development Agency in Chandigarh" cardPara="As a full-service UI /X development agency in Chandigarh, we offer end-to-end solutions, including UX research, UI design, prototyping, and testing to deliver the best results." />
                                 </Col>
                                 <Col lg={4} className='d-flex' >
-                                    <Magento_service_card cardImg={service6} cardHeading="E-Commerce UI/UX Design in Chandigarh" cardPara="We design conversion-focused e-commerce UI/UX for seamless navigation, engaging product displays, and a smooth checkout experience." />
+                                    <Magento_service_card cardImg={service6} altText='Mobile app UI UX development Chandigarh' cardHeading="E-Commerce UI/UX Design in Chandigarh" cardPara="We design conversion-focused e-commerce UI/UX for seamless navigation, engaging product displays, and a smooth checkout experience." />
                                 </Col>
                             </Row>
                         </div>
@@ -197,7 +184,7 @@ const UI_UX_Design = () => {
 
 
 
-            <KeyPointSection 
+                 <KeyPointSection 
                 
                     keyHeading="Why UI/UX Design Matters?" 
                     keyPara={<>A well-structured UI/UX design plays a crucial role in the success of any digital platform. Here’s why investing in UI/UX design services in Chandigarh can transform your business.<br/><br/>As a leading UI/UX development company in Chandigarh, we craft engaging designs that improve customer interactions, boost conversions, and enhance brand credibility. Whether you need UI/UX services for a website, mobile app, or custom software, our expert designers ensure a flawless digital journey for your users.</>}
@@ -208,6 +195,15 @@ const UI_UX_Design = () => {
                     url="/contact-us"
                     btnTitle="Request Consultation"
                     Group105518={Group105518} 
+
+                    altTags={{
+                        check1: "UI UX development company in Chandigarh",
+                        check2: "Custom UI UX solutions in Chandigarh",
+                        check3: "User experience design company Chandigarh",
+                        check4: "Mobile app UI UX development Chandigarh",
+                        check5: "Best UI UX designers in mohali",
+                        Group105518: "Affordable UI UX design company in Chandigarh"
+                    }}
 
                 />    
 
@@ -224,6 +220,14 @@ const UI_UX_Design = () => {
                     point4='Client-Centric Solutions' 
                     pointPara4='Our UI/UX designs are tailored to meet the unique needs of our clients.' 
 
+                    altTags={{
+                        group1: "Top UI UX development companies in Chandigarh",
+                        group2: "Affordable UI UX design company in Chandigarh",
+                        group3: "Mobile app UI UX design Chandigarh",
+                        group4: "UI UX consulting services Chandigarh",
+                        mockups: "Website UI UX design company in Chandigarh",
+                        whiteLogo: "Best UI UX designers in Chandigarh"
+                    }}
                 />
 
                    <section className="bg-section">

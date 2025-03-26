@@ -103,22 +103,22 @@ const Layer1_Layer2_BlockChain = () => {
                     <div className='service_cards'>
                         <Row className='gy-4'>
                             <Col lg={4}>
-                                <Magento_service_card cardImg={service1} cardHeading="Custom Layer 1 Blockchain Development" cardPara="Customized Layer 1 solutions for businesses requiring unique, secure blockchain structures." />
+                                <Magento_service_card cardImg={service1} altText='Best Layer 1 & Layer 2 Blockchain Developers in Chandigarh' cardHeading="Custom Layer 1 Blockchain Development" cardPara="Customized Layer 1 solutions for businesses requiring unique, secure blockchain structures." />
                             </Col>
                             <Col lg={4}>
-                                <Magento_service_card cardImg={service2} cardHeading="Layer 2 Scaling Solutions" cardPara="Efficient Layer 2 solutions for faster transaction processing and cost efficiency." />
+                                <Magento_service_card cardImg={service2} altText='Scalable Blockchain Solutions in Panchkula & Chandigarh'  cardHeading="Layer 2 Scaling Solutions" cardPara="Efficient Layer 2 solutions for faster transaction processing and cost efficiency." />
                             </Col>
                             <Col lg={4}>
-                                <Magento_service_card cardImg={service3} cardHeading="Smart Contract Development" cardPara="Secure smart contract solutions tailored to enhance automated processes." />
+                                <Magento_service_card cardImg={service3} altText='Custom Blockchain Development Company in Chandigarh'  cardHeading="Smart Contract Development" cardPara="Secure smart contract solutions tailored to enhance automated processes." />
                             </Col>
                             <Col lg={4}>
-                                <Magento_service_card cardImg={service4} cardHeading="Blockchain for Secure Data Management" cardPara="Blockchain solutions designed to protect sensitive data and ensure privacy." />
+                                <Magento_service_card cardImg={service4} altText='Secure Layer 1 Blockchain Development Services'  cardHeading="Blockchain for Secure Data Management" cardPara="Blockchain solutions designed to protect sensitive data and ensure privacy." />
                             </Col>
                             <Col lg={4}>
-                                <Magento_service_card cardImg={service5} cardHeading="Tokenization and Asset Management" cardPara="Tokenize assets securely for enhanced liquidity and flexibility in digital markets." />
+                                <Magento_service_card cardImg={service5} altText='Layer 2 Blockchain Scaling Solutions in Panchkula'  cardHeading="Tokenization and Asset Management" cardPara="Tokenize assets securely for enhanced liquidity and flexibility in digital markets." />
                             </Col>
                             <Col lg={4}>
-                                <Magento_service_card cardImg={service6} cardHeading="Cross-Chain Interoperability" cardPara="Interoperable solutions that connect multiple blockchain networks for seamless data exchange." />
+                                <Magento_service_card cardImg={service6} altText='End-to-End Blockchain Consulting & Development'  cardHeading="Cross-Chain Interoperability" cardPara="Interoperable solutions that connect multiple blockchain networks for seamless data exchange." />
                             </Col>
                         </Row>
                     </div>
@@ -151,6 +151,15 @@ const Layer1_Layer2_BlockChain = () => {
                 pointPara3='User-friendly designs that maximize efficiency and engagement.'
                 point4='Communication & Support'
                 pointPara4='Ongoing support with clear, consistent updates.'
+
+                altTags={{
+                    group1: "Best Layer 1 & Layer 2 Blockchain Developers in Chandigarh",
+                    group2: "Scalable Blockchain Solutions in Panchkula & Chandigarh",
+                    group3: "Custom Blockchain Development Company in Chandigarh",
+                    group4: "Secure Layer 1 Blockchain Development Services",
+                    mockups: "Layer 2 Blockchain Scaling Solutions in Panchkula",
+                    whiteLogo: "End-to-End Blockchain Consulting & Development"
+                }}
             />
 
             <section className="caseStuides">
