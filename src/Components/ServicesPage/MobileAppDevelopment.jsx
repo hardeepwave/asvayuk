@@ -134,10 +134,10 @@ function MobileAppDevelopment() {
                                         <ServicesCard ServiceCardImg={c14} altText='mobile app development companies in Chandigarh' cardHeading='React Native App Development' cardParaGraph='Enhance app performance with consistent user experiences across platforms using React Native, supported by Asvayuk Technologies.' />
                                     </div>
                                     <div className="col-lg-4 pb-4 d-flex">
-                                        <ServicesCard ServiceCardImg={c15} altText={<>Chandigarh's Leading Mobile App Development Company</>} cardHeading='Flutter App Development' cardParaGraph='Leveraging Flutter, Google’s UI toolkit, Asvayuk Technologies creates visually stunning, natively compiled applications for mobile and web platforms.' />
+                                        <ServicesCard ServiceCardImg={c15} altText="Chandigarh's Leading Mobile App Development Company" cardHeading='Flutter App Development' cardParaGraph='Leveraging Flutter, Google’s UI toolkit, Asvayuk Technologies creates visually stunning, natively compiled applications for mobile and web platforms.' />
                                     </div>
                                     <div className="col-lg-4 pb-4 d-flex">
-                                        <ServicesCard ServiceCardImg={c16} altText={<>Chandigarh's Most Trusted Mobile App Development Company</>} cardHeading='Hybrid App Development' cardParaGraph='Integrating web technologies efficiency with native app performance Asvayuk Technologies offers robust hybrid app development solutions.' />
+                                        <ServicesCard ServiceCardImg={c16} altText="Chandigarh's Most Trusted Mobile App Development Company" cardHeading='Hybrid App Development' cardParaGraph='Integrating web technologies efficiency with native app performance Asvayuk Technologies offers robust hybrid app development solutions.' />
                                     </div>
                                 </div>
                             </div>

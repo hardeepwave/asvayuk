@@ -34,7 +34,7 @@ function Contact() {
                             <Row>
                                 <div className="col-12 col-lg-3 col-md-6 col-sm-12 cities text-center">
                                     <div className="city-img">
-                                        <img src={amritsar} />
+                                        <img src={amritsar} alt="Contact Best IT Company in Chandigarh"/>
                                     </div>
                                     <div className="img_content py-5 rounded-4 ">
                                         <div className="img_name mt-3">
@@ -52,7 +52,7 @@ function Contact() {
                                 </div>
                                 <div className="col-12 col-lg-3 col-md-6 col-sm-12 cities text-center">
                                     <div className="city-img">
-                                        <img src={canada} />
+                                        <img src={canada} alt="Best Software Development Consultation in Chandigarh"/>
                                     </div>
                                     <div className="img_content py-5 rounded-4 ">
                                         <div className="img_name mt-3">
@@ -70,7 +70,7 @@ function Contact() {
                                 </div>
                                 <div className="col-12 col-lg-3 col-md-6 col-sm-12 cities text-center">
                                     <div className="city-img">
-                                        <img src={Mumbai} />
+                                        <img src={Mumbai} alt="Hire Expert Shopify Developers in Chandigarh"/>
                                     </div>
                                     <div className="img_content py-5 rounded-4 ">
                                         <div className="img_name mt-3">
@@ -89,7 +89,7 @@ function Contact() {
                                 </div>
                                 <div className="col-12 col-lg-3 col-md-6 col-sm-12 cities text-center">
                                     <div className="city-img">
-                                        <img src={dubai} />
+                                        <img src={dubai} alt="Contact Asvayuk Technologies for Custom Software"/>
                                     </div>
                                     <div className="img_content py-5 rounded-4 ">
                                         <div className="img_name mt-3">
@@ -123,7 +123,7 @@ function Contact() {
                         <div className="contact_form">
                             <div className="row">
                                 <div className="col-lg-5 contact_form_img">
-                                    <img src={contactImg} />
+                                    <img src={contactImg} alt="Book a Free Consultation – Web Development Mohali"/>
                                 </div>
                                 <div className="col-lg-7 contact_form_content">
                                     <h4 className="pt-3 pt-lg-0 pt-md-0">Do you have a question, a project proposal, or simply wish to connect?</h4>

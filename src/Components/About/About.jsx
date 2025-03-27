@@ -65,13 +65,13 @@ const About = () => {
                 </h1>
               </div>
               <div className="right-box col-lg-6 mt-4  d-lg-block">
-                <img src={right_logo} alt="logo" className="img-fluid" />
+                <img src={right_logo} alt="Best IT Solutions Company in Chandigarh" className="img-fluid" />
               </div>
             </Row>
             <Row className="py-5 my-0">
               <Col lg={4} pb={2} pb-lg={0} pb-md={0}>
                 <div className="about_img">
-                  <img src={about_bg} className="img-fluid h-md-75 w-100" alt="About background" />
+                  <img src={about_bg} className="img-fluid h-md-75 w-100" alt="web designing company in chandigarh it park" />
                 </div>
 
               </Col>
@@ -104,7 +104,7 @@ const About = () => {
 
                 <div className="core-values d-flex align-items-center gap-3">
                   <h1>Our Mission</h1>
-                  <img src={circle_1} />
+                  <img src={circle_1} alt='it services in chandigarh'/>
                 </div>
                 <p className="pe-3">
                   To achieve global recognition as a leading provider of top-tier solutions for businesses by harnessing the power of technology and human expertise. At Asvayuk Technologies, we specialize in blockchain development and crypto development in Chandigarh, empowering businesses to confidently navigate the complexities of the digital age, driving their growth and success in a dynamic, interconnected world.
@@ -113,7 +113,7 @@ const About = () => {
               <Col lg={6} className='our-vision'>
                 <div className="core-values d-flex align-items-center gap-3">
                   <h1>Our Vision</h1>
-                  <img src={circle_2} />
+                  <img src={circle_2} alt='best it services in chandigarh and mohali'/>
                 </div>
                 <p>
                   Crafting solutions for 21st-century businesses, Asvayuk Technologies strives to be the go-to company offering ultimate digital services through a dedicated team of skilled professionals. Specializing in software development and Shopify development in Chandigarh, our core values drive us to harness the full potential of modern solutions.
@@ -127,7 +127,7 @@ const About = () => {
           <Container>
             <div className="core-values d-flex justify-content-center align-items-center pb-4">
               <h1>Core values</h1>
-              <img src={core_image} className="" />
+              <img src={core_image} className="" alt='top it company in mohali'/>
             </div>
             <Row className=" align-items-center">
               <Col lg={4} md={6} sm={12} className='d-flex flex-column gap-md-5'>
@@ -156,7 +156,7 @@ const About = () => {
                 <div className="core-main-image">
                   <img
                     src={Group_415}
-                    alt="Asvayuk Technologies"
+                    alt="it software companies in chandigarh"
                     className="core-main img-fluid"
                   />
                 </div>
@@ -221,7 +221,8 @@ const About = () => {
                 <div className="arrow-image text-center">
                   <img
                     src={raacomfavicon}
-                    className="img-fluid "
+                    className="img-fluid"
+                    alt='it solutions chandigarh'
                   />
                 </div>
               </Col>
@@ -249,62 +250,62 @@ const About = () => {
               <Row className="py-5 signi-img">
                 <Col lg={2} md={3} sm={6} className="px-1 pb-2">
                   <div className="bg-white p-4 d-flex align-items-center justify-content-center h-100">
-                    <img src={iso_img} className="img-fluid" />
+                    <img src={iso_img} className="img-fluid" alt='it park chandigarh companies list'/>
                   </div>
                 </Col>
                 <Col lg={2} md={3} sm={6} className="px-1 pb-2">
                   <div className="bg-white p-4 d-flex align-items-center justify-content-center h-100">
-                    <img src={shopify_img} className="img-fluid" />
+                    <img src={shopify_img} className="img-fluid" alt='it companies in chandigarh for freshers'/>
                   </div>
                 </Col>
                 <Col lg={2} md={3} sm={6} className="px-1 pb-2">
                   <div className="bg-white p-4 d-flex align-items-center justify-content-center h-100">
-                    <img src={hubspot_img} className="img-fluid" />
+                    <img src={hubspot_img} className="img-fluid" alt='top it companies in mohali'/>
                   </div>
                 </Col>
                 <Col lg={2} md={3} sm={6} className="px-1 pb-2">
                   <div className="bg-white p-4 d-flex align-items-center justify-content-center h-100">
-                    <img className="goodfirm" src={good_firms_logo} />
+                    <img className="goodfirm" src={good_firms_logo} alt='best it companies in chandigarh'/>
                   </div>
                 </Col>
                 <Col lg={2} md={3} sm={6} className="px-1 pb-2">
                   <div className="bg-white p-4 d-flex align-items-center justify-content-center h-100">
-                    <img src={clutch_img} className="img-fluid" />
+                    <img src={clutch_img} className="img-fluid" alt='web designing company in chandigarh it park'/>
                   </div>
                 </Col>
                 <Col lg={2} md={3} sm={6} className="px-1 pb-2">
                   <div className="bg-white p-4 d-flex align-items-center justify-content-center h-100">
-                    <img className="dubai" src={meydan} />
+                    <img className="dubai" src={meydan} alt='it services in chandigarh'/>
                   </div>
                 </Col>
                 <Col lg={2} md={3} sm={6} className="px-1 pb-2">
                   <div className="bg-white p-4 d-flex align-items-center justify-content-center h-100">
-                    <img src={it_firms} className="img-fluid" />
+                    <img src={it_firms} className="img-fluid" alt='best it services in chandigarh and mohali'/>
                   </div>
                 </Col>
                 <Col lg={2} md={3} sm={6} className="px-1 pb-2">
                   <div className="bg-white p-4 d-flex align-items-center justify-content-center h-100">
-                    <img src={msme_img} className="img-fluid" />
+                    <img src={msme_img} className="img-fluid" alt='top it company in mohali'/>
                   </div>
                 </Col>
                 <Col lg={2} md={3} sm={6} className="px-1 pb-2">
                   <div className="bg-white p-4 d-flex align-items-center justify-content-center h-100">
-                    <img src={silicoon_india} className="img-fluid" />
+                    <img src={silicoon_india} className="img-fluid" alt='it software companies in chandigarh'/>
                   </div>
                 </Col>
                 <Col lg={2} md={3} sm={6} className="px-1 pb-2">
                   <div className="bg-white p-4 d-flex align-items-center justify-content-center h-100">
-                    <img src={magento_img} className="img-fluid" />
+                    <img src={magento_img} className="img-fluid" alt='it solutions chandigarh'/>
                   </div>
                 </Col>
                 <Col lg={2} md={3} sm={6} className="px-1 pb-2">
                   <div className="bg-white p-4 d-flex align-items-center justify-content-center h-100">
-                    <img className="startup-india" src={startup_india} />
+                    <img className="startup-india" src={startup_india} alt='it park chandigarh companies list'/>
                   </div>
                 </Col>
                 <Col lg={2} md={3} sm={6} className="px-1 pb-2">
                   <div className="bg-white p-4 d-flex align-items-center justify-content-center h-100">
-                    <img src={iso_20} className="img-fluid" />
+                    <img src={iso_20} className="img-fluid" alt='it companies in chandigarh for freshers'/>
                   </div>
                 </Col>
               </Row>
@@ -327,37 +328,37 @@ const About = () => {
                   <Row className="curly-img mt-5 d-flex ">
                     <Col xs={6} lg={2}>
                       <div className="work-images">
-                        <img src={container} />
+                        <img src={container} alt='top it companies in mohali'/>
                         <h6 className="mt-3">Info Gathering</h6>
                       </div>
                     </Col>
                     <Col xs={6} lg={2}>
                       <div className="work-images">
-                        <img src={planning} />
+                        <img src={planning} alt='best it companies in chandigarh'/>
                         <h6 className="mt-3">Planning</h6>
                       </div>
                     </Col>
                     <Col xs={6} lg={2}>
                       <div className="work-images">
-                        <img src={pen} />
+                        <img src={pen} alt='web designing company in chandigarh it park'/>
                         <h6 className="mt-3">Design</h6>
                       </div>
                     </Col>
                     <Col xs={6} lg={2}>
                       <div className="work-images">
-                        <img src={development} />
+                        <img src={development} alt='it services in chandigarh'/>
                         <h6 className="mt-3">Development</h6>
                       </div>
                     </Col>
                     <Col xs={6} lg={2}>
                       <div className="work-images">
-                        <img src={test} />
+                        <img src={test} alt='best it services in chandigarh and mohali'/>
                         <h6 className="mt-3">Test</h6>
                       </div>
                     </Col>
                     <Col xs={6} lg={2}>
                       <div className="work-images">
-                        <img src={launch} />
+                        <img src={launch} alt='top it company in mohali'/>
                         <h6 className="mt-3">Launch</h6>
                       </div>
                     </Col>

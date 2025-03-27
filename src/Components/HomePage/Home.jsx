@@ -79,7 +79,7 @@ function Home() {
     return (
         <>
             <Meta_Component
-                title="Web Development & Digital Marketing company in Chandigarh"
+                title="Best Web Designing & Web Development Company"
                 description="Asvayuk Technologies provides expert web development, digital marketing, and blockchain solutions to elevate your business. Contact us today!"
                 canonical="https://asvayuktech.com/"
             />
@@ -575,7 +575,16 @@ function Home() {
                 </section>
 
                 {/* <!-- Experience   --> */}
-                <Experience expTitle='Discover Customized Solutions for Dynamic Businesses' ExpPara='From sparking innovative ideas to transforming them into market-ready products, Asvayuk Technologies offers an extensive range of solutions crafted to enhance your business value..' point1='Innovative Minds' pointPara1='Engineers with a visionary approach craft solutions beyond conventional boundaries.' point2='Craft Engaging Experiences' pointPara2='We engineer visually stunning interfaces that elevate user engagement.' point3='Global Trust, Local Impact' pointPara3='Combining local insights with global expertise, we ensure seamless technological excellence.' point4='Client-Centric Approach' pointPara4='Engineers with a visionary approach craft solutions beyond conventional boundaries.' />
+                <Experience expTitle='Discover Customized Solutions for Dynamic Businesses' ExpPara='From sparking innovative ideas to transforming them into market-ready products, Asvayuk Technologies offers an extensive range of solutions crafted to enhance your business value..' point1='Innovative Minds' pointPara1='Engineers with a visionary approach craft solutions beyond conventional boundaries.' point2='Craft Engaging Experiences' pointPara2='We engineer visually stunning interfaces that elevate user engagement.' point3='Global Trust, Local Impact' pointPara3='Combining local insights with global expertise, we ensure seamless technological excellence.' point4='Client-Centric Approach' pointPara4='Engineers with a visionary approach craft solutions beyond conventional boundaries.' 
+                      altTags={{
+                        group1: "Best IT Solutions Company in Chandigarh",
+                        group2: "Custom Software Development in Panchkula",
+                        group3: "Top Website Design Company in Mohali",
+                        group4: "Custom Magento Development Chandigarh",
+                        mockups: "Best SaaS Development Company in Chandigarh",
+                        whiteLogo: "Reliable E-commerce Development Services in Mohali"
+                    }}
+                />
 
                 {/* <!-- Industries  --> */}
                 <section className="Industries">
