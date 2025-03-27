@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './PortolioItem.css'
 import { IoCloseCircleOutline } from 'react-icons/io5';
 
-const PortfolioItem = ({ workImage, projectTitle, projectCategory, projectLink }) => {
+const PortfolioItem = ({ workImage, projectTitle, projectCategory, projectLink,altText }) => {
     const [isPopupVisible, setPopupVisible] = useState(false);
     const togglePopup = () => {
         setPopupVisible(!isPopupVisible);
@@ -12,7 +12,7 @@ const PortfolioItem = ({ workImage, projectTitle, projectCategory, projectLink }
         <div className="portfolio_box col-lg-4 col-md-4 col-sm-12 col-12">
             <div className="portfolio_item col-12 p-0">
                 <div className="portfolio_img col-12 p-0" onClick={togglePopup}>
-                    <img alt={projectTitle} src={workImage} className="img-fluid" />
+                    <img alt={altText} src={workImage} className="img-fluid" />
                 </div>
                 <div className="portfolio_content col-12 p-0">
                     <div className="pc_plusicon text-right col-12 p-0">

@@ -17,6 +17,7 @@ import PortfolioItem from '../PortfolioItem/PortfolioItem';
 import work1 from '../../Images/NativeImg1.jpg'
 import work2 from '../../Images/NativeImg2.jpg'
 import work3 from '../../Images/NativeImg3.jpg'
+import NativeMainBan from '../../Images/ReactNativeBanner.webp'
 import ReactNativeSmallBan2 from '../../Images/ReactNativeSmallBan2.png'
 import ReactNativeSmallBan3 from '../../Images/ReactNativeSmallBan3.png'
 
@@ -55,7 +56,10 @@ const React_Native = () => {
                 canonical="https://asvayuktech.com/react-native-developers-chandigarh"
             />
             <main>
-                 <section className='bannerMlm reactNativeMainBanner' aria-label='10 React Native development companies in India.'>
+                 <section 
+                    className='bannerMlm reactNativeMainBanner'
+                    aria-label='React Native developers Chandigarh'
+                    >
                         <Container>
                             <Row className='align-items-center'>
                                 <Col xm={7} sm={12} lg={7} md={6}>
@@ -166,7 +170,7 @@ const React_Native = () => {
                                 <div className="single-features-light text-center">
                                     <div className="move">
                                         <div className="shape text-center">
-                                            <FaEnvelopeOpenText className='secondary-color' />
+                                            <FaEnvelopeOpenText className='secondary-color' alt='React Native app development experts Chandigarh'/>
                                         </div>
                                         <h3 className="font_22 font_weight_extra_bold">
                                             <a>Expertise and Experience</a>
@@ -180,7 +184,7 @@ const React_Native = () => {
                                 <div className="single-features-light text-center">
                                     <div className="move">
                                         <div className="shape">
-                                            <FaBullseye />
+                                            <FaBullseye alt='React Native app development services in Chandigarh'/>
                                         </div>
                                         <h3 className="font_22 font_weight_extra_bold">
                                             <a>Customer-Centric Approach</a>
@@ -194,7 +198,7 @@ const React_Native = () => {
                                 <div className="single-features-light text-center">
                                     <div className="move">
                                         <div className="shape">
-                                            <FaRocket />
+                                            <FaRocket alt='React Native development Chandigarh'/>
                                         </div>
                                         <h3 className="font_22 font_weight_extra_bold">
                                             <a>Support and Maintenance</a>
@@ -235,7 +239,7 @@ const React_Native = () => {
                             <div className="col-lg-4 col-md-6 d-flex">
                                 <div className="service-box position-relative">
                                     <div className='service-icon'>
-                                        <FaApple />
+                                        <FaApple alt='Full-stack React Native developers Chandigarh'/>
                                     </div>
                                     <h3 className="color_343a40">Cross-Platform Mobile App Development</h3>
                                     <p>Secure and fast transactions, fraud prevention, and automated compliance through smart contracts.</p>
@@ -244,7 +248,7 @@ const React_Native = () => {
                             <div className="col-lg-4 col-md-6 d-flex">
                                 <div className="service-box position-relative">
                                     <div className='service-icon'>
-                                        <TbBrandReactNative/>
+                                        <TbBrandReactNative alt='React Native craetors in chandigarh'/>
                                     </div>
                                     <h3 className="color_343a40">Custom React Native Development</h3>
                                     <p>Improved patient data security, seamless record management, and interoperability between providers.</p>
@@ -253,7 +257,7 @@ const React_Native = () => {
                             <div className="col-lg-4 col-md-6 d-flex">
                                 <div className="service-box position-relative">
                                     <div className='service-icon'>
-                                         <PiMonitorPlayFill/>
+                                         <PiMonitorPlayFill alt='React Native development agency Chandigarh'/>
                                     </div>
                                     <h3 className="color_343a40">App UI/UX Design</h3>
                                     <p>Real-time tracking, transparency, and efficient management of logistics and transactions.</p>
@@ -262,7 +266,7 @@ const React_Native = () => {
                             <div className="col-lg-4 col-md-6 d-flex">
                                 <div className="service-box position-relative">
                                     <div className='service-icon'>
-                                         <IoRocketSharp/>
+                                         <IoRocketSharp alt='Affordable React Native developers Chandigarh'/>
                                     </div>
                                     <h3 className="color_343a40">App Testing and Optimization</h3>
                                     <p>Secure property transactions, reduced fraud through smart contracts, and transparent ownership records for buyers and sellers.</p>
@@ -271,7 +275,7 @@ const React_Native = () => {
                             <div className="col-lg-4 col-md-6 d-flex">
                                 <div className="service-box position-relative">
                                     <div className='service-icon'>
-                                        <FaBuildingUser />
+                                        <FaBuildingUser alt='10 React Native development companies in India.'/>
                                     </div>
                                     <h3 className="color_343a40">Enterprise App Development</h3>
                                     <p>Tamper-proof academic credentials, secure digital certificates, and streamlined verification for employers and institutions.</p>
@@ -280,7 +284,7 @@ const React_Native = () => {
                             <div className="col-lg-4 col-md-6 d-flex">
                                 <div className="service-box position-relative">
                                     <div className='service-icon'>
-                                        <GiUpgrade />
+                                        <GiUpgrade alt='React Native development solutions Chandigarh'/>
                                     </div>
                                     <h3 className="color_343a40">React Native Migration & Upgrades</h3>
                                     <p>We provide React Native migration services to help businesses transition from legacy systems or upgrade existing apps for better functionality and scalability.</p>
@@ -298,28 +302,31 @@ const React_Native = () => {
                             <div className="row d-flex align-items-center flex-wrap">
                                 <PortfolioItem
                                     workImage={work1}
+                                    altText='React Native developers Chandigarh'
                                     projectTitle="React Native"
                                     projectCategory="React Native Development"
                                     projectLink="#"
                                 />
                                 <PortfolioItem
                                     workImage={work2}
+                                    altText='React Native app development experts Chandigarh'
                                     projectTitle="React Native"
                                     projectCategory="React Native Development"
                                     projectLink="#"
                                 />
                                 <PortfolioItem
                                     workImage={work3}
+                                    altText='Top React Native development companies Chandigarh'
                                     projectTitle="React Native"
                                     projectCategory="React Native Development"
                                     projectLink="#"
                                 />
-
                             </div>
                         </div>
                 </section>
             
                 <FAQAccordion title="FAQs on React Native Development" faqs={faqData} className="custom-bg"/>
+
             </main>
         </>
     )

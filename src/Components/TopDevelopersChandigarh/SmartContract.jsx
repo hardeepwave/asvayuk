@@ -61,7 +61,7 @@ const SmartContract = () => {
 
             <main>
 
-                <section className='bannerMlm SmartContractbg '>
+                <section className='bannerMlm SmartContractbg' aria-label='Best Smart Contract Developers in Chandigar'>
                     <Container>
                         <Row className='align-items-center'>
                             <Col xm={7} sm={12} lg={7} md={6}>
@@ -74,13 +74,13 @@ const SmartContract = () => {
                                     </div>
                                     <div className="review_section mb-5">
                                         <div className="review_img">
-                                            <img src={reviewGoogle} alt="google" />
+                                            <img src={reviewGoogle} alt="Top Smart Contract Development Company in Panchkula" />
                                         </div>
                                         <div className="review_img mx-2">
-                                            <img src={GoodFirms} alt="good firms" />
+                                            <img src={GoodFirms} alt="Expert Blockchain Smart Contract Developers in Mohali" />
                                         </div>
                                         <div className="review_img">
-                                            <img src={Glassdoor} alt="glassdoor" />
+                                            <img src={Glassdoor} alt="Secure Smart Contract Solutions in Chandigarh" />
                                         </div>
                                     </div>
                                     <div className="lst_text_banner">
@@ -152,7 +152,7 @@ const SmartContract = () => {
                             </div>
                             <div className="col-lg-6 col-md-65 col-sm-12">
                                 <div>
-                                    <img src={shopifystoreapp} alt="Smart Contract Development" className="img-fluid" />
+                                    <img src={shopifystoreapp} alt="Hire Smart Contract Developers in Panchkula" className="img-fluid" />
                                 </div>
                             </div>
                         </div>
@@ -169,7 +169,7 @@ const SmartContract = () => {
                                 <div className="single-features-light text-center">
                                     <div className="move">
                                         <div className="shape text-center">
-                                            <FaShieldAlt className='secondary-color' />
+                                            <FaShieldAlt className='secondary-color' alt='Custom Smart Contract Development in Mohali'/>
                                         </div>
                                         <h3 className="font_22 font_weight_extra_bold">
                                             <a href="javascript:;">Tailored Smart Contract Solutions</a>
@@ -182,7 +182,7 @@ const SmartContract = () => {
                                 <div className="single-features-light text-center">
                                     <div className="move">
                                         <div className="shape">
-                                            <IoIosStopwatch />
+                                            <IoIosStopwatch alt='Smart Contract Audit Services in Chandigarh'/>
                                         </div>
                                         <h3 className="font_22 font_weight_extra_bold">
                                             <a href="javascript:;">On-Time Project Delivery</a>
@@ -195,7 +195,7 @@ const SmartContract = () => {
                                 <div className="single-features-light text-center">
                                     <div className="move">
                                         <div className="shape">
-                                            <FaQuestionCircle />
+                                            <FaQuestionCircle alt='Reliable Smart Contract Development Company in Panchkula'/>
                                         </div>
                                         <h3 className="font_22 font_weight_extra_bold">
                                             <a href="javascript:;">Comprehensive Support</a>
@@ -248,7 +248,7 @@ const SmartContract = () => {
                             <div className="col-lg-4 col-md-6">
                                 <div className="service-box position-relative">
                                     <div className="service-icon">
-                                        <BsFiletypePsd />
+                                        <BsFiletypePsd alt='Blockchain & Smart Contract Development in Mohali'/>
                                     </div>
                                     <h3 className="color_343a40">Core Concepts of Smart Contracts</h3>
                                     <p>Understanding the fundamentals of smart contracts, including their definition, purpose, and how they function on blockchain networks.</p>
@@ -257,7 +257,7 @@ const SmartContract = () => {
                             <div className="col-lg-4 col-md-6">
                                 <div className="service-box position-relative">
                                     <div className="service-icon">
-                                        <MdMiscellaneousServices />
+                                        <MdMiscellaneousServices alt='Ethereum Smart Contract Developers in Chandigarh'/>
                                     </div>
                                     <h3 className="color_343a40">Blockchain Platforms</h3>
                                     <p>Explore various blockchain platforms such as Ethereum, Binance Smart Chain, Solana, and others for deploying smart contracts.</p>
@@ -266,7 +266,7 @@ const SmartContract = () => {
                             <div className="col-lg-4 col-md-6">
                                 <div className="service-box position-relative">
                                     <div className="service-icon">
-                                        <FaShopify />
+                                        <FaShopify alt='Trusted Smart Contract Solutions in Panchkula'/>
                                     </div>
                                     <h3 className="color_343a40">Smart Contract Programming Languages</h3>
                                     <p>Learn about programming languages like Solidity, Vyper, Rust, and their application in developing smart contracts.</p>
@@ -275,7 +275,7 @@ const SmartContract = () => {
                             <div className="col-lg-4 col-md-6">
                                 <div className="service-box position-relative">
                                     <div className="service-icon">
-                                        <MdIntegrationInstructions />
+                                        <MdIntegrationInstructions alt='Best DeFi Smart Contract Developers in Mohali'/>
                                     </div>
                                     <h3 className="color_343a40">Development Tools and Frameworks</h3>
                                     <p>Get familiar with tools like Remix, Truffle, and Hardhat for writing, testing, and deploying smart contracts.</p>
@@ -284,7 +284,7 @@ const SmartContract = () => {
                             <div className="col-lg-4 col-md-6">
                                 <div className="service-box position-relative">
                                     <div className="service-icon">
-                                        <FaComputer />
+                                        <FaComputer alt='Smart Contract Security Audit Services in Chandigarh'/>
                                     </div>
                                     <h3 className="color_343a40">Security and Auditing</h3>
                                     <p>Understand how to audit and secure smart contracts to prevent vulnerabilities and ensure reliability and safety.</p>
@@ -293,7 +293,7 @@ const SmartContract = () => {
                             <div className="col-lg-4 col-md-6">
                                 <div className="service-box position-relative">
                                     <div className="service-icon">
-                                        <GrSupport />
+                                        <GrSupport alt='Top-Rated Smart Contract Development Firm in Panchkula'/>
                                     </div>
                                     <h3 className="color_343a40">Smart Contract Deployment and Maintenance</h3>
                                     <p>Learn about the deployment process, including testnets, mainnet deployment, and post-deployment support and upgrades.</p>
@@ -314,18 +314,21 @@ const SmartContract = () => {
                         <div className="row d-flex align-items-center flex-wrap">
                             <PortfolioItem
                                 workImage={work1}
+                                altText='Scalable Smart Contract Development Services in Mohali'
                                 projectTitle="Smart Contract"
                                 projectCategory="Smart Contract Development"
                                 projectLink="#"
                             />
                             <PortfolioItem
                                 workImage={work2}
+                                altText='Best Smart Contract Developers in Chandigarh'
                                 projectTitle="Smart Contract"
                                 projectCategory="Smart Contract Development"
                                 projectLink="#"
                             />
                             <PortfolioItem
                                 workImage={work3}
+                                altText='Top Smart Contract Development Company in Panchkula'
                                 projectTitle="Smart Contract"
                                 projectCategory="Smart Contract Development"
                                 projectLink="#"
@@ -349,7 +352,7 @@ const SmartContract = () => {
                                         <Col lg={3} md={6} sm={12}>
                                             <div className="single-work-process position-relative">
                                                 <div className="work-process-icon-wrap bg_blue position-relative d-inline-block">
-                                                    <FaSearch className="icon-md text-white" />
+                                                    <FaSearch className="icon-md text-white" alt='Expert Blockchain Smart Contract Developers in Mohali'/>
                                                     <span className="process-step bg_white color-primary shadow-sm color_blue">1</span>
                                                 </div>
                                                 <span className="work-process-divider"></span>
@@ -364,7 +367,7 @@ const SmartContract = () => {
                                         <Col lg={3} md={6} sm={12}>
                                             <div className="single-work-process position-relative">
                                                 <div className="work-process-icon-wrap bg_blue position-relative d-inline-block">
-                                                    <FaBullseye className="icon-md text-white" />
+                                                    <FaBullseye className="icon-md text-white" alt='Secure Smart Contract Solutions in Chandigarh'/>
                                                     <span className="process-step bg_white color-primary shadow-sm color_blue">2</span>
                                                 </div>
                                                 <span className="work-process-divider"></span>
@@ -379,7 +382,7 @@ const SmartContract = () => {
                                         <Col lg={3} md={6} sm={12}>
                                             <div className="single-work-process position-relative">
                                                 <div className="work-process-icon-wrap bg_blue position-relative d-inline-block">
-                                                    <FaMugHot className="icon-md text-white" />
+                                                    <FaMugHot className="icon-md text-white" alt='Hire Smart Contract Developers in Panchkula'/>
                                                     <span className="process-step bg_white color-primary shadow-sm color_blue">3</span>
                                                 </div>
                                                 <span className="work-process-divider"></span>
@@ -394,7 +397,7 @@ const SmartContract = () => {
                                         <Col lg={3} md={6} sm={12}>
                                             <div className="single-work-process position-relative">
                                                 <div className="work-process-icon-wrap bg_blue position-relative d-inline-block">
-                                                    <FaRocket className="icon-md text-white" />
+                                                    <FaRocket className="icon-md text-white" alt='Custom Smart Contract Development in Mohali'/>
                                                     <span className="process-step bg_white color-primary shadow-sm color_blue">4</span>
                                                 </div>
                                                 <span className="work-process-divider"></span>

@@ -60,7 +60,7 @@ const BlockchainDeveloper = () => {
             />
 
             <main>
-                <section className='bannerMlm blockchainbg'>
+                <section className='bannerMlm blockchainbg' aria-label='Best Blockchain Developers in Chandigarh'>
                     <Container>
                         <Row className='align-items-center'>
                             <Col xm={7} sm={12} lg={7} md={6}>
@@ -73,13 +73,13 @@ const BlockchainDeveloper = () => {
                                     </div>
                                     <div className="review_section mb-5">
                                         <div className="review_img">
-                                            <img src={reviewGoogle} alt="google" />
+                                            <img src={reviewGoogle} alt="blockchain development experts chandigarh" />
                                         </div>
                                         <div className="review_img mx-2">
-                                            <img src={GoodFirms} alt="good firms" />
+                                            <img src={GoodFirms} alt="blockchain web development chandigarh" />
                                         </div>
                                         <div className="review_img">
-                                            <img src={Glassdoor} alt="glassdoor" />
+                                            <img src={Glassdoor} alt="Blockchain web development provider in chandigarh" />
                                         </div>
                                     </div>
                                     <div className="lst_text_banner">
@@ -154,7 +154,7 @@ const BlockchainDeveloper = () => {
                             </div>
                             <div className="col-lg-6 col-md-65 col-sm-12">
                                 <div>
-                                    <img src={shopifystoreapp} alt="Blockchain Solutions" className="img-fluid" />
+                                    <img src={shopifystoreapp} alt="Blockchain for businesses in Chandigarh" className="img-fluid" />
                                 </div>
                             </div>
                         </div>
@@ -173,7 +173,7 @@ const BlockchainDeveloper = () => {
                                 <div className="single-features-light text-center">
                                     <div className="move">
                                         <div className="shape text-center">
-                                            <FaShieldAlt className='secondary-color' />
+                                            <FaShieldAlt className='secondary-color' alt='Leading Blockchain Development Company in Panchkula'/>
                                         </div>
                                         <h3 className="font_22 font_weight_extra_bold">
                                             <a href="javascript:;">Expert Blockchain Developers</a>
@@ -186,7 +186,7 @@ const BlockchainDeveloper = () => {
                                 <div className="single-features-light text-center">
                                     <div className="move">
                                         <div className="shape">
-                                            <IoIosStopwatch />
+                                            <IoIosStopwatch alt='Custom Blockchain App Development in Chandigarh'/>
                                         </div>
                                         <h3 className="font_22 font_weight_extra_bold">
                                             <a href="javascript:;">Custom Solutions for Your Business</a>
@@ -199,7 +199,7 @@ const BlockchainDeveloper = () => {
                                 <div className="single-features-light text-center">
                                     <div className="move">
                                         <div className="shape">
-                                            <FaQuestionCircle />
+                                            <FaQuestionCircle alt='Leading Blockchain Development Company in Panchkula'/>
                                         </div>
                                         <h3 className="font_22 font_weight_extra_bold">
                                             <a href="javascript:;">24/7 Customer Support</a>
@@ -250,17 +250,16 @@ const BlockchainDeveloper = () => {
                             <div className="col-lg-4 col-md-6">
                                 <div className="service-box position-relative">
                                     <div className='service-icon'>
-                                        <BsFiletypePsd />
+                                        <BsFiletypePsd alt='Leading Blockchain Development Company in Panchkula'/>
                                     </div>
                                     <h3 className="color_343a40">Core Blockchain Developers</h3>
                                     <p>Focus on the architecture and design of blockchain systems. Responsible for developing and maintaining the blockchain protocol. Work on consensus algorithms, network architecture, and security features.</p>
-
                                 </div>
                             </div>
                             <div className="col-lg-4 col-md-6">
                                 <div className="service-box position-relative">
                                     <div className='service-icon'>
-                                        <MdMiscellaneousServices />
+                                        <MdMiscellaneousServices alt='Expert Blockchain Solutions in Mohali'/>
                                     </div>
                                     <h3 className="color_343a40">Blockchain Software Developers</h3>
                                     <p>We provide seamless blockchain integration with your existing systems, ensuring enhanced security, scalability, and performance for your business.</p>
@@ -269,7 +268,7 @@ const BlockchainDeveloper = () => {
                             <div className="col-lg-4 col-md-6">
                                 <div className="service-box position-relative">
                                     <div className='service-icon'>
-                                        <FaShopify />
+                                        <FaShopify alt='Innovative Web3 & Blockchain Development in Mohali'/>
                                     </div>
                                     <h3 className="color_343a40">Blockchain Security Engineers</h3>
                                     <p>Focus on securing blockchain platforms and applications. Perform audits, penetration tests, and vulnerability assessments. Expertise in cryptography, secure coding practices, and risk mitigation.</p>
@@ -278,7 +277,7 @@ const BlockchainDeveloper = () => {
                             <div className="col-lg-4 col-md-6">
                                 <div className="service-box position-relative">
                                     <div className='service-icon'>
-                                        <MdIntegrationInstructions />
+                                        <MdIntegrationInstructions alt='Blockchain-Powered Software Development in Panchkula'/>
                                     </div>
                                     <h3 className="color_343a40">Smart Contract Developers</h3>
                                     <p>Specialize in writing, testing, and deploying smart contracts. Ensure contracts are secure, efficient, and error-free. Often work with specific programming languages like Solidity or Vyper.</p>
@@ -287,7 +286,7 @@ const BlockchainDeveloper = () => {
                             <div className="col-lg-4 col-md-6">
                                 <div className="service-box position-relative">
                                     <div className='service-icon'>
-                                        <FaComputer />
+                                        <FaComputer alt='Enterprise Blockchain Solutions in Chandigarh'/>
                                     </div>
                                     <h3 className="color_343a40">Frontend Blockchain Developers</h3>
                                     <p>Focus on user interfaces for blockchain applications. Ensure seamless interaction between users and the blockchain. Skilled in JavaScript, React, or Angular for web development.</p>
@@ -296,7 +295,7 @@ const BlockchainDeveloper = () => {
                             <div className="col-lg-4 col-md-6">
                                 <div className="service-box position-relative">
                                     <div className='service-icon'>
-                                        <GrSupport />
+                                        <GrSupport alt='Top Blockchain Consulting Services in Mohali'/>
                                     </div>
                                     <h3 className="color_343a40">Backend Blockchain Developers</h3>
                                     <p>Manage servers, databases, and APIs connecting to the blockchain. Ensure smooth integration of blockchain systems with existing infrastructure. Often proficient in Node.js, Python, or Go.</p>
@@ -314,18 +313,21 @@ const BlockchainDeveloper = () => {
                         <div className="row d-flex align-items-center flex-wrap">
                             <PortfolioItem
                                 workImage={work1}
+                                altText='Leading Blockchain Development Company in Panchkula'
                                 projectTitle="BlockchainDevPro"
                                 projectCategory="Blockchain, Development"
                                 projectLink="https://www.exampleblockchain.com/"
                             />
                             <PortfolioItem
                                 workImage={work2}
+                                altText='Best Blockchain Developers in Chandigarh'
                                 projectTitle="Emeta Technologies"
                                 projectCategory="Blockchain Development"
                                 projectLink="https://emetatechnologies.com/"
                             />
                             <PortfolioItem
                                 workImage={work3}
+                                altText='Secure & Scalable Blockchain Development in Panchkula'
                                 projectTitle="BlockchainDevPro"
                                 projectCategory="Blockchain, Development"
                                 projectLink="https://www.exampleblockchain.com/"
@@ -347,7 +349,7 @@ const BlockchainDeveloper = () => {
                                         <Col lg={3} md={6} sm={12}>
                                             <div className="single-work-process position-relative">
                                                 <div className="work-process-icon-wrap bg_blue position-relative d-inline-block">
-                                                    <FaSearch className="icon-md text-white" />
+                                                    <FaSearch className="icon-md text-white" alt='Custom Blockchain App Development in Chandigarh'/>
                                                     <span className="process-step bg_white color-primary shadow-sm color_blue">1</span>
                                                 </div>
                                                 <span className="work-process-divider"></span>
@@ -362,7 +364,7 @@ const BlockchainDeveloper = () => {
                                         <Col lg={3} md={6} sm={12}>
                                             <div className="single-work-process position-relative">
                                                 <div className="work-process-icon-wrap bg_blue position-relative d-inline-block">
-                                                    <FaBullseye className="icon-md text-white" />
+                                                    <FaBullseye className="icon-md text-white" alt='Expert Blockchain Solutions in Mohali'/>
                                                     <span className="process-step bg_white color-primary shadow-sm color_blue">2</span>
                                                 </div>
                                                 <span className="work-process-divider"></span>
@@ -377,7 +379,7 @@ const BlockchainDeveloper = () => {
                                         <Col lg={3} md={6} sm={12}>
                                             <div className="single-work-process position-relative">
                                                 <div className="work-process-icon-wrap bg_blue position-relative d-inline-block">
-                                                    <FaMugHot className="icon-md text-white" />
+                                                    <FaMugHot className="icon-md text-white" alt='Leading Blockchain Development Company in Panchkula'/>
                                                     <span className="process-step bg_white color-primary shadow-sm color_blue">3</span>
                                                 </div>
                                                 <span className="work-process-divider"></span>
@@ -392,7 +394,7 @@ const BlockchainDeveloper = () => {
                                         <Col lg={3} md={6} sm={12}>
                                             <div className="single-work-process position-relative">
                                                 <div className="work-process-icon-wrap bg_blue position-relative d-inline-block">
-                                                    <FaRocket className="icon-md text-white" />
+                                                    <FaRocket className="icon-md text-white" alt='Best Blockchain Developers in Chandigarh'/>
                                                     <span className="process-step bg_white color-primary shadow-sm color_blue">4</span>
                                                 </div>
                                                 <span className="work-process-divider"></span>

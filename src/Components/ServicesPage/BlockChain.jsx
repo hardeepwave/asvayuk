@@ -17,9 +17,9 @@ import PortfolioItem from '../PortfolioItem/PortfolioItem';
 import work1 from '../../Images/crypotoImg1.png'
 import work2 from '../../Images/crypotoImg2.png'
 import work3 from '../../Images/crypotoImg3.png'
+import blockchainBanner from '../../Images/blockchainBanner.jpg';
 import blockchainSmallBanner from '../../Images/blockchainSmallBanner.jpg'
 import BlockChainBan4 from '../../Images/BlockChainBan4.png'
-import React_Native_1 from '../../Images/React-Native-1.webp'
 
 const BlockChain = () => {
 
@@ -54,7 +54,10 @@ const BlockChain = () => {
                 canonical="https://asvayuktech.com/blockchain-web-development-chandigarh"
             />
             <main>
-                 <section className='bannerMlm blockChainDevMainBanner'>
+                <section
+                    className='bannerMlm blockChainDevMainBanner'
+                    aria-label='Blockchain Web Development in Chandigarh'
+                >
                         <Container>
                             <Row className='align-items-center'>
                                 <Col xm={7} sm={12} lg={7} md={6}>
@@ -64,10 +67,10 @@ const BlockChain = () => {
                                         <div className='bannerAreaTop_content'>
                                             <h1 className="h1 mb-5 text-white"><Link to="https://maps.app.goo.gl/sDkN86Cnw1b1W8iK7"><span className='fw-bold' style={{ color: '#ffbf0b' }}>Blockchain </span>Web Development Chandigarh</Link></h1>
                                             <p className='text-white'>
-                                            Blockchain technology is revolutionizing the digital world by offering secure, decentralized, and transparent solutions.
-                                            At Asvayuk Technologies Private Ltd., we specialize in blockchain web development in Chandigarh, helping businesses build advanced
-                                            blockchain-powered platforms that enhance security, efficiency, and user trust. Whether you need private blockchain solutions in Chandigarh,
-                                            crypto web development, or Web3 Android app development, our expert team is here to deliver customized solutions tailored to your business needs.
+                                                Blockchain technology is revolutionizing the digital world by offering secure, decentralized, and transparent solutions.
+                                                At Asvayuk Technologies Private Ltd., we specialize in blockchain web development in Chandigarh, helping businesses build advanced
+                                                blockchain-powered platforms that enhance security, efficiency, and user trust. Whether you need private blockchain solutions in Chandigarh,
+                                                crypto web development, or Web3 Android app development, our expert team is here to deliver customized solutions tailored to your business needs.
                                             </p>
                                         </div>
                                         <div className="review_section mb-5">
@@ -166,7 +169,7 @@ const BlockChain = () => {
                                 <div className="single-features-light text-center">
                                     <div className="move">
                                         <div className="shape text-center">
-                                            <FaEnvelopeOpenText className='secondary-color' />
+                                            <FaEnvelopeOpenText className='secondary-color' alt='Best Blockchain Web Development Company in Chandigarh'/>
                                         </div>
                                         <h3 className="font_22 font_weight_extra_bold">
                                             <a>Expert Blockchain Developers</a>
@@ -180,7 +183,7 @@ const BlockChain = () => {
                                 <div className="single-features-light text-center">
                                     <div className="move">
                                         <div className="shape">
-                                            <FaBullseye />
+                                            <FaBullseye alt='Top Blockchain Technology Solutions in Chandigarh'/>
                                         </div>
                                         <h3 className="font_22 font_weight_extra_bold">
                                             <a>Customized Blockchain Solutions</a>
@@ -194,7 +197,7 @@ const BlockChain = () => {
                                 <div className="single-features-light text-center">
                                     <div className="move">
                                         <div className="shape">
-                                            <FaRocket />
+                                            <FaRocket alt='Secure & Decentralized Blockchain Apps in Chandigarh'/>
                                         </div>
                                         <h3 className="font_22 font_weight_extra_bold">
                                             <a>Comprehensive Web3 Development</a>
@@ -245,7 +248,7 @@ const BlockChain = () => {
                             <div className="col-lg-4 col-md-6 d-flex">
                                 <div className="service-box position-relative">
                                     <div className='service-icon'>
-                                        <RiMoneyRupeeCircleFill />
+                                        <RiMoneyRupeeCircleFill alt='Custom Blockchain Solutions for Businesses in Chandigarh'/>
                                     </div>
                                     <h3 className="color_343a40">Finance & Banking</h3>
                                     <p>Secure and fast transactions, fraud prevention, and automated compliance through smart contracts.</p>
@@ -254,7 +257,7 @@ const BlockChain = () => {
                             <div className="col-lg-4 col-md-6 d-flex">
                                 <div className="service-box position-relative">
                                     <div className='service-icon'>
-                                        <MdHealthAndSafety/>
+                                        <MdHealthAndSafety alt='Expert Web3 Development Services in Chandigarh'/>
                                     </div>
                                     <h3 className="color_343a40">Healthcare</h3>
                                     <p>Improved patient data security, seamless record management, and interoperability between providers.</p>
@@ -263,7 +266,7 @@ const BlockChain = () => {
                             <div className="col-lg-4 col-md-6 d-flex">
                                 <div className="service-box position-relative">
                                     <div className='service-icon'>
-                                         <FaRecycle/>
+                                         <FaRecycle alt='Blockchain-Powered Platform Development in Chandigarh'/>
                                     </div>
                                     <h3 className="color_343a40">Supply Chain Management</h3>
                                     <p>Real-time tracking, transparency, and efficient management of logistics and transactions.</p>
@@ -272,7 +275,7 @@ const BlockChain = () => {
                             <div className="col-lg-4 col-md-6 d-flex">
                                 <div className="service-box position-relative">
                                     <div className='service-icon'>
-                                         <MdRealEstateAgent/>
+                                         <MdRealEstateAgent alt='Leading Blockchain App Developers in Chandigarh'/>
                                     </div>
                                     <h3 className="color_343a40">Real Estate</h3>
                                     <p>Secure property transactions, reduced fraud through smart contracts, and transparent ownership records for buyers and sellers.</p>
@@ -281,7 +284,7 @@ const BlockChain = () => {
                             <div className="col-lg-4 col-md-6 d-flex">
                                 <div className="service-box position-relative">
                                     <div className='service-icon'>
-                                        <IoSchool />
+                                        <IoSchool alt='Advanced Smart Contract & Blockchain Integration in Chandigarh'/>
                                     </div>
                                     <h3 className="color_343a40">Education</h3>
                                     <p>Tamper-proof academic credentials, secure digital certificates, and streamlined verification for employers and institutions.</p>
@@ -290,7 +293,7 @@ const BlockChain = () => {
                             <div className="col-lg-4 col-md-6 d-flex">
                                 <div className="service-box position-relative">
                                     <div className='service-icon'>
-                                        <MdLocalGroceryStore />
+                                        <MdLocalGroceryStore alt='Best Blockchain Web Development Company in Chandigarh'/>
                                     </div>
                                     <h3 className="color_343a40">E-commerce</h3>
                                     <p>Decentralized marketplaces, secure payment gateways, and fraud prevention through transparent transaction tracking.</p>
@@ -308,18 +311,21 @@ const BlockChain = () => {
                             <div className="row d-flex align-items-center flex-wrap">
                                 <PortfolioItem
                                     workImage={work1}
+                                    altText='Best Blockchain Web Development Company in Chandigarh'
                                     projectTitle="Blockchain"
                                     projectCategory="Blockchain Development"
                                     projectLink="#"
                                 />
                                 <PortfolioItem
                                     workImage={work2}
+                                    altText='Custom Blockchain Solutions for Businesses in Chandigarh'
                                     projectTitle="Blockchain"
                                     projectCategory="Blockchain Development"
                                     projectLink="#"
                                 />
                                 <PortfolioItem
                                     workImage={work3}
+                                    altText='Crypto Web Development Company in Chandigarh'
                                     projectTitle="Blockchain"
                                     projectCategory="Blockchain Development"
                                     projectLink="#"
@@ -327,9 +333,7 @@ const BlockChain = () => {
 
                             </div>
                         </div>
-                </section>
-                            
-
+                </section>    
                             
                 <section className="section-box col-12 pl-0 pr-0 bg_f8f8ff" id="our_work">
                         <Container>
@@ -343,7 +347,7 @@ const BlockChain = () => {
                                             <Col lg={3} md={6} sm={12}>
                                                 <div className="single-work-process position-relative">
                                                     <div className="work-process-icon-wrap bg_blue position-relative d-inline-block">
-                                                        <FaSearch className="icon-md text-white" />
+                                                        <FaSearch className="icon-md text-white" alt='Enterprise Blockchain Development Company in Chandigarh'/>
                                                         <span className="process-step bg_white color-primary shadow-sm color_blue">1</span>
                                                     </div>
                                                     <span className="work-process-divider"></span>
@@ -358,7 +362,7 @@ const BlockChain = () => {
                                             <Col lg={3} md={6} sm={12}>
                                                 <div className="single-work-process position-relative">
                                                     <div className="work-process-icon-wrap bg_blue position-relative d-inline-block">
-                                                        <FaBullseye className="icon-md text-white" />
+                                                        <FaBullseye className="icon-md text-white" alt='Decentralized Application (DApp) Development in Chandigarh'/>
                                                         <span className="process-step bg_white color-primary shadow-sm color_blue">2</span>
                                                     </div>
                                                     <span className="work-process-divider"></span>
@@ -373,7 +377,7 @@ const BlockChain = () => {
                                             <Col lg={3} md={6} sm={12}>
                                                 <div className="single-work-process position-relative">
                                                     <div className="work-process-icon-wrap bg_blue position-relative d-inline-block">
-                                                        <FaMugHot className="icon-md text-white" />
+                                                        <FaMugHot className="icon-md text-white" alt='Leading NFT Marketplace Development in Chandigarh'/>
                                                         <span className="process-step bg_white color-primary shadow-sm color_blue">3</span>
                                                     </div>
                                                     <span className="work-process-divider"></span>
@@ -387,7 +391,7 @@ const BlockChain = () => {
                                             <Col lg={3} md={6} sm={12}>
                                                 <div className="single-work-process position-relative">
                                                     <div className="work-process-icon-wrap bg_blue position-relative d-inline-block">
-                                                        <FaRocket className="icon-md text-white" />
+                                                        <FaRocket className="icon-md text-white" alt='Ethereum & Binance Smart Chain Development in Chandigarh'/>
                                                         <span className="process-step bg_white color-primary shadow-sm color_blue">4</span>
                                                     </div>
                                                     <span className="work-process-divider"></span>

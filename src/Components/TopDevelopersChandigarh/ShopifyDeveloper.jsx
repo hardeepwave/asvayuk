@@ -68,12 +68,12 @@ const ShopifyDeveloper = () => {
                                     <div className='bannerAreaTop_content'>
                                         <h1 className="h1 mb-5 text-white"><Link to="https://maps.app.goo.gl/sDkN86Cnw1b1W8iK7"><span style={{ color: '#ffbf0b' }}>Shopify</span> Website Design Company in <span style={{ color: '#ffbf0b' }}>Chandigarh!</span></Link></h1>
                                         <p className='text-white'>
-                                                    At Asvayuk Technologies Private Ltd., we are a leading Shopify website design company in Chandigarh,
-                                                    specializing in crafting visually appealing, user-friendly, and high-performance Shopify websites.
-                                                    As a top Shopify development company in Chandigarh,
-                                                    we help businesses build their online presence with expert Shopify web development services.
-                                                    Our team of skilled Shopify web developers in Chandigarh is dedicated to delivering outstanding results,
-                                                    ensuring that your e-commerce store is not only attractive but also fully functional, fast, and scalable.
+                                            At Asvayuk Technologies Private Ltd., we are a leading Shopify website design company in Chandigarh,
+                                            specializing in crafting visually appealing, user-friendly, and high-performance Shopify websites.
+                                            As a top Shopify development company in Chandigarh,
+                                            we help businesses build their online presence with expert Shopify web development services.
+                                            Our team of skilled Shopify web developers in Chandigarh is dedicated to delivering outstanding results,
+                                            ensuring that your e-commerce store is not only attractive but also fully functional, fast, and scalable.
                                         </p>
                                     </div>
                                     <div className="review_section mb-5">
@@ -101,33 +101,6 @@ const ShopifyDeveloper = () => {
                                 <div className='overflow-hidden w-100 h-100'>
                                     <iframe width="100%" height="480px" src="https://crm.asvayuktech.com/forms/wtl/a5631df056d39b1643e1dbdad5c65bca" allowfullscreen className='mb-0  rounded-4' style={{ background: 'transparent' }}></iframe>
                                 </div>
-                                {/* <div className="FormBannerTop">
-                                <form id="" name="" method="">
-                                    <h4 className="fw-bold">Let’s start the discussion.</h4>
-                                    <div className="form-group">
-                                        <input type="text" className="form-control" name="name" maxLength="150" id="name" placeholder="Name" required="" />
-                                    </div>
-                                    <div className="form-group">
-                                        <input type="email" className="form-control" name="email" maxLength="150" id="email" placeholder="Work Email" required="" />
-                                    </div>
-                                    <div className="form-group">
-                                        <input type="tel" className="form-control" name="phone" id="phone" maxLength="15" placeholder="Phone Number" required="" />
-                                    </div>
-
-                                    <div className="form-group">
-                                        <input type="text" className="form-control" name="message" minLength="3" maxLength="500" id="message" placeholder="Enter Your Message here" required="" spellCheck="false" data-ms-editor="true" />
-                                    </div>
-
-                                    <div className="col-md-12">
-                                        <div className="row" style={{ display: 'block' }}>
-                                            <div className="col-md-12" style={{ padding: '0px', alignItems: 'center', display: 'flex', marginTop: '10px', position: 'relative' }}>
-                                                <button type="submit" id="inquire-button" name="submit" className="btn banner-form-btn green-btn btn_width_set" style={{ margin: '0px', width: '100%' }}>Inquire Now!</button>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                </form>
-                            </div> */}
                             </Col>
                         </Row>
                     </Container>
@@ -206,7 +179,7 @@ const ShopifyDeveloper = () => {
                                 <div className="single-features-light text-center">
                                     <div className="move">
                                         <div className="shape">
-                                            <FaShieldAlt className='secondary-color' />
+                                            <FaShieldAlt className='secondary-color' alt='Best Shopify Website Design Company in Chandigarh'/>
                                         </div>
                                         <h3 className="font_22 font_weight_extra_bold">
                                             <a href="javascript:;">Quality Service</a>
@@ -219,7 +192,7 @@ const ShopifyDeveloper = () => {
                                 <div className="single-features-light text-center">
                                     <div className="move">
                                         <div className="shape">
-                                            <IoIosStopwatch />
+                                            <IoIosStopwatch alt='Top Shopify Development Agency in Panchkula'/>
                                         </div>
                                         <h3 className="font_22 font_weight_extra_bold">
                                             <a href="javascript:;">On-Time Delivery</a>
@@ -233,7 +206,7 @@ const ShopifyDeveloper = () => {
                                 <div className="single-features-light text-center">
                                     <div className="move">
                                         <div className="shape">
-                                            <FaQuestionCircle />
+                                            <FaQuestionCircle alt='Expert Shopify Website Designers in Mohali'/>
                                         </div>
                                         <h3 className="font_22 font_weight_extra_bold">
                                             <a href="javascript:;">Support </a>
@@ -286,7 +259,7 @@ const ShopifyDeveloper = () => {
                             <div className="col-lg-4 col-md-6 my-0">
                                 <div className="service-box position-relative h-75 d-flex flex-column pb-2">
                                     <div className='service-icon'>
-                                        <FaStore />
+                                        <FaStore alt='Professional Shopify Web Developers in Chandigarh'/>
                                     </div>
                                     <h3 className="color_343a40">Shopify Store Design & Development
                                     </h3>
@@ -297,7 +270,7 @@ const ShopifyDeveloper = () => {
                             <div className="col-lg-4 col-md-6">
                                 <div className="service-box position-relative h-75 d-flex flex-column pb-2">.
                                     <div className='service-icon'>
-                                        <MdMiscellaneousServices />
+                                        <MdMiscellaneousServices alt='Custom Shopify Store Development in Panchkula'/>
                                     </div>
                                     <h3 className="color_343a40">Shopify Theme Customization
                                     </h3>
@@ -308,7 +281,7 @@ const ShopifyDeveloper = () => {
                             <div className="col-lg-4 col-md-6">
                                 <div className="service-box position-relative h-75 d-flex flex-column pb-2">
                                     <div className='service-icon'>
-                                        <FaShopify />
+                                        <FaShopify alt='Leading Shopify E-commerce Developers in Mohali'/>
                                     </div>
                                     <h3 className="color_343a40">Shopify App Development
                                     </h3>
@@ -319,7 +292,7 @@ const ShopifyDeveloper = () => {
                             <div className="col-lg-4 col-md-6">
                                 <div className="service-box position-relative h-75 d-flex flex-column pb-2">
                                     <div className='service-icon'>
-                                        <MdIntegrationInstructions />
+                                        <MdIntegrationInstructions alt='Affordable Shopify Website Services in Chandigarh'/>
                                     </div>
                                     <h3 className="color_343a40">Shopify Store Setup</h3>
                                     <p className="">Hire Shopify Expert to seamlessly integrate multiple payment gateways, CMS, or other third-party APIs relevant to your business model and requirements.
@@ -329,7 +302,7 @@ const ShopifyDeveloper = () => {
                             <div className="col-lg-4 col-md-6">
                                 <div className="service-box position-relative h-75 d-flex flex-column pb-2">
                                     <div className='service-icon'>
-                                        <FaComputer />
+                                        <FaComputer alt='Responsive Shopify Website Design in Panchkula'/>
                                     </div>
                                     <h3 className="color_343a40">Shopify Store Maintenance
                                     </h3>
@@ -340,7 +313,7 @@ const ShopifyDeveloper = () => {
                             <div className="col-lg-4 col-md-6">
                                 <div className="service-box position-relative h-75 d-flex flex-column pb-2">
                                     <div className='service-icon'>
-                                        <GrOptimize />
+                                        <GrOptimize alt='Trusted Shopify Website Development in Mohali'/>
                                     </div>
                                     <h3 className="color_343a40">Shopify SEO Services
                                     </h3>
@@ -360,18 +333,21 @@ const ShopifyDeveloper = () => {
                         <div className="row d-flex align-items-center flex-wrap">
                             <PortfolioItem
                                 workImage={work1}
+                                altText='Shopify E-commerce Experts in Chandigarh'
                                 projectTitle="Pumpd Store"
                                 projectCategory="Shopify Development"
                                 projectLink="https://pumpdstore.com/"
                             />
                             <PortfolioItem
                                 workImage={work2}
+                                altText='Best Shopify Store Setup Services in Panchkula'
                                 projectTitle="Furvital"
                                 projectCategory="Shopify Development"
                                 projectLink="https://furvital.com/"
                             />
                             <PortfolioItem
                                 workImage={work3}
+                                altText='Custom Shopify Theme Development in Mohali'
                                 projectTitle="ShopifyWebsite"
                                 projectCategory="Shopify Development"
                                 projectLink="https://asilocloud.com"
@@ -417,7 +393,7 @@ const ShopifyDeveloper = () => {
                                         <Col lg={3} md={6} sm={12}>
                                             <div className="single-work-process position-relative">
                                                 <div className="work-process-icon-wrap bg_blue position-relative d-inline-block">
-                                                    <FaSearch className="icon-md text-white" />
+                                                    <FaSearch className="icon-md text-white" alt='Top-Rated Shopify Designers in Chandigarh'/>
                                                     <span className="process-step bg_white color-primary shadow-sm color_blue">1</span>
                                                 </div>
                                                 <span className="work-process-divider"></span>
@@ -432,7 +408,7 @@ const ShopifyDeveloper = () => {
                                         <Col lg={3} md={6} sm={12}>
                                             <div className="single-work-process position-relative">
                                                 <div className="work-process-icon-wrap bg_blue position-relative d-inline-block">
-                                                    <FaBullseye className="icon-md text-white" />
+                                                    <FaBullseye className="icon-md text-white" alt='Scalable Shopify E-commerce Solutions in Panchkula'/>
                                                     <span className="process-step bg_white color-primary shadow-sm color_blue">2</span>
                                                 </div>
                                                 <span className="work-process-divider"></span>
@@ -447,7 +423,7 @@ const ShopifyDeveloper = () => {
                                         <Col lg={3} md={6} sm={12}>
                                             <div className="single-work-process position-relative">
                                                 <div className="work-process-icon-wrap bg_blue position-relative d-inline-block">
-                                                    <FaMugHot className="icon-md text-white" />
+                                                    <FaMugHot className="icon-md text-white" alt='SEO-Friendly Shopify Stores in Mohali'/>
                                                     <span className="process-step bg_white color-primary shadow-sm color_blue">3</span>
                                                 </div>
                                                 <span className="work-process-divider"></span>
@@ -462,7 +438,7 @@ const ShopifyDeveloper = () => {
                                         <Col lg={3} md={6} sm={12}>
                                             <div className="single-work-process position-relative">
                                                 <div className="work-process-icon-wrap bg_blue position-relative d-inline-block">
-                                                    <FaRocket className="icon-md text-white" />
+                                                    <FaRocket className="icon-md text-white" alt='Top Shopify Development Agency in Panchkula'/>
                                                     <span className="process-step bg_white color-primary shadow-sm color_blue">4</span>
                                                 </div>
                                                 <span className="work-process-divider"></span>

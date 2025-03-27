@@ -61,13 +61,15 @@ const CryptoExchangeDeveloper = () => {
             />
 
             <main>
-                <section className='bannerMlm crytoExchange'>
+                <section 
+                    className='bannerMlm crytoExchange'
+                    aria-label='Best Crypto Exchange Development Company in Chandigarh'
+                >
                     <Container>
                         <Row className='align-items-center'>
                             <Col xm={7} sm={12} lg={7} md={6}>
                                 <div className="bannerAreaTop">
                                     <div className="logoArea pb-4">
-                                        {/* <img src={shopifyImg} className="img-fluid w-25" alt="Crypto_Logo" /> */}
                                     </div>
                                     <div className='bannerAreaTop_content'>
                                         <h1 className="h1 mb-5 text-white"><Link to="https://maps.app.goo.gl/sDkN86Cnw1b1W8iK7">The Best <span className='fw-bold' style={{ color: '#ffbf0b' }}>Crypto Exchange</span> Developers in Chandigarh!</Link></h1>
@@ -75,13 +77,13 @@ const CryptoExchangeDeveloper = () => {
                                     </div>
                                     <div className="review_section mb-5">
                                         <div className="review_img">
-                                            <img src={reviewGoogle} alt="google" />
+                                            <img src={reviewGoogle} alt="Crypto Exchange Developers in Chandigarh" />
                                         </div>
                                         <div className="review_img mx-2">
-                                            <img src={GoodFirms} alt="good firms" />
+                                            <img src={GoodFirms} alt="Best Crypto Trading Platform Development Chandigarh" />
                                         </div>
                                         <div className="review_img">
-                                            <img src={Glassdoor} alt="glassdoor" />
+                                            <img src={Glassdoor} alt="Secure Cryptocurrency Exchange Solutions Chandigarh" />
                                         </div>
                                     </div>
                                     <div className="lst_text_banner">
@@ -153,7 +155,7 @@ const CryptoExchangeDeveloper = () => {
                             </div>
                             <div className="col-lg-6 col-md-65 col-sm-12">
                                 <div>
-                                    <img src={shopifystoreapp} alt="Crypto Exchange Solutions" className="img-fluid" />
+                                    <img src={shopifystoreapp} alt="Custom Crypto Trading Software in Chandigarh" className="img-fluid" />
                                 </div>
                             </div>
                         </div>
@@ -170,7 +172,7 @@ const CryptoExchangeDeveloper = () => {
                                 <div className="single-features-light text-center">
                                     <div className="move">
                                         <div className="shape text-center">
-                                            <FaShieldAlt className='secondary-color' />
+                                            <FaShieldAlt className='secondary-color' alt='Crypto Exchange App Development Chandigarh'/>
                                         </div>
                                         <h3 className="font_22 font_weight_extra_bold">
                                             <a>Customized Crypto Exchange Solutions</a>
@@ -184,7 +186,7 @@ const CryptoExchangeDeveloper = () => {
                                 <div className="single-features-light text-center">
                                     <div className="move">
                                         <div className="shape">
-                                            <IoIosStopwatch />
+                                            <IoIosStopwatch alt='Scalable Crypto Trading Solutions Chandigarh'/>
                                         </div>
                                         <h3 className="font_22 font_weight_extra_bold">
                                             <a>Efficient Delivery</a>
@@ -198,13 +200,12 @@ const CryptoExchangeDeveloper = () => {
                                 <div className="single-features-light text-center">
                                     <div className="move">
                                         <div className="shape">
-                                            <FaQuestionCircle />
+                                            <FaQuestionCircle  alt='Advanced Cryptocurrency Trading Platform Chandigarh'/>
                                         </div>
                                         <h3 className="font_22 font_weight_extra_bold">
                                             <a>Complete Support</a>
                                         </h3>
                                         <p>Our expert support team is available around the clock to provide assistance with any questions or concerns related to your cryptocurrency exchange platform.</p>
-
                                     </div>
                                 </div>
                             </div>
@@ -249,7 +250,7 @@ const CryptoExchangeDeveloper = () => {
                             <div className="col-lg-4 col-md-6">
                                 <div className="service-box position-relative">
                                     <div className='service-icon'>
-                                        <BsFiletypePsd />
+                                        <BsFiletypePsd alt='Smart Contract-Based Crypto Exchange Chandigarh'/>
                                     </div>
                                     <h3 className="color_343a40">Centralized Exchanges (CEX)</h3>
                                     <p>Centralized exchanges are managed by a centralized entity. They provide high liquidity, fast transactions, and customer support but require users to trust the exchange with their funds.</p>
@@ -258,7 +259,7 @@ const CryptoExchangeDeveloper = () => {
                             <div className="col-lg-4 col-md-6">
                                 <div className="service-box position-relative">
                                     <div className='service-icon'>
-                                        <MdMiscellaneousServices />
+                                        <MdMiscellaneousServices alt='Top Blockchain Developers for Crypto Exchange Chandigarh'/>
                                     </div>
                                     <h3 className="color_343a40">Decentralized Exchanges (DEX)</h3>
                                     <p>Decentralized exchanges operate without a central authority, offering greater control and privacy to users. However, they often have lower liquidity and slower transaction times.</p>
@@ -267,7 +268,7 @@ const CryptoExchangeDeveloper = () => {
                             <div className="col-lg-4 col-md-6 d-flex">
                                 <div className="service-box position-relative">
                                     <div className='service-icon'>
-                                        <FaShopify />
+                                        <FaShopify alt='Crypto Exchange Software Development Company Chandigarh'/>
                                     </div>
                                     <h3 className="color_343a40">Hybrid Exchanges</h3>
                                     <p>Hybrid exchanges combine features of both centralized and decentralized exchanges. They offer the security and privacy of DEXs with the speed and liquidity of CEXs.</p>
@@ -276,7 +277,7 @@ const CryptoExchangeDeveloper = () => {
                             <div className="col-lg-4 col-md-6">
                                 <div className="service-box position-relative">
                                     <div className='service-icon'>
-                                        <MdIntegrationInstructions />
+                                        <MdIntegrationInstructions alt='Best Crypto Exchange Development Company in Chandigarh'/>
                                     </div>
                                     <h3 className="color_343a40">Peer-to-Peer (P2P) Exchanges</h3>
                                     <p>Peer-to-peer exchanges allow users to trade directly with each other. They provide an added layer of privacy and control, but can be less user-friendly and more time-consuming.</p>
@@ -285,7 +286,7 @@ const CryptoExchangeDeveloper = () => {
                             <div className="col-lg-4 col-md-6">
                                 <div className="service-box position-relative">
                                     <div className='service-icon'>
-                                        <FaComputer />
+                                        <FaComputer alt='Crypto Exchange Developers in Chandigarh'/>
                                     </div>
                                     <h3 className="color_343a40">Crypto-to-Crypto Exchanges</h3>
                                     <p>Crypto-to-crypto exchanges focus solely on the exchange of one cryptocurrency for another, rather than integrating fiat currencies. They often serve more experienced traders.</p>
@@ -294,7 +295,7 @@ const CryptoExchangeDeveloper = () => {
                             <div className="col-lg-4 col-md-6 d-flex">
                                 <div className="service-box position-relative">
                                     <div className='service-icon'>
-                                        <GrSupport />
+                                        <GrSupport alt='Best Crypto Trading Platform Development Chandigarh'/>
                                     </div>
                                     <h3 className="color_343a40">Fiat-to-Crypto Exchanges</h3>
                                     <p>Fiat-to-crypto exchanges allow users to buy and sell cryptocurrencies using traditional fiat currencies, such as USD, EUR, or GBP, providing greater accessibility for newcomers.</p>
@@ -313,18 +314,21 @@ const CryptoExchangeDeveloper = () => {
                         <div className="row d-flex align-items-center flex-wrap">
                             <PortfolioItem
                                 workImage={work1}
+                                altText='Best Crypto Exchange Development Company in Chandigarh, Panchkula & Mohali'
                                 projectTitle="Crypto Exchange"
                                 projectCategory="Crypto Exchange Development"
                                 projectLink="#"
                             />
                             <PortfolioItem
                                 workImage={work2}
+                                altText='Secure Cryptocurrency Exchange Solutions in Chandigarh, Panchkula & Mohali'
                                 projectTitle="Crypto Exchange"
                                 projectCategory="Crypto Exchange Development"
                                 projectLink="#"
                             />
                             <PortfolioItem
                                 workImage={work3}
+                                altText='Custom Crypto Trading Software Development in Chandigarh, Panchkula & Mohali'
                                 projectTitle="Crypto Exchange"
                                 projectCategory="Crypto Exchange Development"
                                 projectLink="#"
@@ -346,7 +350,7 @@ const CryptoExchangeDeveloper = () => {
                                         <Col lg={3} md={6} sm={12}>
                                             <div className="single-work-process position-relative">
                                                 <div className="work-process-icon-wrap bg_blue position-relative d-inline-block">
-                                                    <FaSearch className="icon-md text-white" />
+                                                    <FaSearch className="icon-md text-white" alt='Top Crypto Exchange Developers in Chandigarh, Panchkula & Mohali'/>
                                                     <span className="process-step bg_white color-primary shadow-sm color_blue">1</span>
                                                 </div>
                                                 <span className="work-process-divider"></span>
@@ -361,7 +365,7 @@ const CryptoExchangeDeveloper = () => {
                                         <Col lg={3} md={6} sm={12}>
                                             <div className="single-work-process position-relative">
                                                 <div className="work-process-icon-wrap bg_blue position-relative d-inline-block">
-                                                    <FaBullseye className="icon-md text-white" />
+                                                    <FaBullseye className="icon-md text-white" alt='Blockchain-Powered Crypto Exchange Solutions in Chandigarh, Panchkula & Mohali'/>
                                                     <span className="process-step bg_white color-primary shadow-sm color_blue">2</span>
                                                 </div>
                                                 <span className="work-process-divider"></span>
@@ -376,7 +380,7 @@ const CryptoExchangeDeveloper = () => {
                                         <Col lg={3} md={6} sm={12}>
                                             <div className="single-work-process position-relative">
                                                 <div className="work-process-icon-wrap bg_blue position-relative d-inline-block">
-                                                    <FaMugHot className="icon-md text-white" />
+                                                    <FaMugHot className="icon-md text-white" alt='Leading Cryptocurrency Exchange Development Services in Chandigarh, Panchkula & Mohali'/>
                                                     <span className="process-step bg_white color-primary shadow-sm color_blue">3</span>
                                                 </div>
                                                 <span className="work-process-divider"></span>
@@ -391,7 +395,7 @@ const CryptoExchangeDeveloper = () => {
                                         <Col lg={3} md={6} sm={12}>
                                             <div className="single-work-process position-relative">
                                                 <div className="work-process-icon-wrap bg_blue position-relative d-inline-block">
-                                                    <FaRocket className="icon-md text-white" />
+                                                    <FaRocket className="icon-md text-white" alt='Top Crypto Exchange Developers in Chandigarh, Panchkula & Mohali'/>
                                                     <span className="process-step bg_white color-primary shadow-sm color_blue">4</span>
                                                 </div>
                                                 <span className="work-process-divider"></span>
