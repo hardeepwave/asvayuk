@@ -79,7 +79,7 @@ function MobileAppDevelopment() {
        />
             <main>
 
-                <section className="performance_card1">
+                <section className="performance_card1 pb-5">
                     <div className="container">
                         <div className="col-12">
                             <div className="row ">
@@ -110,6 +110,26 @@ function MobileAppDevelopment() {
                             </div>
                         </div>
                     </div>
+                </section>
+
+                <section className="bg-section pt-2 pb-2">
+                    <Container>
+                        <div className="main-bg">
+                        <div className="tool-heading pt-5 pb-2">
+                            <h2 className="conclusion_title mb-2">
+                            Best Mobile App Development Company in Chandigarh - Asvayuk Technologies
+                            </h2>
+                            <div>
+                            <p className="text-white lh-md fs-6 pt-3 text-center pb-2">
+                                At Asvayuk Technologies Private Ltd., we are dedicated to providing top-tier mobile app development Chandigarh services.
+                                With a skilled team of developers, extensive industry knowledge, and a customer-first approach,
+                                we are the<Link to="https://maps.app.goo.gl/9F1yq767vCJtZM2q7">Best Mobile App Development Company in Chandigarh</Link>.
+                                Whether you need an Android, iOS, or cross-platform app, we ensure that your app stands out in today’s competitive market.
+                            </p>
+                            </div>
+                        </div>
+                        </div>
+                    </Container>
                 </section>
 
                 <section className="performance_card2">
@@ -145,6 +165,7 @@ function MobileAppDevelopment() {
                         </div>
                     </div>
                 </section>
+
 
                 <KeyPointSection keyHeading={<>Why Asvayuk Technologies is the Best Choice for Mobile App Development Chandigarh</>}
                     keyPara={<>When it comes to mobile app development Chandigarh, Asvayuk Technologies is renowned for providing solutions that are innovative, reliable, and user-centric. We are proud to be recognized as Chandigarh’s Leading Mobile App Development Company, delivering high-quality mobile apps that enhance user engagement and drive business growth. Our approach revolves around understanding your unique business requirements, designing tailored solutions, and ensuring that your app provides an exceptional experience for users.</>}
@@ -511,25 +532,6 @@ function MobileAppDevelopment() {
                 </section>
             </section>
 
-            <section className="below-banner">
-                    <Container>
-                        <Row>
-                            <div className="col-lg-12">
-                                <div className="digital-ex text-center">
-                                    <div className="digi-head">
-                                        <h2 className="fw-semibold">Best Mobile App Development Company in Chandigarh</h2>
-                                    </div>
-                                    <p className="mt-4 text-center">
-                                        At Asvayuk Technologies Private Ltd., we are dedicated to providing top-tier mobile app development Chandigarh services.
-                                        With a skilled team of developers, extensive industry knowledge, and a customer-first approach,
-                                        we are the <u><Link to="https://maps.app.goo.gl/9F1yq767vCJtZM2q7">Best Mobile App Development Company in Chandigarh</Link></u>.
-                                        Whether you need an Android, iOS, or cross-platform app, we ensure that your app stands out in today’s competitive market.
-                                    </p>
-                                </div>
-                            </div>
-                        </Row>
-                    </Container>
-                </section>
             <FAQAccordion title="FAQs on Mobile App Development" faqs={faqData} />
             </main>
         </>
